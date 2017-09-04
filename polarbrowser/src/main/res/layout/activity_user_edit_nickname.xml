@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/day_setting_session_line_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.polar.browser.common.ui.CommonTitleBar
+            android:id="@+id/title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/change_nickname" />
+
+        <TextView
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/common_padding_7"
+            android:padding="@dimen/common_padding_5"
+            android:text="@string/ok"
+            android:textColor="@color/bottom_menu_font_color_selector"
+            android:textSize="@dimen/file_list_textsize_16" />
+    </RelativeLayout>
+
+    <View style="@style/space_SettingActivityItem" />
+
+    <View style="@style/line_SettingActivityItem" />
+    <!-- 昵称 -->
+    <RelativeLayout
+        android:id="@+id/user_nickname"
+        style="@style/SettingActivityItem">
+
+        <ImageView
+            android:id="@+id/iv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/common_padding_7"
+            android:padding="@dimen/common_padding_5"
+            android:src="@drawable/edit_btn_close"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/edit_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/iv_cancel"
+            android:paddingLeft="@dimen/common_padding_12"
+            android:background="@null"
+            android:textCursorDrawable="@drawable/edit_nickname_cursor_color"
+            android:textColor="@color/sys_news"
+            android:cursorVisible="true"
+            android:textSize="@dimen/file_list_textsize_16"
+            />
+
+
+    </RelativeLayout>
+
+    <View style="@style/line_SettingActivityItem" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/common_padding_12"
+        android:layout_marginTop="@dimen/common_padding_8"
+        android:text="@string/letters_limit"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/file_list_textsize_14" />
+</LinearLayout>

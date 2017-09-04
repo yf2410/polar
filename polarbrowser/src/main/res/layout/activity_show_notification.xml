@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/day_setting_session_line_bg">
+
+    <com.polar.browser.common.ui.CommonTitleBar
+        android:id="@+id/preview_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:id="@+id/preview_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:max="100"
+        android:progress="10"
+        android:progressDrawable="@drawable/preview_progressbar"/>
+
+    <RelativeLayout
+        android:id="@+id/webview_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+    </RelativeLayout>
+
+</LinearLayout>

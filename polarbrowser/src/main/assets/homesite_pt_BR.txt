@@ -1,0 +1,58 @@
+[
+    {
+        "siteAddr": "Google.com.br",
+        "sitePic": "file:///android_asset/google.png",
+        "siteId": "de682b2d52de42d28770657fce2f2721",
+        "siteName": "Google",
+        "order": 0
+    },
+    {
+        "siteAddr": "http://vcmobi.ampxdirect.com/facebook-pbrowser",
+        "sitePic": "file:///android_asset/facebook.png",
+        "siteId": "5ab2ea7b6b81403287aa14f27077f0a6",
+        "siteName": "Facebook",
+        "order": 1
+    },
+    {
+        "siteAddr": "Youtube.com",
+        "sitePic": "file:///android_asset/youtube.png",
+        "siteId": "ce02bb6239344ded8f9a19a23c59de6a",
+        "siteName": "Youtube",
+        "order": 2
+    },
+    {
+        "siteAddr": "Instagram.com",
+        "sitePic": "file:///android_asset/instagram.png",
+        "siteId": "3342a603aee745139f633626f6360716",
+        "siteName": "Instagram",
+        "order": 3
+    },
+    {
+        "siteAddr": "Uol.com.br",
+        "sitePic": "file:///android_asset/uol.png",
+        "siteId": "4ac52bc634054f2694d24245cb759520",
+        "siteName": "Uol",
+        "order": 4
+    },
+    {
+        "siteAddr": "Globo.com",
+        "sitePic": "file:///android_asset/globo.png",
+        "siteId": "c1d1c86101de49d6a1ee342a53e1f6fb",
+        "siteName": "Globo",
+        "order": 5
+    },
+    {
+        "siteAddr": "Wikipedia.org",
+        "sitePic": "file:///android_asset/wikipedia.png",
+        "siteId": "4cc9d5c1eacc4fd4bd63b0a181340591",
+        "siteName": "Wiki",
+        "order": 6
+    },
+    {
+        "siteAddr": "###History",
+        "sitePic": "file:///android_asset/history.png",
+        "siteId": "",
+        "siteName": "History",
+        "order": 7
+    }
+]

@@ -1,0 +1,270 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/root"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true">
+
+    <View
+        android:id="@+id/browser_status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/navigation_bar_bg"/>
+
+    <WebView
+        android:id="@+id/custom_fb_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </WebView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"/>
+
+    <com.polar.browser.tabview.ContentFrame
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/browser_status_bar"
+        android:layout_marginTop="0dp"/>
+    <!-- android:layout_marginTop="46dp" -->
+
+    <!-- 看图模式的悬浮窗-->
+    <ImageView
+        android:id="@+id/suspension_window_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/picture_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="56dp"
+        android:visibility="gone"/>
+
+    <include
+        android:id="@+id/suspension_window"
+        layout="@layout/view_suspension_window"
+        android:visibility="gone"/>
+    <!-- 看图模式的悬浮窗 end -->
+
+    <include
+        android:id="@+id/toolbar_top"
+        layout="@layout/toolbar_top"/>
+    <include android:id="@+id/search_page_top"
+        layout="@layout/search_page_top"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_fb_notify_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_top"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/fb_toast_bg_green"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_fb_jump_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/fb_toast_icon_top"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_fb_jump_top"
+            android:text="@string/str_fb_notify_mag"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tv_download_video_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_top"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_download_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="65dp"
+            android:src="@drawable/download_video_tip1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/iv_download_video"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/download_video_tip_bg"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/toolbar_download_video_tip"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/toolbar_top_more"
+        layout="@layout/menu_toolbar_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/toolbar_top"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="-3dp"
+        android:visibility="gone"/>
+
+    <View
+        android:id="@+id/browser_status_bar_replace"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/navigation_bar_bg"/>
+
+    <include
+        android:id="@+id/home_frame"
+        layout="@layout/view_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/toolbar_bottom"/>
+
+    <View
+        android:id="@+id/browser_navigation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:background="#333"/>
+
+    <include
+        android:id="@+id/toolbar_bottom"
+        layout="@layout/toolbar_bottom"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/toolbar_bottom"
+        android:clickable="true"
+        android:visibility="gone">
+    </RelativeLayout>
+
+    <com.polar.browser.view.FullScreenButton
+        android:id="@+id/full_screen_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:src="@drawable/btn_full_screen_selector"
+        android:visibility="gone"/>
+
+    <com.polar.browser.view.SearchFrame
+        android:id="@+id/search_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/browser_navigation_bar"
+        android:visibility="gone"/>
+
+    <com.polar.browser.view.ToolbarMenuView
+        android:id="@+id/toolbar_menu_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/toolbar_bottom"
+        android:visibility="gone"/>
+
+
+
+    <com.polar.browser.view.MultiWindowView
+        android:id="@+id/multi_window_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/browser_navigation_bar"
+        android:visibility="gone"/>
+
+    <com.polar.browser.view.ShareView
+        android:id="@+id/share_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/browser_navigation_bar"
+        android:visibility="gone"/>
+
+    <com.polar.browser.view.AddFavMenuView
+        android:id="@+id/addfav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/browser_navigation_bar"
+        android:visibility="gone"/>
+
+    <com.polar.browser.homepage.customlogo.EditLogoView
+        android:id="@+id/editlogo_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <ViewStub
+        android:id="@+id/night_mode_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/view_night_mode"/>
+
+    <ImageView
+        android:id="@+id/iv_arrow_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/arrow_back"/>
+
+    <ImageView
+        android:id="@+id/iv_arrow_forward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/arrow_forward"/>
+
+    <com.polar.business.search.view.QuickInputView
+        android:id="@+id/quick_input"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/quick_input_view_background_color"
+        android:visibility="gone"/>
+
+    <com.polar.browser.common.ui.CommonProgressBar1
+        android:id="@+id/fullscreen_progress"
+        android:layout_width="match_parent"
+        android:layout_height="9dp"
+        android:layout_marginTop="-4dp"
+        android:visibility="invisible"/>
+
+    <com.polar.browser.imagebrowse.ImageBrowseView
+        android:id="@+id/image_browse"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/video_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        android:visibility="gone">
+
+        <com.polar.browser.video.H5FullscreenVideoView
+            android:id="@+id/video_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <View
+            android:id="@+id/video_Loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+</RelativeLayout>

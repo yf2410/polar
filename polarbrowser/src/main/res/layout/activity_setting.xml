@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sb="http://schemas.android.com/apk/res/com.polar.browser"
+    android:id="@+id/root_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/day_setting_session_line_bg">
+
+    <com.polar.browser.common.ui.CommonTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setting" />
+
+    <ScrollView
+        android:id="@+id/setting_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_bar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View style="@style/space_SettingActivityItem" />
+
+            <!-- 插件中心 -->
+            <RelativeLayout
+                android:id="@+id/line_plug_center"
+                style="@style/SettingActivityItem">
+
+                <TextView
+                    android:id="@+id/plug_center"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/setting_plug_center" />
+
+                <ImageView style="@style/Iv_SettingActivityItem" />
+            </RelativeLayout>
+
+            <View style="@style/line_SettingActivityItem" />
+
+
+            <View style="@style/space_SettingActivityItem" />
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <!-- 保留标签 -->
+
+            <RelativeLayout
+                android:id="@+id/line_save_tab"
+                style="@style/SettingActivityItem">
+
+                <TextView
+                    android:id="@+id/save_tab"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/setting_save_tab" />
+
+                <com.polar.browser.view.switchbutton.SwitchButton
+                    android:id="@+id/sb_save_tab"
+                    style="@style/SwitchButtonStyle"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    sb:offColor="@color/day_sb_off_color"
+                    sb:onColor="@color/day_sb_on_color"
+                    sb:thumbColor="@color/day_sb_thumb_color" />
+            </RelativeLayout>
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <!-- 竖屏锁定 -->
+
+            <RelativeLayout
+                android:id="@+id/line_screen_lock"
+                style="@style/SettingActivityItem">
+
+                <TextView
+                    android:id="@+id/screen_lock"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/setting_screen_lock" />
+
+                <com.polar.browser.view.switchbutton.SwitchButton
+                    android:id="@+id/sb_screen_lock"
+                    style="@style/SwitchButtonStyle"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    sb:offColor="@color/day_sb_off_color"
+                    sb:onColor="@color/day_sb_on_color"
+                    sb:thumbColor="@color/day_sb_thumb_color" />
+            </RelativeLayout>
+
+
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <!-- 快捷搜索 -->
+
+            <RelativeLayout
+                android:id="@+id/line_quick_search"
+                style="@style/SettingActivityItem">
+
+                <TextView
+                    android:id="@+id/full_search"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/setting_quick_search" />
+
+                <com.polar.browser.view.switchbutton.SwitchButton
+                    android:id="@+id/sb_quick_search"
+                    style="@style/SwitchButtonStyle"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    sb:offColor="@color/day_sb_off_color"
+                    sb:onColor="@color/day_sb_on_color"
+                    sb:thumbColor="@color/day_sb_thumb_color" />
+            </RelativeLayout>
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <!-- 安全提示 -->
+
+            <RelativeLayout
+                android:id="@+id/line_safety_tip"
+                style="@style/SettingActivityItem">
+
+                <TextView
+                    android:id="@+id/safety_tip"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/dialog_ssl_title" />
+
+                <com.polar.browser.view.switchbutton.SwitchButton
+                    android:id="@+id/sb_safety_tip"
+                    style="@style/SwitchButtonStyle"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    sb:offColor="@color/day_sb_off_color"
+                    sb:onColor="@color/day_sb_on_color"
+                    sb:thumbColor="@color/day_sb_thumb_color" />
+            </RelativeLayout>
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <!-- 长访问记录 -->
+
+            <RelativeLayout
+                android:id="@+id/line_history_visited"
+                style="@style/SettingActivityItem">
+
+                <TextView
+                    android:id="@+id/history_visited"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/visited_card_title" />
+
+                <com.polar.browser.view.switchbutton.SwitchButton
+                    android:id="@+id/sb_history_visited"
+                    style="@style/SwitchButtonStyle"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    sb:offColor="@color/day_sb_off_color"
+                    sb:onColor="@color/day_sb_on_color"
+                    sb:thumbColor="@color/day_sb_thumb_color" />
+            </RelativeLayout>
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <View style="@style/space_SettingActivityItem" />
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <!-- 通知设置 -->
+            <RelativeLayout
+                android:id="@+id/line_notify"
+                style="@style/SettingActivityItem">
+
+                <TextView
+                    android:id="@+id/notify"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/notification" />
+
+                <ImageView style="@style/Iv_SettingActivityItem" />
+            </RelativeLayout>
+
+
+
+            <View style="@style/line_SettingActivityItem" />
+            <!-- 已保存账号 -->
+            <RelativeLayout
+                android:id="@+id/line_saved_account"
+                style="@style/SettingActivityItem">
+
+                <TextView
+                    android:id="@+id/saved_account"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/setting_saved_account" />
+
+
+                <ImageView style="@style/Iv_SettingActivityItem" />
+            </RelativeLayout>
+
+
+            <View style="@style/line_SettingActivityItem" />
+            <!-- 下载设置 -->
+            <RelativeLayout
+                android:id="@+id/line_download_setting"
+                style="@style/SettingActivityItem">
+
+                <TextView
+                    android:id="@+id/download_setting"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/setting_download_manager" />
+
+                <ImageView style="@style/Iv_SettingActivityItem" />
+            </RelativeLayout>
+
+            <View
+                style="@style/line_SettingActivityItem"/>
+            <!-- 自定义搜索引擎 -->
+            <RelativeLayout
+                android:id="@+id/line_search_engine"
+                style="@style/SettingActivityItem">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/search_engine"
+                        style="@style/Tv_SettingActivityItem"
+                        android:text="@string/setting_search_engine" />
+
+                    <TextView
+                        android:id="@+id/tv_search_engine"
+                        style="@style/tv_SettingActivityItem"
+                        android:text="@string/setting_search_engine_google" />
+                </LinearLayout>
+
+                <ImageView style="@style/Iv_SettingActivityItem" />
+            </RelativeLayout>
+
+
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <!-- 滑屏前进后退 -->
+
+            <RelativeLayout
+                android:id="@+id/line_sliding_type"
+                style="@style/SettingActivityItem">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/sliding_type"
+                        style="@style/Tv_SettingActivityItem"
+                        android:text="@string/setting_sliding_type" />
+
+                    <TextView
+                        android:id="@+id/tv_sliding_type"
+                        style="@style/tv_SettingActivityItem"
+                        android:text="@string/setting_sliding_type_border" />
+                </LinearLayout>
+
+                <ImageView style="@style/Iv_SettingActivityItem" />
+            </RelativeLayout>
+
+            <View style="@style/space_SettingActivityItem" />
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <!-- 收藏导入/导出 -->
+
+            <RelativeLayout
+                android:id="@+id/line_bookmark_backup"
+                style="@style/SettingActivityItem">
+
+                <TextView
+                    android:id="@+id/bookmark_backup"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/export_bookmarks" />
+
+                <ImageView style="@style/Iv_SettingActivityItem" />
+            </RelativeLayout>
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <!-- 清除个人数据 -->
+
+            <RelativeLayout
+                android:id="@+id/line_clear_data"
+                style="@style/SettingActivityItem">
+
+                <TextView
+                    android:id="@+id/clear_data"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/setting_clear_data" />
+
+                <ImageView style="@style/Iv_SettingActivityItem" />
+            </RelativeLayout>
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <!-- 设置默认浏览器 -->
+
+            <RelativeLayout
+                android:id="@+id/line_set_default_browser"
+                style="@style/SettingActivityItem">
+
+                <TextView
+                    android:id="@+id/set_default_browser"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/setting_set_default_browser" />
+
+                <ImageView style="@style/Iv_SettingActivityItem" />
+            </RelativeLayout>
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <!-- 自定义UA -->
+            <RelativeLayout
+                android:id="@+id/line_set_user_agent"
+                style="@style/SettingActivityItem">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/setting_custom_ua"
+                        style="@style/Tv_SettingActivityItem"
+                        android:text="@string/setting_custom_ua" />
+
+                    <TextView
+                        android:id="@+id/tv_ua_type"
+                        style="@style/tv_SettingActivityItem"
+
+                        android:text="@string/custom_ua_default" />
+                </LinearLayout>
+
+                <ImageView style="@style/Iv_SettingActivityItem" />
+            </RelativeLayout>
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <View style="@style/space_SettingActivityItem" />
+
+            <View style="@style/line_SettingActivityItem" />
+            <!-- 意见反馈 -->
+
+            <RelativeLayout
+                android:id="@+id/line_feedback"
+                style="@style/SettingActivityItem">
+
+                <TextView
+                    android:id="@+id/feedback"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/feedback" />
+
+                <ImageView style="@style/Iv_SettingActivityItem" />
+            </RelativeLayout>
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <!-- 产品介绍页 -->
+
+            <RelativeLayout
+                android:id="@+id/line_product_about"
+                style="@style/SettingActivityItem">
+
+                <TextView
+                    android:id="@+id/product_about"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/setting_product_about" />
+
+                <ImageView style="@style/Iv_SettingActivityItem" />
+            </RelativeLayout>
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <!-- 产品关于页 -->
+            <RelativeLayout
+                android:id="@+id/line_app_about"
+                style="@style/SettingActivityItem">
+
+                <TextView
+                    android:id="@+id/app_about"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/setting_about" />
+
+                <ImageView style="@style/Iv_SettingActivityItem" />
+            </RelativeLayout>
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <View style="@style/space_SettingActivityItem" />
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <!-- 恢复默认设置 -->
+
+            <RelativeLayout
+                android:id="@+id/line_recover_setting"
+                style="@style/SettingActivityItem">
+
+                <TextView
+                    android:id="@+id/recover_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/setting_recover_setting"
+                    android:textColor="#414141"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <View style="@style/space_SettingActivityItem" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

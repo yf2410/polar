@@ -1,0 +1,171 @@
+apply plugin: 'com.android.application'
+android {
+    // 编译SDK的版本
+    compileSdkVersion 25
+    // build tools的版本
+    buildToolsVersion '25.0.2'
+
+    defaultConfig {
+        // 应用的包名
+        applicationId "com.polar.browser"
+        minSdkVersion 15
+        targetSdkVersion 23
+        multiDexEnabled true
+        versionCode 68
+        versionName "2.0.7.1"
+        multiDexEnabled true // add this to enable multi-dex
+//        testApplicationId "com.polar.browser.tests"
+//        testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
+        //指定编译版本
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_7
+            targetCompatibility JavaVersion.VERSION_1_7
+        }
+        // lint 检查配置，默认关闭-移除lint检查的error
+        lintOptions {
+            abortOnError false
+        }
+
+
+        ndk {
+            abiFilters 'armeabi-v7a','arm64-v8a'
+        }
+
+        dexOptions {
+            javaMaxHeapSize "4g" //specify the heap size for the dex process
+        }
+        //签名配置
+        signingConfigs {
+            //调试版本
+            debug {
+                // No debug config
+            }
+
+            release {
+                File propFile = file('signing.properties');
+                if (propFile.exists()) {
+                    def Properties props = new Properties()
+                    props.load(new FileInputStream(propFile))
+                    if (props.containsKey('STORE_FILE') && props.containsKey('STORE_PASSWORD') &&
+                            props.containsKey('KEY_ALIAS') && props.containsKey('KEY_PASSWORD')) {
+                        android.signingConfigs.release.storeFile = file(props['STORE_FILE'])
+                        android.signingConfigs.release.storePassword = props['STORE_PASSWORD']
+                        android.signingConfigs.release.keyAlias = props['KEY_ALIAS']
+                        android.signingConfigs.release.keyPassword = props['KEY_PASSWORD']
+                    } else {
+                        android.buildTypes.release.signingConfig = null
+                    }
+                } else {
+                    android.buildTypes.release.signingConfig = null
+                }
+            }
+        }
+        buildTypes {
+            debug {
+                minifyEnabled false
+                zipAlignEnabled false
+                shrinkResources false
+                signingConfig signingConfigs.debug
+//                proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+                applicationVariants.all { variant ->
+                    variant.outputs.each { output ->
+                        def outputFile = output.outputFile
+                        if (outputFile != null && outputFile.name.endsWith('.apk') && 'debug'.equals(variant.buildType.name)) {
+                            // 输出apk名称为VCBrowser_international_1.0.4.3.apk
+                            def fileName = "PolarBrowser_debug_${defaultConfig.versionName}.apk"
+                            output.outputFile = new File(outputFile.parent, fileName)
+                        }
+                    }
+                }
+            }
+            release {
+                minifyEnabled true//混淆编译
+                zipAlignEnabled true//混淆后的zip优化，默认为true，可不写。当不显示配置为true时，不会生成unaligned.apk
+                //移除无用的资源文件
+                shrinkResources true
+                signingConfig signingConfigs.release
+                proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+
+                applicationVariants.all { variant ->
+                    variant.outputs.each { output ->
+                        def outputFile = output.outputFile
+                        if (outputFile != null && outputFile.name.endsWith('.apk') && 'release'.equals(variant.buildType.name)) {
+                            // 输出apk名称为VCBrowser_international_1.0.4.3.apk
+                            def fileName = "PolarBrowser_${defaultConfig.versionName}.apk"
+                            output.outputFile = new File(outputFile.parent, fileName)
+                        }
+                    }
+                }
+            }
+        }
+
+//        ndk {
+//            moduleName "native"
+//        }
+    }
+//    http://stackoverflow.com/questions/33898857/why-warningunable-to-find-optional-library-org-apache-http-legacy-occurs
+    useLibrary 'org.apache.http.legacy'
+
+//    externalNativeBuild {
+//        ndkBuild {
+//            path 'src/main/jni/Android.mk'
+//        }
+//    }
+}
+repositories {
+    flatDir {
+        dirs 'libs' //this way we can find the .aar file in libs-world folder
+    }
+}
+dependencies {
+    compile project(':drag_listview')
+    compile project(':vclibrary')
+    compile project(':cropper_lib')
+    compile project(':photoView')
+
+    //Lib
+    compile files('libs/commons-logging-1.1.1.jar')
+    compile files('libs/java-unrar-0.3.jar')  //依赖commons-logging-1.1.1.jar
+    compile files('libs/stickylistheaders_lib.jar')
+    compile files('libs/zip4j_1.3.2.jar')
+    compile files('libs/DraggableGridView.jar')
+    compile files('libs/zxing.jar')
+
+    //添加facebook广告SDK
+    compile(name: 'AudienceNetwork', ext: 'aar')
+
+    compile 'com.android.support:design:25.1.0'
+//    compile 'com.android.support:appcompat-v7:25.1.0'
+//    compile 'com.android.support:recyclerview-v7:25.1.0'
+    compile 'com.google.android.gms:play-services-analytics:9.2.0'
+    //添加facebook SDK(必须使用 Android API 15)
+    compile 'com.facebook.android:facebook-android-sdk:4.15.0'
+    //添加facebook account-kit（2017-3-30） https://developers.facebook.com/docs/accountkit
+    compile 'com.facebook.android:account-kit-sdk:4.20.0'
+    //    推送
+    compile 'com.google.firebase:firebase-messaging:9.2.0'
+    //FCM 实时数据库
+//    compile 'com.google.firebase:firebase-database:9.2.0'
+    compile 'com.android.support:multidex:1.0.1'
+
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5'
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
+    testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
+
+    compile 'com.android.support:multidex:1.0.1'
+
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    compile 'cn.finalteam:okhttpfinal:2.0.7'
+    //    run only while testing
+    testCompile 'junit:junit:4.12'
+//    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
+//    androidTestCompile 'com.android.support.test:runner:0.5'
+//    androidTestCompile 'com.android.support:support-annotations:25.1.0'
+
+    compile 'com.google.android.gms:play-services-location:9.2.0'
+
+    compile project(':pickerview')
+
+}
+apply plugin: 'com.google.gms.google-services'
+

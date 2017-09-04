@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="adjust-android-4.11.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.adjust.sdk/adjust-android/4.11.1/64299f1726947ca6c143e1d6bd8f7c80f04bca1c/adjust-android-4.11.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.adjust.sdk/adjust-android/4.11.1/fc0f326c008b73ab8584f3ddf04e3781630780bd/adjust-android-4.11.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

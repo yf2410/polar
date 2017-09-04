@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/download_dialog_btn_nor">
+
+    <RelativeLayout
+        android:id="@+id/group_search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@drawable/navigation_top_bg" >
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/hint_foreground_dark"
+            android:textSize="14sp"/>
+
+        <EditText
+            android:id="@+id/et_search_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/search_icon"
+            android:drawablePadding="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:hint="@string/search_location"
+            android:textColorHint="@color/gray"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/tv_cancel"
+            android:layout_toStartOf="@id/tv_cancel"
+            android:background="@color/transparent"
+            android:imeOptions="flagNoExtractUi|actionGo"
+            android:inputType="textNoSuggestions"
+            android:padding="10dp"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textCursorDrawable="@drawable/cursor"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:id="@+id/iv_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/search_top_line"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/search_clear"/>
+
+        <ImageView
+            android:id="@+id/search_top_line"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tv_cancel"
+            android:paddingLeft="4dp"
+            android:src="@drawable/search_box_line"/>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view_top_divider"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/gray"
+        android:layout_below="@id/group_search_bar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="12dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_below="@id/view_top_divider">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_city_location"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/group_empty_loading"/>
+
+        <RelativeLayout
+            android:id="@+id/group_empty_loading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_empty"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/no_result"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:textColor="@color/sys_news"
+                android:visibility="visible"/>
+
+            <TextView
+                android:id="@+id/tv_loading"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/loading"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:textColor="@color/sys_news"
+                android:visibility="visible"/>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

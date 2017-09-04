@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="email">E-posta</string>
+    <string name="shortmessage">Messenger</string>
+    <!-- share -->
+    <string name="share">Paylaş</string>
+    <string name="share_download_url">Bağlantıyı paylaş:</string>
+    <string name="share_fail">Başarısız</string>
+    <string name="share_success">Başarılı</string>
+    <string name="share_cancel">İptal</string>
+    <string name="copy_link">Bağlantıyı Kopyala</string>
+    <string name="copy_success">Başarılı</string>
+    <string name="share_from">Polar Browser\'dan</string>
+    <string name="share_title">Küçük ve ilginç bir tarayıcı önerin</string>
+    <string name="share_title_url">http://vcapp.me</string>
+    <string name="share_content">#Polar Browser# Küçük ve hızlı, mükemmel deneyim. Tavsiye edilir!</string>
+    <string name="share_introduction_url">http://www.vcapp.cn/introduction.html</string>
+    <string name="share_img">Resmi paylaş:</string>
+    <string name="share_link">Bağlantıyı paylaş:</string>
+    <string name="share_system">Daha Fazla</string>
+    <string name="share_video_prefix">Gelin ve bu videoyu izleyin</string>
+</resources>

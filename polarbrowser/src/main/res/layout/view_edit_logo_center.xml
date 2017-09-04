@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_dialog_shape"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/download_dialog_margin_left"
+        android:layout_marginRight="@dimen/download_dialog_margin_right"
+        android:layout_marginTop="@dimen/frist_edit_margin_top"
+        android:background="@drawable/input_bg_selector"
+        android:hint="@string/title"
+        android:imeOptions="flagNoExtractUi|actionGo"
+        android:inputType="textNoSuggestions"
+        android:paddingBottom="@dimen/frist_edit_margin_bottom"
+        android:singleLine="true"
+        android:textColor="@color/set_about"
+        android:textColorHint="#aaa"
+        android:textCursorDrawable="@drawable/cursor"
+        android:textSize="@dimen/file_list_textsize_16" />
+
+    <EditText
+        android:id="@+id/et_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/second_tv_line_margin_bottom"
+        android:layout_marginLeft="@dimen/download_dialog_margin_left"
+        android:layout_marginRight="@dimen/download_dialog_margin_right"
+        android:layout_marginTop="@dimen/frist_edit_margin_top"
+        android:background="@drawable/input_bg_selector"
+        android:hint="@string/website"
+        android:imeOptions="flagNoExtractUi|actionGo"
+        android:inputType="textNoSuggestions"
+        android:paddingBottom="@dimen/frist_edit_margin_bottom"
+        android:singleLine="true"
+        android:textColor="@color/set_about"
+        android:textColorHint="#aaa"
+        android:textCursorDrawable="@drawable/cursor"
+        android:textSize="@dimen/file_list_textsize_16" />
+
+    <View style="@style/TitleLineView" />
+</LinearLayout>

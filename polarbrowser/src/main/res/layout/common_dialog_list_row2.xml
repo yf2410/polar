@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 文本列表对话框的一行, title居中显示，没有checkBox -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/root"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/common_font_color_selector_2"
+        android:textSize="@dimen/common_font_size_d"/>
+
+    <View
+        android:id="@+id/blank"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@id/tv_title"
+        android:visibility="gone"
+        android:background="@color/common_bg_color_3"/>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/common_grey_color1"/>
+
+</RelativeLayout>

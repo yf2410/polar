@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">โพลาร์เบราว์เซอร</string>
+    <string name="search_input_hint">ค้นหาหรือกรอก URL</string>
+
+    <string name="copy">คัดลอก</string>
+    <string name="album">อัลบั้ม</string>
+    <string name="home_page">หน้าหลัก</string>
+    <string name="already_on_home_page">อยู่บนหน้าหลักแล้ว</string>
+    <string name="title">หัวข้อ</string>
+    <string name="toast_tab_limited">ไม่มีพื้นที่สำหรับแท็บใหม่</string>
+    <string name="network_connect_error">ข้อผิดพลาดในการเชื่อมต่อ คุณไม่ได้เชื่อมต่ออินเทอร์เน็ต</string>
+    <string name="choose_file">เลือกไฟล์</string>
+    <string name="play_video_error">ขออภัย ไม่สามารถเล่นวิดีโอนี้ได้</string>
+    <string name="file_open_ing">กำลังเปิด...</string>
+    <string name="goback">กลับ</string>
+
+    <!-- history/favorite -->
+    <string name="history">ประวัติ</string>
+    <string name="today">วันนี้</string>
+    <string name="yesterday">เมื่อวาน</string>
+    <string name="earlier">ก่อนหน้า</string>
+    <string name="favorite">บุ๊กมาร์ก</string>
+    <string name="add_bookmark_tips">เพิ่มไปยังบุ๊กมาร์ก</string>
+    <string name="already_add_bookmark_tips">มีอยู่แล้ว</string>
+    <string name="delete_bookmark_tips">ลบบุ๊กมาร์กแล้ว</string>
+    <string name="history_search_record">ประวัติการค้นหา</string>
+    <string name="no_history_search_record">ไม่มีประวัติการค้นหา</string>
+    <string name="no_history_visit_record">ไม่มีประวัติการท่องเว็บ</string>
+
+    <!-- search -->
+    <string name="go">ไป</string>
+    <string name="search">ค้นหา</string>
+    <string name="history_visit">ประวัติการท่องเว็บ</string>
+    <string name="history_search">ประวัติการค้นหา</string>
+    <string name="edittext_empty_tip">ค้นหาหรือกรอก URL</string>
+
+    <!-- download -->
+    <string name="download">ดาวน์โหลด</string>
+    <string name="downloading">กำลังดาวน์โหลด</string>
+    <string name="download_finish">เสร็จแล้ว</string>
+    <string name="download_waite">รอดาวน์โหลด</string>
+    <string name="download_error">ดาวน์โหลดล้มเหลว</string>
+    <string name="download_pause">หยุดการดาวน์โหลด</string>
+    <string name="download_start">เริ่มดาวน์โหลด</string>
+    <string name="download_manager">การดาวน์โหลด</string>
+    <string name="disk_free_size">/มี %1$s</string>
+    <string name="disk_used_size">ใช้แล้ว %1$s</string>
+    <string name="download_task_already_exists">มีงานอยู่แล้ว แน่ใจไหมที่จะดาวน์โหลดใหม่?</string>
+    <string name="download_no_available_space">มีพื้นที่เก็บข้อมูลไม่พอ</string>
+    <string name="net_changed_when_downloading">คุณไม่ได้เชื่อมต่อ Wi-Fi ยังต้องการดาวน์โหลดหรือไม่?</string>
+    <string name="file_can_not_open">ไม่สามารถเปิดไฟล์ได้ด้วยแอปพลิเคชันใด ๆ ที่มีอยู่</string>
+    <string name="name">ชื่อ:</string>
+    <string name="size">ขนาด:</string>
+    <string name="size_unknown">ไม่ทราบขนาด</string>
+    <string name="empty_file_name">ไม่มีชื่อไฟล์</string>
+    <string name="download_file_name_exists">มีชื่อไฟล์อยู่แล้ว</string>
+    <string name="click_to_see">คลิกเพื่อเปิด</string>
+    <string name="net_no_connect">คุณไม่ได้เชื่อมต่ออินเทอร์เน็ต</string>
+    <string name="download_status_downloading">กำลังดาวน์โหลด</string>
+    <string name="download_status_waiting">กำลังรอดาวน์โหลด</string>
+    <string name="download_status_start">เริ่มดาวน์โหลด</string>
+    <string name="download_status_start_nonetwork">ไม่มีการเชื่อมต่ออินเทอร์เน็ต,หยุดการดาวน์โหลดแล้ว</string>
+    <string name="download_status_pause">หยุดการดาวน์โหลดแล้ว</string>
+    <string name="download_status_pauseing">หยุด</string>
+    <string name="download_status_failure">การดาวน์โหลดล้มเหลว</string>
+    <string name="download_edit_name_hint">ชื่อ</string>
+    <string name="download_set_path_default">ไม่สามารถใช้เส้นทางได้ มีการดาวน์โหลดไฟล์ไปยังเส้นทางการเก็บข้อมูลค่าเริ่มต้น</string>
+    <string name="extract_view_now">กรุณาตรวจสอบด้วย</string>
+    <!-- common -->
+    <string name="edit">แก้ไข</string>
+    <string name="popup_edit">แก้ไข</string>
+    <string name="complete">เสร็จสิ้น</string>
+    <string name="delete">ลบ</string>
+    <string name="delete_with_count">ลบ (%1$d)</string>
+    <string name="check_all">ทั้งหมด</string>
+    <string name="check_all_cancel">ยกเลิก</string>
+    <string name="delete_checked_task">ลบ (%1$d) งานที่คุณเลือก?</string>
+    <string name="delete_not_select">กรุณาเลือกรายการที่ต้องการลบ</string>
+    <string name="never_remind">ไม่เตือนอีก</string>
+    <string name="loading">กำลังโหลด...</string>
+
+    <!-- dialog -->
+    <string name="ok">ตกลง</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="tips">ข้อสังเกต</string>
+    <string name="tips_alert">ข้อสังเกต</string>
+    <string name="update_tips">คำแนะนำ</string>
+    <string name="update_ok">อัปเดตตอนนี้</string>
+    <string name="update_cancel">ยกเลิก</string>
+    <string name="go_download">ดาวน์โหลด</string>
+    <string name="manually_update_ok">ตกลง</string>
+    <string name="manually_update_cancel">ยกเลิก</string>
+    <string name="history_clean_content">คุณต้องการลบรายการที่เลือกทั้งหมดหรือไม่?</string>
+    <string name="history_clean_visited">คุณต้องการล้างประวัติการท่องเว็บทั้งหมดหรือไม่?</string>
+    <string name="history_clean_searched">คุณต้องการล้างประวัติการค้นหาทั้งหมดหรือไม่?</string>
+    <string name="bookmark_delete_content">คุณต้องการลบรายการที่เลือกทั้งหมดหรือไม่?</string>
+    <string name="delete_with_files">ลบไฟล์ต้นฉบับด้วย</string>
+
+    <!-- play -->
+    <string name="play_cancel">ยกเลิก</string>
+    <string name="play_continue">เล่น</string>
+    <string name="play_network_gprs_tip">ไม่มี WiFi ใช้ GPRS เล่น?</string>
+
+    <!-- menu -->
+    <string name="menu_add_favorite">เพิ่มบุ๊กมาร์ก</string>
+    <string name="menu_history">ประวัติ</string>
+    <string name="menu_favorite">บุ๊กมาร์ก</string>
+    <string name="menu_download">การดาวน์โหลด</string>
+    <string name="menu_nightmode">กลางคืน</string>
+    <string name="menu_setting">การตั้งค่า</string>
+    <string name="menu_no_imgmode">ไม่มีรูป</string>
+    <string name="menu_web_mode">โหมด PC</string>
+    <string name="menu_exit">ออก</string>
+
+
+    <!-- add & edit favorite -->
+    <string name="menu_add_shortcut">หน้าจอหลัก</string>
+    <string name="menu_add_logo">โทรด่วน</string>
+    <string name="add_to">เพิ่มไปยัง</string>
+    <string name="edit_url">แก้ไข URL</string>
+    <string name="add_shortcut_successful">สำเร็จ</string>
+    <string name="already_add_shortcut_successful">มีทางลัดอยู่แล้ว</string>
+    <string name="add_shortcut_failed">อุปกรณ์ของคุณไม่รองรับฟีเจอร์นี้</string>
+    <string name="add_logo_empty_tip">ชื่อหรือ URL ว่างเปล่า</string>
+    <string name="add_logo_checke_empty_tip">กรุณาเลือกว่าจะเพิ่มเว็บเพจไปไว้ที่ใด</string>
+
+    <!-- setting -->
+    <string name="setting">การตั้งค่า</string>
+    <string name="setting_search_engine">เครื่องมือค้นหา</string>
+    <string name="setting_saved_account">บันทึกรหัสผ่าน</string>
+    <string name="version">เวอร์ชัน</string>
+    <string name="setting_font_size">ขนาดตัวอักษร</string>
+    <string name="setting_font_size_min">เล็ก</string>
+    <string name="setting_font_size_mid">กลาง</string>
+    <string name="setting_sliding_type">รูปแบบการสไลด์ที่ต้องการใช้งาน</string>
+    <string name="setting_sliding_type_close">ไม่มีการสไลด์</string>
+    <string name="setting_sliding_type_border">สไลด์ด้านข้าง</string>
+    <string name="setting_sliding_type_fullscreen">สไลด์เต็มหน้าจอ</string>
+    <string name="setting_sliding_type_tip">คุณสามารถกำหนดการสไลด์ที่ต้องการได้ในส่วนการตั้งค่า!</string>
+    <string name="setting_editlogo_type_tip">ไม่มีพื้นที่สำหรับไอคอนอื่นอีกแล้วในหน้าหลัก แตะค้างเพื่อแก้ไข</string>
+    <string name="setting_videodownload_type_tip">คุณต้องการติดตั้งส่วนเสริมเพื่อดาวน์โหลดวิดีโอจากเว็บไซต์หรือไม่?</string>
+    <string name="setting_editlogo_type_ok">ตกลง</string>
+    <string name="setting_plug_center">ส่วนเสริม</string>
+    <string name="setting_save_tab">บันทึกแท็บเมื่อออก</string>
+    <string name="setting_screen_lock">ล็อกแนวตั้ง</string>
+    <string name="setting_ad_block">บล็อกโฆษณา</string>
+    <string name="setting_full_screen">โหมดเต็มหน้าจอ</string>
+    <string name="setting_quick_search">ค้นหาด่วน</string>
+    <string name="setting_clear_data">ล้างข้อมูล</string>
+    <string name="setting_set_default_browser">ตั้งค่าเริ่มต้นเป็นโพลาร์เบราว์เซอร</string>
+    <string name="setting_download_path">เส้นทางเริ่มต้น</string>
+    <string name="setting_custom_ua">ตัวแทนผู้ใช้</string>
+    <string name="setting_recover_setting">กลับไปยังการตั้งค่าเริ่มต้น</string>
+    <string name="file_opening">กำลังเปิด...</string>
+    <string name="recover_setting_content">คุณแน่ใจหรือไม่ว่าจะกลับไปยังการตั้งค่าเริ่มต้น?</string>
+    <string name="setting_clear_data_exit">ล้างประวัติการท่องเว็บเมื่อออก</string>
+    <string name="setting_clear_default_success">ล้างสำเร็จแล้ว</string>
+    <string name="setting_clear_default_failed">การล้างล้มเหลว</string>
+    <string name="setting_default_failed">การตั้งค่าล้มเหลว</string>
+    <string name="setting_default_self_tip">คุณต้องการหยุดใช้โพลาร์เบราว์เซอร์เป็นค่าเริ่มต้นหรือไม่?</string>
+    <string name="setting_remember_username_and_password_tip">คุณต้องการบันทึกรหัสผ่านของคุณสำหรับ \"%1$s\" หรือไม่?</string>
+    <string name="saved_account">บันทึกรหัสผ่าน</string>
+    <string name="file_child_count">%1$d รายการ</string>
+    <string name="current_download_folder">เก็บไว้ใน: %1$s</string>
+    <string name="download_folder_space">เหลือ %1$s , รวม %2$s</string>
+    <string name="download_folder_alert_19">เนื่องจากข้อจำกัดของระบบ ผู้ใช้งานของ Android 4.4 ขึ้นไป (รวม 4.4 ด้วย)จะต้องเก็บวางข้อมูลในโฟลเดอร์ที่กำหนดเมื่อใช้ SD การ์ด หากผู้ใช้ลบโปรแกรมเบราว์เซอร์ ข้อมูลที่ดาวน์โหลดมาจะถูกลบไปด้วย ยืนยันใช้งานผ่าน SD การ์ดหรือไม่?</string>
+    <string name="download_folder_phone">พื้นที่เก็บข้อมูลภายใน</string>
+    <string name="download_folder_sd">SD การ์ด</string>
+    <string name="download_folder_sd_removed">มีการถอด SD การ์ดออกไปแล้ว</string>
+    <string name="download_folder_selected_sd">คุณได้เลือก SD การ์ด</string>
+
+    <!-- 模块管理 -->
+    <string name="module_manager">เครื่องมือจัดการโมดูล</string>
+    <string name="module_logos">ไอคอนนำทาง</string>
+    <string name="module_news">ข่าวสาร</string>
+    <string name="module_navigate">เว็บไซต์ที่เข้าชมบ่อย</string>
+    <string name="module_tools">เครื่องมือ</string>
+
+    <!-- set default browser -->
+    <string name="start_to_set">เริ่ม</string>
+    <string name="clear_default">ล้าง</string>
+    <string name="clear_default_self">ล้างการตั้งค่าเริ่มต้น</string>
+
+    <string name="clear_default_tip1">ขั้นที่1:เลื่อนเพื่อเปิดใช้งานรายการเริ่มต้น</string>
+    <string name="clear_default_tip2">ขั้นที่2:เลือก "ล้างการตั้งค่าเริ่มต้น"</string>
+    <string name="clear_default_tip3">ขั้นที่3:กลับไปยังขั้นตอนถัดไป</string>
+
+    <string name="clear_default_tip_self1">เบราว์เซอร์ที่เป็นค่าเริ่มต้นคือ Polar</string>
+
+    <string name="set_default_step1">ขั้นที่1:เลือก "การตั้งค่าเริ่มต้น"</string>
+    <string name="set_default_step2">ขั้นตอนที่ 2: เลือกโพลาร์เบราว์เซอร์</string>
+
+    <string name="set_default_2_step1">ขั้นที่1:เลือก "การตั้งค่าเริ่มต้น"</string>
+    <string name="set_default_2_step2">ขั้นตอนที่ 2: เลือกโพลาร์เบราว์เซอร์</string>
+
+    <!-- clear data -->
+    <string name="clear_cookie">ล้างคุกกี้</string>
+    <string name="clear_cache">ล้างแคช</string>
+    <string name="clear_history">ล้างประวัติ</string>
+    <string name="clear_download">ล้างข้อมูลการดาวน์โหลด</string>
+    <string name="clear_all">ล้างทั้งหมด</string>
+    <string name="clear_all_2">ล้างทั้งหมด</string>
+    <string name="clear_to_confirm">ใช่ %1$s?</string>
+    <string name="clear_browser_record">ล้างประวัติการท่องเว็บ</string>
+
+    <!-- about feedback -->
+    <string name="feedback">คำแนะนำติชม</string>
+    <string name="feedback_hi">พิมพ์คำแนะนำของคุณที่นี่</string>
+    <string name="feedback_contact">ข้อมูลการติดต่อ:</string>
+    <string name="feedback_contact_hint">หมายเลขโทรศัพท์หรืออีเมล:</string>
+    <string name="feedback_cont_null">กรุณากรอกคำแนะนำติชมของคุณ</string>
+    <string name="feedback_ok">ส่งเรียบร้อยแล้ว ขอบคุณ</string>
+    <string name="feedback_check_network">ส่งไม่ได้ กรุณาตรวจสอบเครือข่าย</string>
+    <string name="feedback_copy_ok">คัดลอกไปยังคลิปบอร์ดแล้ว</string>
+    <string name="feedback_send">ส่ง</string>
+
+    <!-- exit dialog -->
+    <string name="exit_dialog_title">ต้องการออก?</string>
+    <string name="exit_press_back_again">คลิกอีกครั้งเพื่อออก</string>
+
+    <!-- context menu -->
+    <string name="menu_item_view_img">ชม</string>
+    <string name="menu_item_download_img">บันทึกรูปภาพ</string>
+    <string name="menu_item_share_img">แชร์รูปภาพ</string>
+    <string name="menu_item_open_background">เปิดในพื้นหลัง</string>
+    <string name="menu_item_open_new">เปิดในแถบใหม่</string>
+    <string name="menu_item_add_to_bookmark">บุ๊กมาร์ก</string>
+    <string name="menu_item_copy_link_text">คัดลอกข้อความ</string>
+    <string name="toast_opened_background">เปิดในพื้นหลังแล้ว</string>
+    <string name="menu_item_savepage">บันทึก</string>
+    <string name="menu_item_share">แชร์</string>
+    <string name="menu_item_edit">กราฟิตีภาพถ่ายหน้าจอ</string>
+    <string name="menu_item_add_bookmark">เพิ่มบุ๊กมาร์ก</string>
+    <string name="menu_item_cancel_bookmark">ลบบุ๊กมาร์ก</string>
+    <string name="edit_logo_title">แก้ไขรูปขนาดย่อ</string>
+
+    <!-- crash -->
+    <string name="app_crash_upload_tip">ขออภัย มีการปิดแอปเนื่องจากพบปัญหา แจ้งรายงานความล้มเหลว?</string>
+    <string name="app_crash_uploading">กำลังอัปโหลด...</string>
+
+    <!-- context menu -->
+    <string name="toast_copy_link_text">คัดลอกข้อความแล้ว</string>
+
+    <!-- http auth -->
+    <string name="auth_request_username">ชื่อผู้ใช้</string>
+    <string name="auth_request_password">รหัสผ่าน</string>
+    <string name="auth_request_login">ล็อกอิน:</string>
+
+    <!-- custom ua -->
+    <string name="custom_ua_input_hint">พิมพ์ตัวแทนผู้ใช้แบบกำหนดเองที่นี่</string>
+    <string name="custom_ua_title">ตัวแทนผู้ใช้แบบกำหนดเอง</string>
+    <string name="custom_ua_default">Android</string>
+    <string name="custom_ua_pc">Desktop</string>
+    <string name="custom_ua_ios">iPhone</string>
+    <string name="custom_ua_custom">กำหนดเอง</string>
+
+    <!-- add url -->
+    <string name="url_add">เพิ่มอีก</string>
+    <string name="url_recommendation">ที่แนะนำ</string>
+    <string name="url_classify">หมวดหมู่</string>
+    <string name="url_custom">กำหนดเอง</string>
+    <string name="website">URL</string>
+    <string name="edit_logo_max_tip">ไม่มีพื้นที่สำหรับเว็บไซต์ใหม่ โปรดลบบางรายการแล้วลองอีกครั้ง</string>
+    <string name="edit_logo_to_add">เพิ่ม</string>
+    <string name="edit_logo_custom_edit">กำหนดเอง</string>
+    <string name="edit_logo_custom_from_history">เพิ่มจากประวัติ</string>
+    <string name="edit_logo_custom_from_favorite">เพิ่มจากบุ๊กมาร์ก</string>
+    <string name="edit_logo_add_ok">เพิ่มสำเร็จแล้ว</string>
+    <string name="already_edit_logo_add_ok">มีการโทรด่วนอยู่แล้ว</string>
+    <string name="preview">ดูตัวอย่าง</string>
+    <string name="no_network_tip1">...ไม่สามารถเข้าถึงเครือข่ายได้...</string>
+    <string name="no_network_tip2">ไม่สามารถเชื่อมต่ออินเทอร์เน็ตได้</string>
+
+    <!-- import & export bookmark -->
+    <string name="import_bookmarks">นำเข้าบุ๊กมาร์ก</string>
+    <string name="export_bookmarks">ส่งออกบุ๊กมาร์ก</string>
+    <string name="backup_bookmarks">นำเข้า/ ส่งออกบุ๊กมาร์ก</string>
+    <string name="export_bookmarks_success">ส่งออกสำเร็จแล้ว</string>
+    <string name="export_bookmarks_failed">การส่งออกล้มเหลว</string>
+    <string name="import_bookmarks_success">นำเข้าสำเร็จแล้ว</string>
+    <string name="import_bookmarks_failed">การนำเข้าล้มเหลว</string>
+    <string name="bookmark_file">ไฟล์</string>
+    <string name="import_bookmarks_tips">นำเข้า %1$s?</string>
+    <string name="bookmark_title">ประวัติ/ บุ๊กมาร์ก</string>
+    <string name="add_bookmark_from_chrome">จากเบราว์เซอร์ Chrome</string>
+    <string name="add_bookmark_from_system">จากเบราว์เซอร์ Android</string>
+    <string name="add_bookmark_from_file">จากการสำรองข้อมูล</string>
+    <string name="add_bookmark_no_find_chrome">ไม่พบเบราว์เซอร์ Chrome</string>
+    <string name="add_bookmark_chrom_empty">ไม่มีบุ๊กมาร์กในเบราว์เซอร์ Chrome</string>
+    <string name="add_bookmark_system_empty">ไม่มีบุ๊กมาร์กในเบราว์เซอร์ Android</string>
+
+    <!-- crop and edit -->
+    <string name="save_or_share">แชร์/ บันทึก</string>
+    <string name="share_screen_shot_to">แชร์ภาพถ่ายหน้าจอไปยัง:</string>
+    <string name="save_into_album">บันทึกไปยังอัลบั้ม</string>
+    <string name="saved">บันทึกแล้ว</string>
+    <string name="save">บันทึก</string>
+    <string name="exit">ออก</string>
+    <string name="save_success">บันทึกสำเร็จแล้ว</string>
+    <string name="title_exit_edit_crop">ออกจากการแก้ไข?</string>
+    <string name="tip_exit_edit_crop">จะไม่มีการบันทึกรูปภาพหากคุณออก</string>
+
+    <!-- 无痕模式 -->
+    <string name="tip_privacy_on">คุณได้เข้าไปยังการท่องเว็บแบบส่วนตัว</string>
+    <string name="tip_privacy_off">ปิดการท่องเว็บแบบส่วนตัวแล้ว</string>
+
+    <!-- 保存网页 -->
+    <string name="offline_web">เว็บไซต์ออฟไลน์ (%1$s)</string>
+    <string name="offline_web_title">เว็บไซต์ออฟไลน์</string>
+    <string name="offline_web_delete_content">ลบเว็บไซต์ออฟไลน์ที่เลือก?</string>
+    <string name="offline_web_saved">บันทึกไปยัง: ดาวน์โหลด-ไฟล์-เว็บไซต์ออฟไลน์</string>
+    <string name="offline_web_start_save">กำลังบันทึก…</string>
+    <string name="offline_web_empty">ไม่มีเว็บไซต์ออฟไลน์</string>
+    <string name="cache_files_size">แคช: 20MB</string>
+    <!-- 打开文件 -->
+    <string name="openfile_error">ไม่สามารถเปิดได้ ไฟล์ถูกย้ายหรือลบไปแล้ว!</string>
+    <string name="openfile_no_exist">ไม่มีไฟล์</string>
+    <string name="openfile_image_error">รูปภาพเสียหาย</string>
+    <string name="openfile_decompress_error">การแตกไฟล์ล้มเหลว</string>
+
+    <!-- 常用网址 -->
+    <string name="navigate_title_video">วิดีโอ</string>
+    <string name="navigate_title_news">ข่าวสาร</string>
+    <string name="navigate_title_social">สังคม</string>
+    <string name="navigate_title_games">เกม</string>
+    <string name="navigate_title_sports">กีฬา</string>
+    <string name="navigate_title_music">ดนตรี</string>
+    <string name="navigate_title_shop">ชอปปิ้ง</string>
+    <string name="navigate_title_life">ไลฟ์สไตล์</string>
+
+    <!-- 菜单 -->
+    <string name="image_mode_off_toast">ปิดโหมดไร้รูปภาพแล้ว</string>
+    <string name="image_mode_on_toast">เปิดโหมดไร้รูปภาพแล้ว</string>
+    <string name="web_mode_off_toast">คุณได้ปิดโหมด PC แล้ว</string>
+    <string name="web_mode_on_toast">เปิดโหมด PC แล้ว</string>
+    <string name="file_path">เก็บข้อมูลไว้ใน:</string>
+
+    <!-- 视频下载 -->
+    <string name="toolbar_download_video_tip">คลิกที่นี่เพื่อดาวน์โหลดวิดีโอ!</string>
+    <string name="dialog_video_download_tag">วิดีโอ </string>
+    <string name="dialog_video_download_tag_audio">ไฟล์เสียง</string>
+    <string name="dialog_video_download_resolution">คุณภาพ：</string>
+    <string name="dialog_video_download_format">รูปแบบ：</string>
+    <string name="dialog_video_download_parsing">กำลังวิเคราะห์ โปรดรอ...</string>
+    <string name="dialog_video_download_parseerror">การวิเคราะห์ล้มเหลว!</string>
+    <string name="dialog_video_download_add_task">เพิ่มงานเข้าในรายการดาวน์โหลดแล้ว!</string>
+    <string name="dialog_video_download_no_network">ไม่สามารถเชื่อมต่อไปยังเครือข่ายได้ - การวิเคราะห์ล้มเหลว โปรดลองอีกครั้ง!</string>
+    <string name="play_download_video_error">ผิดพลาด: ไม่สามารถเปิดได้!</string>
+
+    <!-- 插件中心 -->
+    <string name="plug_video_download">ดาวน์โหลดวิดีโอ</string>
+
+    <string name="dialog_ssl_title">การเตือนด้านความปลอดภัย</string>
+    <string name="dialog_ssl_content">ใบรับรองของไซต์นี้ไม่ได้ออกโดยหน่วยงานที่น่าเชื่อถือ!</string>
+    <string name="dialog_ssl_continue_tips">ข้อมูลใบรับรอง ></string>
+    <string name="dialog_ssl_continue">ดำเนินการต่อ</string>
+
+    <string name="text_issued_to">ออกให้แก่</string>
+    <string name="text_issued_by">ผู้ออก</string>
+    <string name="btn_ssl_close">ปิด</string>
+    <string name="ssl_common_name">ชื่อสามัญ:</string>
+    <string name="ssl_organization">ชื่อองค์กร:</string>
+    <string name="ssl_organization_unit">ชื่อหน่วยองค์กร:</string>
+    <string name="ssl_invalid">ใบรับรองความปลอดภัยไม่ถูกต้อง</string>
+    <string name="ssl_expired">ใบรับรองหมดอายุแล้ว</string>
+    <string name="ssl_idmismatch">ชื่อโฮสต์ไม่ตรงกัน</string>
+    <string name="ssl_date_invalid">วันที่ใบรับรองไม่ถูกต้อง</string>
+    <string name="text_valid">ช่วงเวลาที่ใช้ได้</string>
+    <string name="certificate_time">ใช้ได้ตั้งแต่:</string>
+    <string name="valid_until">ใช้ได้ถึง:</string>
+    <string name="notification">การแจ้งเตือน</string>
+    <string name="mark_as_read">ทำเครื่องหมายเป็นอ่านแล้ว</string>
+    <string name="notifications">การแจ้งเตือน</string>
+    <string name="menu_item_copy_link">คัดลอกลิงก์</string>
+    <string name="toast_copy_link">คัดลอกลิงก์แล้ว</string>
+    <string name="update_download_tip">กำลังอัปเดต</string>
+    <string name="update_tip">อัปเดต</string>
+    <string name="choose_upload" msgid="3649366287575002063">"เลือกเอกสารที่คุณต้องการอัปโหลดे"</string>
+    <string name="popup_setting">การตั้งค่า</string>
+    <string name="setting_download_manager">การตั้งค่าการดาวน์โหลด</string>
+    <string name="setting_download_only_with_wifi">ดาวน์โหลดจากเครือข่าย Wi-Fi เท่านั้น</string>
+    <string name="setting_check_update">ตรวจสอบการอัปเดต</string>
+    <string name="check_update_tip">คุณสามารถดาวน์โหลดแอปได้ภายหลังการติดตั้ง Google Play เท่านั้น</string>
+    <string name="plug_install_tip">การติดตั้งเสร็จสมบูรณ์ กรุณาเปิดแอป</string>
+    <string name="permission_dialog_title">เพื่อใช้แอป คุณจะต้องอนุญาตให้กับ:</string>
+    <string name="permission_storage">พื้นที่เก็บข้อมูล</string>
+    <string name="permission_location">ตำแหน่งที่ตั้ง</string>
+    <string name="permission_dialog_description">โปรดคลิก \"การตั้งค่า\" ด้านล่างแล้วเปิดใช้งาน \"การอนุญาต\"</string>
+    <!-- 页内查找-->
+    <string name="search_page_tip">ค้นหาในหน้า</string>
+    <string name="menu_item_search">ค้นหาในหน้า</string>
+    <string name="setting_card_modle_news">ข่าว</string>
+    <string name="setting_card_modle_manage">จัดการบัตรโฮมเพจ</string>
+    <string name="card_modle_tip">คุณสามารถเปิดใช้งานบัตรใหม่ได้ใน \"การตั้งค่า\"</string>
+    <string name="manage_cards_modle">จัดการบัตร</string>
+
+    <string name="card_news_more">เพิ่มเติม</string>
+    <string name="card_news_next">ถัดไป</string>
+    <string name="dialog_lanchanged_tip">มีการเปลี่ยนเป็นภาษาไทยแล้ว โปรดเปิดแอปใหม่อีกครั้งเพื่อดำเนินการต่อ</string>
+    <string name="dialog_lanchanged_restart">เปิดใหม่</string>
+    <string name="add_home_logo">เพิ่ม%1$sไปยังโฮมเพจแล้ว!</string>
+    <string name="feed_back_failed">การส่งล้มเหลว!</string>
+    <string name="feed_back_commit">กำลังส่ง…</string>
+    <string name="launcher_affiliate_name">ท่องเว็บรวดเร็ว</string>
+    <string name="setting_product_about">ช่วยด้วย</string>
+    <string name="plug_suggestion">แนะนำค้นหา</string>
+    <string name="ssl_security_tip">ใบรับรองความปลอดภัยไม่น่าเชื่อถือ คุณต้องการดำเนินการต่อหรือไม่?</string>
+    <string name="setting_about_website">เว็บไซต์ทางการ</string>
+    <string name="setting_about_user_group">เข้าร่วมกลุ่ม Key Users ของเรา</string>
+    <string name="setting_about_good_evaluation">ให้คะแนนเรา</string>
+    <string name="setting_about_agreement">ข้อตกลงผู้ใช้</string>
+    <string name="setting_about">เกี่ยวกับ</string>
+    <string name="feedback_whatsapp_text">ติดต่อฝ่ายบริการลูกค้าของเรา รับการตอบกลับในทันที!</string>
+    <string name="setting_about_terms">นโยบายความเป็นส่วนตัว</string>
+    <string name="setting_price_comparison">เปรียบเทียบราคา</string>
+
+
+
+    <!-- 文件分类-->
+    <string name="file_classify_image">รูป</string>
+    <string name="file_classify_document"> สารคดี</string>
+    <!--<string name="file_classify_zip_file">ไฟล์ที่ได้รับการบีบอัด</string>-->
+    <!--<string name="file_classify_apk">การติดตั้งแพ็กเกจ</string>-->
+    <string name="file_classify_other"> อื่น ๆ</string>
+
+     
+    <string name="download_apk_installed">ติดตั้งแล้ว</string>
+     
+    <string name="download_apk_not_installed">ถอนการติดตั้งแล้ว</string>
+
+    <string name="file_image_count">%1$d 张</string>
+     
+    <string name="file_delete_hint"> ลบไฟล์ที่เลือก</string>
+     
+    <string name="menu_more_set_wallpaper">ตั้งเป็นวอลล์เปเปอร์</string>
+     
+    <string name="menu_set_successful">สำเร็จ</string>
+     
+    <string name="menu_set_failed">ล้มเหลว</string>
+     
+    <string name="download_change_storage_location"> ย้ายไปยัง </string>
+    <string name="download_file_path">บันทึกที่อยู่</string>
+    <string name="download_file_property">คุณสมบ</string>
+    <string name="download_file_size">ขนาดไฟล์</string>
+    <string name="download_file_url">ดาวน์โหลดที่อยู่</string>
+    <string name="download_rename">ตั้งชื่อใหม่</string>
+    <string name="download_redownload">ดาวน์โหลดอีกครั้ง</string>
+    <string name="download_support_point">ทำการดาวน์โหลดที่หยุดลงต่อ</string>
+    <string name="support">รองรับแล้ว</string>
+    <string name="not_support">รองรับแล้ว</string>
+
+    <string name="download_share_from">มาจากโพลาร์เบราว์เซอร์</string>
+    <string name="download_detail">รายละเอียด</string>
+    <string name="file_date_added">เวลา</string>
+    <string name="download_with_godownloader_tip"><u>เร็วขึ้น 300%</u></string>
+    <string name="extract">แตก</string>
+    <string name="submenu_file_others_decompression">ดึงไฟล์เรียบร้อย</string>
+    <string name="download_url_error">ลิงก์นี้ไม่สามารถใช้ได้อีกต่อไป</string>
+    <string name="video_screen_locked">ล็อกหน้าจอแล้ว</string>
+    <string name="video_screen_unlocked">ปลดล็อกหน้าจอแล้ว</string>
+    <string name="start_full_figure">เปิด</string>
+    <string name="start_full_figure_mode">ต้องการออกจากโหมด Image Only หรือไม่</string>
+    <string name="unusable_full_figure_mode">โหมด Image-only ไม่สามารถใช้งานไ</string>
+
+    <string name="share_edit_image">แก้ไข &amp; กราฟฟิตี้</string>
+    <string name="picture_saved">บันทึกภาพแล้ว!</string>
+    <!-- 广告拦截设置-->
+    <string name="ad_block_save_traffic">ช่วยประหยัด: &lt;font&gt;&lt;big&gt;&lt;big&gt;%1$s&lt;/big&gt;&lt;/big&gt;&lt;/font&gt;</string>
+    <string name="setting_ad_block_tips">แจ้งเตือนบล็อกโฆษณา</string>
+    <string name="setting_ad_block_count">โฆษณาที่บล็อก:%1$d</string>
+    <string name="ad_block_count_format">โฆษณาที่บล็อก: &lt;font&gt;&lt;big&gt;&lt;big&gt;%1$d&lt;/big&gt;&lt;/big&gt;&lt;/font&gt;</string>
+    <string name="ad_block_save_time">เร่งความเร็ว:&lt;font&gt;&lt;big&gt;&lt;big&gt;%1$s&lt;/big&gt;&lt;/big&gt;&lt;/font&gt;s</string>
+    <string name="ad_block_num_100">บล็อกโฆษณาถึง 100 รายการ </string>
+    <string name="ad_block_share_content">โพลาร์เบราว์เซอร์ช่วยบล็อกแล้ว %1$d โฆษณา</string>
+    <string name="vc_domain">http://www.vcbrowser.com/</string>
+
+    <string name="activity_notify_news">การแจ้งเตือนข่าว</string>
+    <string name="activity_notify_system">การแจ้งเตือนระบบ</string>
+
+    <string name="new_function_tip">เปิดตัวฟีเจอร์ใหม่</string>
+    <string name="next_time">ค่อยว่ากัน</string>
+    <string name="fb_notify_notice_tip">คุณมีการแจ้งเตือนใหม่</string>
+    <string name="fb_notify_push_tip">เปิดการแจ้งเตือน เมื่อล็อกอินเข้า Facebook โดยผ่านโพลาร์เบราว์เซอร์แล้วจะได้รับข้อความ</string>
+    <string name="fb_notify_request_tip">มีคนขอเพิ่มคุณเป็นเพื่อน</string>
+    <string name="fb_notify_msg_tip">คุณมีข้อความใหม่</string>
+    <string name="str_fb_notify_mag">คุณมี 1 ข้อความ</string>
+    <string name="account_edit_avatar">แก้ไขรูปประจำตัว</string>
+    <string name="account_login">เข้าสู่ระบบ</string>
+    <string name="account_login_phone_num">หมายเลขโทรศัพท์</string>
+    <string name="account_login_success">เข้าสู่ระบบสำเร็จ</string>
+    <string name="account_logout">ออกจากระบบ</string>
+    <string name="account_save_avatar">แนะนำ</string>
+    <string name="account_welcome_to_polar">ยินดีต้อนรับเข้าสู่โพลาร์เบราว์เซอร์</string>
+    <string name="account_login_sync_bookmarks">กำลังจัดการข้อมูลบนบุ๊คมาร์ค...</string>
+    <string name="account_login_fail">ล็อคอินล้มเหลว</string>
+    <string name="sync_bookmark_last_time">เวลาซิงค์ครั้งสุดท้าย %1$s</string>
+    <string name="sync_bookmark">คลาวด์ sync</string>
+    <string name="sync_bookmark_success">การจัดการข้อมูลเสร็จสิ้น</string>
+    <string name="sync_bookmark_failed">" การจัดการข้อมูลล้มเหลว กรุณาลองใหม่อีกครั้  "</string>
+    <string name="account_login_user_center">ศูนย์กลางสำหรับผู้ใช้</string>
+    <string name="download_page_save">บันทึกภาพแล้ว!</string>
+    <string name="incognito_mode">โหมดไม่ระบุนาม</string>
+    <string name="home_logo_more">แนะนำ</string>
+    <string name="account_logging_tip">กำลังล็อกอิน...</string>
+    <string name="account_save_avatar_fail">การบันทึกล้มเหลว</string>
+    <string name="setting_font_size_big">ใหญ่</string>
+    <string name="setting_font_size_large">ใหญ่พิเศษ</string>
+    <string name="facebook_notification">การแจ้งเตือน Facebook</string>
+    <string name="no_weather">ไม่พบข้อมูลสภาพอากาศ</string>
+    <string name="no_locate">กำหนดตำแหน่งล้มเหลว</string>
+    <string name="location">ตำแหน่ง</string>
+    <string name="current_location">ตำแหน่งปัจจุบัน</string>
+    <string name="search_location">กรอกค้นหาตำแหน่งของท่าน</string>
+    <string name="allow_polar_location">ยอมให้โพลาร์เรียกใช้ตำแหน่งของท่าน</string>
+    <string name="unavailable">ไม่สามารถใช้งานได้</string>
+    <string name="searching">กำลังค้นหา</string>
+    <string name="no_result">ไม่พบข้อมูล</string>
+    <string name="tornado">ทอร์นาโด</string>
+    <string name="tropical_storm">พายุทอร์นาโด</string>
+    <string name="hurricane">เฮอริเคน</string>
+    <string name="severe_thunderstorms">พายุฝนฟ้าคะนองรุนแรง</string>
+    <string name="thunderstorms">พายุฝนฟ้าคะนอง</string>
+    <string name="rain_snow">ฝนตกและหิมะ</string>
+    <string name="rain_sleet">ฝนตกและลูกเห็บ</string>
+    <string name="snow_sleet">หิมะผสมลูกเห็บ</string>
+    <string name="freezing_drizzle">ฝนละอองเยือกแข็ง</string>
+    <string name="drizzle">ฝนตกปรอย ๆ</string>
+    <string name="freezing_rain">ฝนเยือกแข็ง</string>
+    <string name="showers">ฝนตก</string>
+    <string name="snow_flurries">พายุหิมะ</string>
+    <string name="small_snow_flurries">ฝนหิมะปรอย ๆ</string>
+    <string name="blowing_snow">หิมะพัดปลิว</string>
+    <string name="snow">หิมะ</string>
+    <string name="hail">ลูกเห็บ</string>
+    <string name="sleet">ฝนลูกเห็บ</string>
+    <string name="dust">ฝุ่น</string>
+    <string name="foggy">หมอก</string>
+    <string name="haze">หมอกควัน</string>
+    <string name="smoky">ควัน</string>
+    <string name="blustery">ลมพัดแรง</string>
+    <string name="windy">ลม</string>
+    <string name="cold">หนาว</string>
+    <string name="cloudy">มีเมฆมาก</string>
+    <string name="mostly_cloudy_night">มีเมฆเป็นส่วนใหญ่ (กลางคืน)</string>
+    <string name="mostly_cloudy_day">มีเมฆเป็นส่วนใหญ่ (กลางวัน)</string>
+    <string name="partly_cloudy_night">มีเมฆบางส่วน (กลางคืน)</string>
+    <string name="partly_cloudy_day">มีเมฆบางส่วน (กลางวัน)</string>
+    <string name="clear_night">ชัดเจน (กลางคืน)</string>
+    <string name="sunny">แดดจัด</string>
+    <string name="fair_night">ปานกลาง (กลางคืน)</string>
+    <string name="fair_day">ปานกลาง (กลางวัน)</string>
+    <string name="rain_hail">ฝนผสมลูกเห็บ</string>
+    <string name="hot">ร้อน</string>
+    <string name="isolated_thunderstorms">พายุฝนฟ้าคะนอง</string>
+    <string name="scattered_thunderstorms">พายุฝนฟ้าคะนองกระจาย</string>
+    <string name="scattered_showers">ฝนตกกระจาย</string>
+    <string name="heavy_snow">หิมะตกหนัก</string>
+    <string name="not_available">ไม่มีข้อมูล</string>
+    <string name="isolated_thundershowers">พายุฝนฟ้าคะนองแยกตัว</string>
+    <string name="snow_showers">ฝนหิมะกระจาย</string>
+    <string name="thundershowers">พายุฝนฟ้าคะนอง</string>
+    <string name="partly_cloudy">มีเมฆบางส่วน</string>
+    <string name="scattered_snow_showers">ฝนหิมะกระจาย</string>
+    <string name="qrcode_processing">กำลังดำเนินการ...</string>
+    <string name="qrcode_scan">สแกนรหัส QR</string>
+    <string name="qrcode_return">กลับ</string>
+    <string name="qrcode_not_find">QR-код не найден</string>
+    <string name="qrcode_result">ผลลัพธ์</string>
+    <string name="qrcode_album">อัลบั้ม</string>
+    <string name="qrcode_dispose">กำลังดำเนินการ...</string>
+    <string name="qrcode_failure">สแกนล้มเหลว</string>
+    <string name="qrcode_type_text">ข้อความ</string>
+    <string name="qrcode_search">ค้นหา</string>
+    <string name="qrcode_copy">คัดลอก</string>
+    <string name="qrcode_choose_pic">เลือกรูป QR</string>
+    <string name="website_qrcode">รหัส QR</string>
+    <string name="from_vc_browser">จาก Polar Browser</string>
+    <string name="qrcode_frame">จัดเรียงรหัส QR ให้อยู่ตรงกลาง</string>
+    <string name="qrcode_describe">จัดเรียงรหัส QR ให้อยู่ตรงกลาง</string>
+    <string name="no_flash_found">"ไม่พบไฟฉาย "</string>
+    <string name="webpage_not_available">ไม่สามารถแสดงหน้าเว็บ</string>
+    <string name="refresh">รีเฟรช</string>
+    <string name="no_internet_connection">ไม่สามารถเชื่อมต่ออินเทอร์เน็ต</string>
+    <string name="logo_on_homepage">โลโก้บนหน้าหลัก</string>
+    <string name="browser_settings">การตั้งค่าเบราว์เซอร์</string>
+    <string name="tag">แท็ก</string>
+    <string name="sync_only_in_wifi">Sync เฉพาะใช้งาน Wi-Fi</string>
+    <string name="account_management">การจัดการบัญชี</string>
+    <string name="avatar">รูปประจำตัว</string>
+    <string name="nickname">ชื่อเล่น</string>
+    <string name="change_nickname">เปลี่ยนชื่อเล่น</string>
+    <string name="letters_limit">4-20 ตัวอักษร</string>
+    <string name="input_again">กรอกข้อมูลผิดพลาด กรุณากรอกใหม่อีกครั้ง</string>
+    <string name="gender">เพศ</string>
+    <string name="male">ชาย</string>
+    <string name="female">หญิง</string>
+    <string name="secret">ความลับ</string>
+    <string name="date_of_birth">วันเกิด</string>
+    <string name="please_chosse">เลือก</string>
+</resources>

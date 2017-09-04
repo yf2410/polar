@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/root"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/day_setting_session_line_bg">
+
+    <com.polar.browser.common.ui.CommonTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/feedback"/>
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_bar"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:id="@+id/feedback_area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+                <EditText
+                    android:id="@+id/et_feedback"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/search_input_bg"
+                    android:textCursorDrawable="@drawable/color_cursor"
+                    android:gravity="top"
+                    android:hint="@string/feedback_hi"
+                    android:imeOptions="flagNoExtractUi|actionGo"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:padding="8dp"
+                    android:textColor="@color/common_font_color_2"
+                    android:textColorHint="@color/feedback_hint_text"
+                    android:textSize="@dimen/common_font_size_d"/>
+
+                <EditText
+                    android:id="@+id/et_contactinfomation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/et_feedback"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textCursorDrawable="@drawable/color_cursor"
+                    android:background="@drawable/search_input_bg"
+                    android:gravity="top"
+                    android:hint="@string/feedback_contact_hint"
+                    android:imeOptions="flagNoExtractUi|actionGo"
+                    android:inputType="textNoSuggestions"
+                    android:padding="8dp"
+                    android:textColor="@color/common_font_color_2"
+                    android:textColorHint="@color/feedback_hint_text"
+                    android:textSize="@dimen/common_font_size_d"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/whatsapp_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/whatsapp_text_color"
+                android:textSize="@dimen/common_font_size_e"
+                android:text="@string/feedback_whatsapp_text"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/common_dlg_bar_divider"/>
+
+            <ImageView
+                android:id="@+id/feedback_whatsapp_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/feedback_whatsapp_selector"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <com.polar.browser.homepage.customlogo.LogoItem
+            android:id="@+id/logo_item1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <com.polar.browser.homepage.customlogo.LogoItem
+            android:id="@+id/logo_item2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <com.polar.browser.homepage.customlogo.LogoItem
+            android:id="@+id/logo_item3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <com.polar.browser.homepage.customlogo.LogoItem
+            android:id="@+id/logo_item4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <com.polar.browser.homepage.customlogo.LogoItem
+            android:id="@+id/logo_item5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <com.polar.browser.homepage.customlogo.LogoItem
+            android:id="@+id/logo_item6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <com.polar.browser.homepage.customlogo.LogoItem
+            android:id="@+id/logo_item7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <com.polar.browser.homepage.customlogo.LogoItem
+            android:id="@+id/logo_item8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <com.polar.browser.homepage.customlogo.LogoItem
+            android:id="@+id/logo_item9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <com.polar.browser.homepage.customlogo.LogoItem
+            android:id="@+id/logo_item10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_line3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <com.polar.browser.homepage.customlogo.LogoItem
+            android:id="@+id/logo_item11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <com.polar.browser.homepage.customlogo.LogoItem
+            android:id="@+id/logo_item12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <com.polar.browser.homepage.customlogo.LogoItem
+            android:id="@+id/logo_item13"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <com.polar.browser.homepage.customlogo.LogoItem
+            android:id="@+id/logo_item14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <com.polar.browser.homepage.customlogo.LogoItem
+            android:id="@+id/logo_item15"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_line4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <com.polar.browser.homepage.customlogo.LogoItem
+            android:id="@+id/logo_item16"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <com.polar.browser.homepage.customlogo.LogoItem
+            android:id="@+id/logo_item17"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <com.polar.browser.homepage.customlogo.LogoItem
+            android:id="@+id/logo_item18"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <com.polar.browser.homepage.customlogo.LogoItem
+            android:id="@+id/logo_item19"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <com.polar.browser.homepage.customlogo.LogoItem
+            android:id="@+id/logo_item20"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

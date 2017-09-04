@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">متصفح polar</string>
+    <string name="search_input_hint">البحث أو إدخال عنوان الموقع</string>
+
+    <string name="copy">نسخ</string>
+    <string name="album">ألبوم</string>
+    <string name="home_page">الصفحة الرئيسية</string>
+    <string name="already_on_home_page">أنت على الصفحة الرئيسية</string>
+    <string name="title">عنوان</string>
+    <string name="toast_tab_limited">لا مجال لعلامة تبويب جديدة</string>
+    <string name="network_connect_error">خطأ في الإتصال. أنت غير متصل بالإنترنت</string>
+    <string name="choose_file">اختر ملف</string>
+    <string name="play_video_error">عذرا، لم يتم تشغيل هذا الفيديو</string>
+    <string name="file_open_ing">افتتاح...</string>
+    <string name="goback">الى الخلف</string>
+
+    <!-- history/favorite -->
+    <string name="history">سجل</string>
+    <string name="today">اليوم</string>
+    <string name="yesterday">أمس</string>
+    <string name="earlier">في وقت سابق</string>
+    <string name="favorite">إشارات مرجعية</string>
+    <string name="add_bookmark_tips">إضافة إلى الإشارات المرجعية</string>
+    <string name="already_add_bookmark_tips">موجود</string>
+    <string name="delete_bookmark_tips">إزالة المرجعية</string>
+    <string name="history_search_record">سجلات البحث</string>
+    <string name="no_history_search_record">سجلات البحث غير موجودة</string>
+    <string name="no_history_visit_record">لا توجد سجلات التصفح</string>
+
+
+    <!-- search -->
+    <string name="go">اذهب</string>
+    <string name="search">البحث</string>
+    <string name="history_visit">سجلات التصفح</string>
+    <string name="history_search">سجلات البحث</string>
+    <string name="edittext_empty_tip">البحث أو إدخال عنوان الموقع</string>
+
+    <!-- download -->
+    <string name="download">تنزيل</string>
+    <string name="downloading">جار التنزيل</string>
+    <string name="download_finish">الانتهاء</string>
+    <string name="download_waite">في انتظار التنزيل</string>
+    <string name="download_error">فشل التحميل</string>
+    <string name="download_pause">ايقاف مؤقت للتنزيل</string>
+    <string name="download_start">بدء التنزيل</string>
+    <string name="download_manager">التنزيلات</string>
+    <string name="disk_free_size">/%1$s متوفر</string>
+    <string name="disk_used_size">%1$s مستعمل</string>
+    <string name="download_task_already_exists">الطلب موجودة. هل أنت متأكد من إعادة التنزيل؟</string>
+    <string name="download_no_available_space">مساحة تخزين غير كافية</string>
+    <string name="net_changed_when_downloading">أنت غير متصل باواي فاي، هل مازلت ترغب في التنزيل؟</string>
+    <string name="file_can_not_open">لا يمكن فتح الملف عن طريق أي تطبيق متاح</string>
+    <string name="name">الاسم:</string>
+    <string name="size">الحجم :</string>
+    <string name="size_unknown">الحجم غير معروف</string>
+    <string name="empty_file_name">اسم الملف فارغ</string>
+    <string name="download_file_name_exists">اسم الملف موجود</string>
+    <string name="click_to_see">انقر للفتح</string>
+    <string name="net_no_connect">أنت غير متصل بالإنترنت</string>
+    <string name="download_status_downloading">جار التنزيل</string>
+    <string name="download_status_waiting">في انتظار التنزيل</string>
+    <string name="download_status_start">بدء التنزيل</string>
+    <string name="download_status_start_nonetwork">التنزيل متوقف مؤقتا، لا يوجد اتصال بالإنترنت</string>
+    <string name="download_status_pause">التنزيل متوقف مؤقتا</string>
+    <string name="download_status_pauseing">ايقاف مؤقت</string>
+    <string name="download_status_failure">فشل التحميل</string>
+    <string name="download_edit_name_hint">الاسم</string>
+    <string name="download_set_path_default">الطريق غير صالحة للاستعمال. تم تنزيل الملف إلى مسار التخزين الافتراضي.</string>
+    <string name="extract_view_now"> تم الاستخراج</string>
+    <!-- common -->
+    <string name="edit">تعديل</string>
+    <string name="popup_edit">تعديل</string>
+    <string name="complete">تامّ</string>
+    <string name="delete">حذف</string>
+    <string name="delete_with_count">حذف (%1$d)</string>
+    <string name="check_all">كل</string>
+    <string name="check_all_cancel">إلغاء</string>
+    <string name="delete_checked_task">حذف (%1$d)المهام(s) التي قمت بتحديدها؟</string>
+    <string name="delete_not_select">يرجى تحديد العناصر التي تريد حذفها</string>
+    <string name="never_remind">لا مزيد من التذكير</string>
+    <string name="loading">تنزيل ...</string>
+
+    <!-- dialog -->
+    <string name="ok">حسنا</string>
+    <string name="cancel">إلغاء</string>
+    <string name="tips">إشعار</string>
+    <string name="tips_alert">إشعار</string>
+    <string name="update_tips">مقدمة</string>
+    <string name="update_ok">تحديث الآن</string>
+    <string name="update_cancel">إلغاء</string>
+    <string name="go_download">تنزيل</string>
+    <string name="manually_update_ok">حسنا</string>
+    <string name="manually_update_cancel">إلغاء</string>
+    <string name="history_clean_content">هل تريد حذف كافة العناصر المحددة؟</string>
+    <string name="history_clean_visited">هل تريد حذف سجل التصفح كاملا؟</string>
+    <string name="history_clean_searched">هل تريد مسح سجل البحث كاملا؟</string>
+    <string name="bookmark_delete_content">هل تريد حذف كافة العناصر المحددة؟</string>
+    <string name="delete_with_files">حذف الملف المصدر أيضا</string>
+
+    <!-- play -->
+    <string name="play_cancel">إلغاء</string>
+    <string name="play_continue">تشغيل</string>
+    <string name="play_network_gprs_tip">لا يوجد واي فاي، هل تريد التشغيل عن طريق الجي بي آر إس؟</string>
+
+    <!-- menu -->
+    <string name="menu_add_favorite">إضافة إشارة مرجعية</string>
+    <string name="menu_history">سجل</string>
+    <string name="menu_favorite">إشارات مرجعية</string>
+    <string name="menu_download">التنزيلات</string>
+    <string name="menu_nightmode">ليل</string>
+    <string name="menu_setting">إعدادات</string>
+    <string name="menu_no_imgmode">لا توجد صورة</string>
+    <string name="menu_web_mode">وضع الكمبيوتر</string>
+    <string name="menu_exit">إنهاء</string>
+
+    <!-- add & edit favorite -->
+    <string name="menu_add_shortcut">الشاشة الرئيسية</string>
+    <string name="menu_add_logo">الطلب السريع</string>
+    <string name="add_to">إضافة إلى</string>
+    <string name="edit_url">تعديل عنوان الموقع</string>
+    <string name="add_shortcut_successful">نجح</string>
+    <string name="already_add_shortcut_successful">الاختصار موجود</string>
+    <string name="add_shortcut_failed">لا يدعم جهازك هذه الميزة</string>
+    <string name="add_logo_empty_tip">الاسم أو عنوان الموقع فارغ</string>
+    <string name="add_logo_checke_empty_tip">يرجى تحديد مكان إضافة صفحة الويب</string>
+
+    <!-- setting -->
+    <string name="setting">إعدادات</string>
+    <string name="setting_saved_account">حفظكلماتالمرور</string>
+    <string name="setting_search_engine">محرك البحث</string>
+    <string name="version">الإصدار</string>
+    <string name="setting_search_engine_google">جوجل</string>
+    <string name="setting_search_engine_bing">بينغ</string>
+    <string name="setting_search_engine_yahoo">ياهو</string>
+    <string name="setting_font_size">حجم الخط</string>
+    <string name="setting_font_size_min">صغير</string>
+    <string name="setting_font_size_mid">متوسط</string>
+    <string name="setting_font_size_large">كبير جدا</string>
+    <string name="setting_sliding_type">تفضيلات الإنزلاق</string>
+    <string name="setting_sliding_type_close">لا انزلاق</string>
+    <string name="setting_sliding_type_border">حافة الانزلاق</string>
+    <string name="setting_sliding_type_fullscreen">إنزلاق على شاشة كاملة</string>
+    <string name="setting_sliding_type_tip">يمكنك تعيين أفضلية الإنزلاق على الإعدادات!</string>
+    <string name="setting_editlogo_type_tip">لا مجال لمزيد من الرموز على الصفحة الرئيسية. انقر وإنتظر للتعديل.</string>
+    <string name="setting_videodownload_type_tip">هل تريد تثبيت الملحق لتنزيل فيديوهات على الإنترنت؟</string>
+    <string name="setting_editlogo_type_ok">حسنا</string>
+    <string name="setting_plug_center">الملاحق</string>
+    <string name="setting_save_tab">حفظ علامات التبويب على إنهاء</string>
+    <string name="setting_screen_lock">قفل صورة التوجيه</string>
+    <string name="setting_ad_block">منع الإعلانات</string>
+    <string name="setting_full_screen">وضع كامل الشاشة</string>
+    <string name="setting_quick_search">بحث سريع</string>
+    <string name="setting_clear_data">مسح البيانات</string>
+    <string name="setting_set_default_browser">حدد متصفح Polar كمتصفح افتراضي</string>
+    <string name="setting_custom_ua">وكيل المستخدم</string>
+    <string name="setting_recover_setting">العودة إلى الإعدادات الافتراضية</string>
+    <string name="file_opening">افتتاح...</string>
+    <string name="recover_setting_content">هل أنت متأكد أنك تريد العودة إلى الإعدادات الافتراضية؟</string>
+    <string name="setting_clear_data_exit">مسح تاريخ التصفح عند الإنهاء</string>
+    <string name="setting_clear_default_success">تم المسح بنجاح</string>
+    <string name="setting_clear_default_failed">فشل عملية الحذف</string>
+    <string name="setting_default_failed">فشل الإعداد</string>
+    <string name="setting_default_self_tip">هل ترغب في التوقف عن استخدام Polar كمتصفح افتراضي؟</string>
+    <string name="setting_remember_username_and_password_tip">هلترغبفيحفظكلمةالمرورالخاصة بك لـ\"%1$s\"؟</string>
+    <string name="saved_account">حفظكلماتالمرور</string>
+    <string name="file_child_count">%1$d مواد</string>
+    <string name="current_download_folder">مخزن في: %1$s</string>
+    <string name="download_folder_space">%1$s متبقي, %2$s في المجموع</string>
+    <string name="download_folder_alert_19">بالنسبة للأنظمة فوق أندرويد 4.4 (مشمولة)، تحتاج الملفات إلى التخزين في بعض الفهارس عند استخدام بطاقة الذاكرة. سيتم حذف الملفات التي تم تنزيلها إذا تم إلغاء تثبيت المتصفح. الاستمرار في التخزين في بطاقة الذاكرة؟</string>
+    <string name="download_folder_phone">التخزين الداخلي</string>
+    <string name="download_folder_sd">بطاقة SD</string>
+    <string name="download_folder_sd_removed">تمت إزالة بطاقة SD</string>
+    <string name="download_folder_selected_sd">لقد اخترت بطاقة SD</string>
+
+    <!-- 模块管理 -->
+    <string name="module_manager">مدير الوحدة النمطية</string>
+    <string name="module_logos">أيقونات التنقل</string>
+    <string name="module_news">أخبار</string>
+    <string name="module_navigate">لمواقع التي تمت زيارتها في كثير من الأحيان</string>
+    <string name="module_tools">أدوات</string>
+
+    <!-- set default browser -->
+    <string name="start_to_set">بدء</string>
+    <string name="clear_default">مسح</string>
+    <string name="clear_default_self">مسح الإعداد الافتراضي</string>
+
+    <string name="clear_default_tip1">الخطوة 1: انزلاق الى عنصر الإطلاق الافتراضي</string>
+    <string name="clear_default_tip2">الخطوة 2: اختر "مسح الإعداد الافتراضي"</string>
+    <string name="clear_default_tip3">الخطوة 3: العودة إلى الخطوة التالية</string>
+
+    <string name="clear_default_tip_self1">المتصفح الافتراضي هو VC</string>
+
+    <string name="set_default_step1">الخطوة 1: تحقق من "الإعدادات الافتراضية"</string>
+    <string name="set_default_step2">الخطوة 2: حدد متصفح Polar</string>
+
+    <string name="set_default_2_step1">الخطوة 1: تحقق من "الإعدادات الافتراضية"</string>
+    <string name="set_default_2_step2">الخطوة 2: حدد متصفح Polar</string>
+
+    <!-- clear data -->
+    <string name="clear_cookie">مسح تعريف الارتباط</string>
+    <string name="clear_cache">مسح ذاكرة التخزين المؤقت</string>
+    <string name="clear_history">مسح المحفوظات</string>
+    <string name="clear_download">مسح بيانات التنزيل</string>
+    <string name="clear_all">مسح الكل</string>
+    <string name="clear_all_2">مسح الكل</string>
+    <string name="clear_to_confirm">نعم%1$s؟</string>
+    <string name="clear_browser_record">محو سجل التصفح</string>
+
+    <!-- about feedback -->
+    <string name="feedback">ردود الفعل</string>
+    <string name="feedback_hi">اكتب اقتراحاتك هنا</string>
+    <string name="feedback_contact">معلومات الاتصال:</string>
+    <string name="feedback_contact_hint">رقم الهاتف أو البريد الإلكتروني:</string>
+    <string name="feedback_cont_null">يرجى الوفاء بملاحظاتك</string>
+    <string name="feedback_ok">أرسلت بنجاح، شكرا لك</string>
+    <string name="feedback_check_network">فشل في إرسالها، يرجى التحقق من شبكة الإنترنت.</string>
+    <string name="feedback_copy_ok">تم نسخها إلى الحافظة.</string>
+    <string name="feedback_send">إرسال</string>
+
+    <!-- exit dialog -->
+    <string name="exit_dialog_title">تريد الخروج؟</string>
+    <string name="exit_press_back_again">انقر مرة أخرى للخروج</string>
+
+    <!-- context menu -->
+    <string name="menu_item_view_img">عرض</string>
+    <string name="menu_item_download_img">احفظ الصورة</string>
+    <string name="menu_item_share_img">مشاركة الصورة</string>
+    <string name="menu_item_open_background">فتح في الخلفية</string>
+    <string name="menu_item_open_new">فتح في علامة تبويب جديدة</string>
+    <string name="menu_item_add_to_bookmark">إشارات مرجعية</string>
+    <string name="menu_item_copy_link_text">نسخ النص</string>
+    <string name="toast_opened_background">مفتوحة في الخلفية</string>
+    <string name="menu_item_savepage">حفظ</string>
+    <string name="menu_item_share">شارك</string>
+    <string name="menu_item_edit">لقطة شاشة للكتابة على الجدران</string>
+    <string name="menu_item_add_bookmark">إضافة إشارة مرجعية</string>
+    <string name="menu_item_cancel_bookmark">إزالة المرجعية</string>
+    <string name="edit_logo_title">تعديل الصور المصغرة</string>
+
+    <!-- crash -->
+    <string name="app_crash_upload_tip">عذرا، لقد تم إغلاق التطبيق بسبب بعض المشاكل. هل تريد التبليغ عن هذا الحادث؟</string>
+    <string name="app_crash_uploading">تحميل ...</string>
+
+    <!-- context menu -->
+    <string name="toast_copy_link_text">تم نسخ النص</string>
+
+    <!-- http auth -->
+    <string name="auth_request_username">اسم المستخدم</string>
+    <string name="auth_request_password">كلمه السر</string>
+    <string name="auth_request_login">تسجيل الدخول:</string>
+
+    <!-- custom ua -->
+    <string name="custom_ua_input_hint">اكتب عامل المستخدم المخصص هنا</string>
+    <string name="custom_ua_title">عامل المستخدم المخصص</string>
+    <string name="custom_ua_default">أندرويد</string>
+    <string name="custom_ua_pc">سطح المكتب</string>
+    <string name="custom_ua_ios">ايفون</string>
+    <string name="custom_ua_custom">مخصص</string>
+
+    <!-- add url -->
+    <string name="url_add">أضف المزيد</string>
+    <string name="url_recommendation">موصى به</string>
+    <string name="url_classify">الفئات</string>
+    <string name="url_custom">مخصص</string>
+    <string name="website">الموقع</string>
+    <string name="edit_logo_max_tip">لا يوجد مكان لموقع جديد. يرجى حذف البعض وحاول مرة أخرى.</string>
+    <string name="edit_logo_to_add">إضافة</string>
+    <string name="edit_logo_custom_edit">مخصص</string>
+    <string name="edit_logo_custom_from_history">إضافة من سجل</string>
+    <string name="edit_logo_custom_from_favorite">إضافة من الإشارات المرجعية</string>
+    <string name="edit_logo_add_ok">تمت الاضافة بنجاح</string>
+    <string name="already_edit_logo_add_ok">الإتصال السريع موجود</string>
+    <string name="preview">معاينة</string>
+    <string name="no_network_tip1">... لا يمكن الوصول إلى الشبكة ...</string>
+    <string name="no_network_tip2">لا يمكن الاتصال بالانترنت</string>
+
+    <!-- import & export bookmark -->
+    <string name="import_bookmarks">استيراد الإشارات المرجعية</string>
+    <string name="export_bookmarks">تصدير الإشارات المرجعية</string>
+    <string name="backup_bookmarks">استيراد/تصدير الإشارات المرجعية</string>
+    <string name="export_bookmarks_success">تم تصديرها بنجاح</string>
+    <string name="export_bookmarks_failed">فشل عملية التصدير</string>
+    <string name="import_bookmarks_success">تمت عملية الاستيراد بنجاح</string>
+    <string name="import_bookmarks_failed">فشل عملية الاستيراد</string>
+    <string name="bookmark_file">الملفات</string>
+    <string name="import_bookmarks_tips">إستيراد %1$s؟</string>
+    <string name="bookmark_title">التاريخ/الإشارات المرجعية</string>
+    <string name="add_bookmark_from_chrome">من متصفح كروم</string>
+    <string name="add_bookmark_from_system">من متصفح أند رويد</string>
+    <string name="add_bookmark_from_file">من النسخ الاحتياطي</string>
+    <string name="add_bookmark_no_find_chrome">لم يتم العثور على متصفح الكروم </string>
+    <string name="add_bookmark_chrom_empty">لا توجد إشارات مرجعية على متصفح كروم</string>
+    <string name="add_bookmark_system_empty">لا توجد إشارات مرجعية على متصفح أند رويد</string>
+
+    <!-- crop and edit -->
+    <string name="save_or_share">شارك/احفظ</string>
+    <string name="share_screen_shot_to">شارك لقطة الشاشة إلى:</string>
+    <string name="save_into_album">احفظ في الألبوم</string>
+    <string name="saved">تم الحفظ</string>
+    <string name="save">حفظ</string>
+    <string name="exit">إنهاء</string>
+    <string name="save_success">تم الحفظ بنجاح</string>
+    <string name="title_exit_edit_crop">إنهاء التعديل؟</string>
+    <string name="tip_exit_edit_crop">لن يتم حفظ الصورة إذا قمت بالخروج.</string>
+
+    <!-- 无痕模式 -->
+    <string name="tip_privacy_on">لقد دخلت متصفح خاص</string>
+    <string name="tip_privacy_off">تم إغلاق المتصفح الخاص</string>
+
+    <!-- 保存网页 -->
+    <string name="offline_web">مواقع دون اتصال(%1$s)</string>
+    <string name="offline_web_title">موقع دون اتصال</string>
+    <string name="offline_web_delete_content">حذف المواقع غير المتصلة التي تم فحصها؟</string>
+    <string name="offline_web_saved">تم الحفظ في : التحميلات - ملفات - المواقع الحاليه</string>
+    <string name="offline_web_start_save">حفظ…</string>
+    <string name="offline_web_empty">لا توجد مواقع دون اتصال</string>
+    <string name="cache_files_size">ذاكرة التخزين المؤقت: 20 ميغا بايت</string>
+    <!-- 打开文件 -->
+    <string name="openfile_error">يتعذر الفتح، تم نقل الملف أو حذفه!</string>
+    <string name="openfile_no_exist">الملف غير موجود</string>
+    <string name="openfile_image_error">لقد تعرضت الصورة إلى التلف</string>
+    <string name="openfile_decompress_error">فشل عملية فك الضغط</string>
+
+    <!-- 常用网址 -->
+    <string name="navigate_title_video">فيديو</string>
+    <string name="navigate_title_news">أخبار</string>
+    <string name="navigate_title_social">اجتماعي</string>
+    <string name="navigate_title_games">ألعاب</string>
+    <string name="navigate_title_sports">رياضات</string>
+    <string name="navigate_title_music">موسيقى</string>
+    <string name="navigate_title_shop">تسوق</string>
+    <string name="navigate_title_life">نمط الحياة</string>
+
+    <!-- 菜单 -->
+    <string name="image_mode_off_toast">ليس هناك إغلاق لأي وضع صورة</string>
+    <string name="image_mode_on_toast">ليس هناك تمكين لأي وضع صورة</string>
+    <string name="web_mode_off_toast">لقد قمت بإغلاق وضع الكمبيوتر</string>
+    <string name="web_mode_on_toast">تمكين وضع الكمبيوتر</string>
+    <string name="file_path">مخزن في:</string>
+
+    <!-- 视频下载 -->
+    <string name="toolbar_download_video_tip">انقر هنا لتنزيل الفيديو!</string>
+    <string name="dialog_video_download_tag">فيديو</string>
+    <string name="dialog_video_download_tag_audio">السمعي</string>
+    <string name="dialog_video_download_resolution">جودة:</string>
+    <string name="dialog_video_download_format">شكل:</string>
+    <string name="dialog_video_download_parsing">التحليل، يرجى الانتظار ...</string>
+    <string name="dialog_video_download_parseerror">تم حذف ملفات الفيديو!</string>
+    <string name="dialog_video_download_add_task">تمت إضافة المهمة إلى قائمة التنزيل!</string>
+    <string name="dialog_video_download_no_network">تعذر الاتصال بشبكة الإنترنت - فشل عملية التحليل. حاول مرة أخرى!</string>
+    <string name="play_download_video_error">خطأ: غير قادر على فتح الملف!</string>
+
+    <!-- 插件中心 -->
+    <string name="plug_video_download">تنزيل الفيديو</string>
+
+    <string name="dialog_ssl_title">تحذير الأمن</string>
+    <string name="dialog_ssl_content">لم يتم إصدار شهادة الموقع من قبل سلطة موثوق بها!</string>
+    <string name="dialog_ssl_continue_tips">معلومات حول الشهادة></string>
+    <string name="dialog_ssl_continue">متابعة</string>
+
+    <string name="text_issued_to">أصدرت إلى</string>
+    <string name="text_issued_by">المصدر</string>
+    <string name="btn_ssl_close">إغلاق</string>
+    <string name="ssl_common_name">الاسم الشائع:</string>
+    <string name="ssl_organization">أسم المنظمة:</string>
+    <string name="ssl_organization_unit">أسم الوحدة التنظيمية</string>
+    <string name="ssl_invalid">شهادة الأمن غير صالحة</string>
+    <string name="ssl_expired">لقد انتهت فترة صلاحية الشهادة</string>
+    <string name="ssl_idmismatch">اسم المضيف غير متطابق</string>
+    <string name="ssl_date_invalid">تاريخ الشهادة غير صالح</string>
+    <string name="text_valid">فترة الصلاحية</string>
+    <string name="certificate_time">صالحة من:</string>
+    <string name="valid_until">صالحة حتى:</string>
+    <string name="notification">إخطار</string>
+    <string name="notifications">الإشعارات</string>
+    <string name="mark_as_read">ضع علامة مقروءة</string>
+    <string name="menu_item_copy_link">انسخ الرابط</string>
+    <string name="toast_copy_link">تم نسخ  الرابط</string>
+    <string name="update_tip">تحديث</string>
+    <string name="update_download_tip">التحديث جار</string>
+    <string name="choose_upload" msgid="3649366287575002063">"حدد المستند الذي ترغب في تحميله"</string>
+    <string name="popup_setting">إعدادات</string>
+    <string name="setting_download_manager">إعدادات التنزيل</string>
+    <string name="setting_download_only_with_wifi">تنزيل عبر شبكة الواي فاي فقط</string>
+    <string name="setting_download_path">مسار افتراضي</string>
+    <string name="setting_check_update">تحقق من التحديثات</string>
+    <string name="check_update_tip">يمكنك تنزيل التطبيق فقط بعد تثبيت Google Play.</string>
+    <string name="plug_install_tip">اكتمل التثبيت، يرجى فتح التطبيق.</string>
+    <string name="permission_dialog_title">لاستخدام التطبيق، تحتاج إلى إعطاء الإذن إلى:</string>
+    <string name="permission_storage">التخزين</string>
+    <string name="permission_location">الموقع</string>
+    <string name="permission_dialog_description">يرجى النقر على \"الإعدادات\" أدناه، وتمكين \"الإذن\"</string>
+
+    <!-- 页内查找-->
+    <string name="menu_item_search">البحث في الصفحة</string>
+    <string name="search_page_tip">البحث في الصفحة</string>
+    <string name="setting_card_modle_news">الأخبار</string>
+    <string name="setting_card_modle_manage">إدارة بطاقات الصفحة الرئيسية</string>
+    <string name="card_modle_tip">يمكنك إعادة تمكين البطاقات من \"الإعدادات\"</string>
+    <string name="manage_cards_modle">إدارة البطاقات</string>
+
+    <string name="card_news_more">المزيد</string>
+    <string name="card_news_next">التالي</string>
+    <string name="dialog_lanchanged_tip">تم تغيير اللغه إلى العربيه. الرجاء اعادة فتح البرنامج لإتمام العمليه.</string>
+    <string name="dialog_lanchanged_restart">إعادة الفتح</string>
+
+    <string name="add_home_logo">تم اضافة موقع الويب الأتي %1$s الي الصفحه الرئيسيه</string>
+    <string name="feed_back_failed">!الإرسال فشل،</string>
+    <string name="feed_back_commit">...إرسال</string>
+    <string name="launcher_affiliate_name">تصفح سريع</string>
+    <string name="setting_product_about">مساعده</string>
+    <string name="plug_suggestion">البحث عن اقتراحات</string>
+    <string name="ssl_security_tip">شهادة الأمان غير موثوق بها، هل تريدون المتابعة؟</string>
+    <string name="feedback_whatsapp_text">اتصل بدعم العملاء، واحصل على رد فوري!</string>
+    <string name="setting_about">عن</string>
+    <string name="setting_about_website">موقع الويب الرسمي</string>
+    <string name="setting_about_user_group">انضم إلى مجموعة المستخدمين الرئيسيين</string>
+    <string name="setting_about_good_evaluation">قم بتقييمنا</string>
+    <string name="setting_about_agreement">اتفاقية المستخدم</string>
+    <string name="setting_about_terms">سياسة الخصوصية</string>
+    <string name="setting_price_comparison">مقارنة الأسعار</string>
+
+    <!--文件分类 -->
+    <string name="file_classify_image">صورة</string>
+    <string name="file_classify_document"> وثائق</string>
+    <!--<string name="file_classify_zip_file">الملفات المضغوطة</string>-->
+    <!--<string name="file_classify_apk"> حزمة التثبيت</string>-->
+    <string name="file_classify_other"> أخرى</string>
+
+    <string name="download_apk_installed">تم التثبيت</string>
+    <string name="download_apk_not_installed">تمت الإزالة</string>
+
+    <string name="file_delete_hint"> حذف الملفات المختارة</string>
+    <string name="menu_more_set_wallpaper">تعيين كخلفية</string>
+    <string name="menu_set_successful">تم بنجاح</string>
+    <string name="menu_set_failed">فشل</string>
+     
+    <string name="download_change_storage_location">انتقل إلى</string>
+    <string name="download_file_property">سمة الملف</string>
+    <string name="download_file_size">حجم الملف</string>
+    <string name="download_file_url">عنوان التحميل</string>
+    <string name="download_rename">إعادة التسمية</string>
+    <string name="download_redownload">التحميل مرة أخرى</string>
+    <string name="download_support_point">استئناف التنزيل المنقطع</string>
+    <string name="support">مدعومة</string>
+    <string name="not_support">غير مدعومة</string>
+    <string name="download_file_path">حفظ العنوان</string>
+    <string name="download_share_from">من متصفح Polar</string>
+    <string name="download_detail">التفاصيل</string>
+    <string name="file_date_added">مرة</string>
+    <string name="download_with_godownloader_tip"><u>أسرع بنسبة 300%</u></string>
+    <string name="extract">استخراج</string>
+    <string name="submenu_file_others_decompression"> تم الاستخراج</string>
+    <string name="download_url_error">هذا الرابط لم يعد يعمل بعد الآن.</string>
+    <string name="video_screen_locked">الشاشة مقفلة</string>
+    <string name="video_screen_unlocked">تم إلغاء قفل الشاشة</string>
+    <string name="start_full_figure">تمكين</string>
+    <string name="start_full_figure_mode">هل ستقوم بالتعديل من خاصية صورة الوضع فقط؟</string>
+
+    <string name="share_edit_image">تعديل و جرافيتي</string>
+    <string name="picture_saved">تم حفظ الصوره</string>
+    <string name="activity_notify_news">اشعارات الاخبار</string>
+    <string name="activity_notify_system">إشعارات النظام</string>
+
+    <!--广告拦截设置 -->
+    <string name="ad_block_save_traffic">البيانات المحفوظه : &lt;font&gt;&lt;big&gt;&lt;big&gt;%1$s&lt;/big&gt;&lt;/big&gt;&lt;/font&gt;</string>
+    <string name="setting_ad_block_tips">التذكير بالإعلانات المحظورة</string>
+    <string name="setting_ad_block_count"> تم حظر عدد %1$d من الإعلانات</string>
+    <string name="ad_block_count_format">الإعلانات المحظورة:&lt;font&gt;&lt;big&gt;&lt;big&gt;%1$d&lt;/big&gt;&lt;/big&gt;&lt;/font&gt;</string>
+    <string name="ad_block_save_time">زيادة السرعه:&lt;font&gt;&lt;big&gt;&lt;big&gt;%1$s&lt;/big&gt;&lt;/big&gt;&lt;/font&gt;s</string>
+    <string name="ad_block_num_100">تم حظر اكثر من 100 اعلان، تحقق الآن.</string>
+    <string name="ad_block_share_content">حظر مستعرض متصفح polar عدد %1$d من الإعلانات من أجلي</string>
+    <string name="vc_domain">http://www.vcbrowser.com/</string>
+
+    <string name="fb_notify_msg_tip">لديك رسائل جديدة.</string>
+    <string name="new_function_tip">التذكير بالميزات الجديدة</string>
+    <string name="next_time">لاحقًا</string>
+    <string name="fb_notify_notice_tip">لديك إشعارات جديدة.</string>
+    <string name="fb_notify_push_tip">قم بتمكين الإشعارات الفورية، وقم بتسجيل الدخول إلى فيسبوك من مستعرض Polar Browser، وستتمكن من تلقي الرسائل الفورية.</string>
+    <string name="fb_notify_request_tip">لديك طلبات صداقة جديدة.</string>
+    <string name="str_fb_notify_mag">لديك 1 رسالة جديدة</string>
+    <string name="account_edit_avatar">تعديل الصورة الشخصية</string>
+    <string name="account_login">تسجيل الدخول</string>
+    <string name="account_login_phone_num">رقم الهاتف</string>
+    <string name="account_login_success">نجح تسجيل الدخول</string>
+    <string name="account_logout">تسجيل الخروج</string>
+    <string name="account_save_avatar">حفظ الصورة الشخصية</string>
+    <string name="account_welcome_to_polar">polar مرحبا بك في متصفح</string>
+    <string name="account_login_sync_bookmarks">...اقتران سجل العلامات</string>
+    <string name="account_login_fail">" فشل في تسجيل الدخول"</string>
+    <string name="sync_bookmark_last_time">آخر مرة للمزامنة %1$s</string>
+    <string name="sync_bookmark">اقتران cloud</string>
+    <string name="sync_bookmark_success">تم الاقتران بنجاح</string>
+    <string name="sync_bookmark_failed">فشل الاقتران، الرجاء المحاوله مرة اخرى.</string>
+    <string name="account_login_user_center">مركز المستخدمين</string>
+    <string name="download_page_save">تم حفظ الصوره</string>
+    <string name="incognito_mode">نمط التخفي</string>
+    <string name="home_logo_more">توجيه</string>
+    <string name="account_logging_tip">" تسجيل الدخول في..."</string>
+    <string name="account_save_avatar_fail">فشل الحفظ</string>
+    <string name="setting_font_size_big">كبير</string>
+    <string name="no_weather">لا توجد معلومات عن الطقس</string>
+    <string name="no_locate">فشل تحديد الموقع</string>
+    <string name="location">الموقع</string>
+    <string name="current_location">الموقع الحالي</string>
+    <string name="search_location">اكتب وحدد موقعك</string>
+    <string name="allow_polar_location">السماح لـ Polar بالوصول إلى موقعك</string>
+    <string name="unavailable">غير متاح</string>
+    <string name="searching">جارٍ البحث...</string>
+    <string name="no_result">لم يتم العثور على نتائج.</string>
+    <string name="tornado">إعصار أهوج</string>
+    <string name="tropical_storm">عاصفة استوائية</string>
+    <string name="hurricane">إعصار مداري</string>
+    <string name="severe_thunderstorms">عواصف رعدية شديدة</string>
+    <string name="thunderstorms">عواصف رعدية</string>
+    <string name="rain_snow">مطر وثلج مختلط</string>
+    <string name="rain_sleet">مطر مختلط ومطر ثلجي</string>
+    <string name="snow_sleet">ثلج مختلط ومطر ثلجي</string>
+    <string name="freezing_drizzle">رذاذ متجمد</string>
+    <string name="drizzle">رذاذ</string>
+    <string name="freezing_rain">" مطر متجمد"</string>
+    <string name="showers">رخات مطر</string>
+    <string name="snow_flurries">هبات ثلجية</string>
+    <string name="small_snow_flurries">رخات ثلجية خفيفة</string>
+    <string name="blowing_snow">ثلج عاصف</string>
+    <string name="snow">ثلج</string>
+    <string name="hail">" تمطر برداُ"</string>
+    <string name="sleet">مطر ثلجي</string>
+    <string name="dust">غبار</string>
+    <string name="foggy">ضبابي</string>
+    <string name="haze">سديم</string>
+    <string name="smoky">مدخّن</string>
+    <string name="blustery">متهيج</string>
+    <string name="windy">عاصف</string>
+    <string name="cold">بارد</string>
+    <string name="cloudy">غائم</string>
+    <string name="mostly_cloudy_night">غائم في الغالب (ليل)</string>
+    <string name="mostly_cloudy_day">غائم في الغالب (نهار)</string>
+    <string name="partly_cloudy_night">غائم جزئيا (ليل)</string>
+    <string name="partly_cloudy_day">غائم جزئيا (نهار)</string>
+    <string name="clear_night">صافي (ليل)</string>
+    <string name="sunny">مشمس</string>
+    <string name="fair_night">معتدل (ليل)</string>
+    <string name="fair_day">معتدل (نهار)</string>
+    <string name="rain_hail">مطر وبرد مختلط</string>
+    <string name="hot">حار</string>
+    <string name="isolated_thunderstorms">عواصف رعديّة معزولة</string>
+    <string name="scattered_thunderstorms">عواصف رعديّة متفرّقة</string>
+    <string name="scattered_showers">رخات مطر متفرّقة</string>
+    <string name="heavy_snow">ثلوج كثيفة</string>
+    <string name="not_available">غير متوفر</string>
+    <string name="isolated_thundershowers">رخات رعدية معزولة</string>
+    <string name="snow_showers">رخات ثلجية</string>
+    <string name="thundershowers">رخات رعدية</string>
+    <string name="partly_cloudy">غائم جزئيا</string>
+    <string name="scattered_snow_showers">رخات ثلجية متفرّقة</string>
+    <string name="qrcode_processing">جار المعالجة…</string>
+    <string name="qrcode_scan">"المسح الضوئي لرمز الاستجابة السريعة QR "</string>
+    <string name="qrcode_return">عودة</string>
+    <string name="qrcode_not_find">لم يتم العثور على رمز الاستجابة السريعة QR</string>
+    <string name="qrcode_result">النتيجة</string>
+    <string name="qrcode_album">الألبوم</string>
+    <string name="qrcode_dispose">جار المعالجة…</string>
+    <string name="qrcode_failure">فشل المسح الضوئي</string>
+    <string name="qrcode_type_text">النص</string>
+    <string name="qrcode_search">البحث</string>
+    <string name="qrcode_copy">نسخ</string>
+    <string name="qrcode_choose_pic">اختر صورة رمز الاستجابة السريعة QR</string>
+    <string name="website_qrcode">رمز الاستجابة السريعة QR</string>
+    <string name="from_vc_browser">من المتصفح القطبي</string>
+    <string name="qrcode_frame">محاذاة رمز الاستجابة السريعة QR داخل الإطار لمسح</string>
+    <string name="qrcode_describe">محاذاة رمز الاستجابة السريعة QR داخل الإطار لمسح</string>
+    <string name="no_flash_found">لم يتم العثور على مصباح يدوي</string>
+    <string name="webpage_not_available">صفحة الويب غير متاحة</string>
+    <string name="refresh">تحديث</string>
+    <string name="no_internet_connection">لا يوجد اتصال بالإنترنت</string>
+    <string name="visited_add_home">أضف إلى سرعة الطلب</string>
+    <string name="visited_all_clear">هل تريد مسح السجلات؟</string>
+    <string name="visited_already_clear_tip">لقد تمت مسح سجلات الأكثر زيارة.</string>
+    <string name="visited_clear">مسح السجلات</string>
+    <string name="visited_close">إيقاف التشغيل</string>
+    <string name="visited_setting_tip">تم إيقاف تشغيل \"الأكثر زيارة\". يمكنك تشغيلها في الإعدادات.</string>
+    <string name="visited_card_title">الأكثر زيارة</string>
+    <string name="logo_on_homepage">شعار على الصفحة الرئيسية</string>
+    <string name="browser_settings">اعدادات المتصفح</string>
+    <string name="tag">علامه</string>
+    <string name="systemnews_app_title"></string>
+    <string name="sync_only_in_wifi">اجراء المزامنه عند الاتصال بالواي فاي فقط</string>
+    <string name="account_management">ادارة الحساب</string>
+    <string name="avatar">الصورة الرمزية</string>
+    <string name="nickname">لقب/ اسم مستعار</string>
+    <string name="change_nickname">تغير اللقب</string>
+    <string name="letters_limit">4-20 حرف</string>
+    <string name="input_again">"خطأ "</string>
+    <string name="gender">جنس</string>
+    <string name="male">ذكر</string>
+    <string name="female">انثي</string>
+    <string name="secret">سر</string>
+    <string name="date_of_birth">تاريخ الميلاد</string>
+    <string name="please_chosse">اختر</string>
+</resources>

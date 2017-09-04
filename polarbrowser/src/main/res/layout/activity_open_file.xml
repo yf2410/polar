@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/root"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#e8eaf0">
+
+    <com.polar.browser.common.ui.CommonTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/file_opening"/>
+
+    <ListView
+        android:id="@+id/lv_decompress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_bar"
+        android:background="@color/common_bg_color_5"/>
+
+    <com.polar.browser.download.ZoomImageView
+        android:id="@+id/zoom_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:visibility="gone">
+    </com.polar.browser.download.ZoomImageView>
+
+</RelativeLayout>

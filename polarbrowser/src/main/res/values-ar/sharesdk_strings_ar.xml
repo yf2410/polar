@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook">الفيسبوك</string>
+    <string name="twitter">تويتر</string>
+    <string name="whatsapp">واتس اب</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="shortmessage">مِرْسال</string>
+    <!-- share -->
+    <string name="share">شارك</string>
+    <string name="share_download_url">مشاركة الرابط على</string>
+    <string name="share_fail">فشل</string>
+    <string name="share_success">النجاح</string>
+    <string name="share_cancel">إلغاء</string>
+    <string name="copy_link">نسخ الرابط</string>
+    <string name="copy_success">النجاح</string>
+    <string name="share_from">من متصفح Polar</string>
+    <string name="share_title">اقتراح متصفح صغير ومثير للإهتمام</string>
+    <string name="share_title_url">http://vcapp.me</string>
+    <string name="share_content">#Polar Browser# صغير وسريع، تجربة ممتازة. مُوْصىً بِه!</string>
+    <string name="share_introduction_url">http://www.vcapp.cn/introduction.html</string>
+    <string name="share_img">مشاركة الصورة:</string>
+    <string name="share_link">مشاركة الرابط:</string>
+    <string name="share_system">المزيد</string>
+    <string name="share_video_prefix">تعالوا وشاهدوا هذا الفيديو</string>
+</resources>

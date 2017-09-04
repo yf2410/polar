@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/root_item"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:background="@drawable/common_list_row1">
+
+    <com.polar.browser.common.ui.CommonCheckBox1
+        android:id="@+id/check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:checked="false"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_toRightOf="@id/check_box"
+        android:src="@drawable/icon_default"/>
+
+    <TextView
+        android:id="@+id/tv_file_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@+id/tv_file_size"
+        android:layout_toRightOf="@id/iv_icon"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:text="file_name"
+        android:textColor="@color/black87"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tv_file_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:text="file_size"
+        android:textColor="@color/black54"
+        android:textSize="12sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_divider_width"
+        android:layout_alignParentBottom="true"
+        android:background="#ccc"/>
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="email">Email</string>
+    <string name="shortmessage">Messager</string>
+    <!-- share -->
+    <string name="share">Compartilhar</string>
+    <string name="share_download_url">Compartilhar o link no</string>
+    <string name="share_fail">Compartilhar falhou</string>
+    <string name="share_success">Compartilhar com Sucesso</string>
+    <string name="share_cancel">Compartilhar cancelado</string>
+    <string name="copy_link">Copiar Link</string>
+    <string name="copy_success">Copiar com sucesso</string>
+    <string name="share_from">De Polar Browser</string>
+    <string name="share_title">Sugerir um navegador interessante e compacto</string>
+    <string name="share_title_url">http://vcapp.me</string>
+    <string name="share_content">#Polar Browser# Leve e rápido, excelente experiência. Recomendado!</string>
+    <string name="share_introduction_url">http://www.vcapp.cn/introduction.html</string>
+    <string name="share_img">Compartilhar fotos:</string>
+    <string name="share_link">Compartilhar link:</string>
+    <string name="share_system">Mais</string>
+    <string name="share_video_prefix">Venha assistir a este vídeo</string>
+</resources>

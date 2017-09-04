@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.polar.browser.common.ui.CommonCheckBox1
+        android:id="@+id/check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="-20dp"
+        android:layout_marginRight="-20dp"
+        android:checked="false"
+        android:visibility="gone"/>
+
+
+    <LinearLayout
+        android:id="@+id/image_icon_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/check_box"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_top_line"/>
+
+        <ImageView
+            android:layout_marginTop="-1dp"
+            android:id="@+id/image_icon"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitXY"/>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/image_right_arrow"
+        android:layout_width="6dp"
+        android:layout_height="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/side_arrow_right"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_toLeftOf="@id/image_right_arrow"
+        android:layout_toRightOf="@id/image_icon_layout"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/image_dir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/image_icon_layout"
+            android:ellipsize="middle"
+            android:singleLine="true"
+            android:textColor="#333333"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/image_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_dir"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/image_icon_layout"
+            android:textColor="#999999"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+</merge>

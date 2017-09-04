@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="email">Email</string>
+    <string name="shortmessage">Message</string>
+    <!-- share -->
+    <string name="share">Share</string>
+    <string name="share_download_url">Share the link to</string>
+    <string name="share_fail">Fail</string>
+    <string name="share_success">Success</string>
+    <string name="share_cancel">Cancel</string>
+    <string name="copy_link">Copy Link</string>
+    <string name="copy_success">Success</string>
+    <string name="share_from">From Polar Browser</string>
+    <string name="share_title">Sugest a small and interestin browser</string>
+    <string name="share_title_url">http://vcapp.me</string>
+    <string name="share_content">#Polar Browser# Small and fast, excellent experience. Recommended!</string>
+    <string name="share_introduction_url">http://www.vcapp.cn/introduction.html</string>
+    <string name="share_img">Share image:</string>
+    <string name="share_link">Share link:</string>
+    <string name="share_system">More</string>
+    <string name="share_video_prefix">Come and watch this video</string>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/addfav_menu_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0000">
+
+    <View
+        android:id="@+id/addfav_menu_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7333"
+        android:orientation="vertical">
+    </View>
+
+    <LinearLayout
+        android:id="@+id/addfav_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp">
+
+            <ImageView
+                android:id="@+id/btn_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="14dp"
+                android:layout_marginRight="-2dp"
+                android:src="@drawable/btn_pen_selector"/>
+
+            <TextView
+                android:id="@+id/addfav_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_toLeftOf="@id/btn_edit"
+                android:ellipsize="end"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="@string/app_name"
+                android:textColor="@color/common_font_color_11"
+                android:textSize="14sp"/>
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/addfav_menu_line"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@color/common_dlg_bar_divider"/>
+
+        <LinearLayout
+            android:id="@+id/addfav_menu_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="33dp"
+            android:layout_marginTop="21dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btn_add_fav"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawablePadding="11dp"
+                android:layout_weight="1"
+                android:baselineAligned="false"
+                android:drawableTop="@drawable/add_fav"
+                android:gravity="center"
+                android:text="@string/menu_item_add_to_bookmark"
+                android:textColor="@color/common_font_color_12"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/btn_add_logo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawablePadding="11dp"
+                android:layout_weight="1"
+                android:baselineAligned="false"
+                android:drawableTop="@drawable/add_logo"
+                android:gravity="center"
+                android:text="@string/menu_add_logo"
+                android:textColor="@color/common_font_color_12"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/btn_add_shortcut"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:drawablePadding="11dp"
+                android:layout_weight="1"
+                android:baselineAligned="false"
+                android:drawableTop="@drawable/add_shortcut"
+                android:gravity="center"
+                android:text="@string/menu_add_shortcut"
+                android:textColor="@color/common_font_color_12"
+                android:textSize="14sp"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_add_save"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="@drawable/green_btn_selector"
+            android:gravity="center"
+            android:layout_margin="8dp"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:text="@string/save"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</RelativeLayout>

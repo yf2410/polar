@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_bottom_bar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/download_dialog_btn_height"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_cancel"
+        style="@style/DownLoadDialog_cancel_btn"
+        android:gravity="center"
+        android:text="@string/cancel" />
+
+    <View style="@style/DownLoadDialog_vertical_Ivline" />
+
+    <TextView
+        android:id="@+id/tv_add"
+        style="@style/DownLoadDialog_OK_btn"
+        android:gravity="center"
+        android:text="@string/edit_logo_to_add" />
+
+
+</LinearLayout>

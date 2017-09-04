@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/menu_bg"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:divider="@drawable/long_click_menu_divider"
+              android:showDividers="middle"
+              android:background="@drawable/menu_toolbar_top_white_bg"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/item_view_img_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_toolbar_top_more_selector"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_view_img"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:text="@string/menu_item_view_img"
+            android:textColor="@color/sys_news"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_download_img_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_toolbar_top_more_selector"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_download_img"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:text="@string/menu_item_download_img"
+            android:textColor="@color/sys_news"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_share_img_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_toolbar_top_more_selector"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/item_share_img"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:text="@string/menu_item_share_img"
+            android:textColor="@color/sys_news"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

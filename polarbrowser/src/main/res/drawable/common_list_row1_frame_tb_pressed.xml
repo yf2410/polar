@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 连框颜色值 -->
+    <item>
+        <shape>
+            <solid android:color="@color/common_grey_color1"/>
+        </shape>
+    </item>
+    <!-- 主体背景颜色值 -->
+    <item
+        android:bottom="@dimen/common_divider_width"
+        android:top="@dimen/common_divider_width">
+        <shape>
+            <solid android:color="@color/common_grey_color1"/>
+        </shape>
+    </item>
+
+</layer-list>

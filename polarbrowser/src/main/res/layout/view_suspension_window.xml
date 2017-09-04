@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_supension_window"
+    android:layout_width="wrap_content"
+    android:layout_height="51dp"
+    android:background="@drawable/suspension_window_bg"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_vertical"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="56dp"
+    >
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/suspension_window_margin"
+        android:src="@drawable/picture_icon"
+        android:layout_marginTop="2dp"
+       />
+
+    <TextView
+        android:id="@+id/tv_only_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/start_full_figure_mode"
+        android:textColor="@color/white"
+        android:textSize="@dimen/suspension_window_textsize"
+        android:layout_toRightOf="@id/pic"
+        android:singleLine="true"
+        android:ellipsize="end"
+        />
+
+    <View
+        android:layout_width="20dp"
+        android:layout_height="0dp"
+        android:layout_toRightOf="@id/tv_only_image"/>
+</RelativeLayout>

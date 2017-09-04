@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Polar Browser</string>
+    <string name="search_input_hint">Поисковый запрос или адрес сайта</string>
+
+    <string name="copy">Копировать</string>
+    <string name="album">Альбом</string>
+    <string name="home_page">Главная страница</string>
+    <string name="already_on_home_page">Уже на главной странице</string>
+    <string name="title">Название</string>
+    <string name="toast_tab_limited">Максимальное количество закладок</string>
+    <string name="network_connect_error">Ошибка соединения с сетью</string>
+    <string name="choose_file">Выберите файл</string>
+    <string name="play_video_error">Ошибка воспроизведения видео</string>
+    <string name="file_open_ing">Файл открывается...</string>
+    <string name="goback">Вернуться</string>
+
+    <!-- history/favorite -->
+    <string name="history">История</string>
+    <string name="today">Сегодня</string>
+    <string name="yesterday">Вчера</string>
+    <string name="earlier">Ранее</string>
+    <string name="favorite">Добавить в избранное</string>
+    <string name="add_bookmark_tips">Страница добавлена в закладки</string>
+    <string name="already_add_bookmark_tips">Уже существует</string>
+    <string name="delete_bookmark_tips">Закладка удалена</string>
+    <string name="history_search_record">История поиска</string>
+    <string name="no_history_search_record">Нет истории поиска</string>
+    <string name="no_history_visit_record">Нет истории посещения</string>
+
+
+    <!-- search -->
+    <string name="go">Войти</string>
+    <string name="search">поиск</string>
+    <string name="history_visit">История посещения</string>
+    <string name="history_search">История поиска</string>
+    <string name="edittext_empty_tip">Поисковый запрос или адрес сайта</string>
+
+    <!-- download -->
+    <string name="download">Скачать</string>
+    <string name="downloading">Загрузка</string>
+    <string name="download_finish">Загрузка завершена</string>
+    <string name="download_waite">Ожидание загрузки</string>
+    <string name="download_error">Ошибказагрузки</string>
+    <string name="download_pause">Загрузка приостановлена</string>
+    <string name="download_start">Загрузка началась</string>
+    <string name="download_manager">Менеджер загрузок</string>
+    <string name="disk_free_size">/Доступно %1$s</string>
+    <string name="disk_used_size">Занято %1$s</string>
+    <string name="download_task_already_exists">Задание на загрузку уже существует. Загрузить еще раз?？</string>
+    <string name="download_no_available_space">Недостаточно места для загрузки!</string>
+    <string name="net_changed_when_downloading">СетьWI-FI необнаружена, продолжить загрузку?</string>
+    <string name="file_can_not_open">Для открытия файла необходима соответствующая программа</string>
+    <string name="name">Название：</string>
+    <string name="size">Размер：</string>
+    <string name="size_unknown">Размер неизвестен</string>
+    <string name="empty_file_name">Незадано имя файла</string>
+    <string name="download_file_name_exists">Файл с таким названием уже существует</string>
+    <string name="click_to_see">Кликните для просмотра</string>
+    <string name="net_no_connect">Нет подключения к сети</string>
+    <string name="download_status_downloading">Идет загрузка</string>
+    <string name="download_status_waiting">Ожидание загрузки</string>
+    <string name="download_status_start">Загрузка началась</string>
+    <string name="download_status_start_nonetwork">Нет подключения к Интернету,Загрузка приостановлена</string>
+    <string name="download_status_pause">Загрузка приостановлена</string>
+    <string name="download_status_pauseing">Загрузка приостанавливается</string>
+    <string name="download_status_failure">Ошибка загрузки</string>
+    <string name="download_edit_name_hint">Имя файла</string>
+    <string name="download_set_path_default">Указан неверный путь, использован путь по умолчанию!</string>
+    <string name="extract_view_now">проверьте сейчас</string>
+    <!-- common -->
+    <string name="edit">Редактировать</string>
+    <string name="popup_edit">Редактировать</string>
+    <string name="complete">Завершить</string>
+    <string name="delete">Удалить</string>
+    <string name="delete_with_count">Удалить (%1$d)</string>
+    <string name="check_all">Bce</string>
+    <string name="check_all_cancel">Отменить</string>
+    <string name="delete_checked_task">Удалить выбранные задачи(%1$d)？</string>
+    <string name="delete_not_select">Выбрать удаляемые страницы</string>
+    <string name="never_remind">Больше не напоминать</string>
+    <string name="loading">Идет загрузка...</string>
+
+    <!-- dialog -->
+    <string name="ok">Готово</string>
+    <string name="cancel">Отменить</string>
+    <string name="tips">Напоминание</string>
+    <string name="tips_alert">Предупреждение</string>
+    <string name="update_tips">Обновить подсказки</string>
+    <string name="update_ok">Обновить сейчас</string>
+    <string name="update_cancel">Напомнить позже</string>
+    <string name="go_download">Перейти к скачиванию</string>
+    <string name="manually_update_ok">Попробовать</string>
+    <string name="manually_update_cancel">Отменить</string>
+    <string name="history_clean_content">Удалить выбранную историю?</string>
+    <string name="history_clean_visited">Удалить выбранную историю посещений?</string>
+    <string name="history_clean_searched">Удалить выбранную историю поиска?</string>
+    <string name="bookmark_delete_content">Удалить из избранного?</string>
+    <string name="delete_with_files">Удалить вместе с файлами</string>
+
+    <!-- play -->
+    <string name="play_cancel">Отменить воспроизведение</string>
+    <string name="play_continue">Продолжить воспроизведение</string>
+    <string name="play_network_gprs_tip">СетьWi-Fi необнаружена, продолжить использованием сотовой сети?</string>
+
+    <!-- menu -->
+    <string name="menu_add_favorite">Добавить В избранное</string>
+    <string name="menu_history">История</string>
+    <string name="menu_favorite">Закладки</string>
+    <string name="menu_download">Загрузки</string>
+    <string name="menu_nightmode">Ночной режим</string>
+    <string name="menu_setting">Настройки</string>
+    <string name="menu_no_imgmode">Не показывать изображения</string>
+    <string name="menu_web_mode">Режим PC</string>
+    <string name="menu_exit">Выход</string>
+
+    <!-- add & edit favorite -->
+    <string name="menu_add_shortcut">Рабочий стол телефона</string>
+    <string name="menu_add_logo">Ярлык</string>
+    <string name="add_to">Добавить адрес</string>
+    <string name="edit_url">Редактировать адрес</string>
+    <string name="add_shortcut_successful">Добавлено</string>
+    <string name="already_add_shortcut_successful">Ярлык уже существует</string>
+    <string name="add_shortcut_failed">Ваша модель телефона не поддерживает данную функцию!</string>
+    <string name="add_logo_empty_tip">Нет названия или адреса</string>
+    <string name="add_logo_checke_empty_tip">Выберите добавляемый путь</string>
+
+    <!-- setting -->
+    <string name="setting">Настройки</string>
+    <string name="setting_saved_account">Сохранить пароли</string>
+    <string name="setting_search_engine">Поисковая система</string>
+    <string name="version">Версия</string>
+    <string name="setting_font_size">Размер шрифта</string>
+    <string name="setting_font_size_min">Мелкий</string>
+    <string name="setting_font_size_mid">Средний</string>
+    <string name="setting_font_size_large">"Очень крупный "</string>
+    <string name="setting_sliding_type">Жест для перелистывания страниц</string>
+    <string name="setting_sliding_type_close">Закрыть</string>
+    <string name="setting_sliding_type_border">По краю экрана</string>
+    <string name="setting_sliding_type_fullscreen">>По всему экрану</string>
+    <string name="setting_sliding_type_tip">Вы можете выбрать разные жесты для перелистывания страниц!</string>
+    <string name="setting_editlogo_type_tip">Максимальное количество иконок на главной странице. Долгое нажатие для редактирования!</string>
+    <string name="setting_videodownload_type_tip">Вы хотите установить дополнение для загрузки видео с сайтов?</string>
+    <string name="setting_editlogo_type_ok">Готово</string>
+    <string name="setting_plug_center">Дополнения</string>
+    <string name="setting_save_tab">Сохранить вкладки при выходе</string>
+    <string name="setting_screen_lock">Блокировка поворота экрана</string>
+    <string name="setting_ad_block">Блокировка рекламы</string>
+    <string name="setting_full_screen">Полноэкранный режим</string>
+    <string name="setting_quick_search">Быстрый поиск</string>
+    <string name="setting_clear_data">Удалить личные данные</string>
+    <string name="setting_download_path">Путь по умолчанию</string>
+    <string name="setting_custom_ua">Логотип браузера（UA）</string>
+    <string name="setting_recover_setting">Восстановить настройки по умолчанию</string>
+    <string name="file_opening">Файл открывается</string>
+    <string name="recover_setting_content">Восстановить настройки по умолчанию?</string>
+    <string name="setting_clear_data_exit">Удалять данные сеанса при выходе</string>
+    <string name="setting_clear_default_success">Настройки по умолчанию удалены</string>
+    <string name="setting_clear_default_failed">Не удалось удалить настройки по умолчанию</string>
+    <string name="setting_default_failed">Не удалось установить настройки по умолчанию</string>
+    <string name="setting_default_self_tip">Хотите прекратить использовать Polar Browser в качестве браузера по умолчанию?</string>
+    <string name="setting_remember_username_and_password_tip">Хотите сохранить ваш пароль для \"%1$s\"？</string>
+    <string name="saved_account">Сохранить пароли</string>
+    <string name="file_child_count">Всего %1$d </string>
+    <string name="current_download_folder">Место хранения: %1$s</string>
+    <string name="download_folder_space">Осталось%1$s,всего%2$s</string>
+    <string name="download_folder_alert_19">В системах, начиная с Android 4.4 (включительно), файлы потребуется сохранить в определенных каталогах при использовании SD-карты. Загруженные файлы будут удалены при удалении браузера. Продолжить сохранение на SD-карту?</string>
+    <string name="download_folder_phone">Память телефона</string>
+    <string name="download_folder_sd">Карта памяти SD</string>
+    <string name="download_folder_sd_removed">Карта памяти извлечена</string>
+    <string name="download_folder_selected_sd">Карта памяти выбрана</string>
+
+    <!-- Менеджер модулей -->
+    <string name="module_manager">Менеджер модулей</string>
+    <string name="module_logos"> Ярлык</string>
+    <string name="module_news">Новости</string>
+    <string name="module_navigate"> Популярные адреса</string>
+    <string name="module_tools">Модуль инструментов</string>
+
+    <!-- set default browser -->
+    <string name="start_to_set">Модуль инструментов</string>
+    <string name="clear_default">Удалить</string>
+    <string name="clear_default_self">Удалить настройки по умолчанию</string>
+
+    <string name="clear_default_tip1">Шаг 1: Найдите средство запуска настроек по умолчанию</string>
+    <string name="clear_default_tip2">Шаг 2: Кликните на пункт меню «удалить настройки по умолчанию»</string>
+    <string name="clear_default_tip3">Шаг 3: Вернитесь и выполните следующий шаг</string>
+
+    <string name="clear_default_tip_self1"> Polar уже является браузером по умолчанию</string>
+
+    <string name="set_default_step1">Шаг 1: Выбрать «опцию по умолчанию»</string>
+    <string name="set_default_step2">Шаг 2: выберите Polar Browser</string>
+
+    <string name="set_default_2_step1">Шаг 1:Выбрать «опцию по умолчанию»</string>
+    <string name="set_default_2_step2">Шаг 2: выберите Polar Browser</string>
+
+    <!-- clear data -->
+    <string name="clear_cookie">Удалить Cookie</string>
+    <string name="clear_cache">Удалить</string>
+    <string name="clear_history">Удалить историю</string>
+    <string name="clear_download">далить историю загрузки</string>
+    <string name="clear_all">Удалить все</string>
+    <string name="clear_all_2">Удалить все</string>
+    <string name="clear_to_confirm">Готово%1$s?</string>
+    <string name="clear_browser_record">Удалить запись посещения</string>
+
+    <!-- about feedback -->
+    <string name="feedback">Обратная связь</string>
+    <string name="feedback_hi">Напишите нам сообщение</string>
+    <string name="feedback_contact">Контактная информация:</string>
+    <string name="feedback_contact_hint">Телефон/Email:</string>
+    <string name="feedback_cont_null">Заполните поле сообщения!</string>
+    <string name="feedback_ok">Информация отправлена!</string>
+    <string name="feedback_check_network"> Ошибка! Проверьте сетевое соединение!</string>
+    <string name="feedback_copy_ok">Добавлено в буфер обмена!</string>
+    <string name="feedback_send">Отправить</string>
+
+    <!-- exit dialog -->
+    <string name="exit_dialog_title">Выйти из Polar?</string>
+    <string name="exit_press_back_again">Нажмите еще раз, чтобы выйти</string>
+
+    <!-- context menu -->
+    <string name="menu_item_view_img">Просмотреть изображение</string>
+    <string name="menu_item_download_img">Сохранить изображение</string>
+    <string name="menu_item_share_img">Сохранить изображение</string>
+    <string name="menu_item_open_background">Открыть в фоновом режиме</string>
+    <string name="menu_item_open_new">Открыть в фоновом режиме</string>
+    <string name="menu_item_add_to_bookmark">Добавить в закладки</string>
+    <string name="menu_item_copy_link_text">Скопировать текст</string>
+    <string name="toast_opened_background">Ссылка открылась в фоновом режиме</string>
+    <string name="menu_item_savepage">Сохранить страницу</string>
+    <string name="menu_item_share"> Поделиться страницу</string>
+    <string name="menu_item_edit">Скриншот и граффити</string>
+    <string name="menu_item_add_bookmark">Добавить в избранное</string>
+    <string name="menu_item_cancel_bookmark">Отменить добавление в избранное</string>
+    <string name="edit_logo_title">Редактировать ярлык</string>
+
+    <!-- crash -->
+    <string name="app_crash_upload_tip">Извините, программа столкнулась с проблемой и будет закрыта, отправить информацию об ошибке авторам?</string>
+    <string name="app_crash_uploading">Загрузка...</string>
+
+    <!-- context menu -->
+    <string name="toast_copy_link_text">Текст скопирован</string>
+
+    <!-- http auth -->
+    <string name="auth_request_username">Имя пользователя</string>
+    <string name="auth_request_password">Имя пользователя</string>
+    <string name="auth_request_login">Имя пользователя：</string>
+
+    <!-- custom ua -->
+    <string name="custom_ua_input_hint">Введите настройки пользователя UA</string>
+    <string name="custom_ua_title">Пользовательский логотип браузера（UA）</string>
+    <string name="custom_ua_default">Смартфон с системой Android</string>
+    <string name="custom_ua_pc">PC</string>
+    <string name="custom_ua_ios">iPhone</string>
+    <string name="custom_ua_custom">Пользовательские настройки</string>
+
+    <!-- add url -->
+    <string name="url_add">Добавить</string>
+    <string name="url_recommendation">Рекомендуемое</string>
+    <string name="url_classify">Сортировка</string>
+    <string name="url_custom">Пользовательские настройки</string>
+    <string name="website">Вебсайт</string>
+    <string name="edit_logo_max_tip">Удалите ненужные адреса и добавьте заново.</string>
+    <string name="edit_logo_to_add">Добавить</string>
+    <string name="edit_logo_custom_edit">Пользовательское редактирование</string>
+    <string name="edit_logo_custom_from_history">Добавить из истории</string>
+    <string name="edit_logo_custom_from_favorite">Добавить из закладок</string>
+    <string name="edit_logo_add_ok">Добавлено</string>
+    <string name="already_edit_logo_add_ok">Быстрый набор номера уже существует</string>
+    <string name="preview">Предварительный просмотр</string>
+    <string name="no_network_tip1">...Сеть не найдена...</string>
+    <string name="no_network_tip2">Не в состоянии связаться с миром</string>
+
+    <!-- import & export bookmark -->
+    <string name="import_bookmarks">Импорт закладок</string>
+    <string name="export_bookmarks">Экспорт закладок</string>
+    <string name="backup_bookmarks">Импорт/экспорт закладок</string>
+    <string name="export_bookmarks_success">Экспорт выполнен</string>
+    <string name="export_bookmarks_failed">Ошибка экспорта</string>
+    <string name="import_bookmarks_success">Импорт выполнен</string>
+    <string name="import_bookmarks_failed">Ошибка импорта</string>
+    <string name="bookmark_file">Файл</string>
+    <string name="import_bookmarks_tips">Импортировать%1$s или нет?</string>
+    <string name="bookmark_title">История/закладка</string>
+    <string name="add_bookmark_from_chrome">Из браузера Chrome</string>
+    <string name="add_bookmark_from_system">Из браузера Android</string>
+    <string name="add_bookmark_from_file">Из резервной копии</string>
+    <string name="add_bookmark_no_find_chrome">Браузер Chrome не найден</string>
+    <string name="add_bookmark_chrom_empty">В браузере Chrome нет закладок</string>
+    <string name="add_bookmark_system_empty">В браузере Android нет закладок</string>
+
+    <!-- crop and edit -->
+    <string name="save_or_share">Поделиться/сохранить</string>
+    <string name="share_screen_shot_to">Отправить скриншот:</string>
+    <string name="save_into_album">Сохранить в альбом</string>
+    <string name="saved">Сохранение завершено</string>
+    <string name="save">Сохранить</string>
+    <string name="exit">Выйти</string>
+    <string name="save_success">Успешно сохранено!</string>
+    <string name="title_exit_edit_crop">Выйти из режима редактирования?</string>
+    <string name="tip_exit_edit_crop">Файл не будет сохранен при выходе!</string>
+
+    <!-- Режим «инкогнито» -->
+    <string name="tip_privacy_on">Включить режим «инкогнито»</string>
+    <string name="tip_privacy_off">Включить режим «инкогнито»</string>
+
+    <!-- Сохранить веб-страницу -->
+    <string name="offline_web">Веб-страница оффлайн(%1$s)</string>
+    <string name="offline_web_title">>Веб-страница оффлайн</string>
+    <string name="offline_web_delete_content">Уверены ударить выбранную веб-страницу оффлайн?</string>
+    <string name="offline_web_saved">Уже сохранено в: загрузки-Файл-Веб-страница оффлайн</string>
+    <string name="offline_web_start_save">Сохранение...</string>
+    <string name="offline_web_empty"> Отсутствует файл из веб-страницы оффлайн</string>
+    <string name="cache_files_size">Размер буферной памяти：20MB</string>
+    <!-- Открыть файл -->
+    <string name="openfile_error">Невозможно открыть, файл перемещен или удалён! </string>
+    <string name="openfile_no_exist">Файл не существует!</string>
+    <string name="openfile_image_error">Картинка повреждена!</string>
+    <string name="openfile_decompress_error">Ошибка распаковки!</string>
+
+    <!--  Популярный сайт -->
+    <string name="navigate_title_video">Видео</string>
+    <string name="navigate_title_news"> Новости</string>
+    <string name="navigate_title_social">Соцсети</string>
+    <string name="navigate_title_games">Игра</string>
+    <string name="navigate_title_sports">Спорт</string>
+    <string name="navigate_title_music">Музыка</string>
+    <string name="navigate_title_shop">Покупки</string>
+    <string name="navigate_title_life">Жизнь</string>
+
+    <!-- Меню -->
+    <string name="image_mode_off_toast">Выключить режим без картинок</string>
+    <string name="image_mode_on_toast">Войти в режим без картинок</string>
+    <string name="web_mode_off_toast"> Выключить режим PC</string>
+    <string name="web_mode_on_toast">Войти в режим PC</string>
+    <string name="file_path">путь файла：</string>
+
+    <!-- 视频下载 -->
+    <string name="toolbar_download_video_tip">Нажмите здесь чтобы скачать видео!</string>
+    <string name="dialog_video_download_tag">Bидео</string>
+    <string name="dialog_video_download_tag_audio">Aудио</string>
+    <string name="dialog_video_download_resolution">Качество：</string>
+    <string name="dialog_video_download_format">Формат：</string>
+    <string name="dialog_video_download_parsing">Идет анализ данных, пожалуйста, подождите...</string>
+    <string name="dialog_video_download_parseerror">Не удалось выполнить анализ!</string>
+    <string name="dialog_video_download_add_task">Задача добавлена в список загрузок!</string>
+    <string name="dialog_video_download_no_network">Невозможно подключиться к сети — ошибка анализа. Повторитепопытку!</string>
+    <string name="play_download_video_error">ОШИБКА: невозможно открыть!</string>
+
+    <!-- 插件中心 -->
+    <string name="plug_video_download">Загрузка видео</string>
+
+    <string name="dialog_ssl_title">Предупреждение безопасности</string>
+    <string name="dialog_ssl_content">Сертификат веб-сайта не был выдан доверенной организацией!</string>
+    <string name="dialog_ssl_continue_tips">Информация о сертификате ></string>
+    <string name="dialog_ssl_continue">Продолжить</string>
+
+    <string name="text_issued_to">Выдан</string>
+    <string name="text_issued_by">Орган, выдавший</string>
+    <string name="btn_ssl_close">Закрыть</string>
+    <string name="ssl_common_name">Стандартное имя:</string>
+    <string name="ssl_organization">Название организации:</string>
+    <string name="ssl_organization_unit">Название подразделения организации</string>
+    <string name="ssl_invalid">Неверный сертификат безопасности</string>
+    <string name="ssl_expired">Срок действия сертификата истек</string>
+    <string name="ssl_idmismatch">Несоответствие имени хоста</string>
+    <string name="ssl_date_invalid">Дата сертификата недействительна</string>
+    <string name="text_valid">Срок годности</string>
+    <string name="certificate_time">Действует с:</string>
+    <string name="valid_until">Годен до:</string>
+    <string name="notification">Уведомление</string>
+    <string name="notifications">Уведомления</string>
+    <string name="mark_as_read">Пометить как прочтённое</string>
+    <string name="menu_item_copy_link">Копировать ссылку</string>
+    <string name="toast_copy_link">Cсылку скопирован</string>
+    <string name="update_tip">Обновить</string>
+    <string name="update_download_tip">Обновление</string>
+    <string name="choose_upload" msgid="3649366287575002063">"Выберите файл для загрузки"</string>
+    <string name="popup_setting">Настройки</string>
+    <string name="setting_download_manager">Настройки загрузки</string>
+    <string name="setting_download_only_with_wifi">Загружайте только из сети Wi-Fi</string>
+    <string name="setting_check_update">Проверить наличие обновлений</string>
+    <string name="check_update_tip">Вы сможете скачать приложение только после установки Google Play.</string>
+    <string name="plug_install_tip">Установка завершена. Откройте приложение.</string>
+    <string name="permission_dialog_title">Чтобы использовать приложение, вам необходимо предоставить разрешения для доступа к:</string>
+    <string name="permission_storage">памяти</string>
+    <string name="permission_location">определению месторасположения</string>
+    <string name="permission_dialog_description">Пожалуйста, нажмите на \"Настройки\" ниже и включите \"Разрешение\"</string>
+
+    <!-- 页内查找-->
+    <string name="menu_item_search">Найти на странице</string>
+    <string name="search_page_tip">Найти на странице</string>
+    <string name="setting_card_modle_news">Новости</string>
+    <string name="setting_card_modle_manage">Управление картами домашней страницы</string>
+    <string name="card_modle_tip">Вы можете повторно включить карты в «Настройках»</string>
+    <string name="manage_cards_modle">Управление картами</string>
+
+    <string name="card_news_more">Еще</string>
+    <string name="card_news_next">Далее</string>
+    <string name="dialog_lanchanged_tip">Язык был изменен на русский. Перезапустите приложение для его дальнейшего использования.</string>
+    <string name="dialog_lanchanged_restart">Открыть повторно</string>
+    <string name="add_home_logo">%1$s добавлен на главную страницу!</string>
+    <string name="feed_back_failed">Ошибка отправки!</string>
+    <string name="feed_back_commit">Отправка…</string>
+    <string name="launcher_affiliate_name">Быстрый серфинг</string>
+    <string name="setting_product_about">Помогите</string>
+    <string name="plug_suggestion">Поиск по рекомендациям</string>
+    <string name="ssl_security_tip">Сертификат безопасности не является доверенным. Хотите продолжить?</string>
+    <string name="setting_about_website">Сайт</string>
+    <string name="setting_about_user_group">Присоединяйтесь к группе основных пользователей</string>
+    <string name="setting_about_good_evaluation">Оценка для нас</string>
+    <string name="setting_about_agreement">Соглашение с пользователем</string>
+    <string name="setting_about">О нас</string>
+    <string name="feedback_whatsapp_text">Свяжитесь с нашей службой поддержки, мгновенно получите ответ!</string>
+    <string name="setting_about_terms">Политика конфиденциальности</string>
+    <string name="setting_price_comparison">Сравнение цен</string>
+
+
+
+    <!-- 文件分类-->
+    <string name="file_classify_image">Изображение</string>
+    <string name="file_classify_document"> Документы</string>
+    <!--<string name="file_classify_zip_file">Сжатые файлы</string>-->
+    <!--<string name="file_classify_apk"> Установочный пакет</string>-->
+    <string name="file_classify_other"> Прочее</string>
+
+     
+    <string name="download_apk_installed">Установлено</string>
+     
+    <string name="download_apk_not_installed">Удалено</string>
+
+    <string name="file_image_count">%1$d 张</string>
+     
+    <string name="file_delete_hint"> Удалить выбранные файлы</string>
+     
+    <string name="menu_more_set_wallpaper">Установить как обои</string>
+     
+    <string name="menu_set_successful">Успех</string>
+     
+    <string name="menu_set_failed">Ошибка</string>
+
+     
+    <string name="download_change_storage_location">Переместить в</string>
+    <string name="download_file_path">Сохранить адрес</string>
+    <string name="download_file_property">Файловый атрибут</string>
+    <string name="download_file_size">Размер документа</string>
+    <string name="download_file_url">Загрузить адрес</string>
+    <string name="download_rename">Переименовать</string>
+    <string name="download_redownload">Загрузить повторно</string>
+    <string name="download_support_point">Возобновить прерванную загрузку</string>
+    <string name="support">Поддерживаемый</string>
+    <string name="not_support">Неподдерживаемый</string>
+    <string name="download_share_from">Из Polar Browser</string>
+    <string name="download_detail">Подробности</string>
+    <string name="file_date_added">Время</string>
+    <string name="download_with_godownloader_tip"><u>На 300% быстрее</u></string>
+    <string name="extract">Извлечь</string>
+    <string name="submenu_file_others_decompression">Извлечено</string>
+    <string name="download_url_error">Эта ссылка больше не работает.</string>
+    <string name="video_screen_locked">Экран заблокирован</string>
+    <string name="video_screen_unlocked">Экран разблокирован</string>
+    <string name="start_full_figure">Активировать</string>
+    <string name="start_full_figure_mode">Вы хотите отключить режим Изображений?</string>
+    <string name="unusable_full_figure_mode">Режим изображений недоступен</string>
+
+    <string name="share_edit_image">Редактировать и рисовать</string>
+    <string name="picture_saved">"Изображение сохранено "</string>
+    <!-- 广告拦截设置-->
+    <string name="ad_block_save_traffic">Сохранено данных: &lt;font&gt;&lt;big&gt;&lt;big&gt;%1$s&lt;/big&gt;&lt;/big&gt;&lt;/font&gt;</string>
+    <string name="setting_ad_block_tips">Напоминание о блокировке рекламы</string>
+    <string name="setting_ad_block_count">Заблокировано рекламных сообщений: %1$d</string>
+    <string name="ad_block_count_format">>Заблокировано рекламных сообщений: &lt;font&gt;&lt;big&gt;&lt;big&gt;%1$d&lt;/big&gt;&lt;/big&gt;&lt;/font&gt;</string>
+    <string name="ad_block_save_time">Ускорить:%1$ss</string>
+    <string name="ad_block_num_100">Было заблокировано более 100 рекламных сообщений</string>
+    <string name="ad_block_share_content">Polar Browser заблокировал %1$d рекламных сообщений</string>
+    <string name="vc_domain">http://www.vcbrowser.com/</string>
+
+    <string name="activity_notify_news">Новостное уведомление</string>
+    <string name="activity_notify_system">Системное уведомление</string>
+
+    <string name="new_function_tip">Напоминание о новых функциях</string>
+    <string name="next_time">Позднее</string>
+    <string name="fb_notify_notice_tip">У вас есть новые уведомления.</string>
+    <string name="fb_notify_push_tip">Активирует push-уведомления, позволяет входить через Facebook в Polar Browser и получать мгновенные сообщения</string>
+    <string name="fb_notify_request_tip">У вас есть новые запросы на добавление в друзья.</string>
+    <string name="fb_notify_msg_tip">У вас есть новые сообщения.</string>
+    <string name="str_fb_notify_mag">У вас 1 сообщение</string>
+    <string name="account_edit_avatar">Изменить аватар</string>
+    <string name="account_login">Вход</string>
+    <string name="account_login_phone_num">Номер телефона</string>
+    <string name="account_login_success">Успешный вход</string>
+    <string name="account_logout">Выход</string>
+    <string name="account_save_avatar">Руководство</string>
+    <string name="account_welcome_to_polar">Добро пожаловать в Polar Browser</string>
+    <string name="account_login_sync_bookmarks">Синхронизация закладок...</string>
+    <string name="account_login_fail">Не удалось войти</string>
+    <string name="sync_bookmark_last_time">Последнее время синхронизации %1$s</string>
+    <string name="sync_bookmark">"Синхронизация Cloud "</string>
+    <string name="sync_bookmark_success">Синхронизация прошла успешно</string>
+    <string name="sync_bookmark_failed">"Синхронизация не удалась, попробуйте снова. "</string>
+    <string name="account_save_avatar_success">Успешно сохранено</string>
+    <string name="account_login_user_center">Центр пользователей</string>
+    <string name="download_page_save">"Изображение сохранено "</string>
+    <string name="incognito_mode">Режим инкогнито</string>
+    <string name="setting_set_default_browser">Установите Polar Browser в качестве браузера по умолчанию</string>
+    <string name="home_logo_more">Руководство</string>
+    <string name="account_logging_tip">Вход в систему...</string>
+    <string name="account_save_avatar_fail">Не удалось сохранить</string>
+    <string name="setting_font_size_big">Крупный</string>
+    <string name="no_weather">Нет данных о погоде</string>
+    <string name="no_locate">Не удалось определить местоположение</string>
+    <string name="location">Местоположение</string>
+    <string name="current_location">Текущее местоположение</string>
+    <string name="search_location">Введите и выберите свое местоположение</string>
+    <string name="allow_polar_location">Разрешить Polar получать данные о вашем местоположении</string>
+    <string name="unavailable">Недоступно</string>
+    <string name="searching">Поиск...</string>
+    <string name="no_result">Нет результатов.</string>
+    <string name="tornado">торнадо</string>
+    <string name="tropical_storm">тропический шторм</string>
+    <string name="hurricane">ураган</string>
+    <string name="severe_thunderstorms">сильные грозы</string>
+    <string name="thunderstorms">грозы</string>
+    <string name="rain_snow">снег с дождем</string>
+    <string name="rain_sleet">дождь и слякоть mixed rain and sleet</string>
+    <string name="snow_sleet">дождь со снегом</string>
+    <string name="freezing_drizzle">гололед</string>
+    <string name="drizzle">изморось</string>
+    <string name="freezing_rain">дождь с образованием гололеда</string>
+    <string name="showers">ливни</string>
+    <string name="snow_flurries">небольшой небольшой снегопад</string>
+    <string name="small_snow_flurries">умеренный снегопад</string>
+    <string name="blowing_snow">метель</string>
+    <string name="snow">снег</string>
+    <string name="hail">град</string>
+    <string name="sleet">снег с дождем</string>
+    <string name="dust">пыль</string>
+    <string name="foggy">туман</string>
+    <string name="haze">небольшой туман</string>
+    <string name="smoky">дым</string>
+    <string name="blustery">порывистый ветер</string>
+    <string name="windy">ветренно</string>
+    <string name="cold">холодно</string>
+    <string name="cloudy">облачно</string>
+    <string name="mostly_cloudy_night">преимущественная облачность (ночью)</string>
+    <string name="mostly_cloudy_day">преимущественная облачность (днем)</string>
+    <string name="partly_cloudy_night">переменная облачность (ночью)</string>
+    <string name="partly_cloudy_day">переменная облачность (днем)</string>
+    <string name="clear_night">без осадков (ночью)</string>
+    <string name="sunny">солнечно</string>
+    <string name="fair_night">ясно (ночью)</string>
+    <string name="facebook_notification"></string>
+    <string name="fair_day">ясно (днем)</string>
+    <string name="rain_hail">дожди с градом</string>
+    <string name="hot">жарко</string>
+    <string name="isolated_thunderstorms">местами грозы</string>
+    <string name="scattered_thunderstorms">в отдельных районах грозы</string>
+    <string name="scattered_showers">в отдельных районах ливни</string>
+    <string name="heavy_snow">сильный снегопад</string>
+    <string name="not_available">недоступно</string>
+    <string name="isolated_thundershowers">местами грозы</string>
+    <string name="snow_showers">снегопады</string>
+    <string name="thundershowers">грозы</string>
+    <string name="partly_cloudy">переменная облачность</string>
+    <string name="scattered_snow_showers">местами обильные снегопады</string>
+    <string name="qrcode_processing">Обрабатывается...</string>
+    <string name="qrcode_scan">Сканировать QR-код</string>
+    <string name="qrcode_return">Назад</string>
+    <string name="qrcode_not_find">ไม่พบรหัส QR</string>
+    <string name="qrcode_result">Результат</string>
+    <string name="qrcode_album">Альбом</string>
+    <string name="qrcode_dispose">Обрабатывается...</string>
+    <string name="qrcode_failure">Сбой сканирования</string>
+    <string name="qrcode_type_text">Текст</string>
+    <string name="qrcode_search">Поиск</string>
+    <string name="qrcode_copy">Копировать</string>
+    <string name="qrcode_choose_pic">Выбрать изображение QR-кода</string>
+    <string name="website_qrcode">QR-код</string>
+    <string name="from_vc_browser">Из браузера Polar</string>
+    <string name="qrcode_frame">Для сканирования совместите QR-код с рамкой</string>
+    <string name="qrcode_describe">Для сканирования совместите QR-код с рамкой</string>
+    <string name="no_flash_found">Не найдено фонарика</string>
+    <string name="webpage_not_available">Веб-страница недоступна</string>
+    <string name="refresh">Обновить</string>
+    <string name="no_internet_connection">Нет подключения к Интернету</string>
+    <string name="logo_on_homepage">Логотип на домашней странице</string>
+    <string name="browser_settings">Настройки браузера</string>
+    <string name="tag">Ярлык</string>
+    <string name="sync_only_in_wifi">Синхронизация только по Wi-Fi</string>
+    <string name="account_management">Управление аккаунтом</string>
+    <string name="avatar">Аватар</string>
+    <string name="nickname">Ник</string>
+    <string name="change_nickname">Изменить ник</string>
+    <string name="letters_limit">4-20 букв</string>
+    <string name="input_again">Ошибка, введите повторно</string>
+    <string name="gender">Пол</string>
+    <string name="male">Мужчина</string>
+    <string name="female">Женщина</string>
+    <string name="secret">Секрет</string>
+    <string name="date_of_birth">Дата рождения</string>
+    <string name="please_chosse">Выберите</string>
+</resources>

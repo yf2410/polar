@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/ll_btns"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/left_layout"
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="visible">
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/middle_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/www"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/keyboard_bg_selector"
+                android:gravity="center"
+                android:paddingBottom="9dp"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:paddingTop="9dp"
+                android:text="www."
+                android:textSize="17sp"/>
+
+            <View
+                android:id="@+id/qi_line1"
+                android:layout_width="0.5dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/common_grey_color2"/>
+
+            <TextView
+                android:id="@+id/slash"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/keyboard_bg_selector"
+                android:gravity="center"
+                android:paddingBottom="9dp"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:paddingTop="9dp"
+                android:text="/"
+                android:textSize="17sp"/>
+
+            <View
+                android:id="@+id/qi_line4"
+                android:layout_width="0.5dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/common_grey_color2"/>
+
+            <TextView
+                android:id="@+id/com"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/keyboard_bg_selector"
+                android:gravity="center"
+                android:paddingBottom="9dp"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:paddingTop="9dp"
+                android:text=".com"
+                android:textSize="17sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/right_layout"
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="visible">
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/qi_line5"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/common_grey_color2"/>
+
+    <View
+        android:id="@+id/touch_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</merge>

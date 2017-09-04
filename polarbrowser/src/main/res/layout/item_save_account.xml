@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/setting_line_height"
+                android:background="@drawable/common_list_row1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+    <com.polar.browser.common.ui.CommonCheckBox1
+        android:id="@+id/common_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/setting_line_height"
+        android:layout_toRightOf="@id/common_check"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/host"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="host"
+            android:textColor="#555"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="account"
+            android:textColor="@color/setting_second_name"
+            android:textSize="13sp"/>
+    </LinearLayout>
+
+</RelativeLayout>

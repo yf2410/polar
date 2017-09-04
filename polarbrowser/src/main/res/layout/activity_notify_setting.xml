@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:sb="http://schemas.android.com/apk/res/com.polar.browser"
+                android:id="@+id/root_setting"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/day_setting_session_line_bg">
+
+    <com.polar.browser.common.ui.CommonTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notification"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_bar"
+        android:orientation="vertical">
+
+        <View
+            style="@style/space_SettingActivityItem"/>
+
+        <View
+            style="@style/line_SettingActivityItem"/>
+
+        <!-- 新闻通知 -->
+        <RelativeLayout
+            android:id="@+id/line_notify_news"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_line_height"
+            android:background="@drawable/common_list_row1">
+
+            <TextView
+                android:id="@+id/tv_notify_news"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/activity_notify_news"
+                android:textColor="#555"
+                android:textSize="15sp"/>
+
+            <com.polar.browser.view.switchbutton.SwitchButton
+                android:id="@+id/sb_notify_news"
+                style="@style/SwitchButtonStyle"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                sb:offColor="@color/day_sb_off_color"
+                sb:onColor="@color/day_sb_on_color"
+                sb:thumbColor="@color/day_sb_thumb_color"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_dlg_bar_divider"/>
+
+        <!-- 系统通知 -->
+        <RelativeLayout
+            android:id="@+id/line_notify_system"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_line_height"
+            android:background="@drawable/common_list_row1">
+
+            <TextView
+                android:id="@+id/tv_notify_system"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/activity_notify_system"
+                android:textColor="#555"
+                android:textSize="15sp"/>
+
+            <com.polar.browser.view.switchbutton.SwitchButton
+                android:id="@+id/sb_notify_system"
+                style="@style/SwitchButtonStyle"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                sb:offColor="@color/day_sb_off_color"
+                sb:onColor="@color/day_sb_on_color"
+                sb:thumbColor="@color/day_sb_thumb_color"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_dlg_bar_divider"/>
+
+        <!-- Facebook通知 -->
+        <RelativeLayout
+            android:id="@+id/line_notify_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_line_height"
+            android:background="@drawable/common_list_row1">
+
+            <TextView
+                android:id="@+id/tv_notify_facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/facebook_notification"
+                android:textColor="#555"
+                android:textSize="15sp"/>
+
+            <com.polar.browser.view.switchbutton.SwitchButton
+                android:id="@+id/sb_notify_facebook"
+                style="@style/SwitchButtonStyle"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                sb:offColor="@color/day_sb_off_color"
+                sb:onColor="@color/day_sb_on_color"
+                sb:thumbColor="@color/day_sb_thumb_color"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_dlg_bar_divider"/>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/day_setting_session_line_bg">
+
+    <com.polar.browser.common.ui.CommonTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_download_path" />
+
+    <View
+        android:id="@+id/line_view"
+        style="@style/line_SettingActivityItem"
+        android:layout_below="@id/title_bar" />
+
+    <TextView
+        android:id="@+id/tv_current_folder"
+        style="@style/tv_ActivityTitle"
+        android:layout_below="@id/line_view" />
+
+    <View
+        android:id="@+id/top_line"
+        style="@style/line_SettingActivityItem"
+        android:layout_below="@id/tv_current_folder" />
+
+    <ListView
+        android:id="@+id/lv_folders"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rl_confirm"
+        android:layout_below="@id/top_line" />
+
+    <RelativeLayout
+        android:id="@+id/rl_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/whitebg">
+
+        <View style="@style/line_SettingActivityItem" />
+
+        <TextView
+            android:id="@+id/btn_confirm"
+            android:layout_width="336dp"
+            android:layout_height="38dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/export_bookmark_btn_selector"
+            android:gravity="center"
+            android:text="@string/ok"
+            android:textColor="@color/color_box_item_1"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

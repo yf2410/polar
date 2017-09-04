@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/day_setting_session_line_bg"
+    android:orientation="vertical">
+
+    <com.polar.browser.common.ui.CommonTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/account_management" />
+
+    <View style="@style/space_SettingActivityItem" />
+
+    <ScrollView
+        android:id="@+id/setting_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <!-- 头像 -->
+            <RelativeLayout
+                android:id="@+id/avatar"
+                style="@style/SettingActivityItem">
+
+                <TextView
+                    android:id="@+id/tv_avatar"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/avatar" />
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/iv_avatar_set"-->
+                    <!--style="@style/Iv_SettingActivityItem" />-->
+
+                <com.polar.browser.view.clipview.view.CircleImageView
+                    android:id="@+id/iv_login_user_avatar"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="30dp"
+                    android:src="@drawable/menu_default_head" />
+            </RelativeLayout>
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <!-- 昵称 -->
+
+            <RelativeLayout
+                android:id="@+id/nickname"
+                style="@style/SettingActivityItem">
+
+                <TextView
+                    android:id="@+id/tv_nickname"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/nickname" />
+
+                <ImageView
+                    android:id="@+id/iv_nickname_set"
+                    style="@style/Iv_SettingActivityItem" />
+
+                <TextView
+                    android:id="@+id/tv_person_nickname"
+                    style="@style/account_management_tv"
+                    android:layout_toLeftOf="@id/iv_nickname_set"
+                    />
+            </RelativeLayout>
+
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <!-- 性别 -->
+
+            <RelativeLayout
+                android:id="@+id/gender"
+                style="@style/SettingActivityItem">
+
+                <TextView
+                    android:id="@+id/tv_gender"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/gender" />
+
+                <ImageView
+                    android:id="@+id/iv_gender_set"
+                    style="@style/Iv_SettingActivityItem" />
+
+                <TextView
+                    android:id="@+id/tv_person_gender"
+                    style="@style/account_management_tv"
+                    android:layout_toLeftOf="@id/iv_gender_set"
+                    android:text="@string/please_chosse"
+                    />
+            </RelativeLayout>
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <!-- 出生日期 -->
+
+            <RelativeLayout
+                android:id="@+id/date_of_birth"
+                style="@style/SettingActivityItem">
+
+                <TextView
+                    android:id="@+id/tv_birth"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/date_of_birth" />
+
+                <ImageView
+                    android:id="@+id/iv_birth_set"
+                    style="@style/Iv_SettingActivityItem" />
+
+                <TextView
+                    android:id="@+id/tv_person_brith"
+                    style="@style/account_management_tv"
+                    android:layout_toLeftOf="@id/iv_birth_set"
+                    android:text="2017-01-01"
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="80dp"
+        android:text="@string/account_logout"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_login_logout_selector"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+</LinearLayout>

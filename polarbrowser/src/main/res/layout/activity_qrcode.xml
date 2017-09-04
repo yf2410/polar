@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#36000000">
+
+    <SurfaceView
+        android:id="@+id/mo_scanner_preview_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <com.polar.business.zxing.view.ViewfinderView
+        android:id="@+id/mo_scanner_viewfinder_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent" />
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#b0000000"
+        android:padding="8dp" >
+
+        <ImageView
+            android:id="@+id/mo_scanner_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:padding="8dp"
+            android:src="@drawable/mo_scanner_back_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/qrcode_scan"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/mo_scanner_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="4dp"
+            android:padding="8dp"
+            android:text="@string/album"
+            android:textColor="@android:color/white"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/mo_scanner_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/rl_title"
+        android:layout_margin="28dp"
+        android:padding="8dp"
+        android:src="@drawable/mo_scanner_light_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="130dp"
+        android:text="@string/qrcode_describe"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/file_list_textsize_12" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <RelativeLayout
+            android:id="@+id/qr_top_logo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clipChildren="false" >
+
+            <LinearLayout
+                android:id="@+id/ll_qr_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:clipChildren="false"
+                android:orientation="horizontal" >
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="74.5dp"
+                    android:layout_weight="1"
+                    android:background="#313236" />
+
+                <ImageView
+                    android:id="@+id/iv_qr_top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-54.5dp"
+                    android:src="@drawable/qr_top_logo" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="74.5dp"
+                    android:layout_weight="1"
+                    android:background="#313236" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/ll_qr_top"
+                android:background="#313236" />
+        </RelativeLayout>
+
+        <!-- 108 -->
+
+        <RelativeLayout
+            android:id="@+id/qr_bottom_logo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clipChildren="false" >
+
+            <LinearLayout
+                android:id="@+id/ll_qr_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipChildren="false"
+                android:orientation="horizontal" >
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="54.5dp"
+                    android:layout_weight="1"
+                    android:background="#313236" />
+
+                <ImageView
+                    android:id="@+id/iv_qr_bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/qr_bottom_logo" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="54.5dp"
+                    android:layout_weight="1"
+                    android:background="#313236" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/ll_qr_bottom"
+                android:background="#313236" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.polar.browser.view.QrResultView
+        android:id="@+id/text_result_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</RelativeLayout>

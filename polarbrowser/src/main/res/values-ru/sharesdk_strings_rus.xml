@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="email">Email</string>
+    <string name="shortmessage">Информация</string>
+
+    <!-- share -->
+    <string name="share">Выделить</string>
+    <string name="share_download_url">Поделиться ссылкой с</string>
+    <string name="share_fail">Выделить не удалось</string>
+    <string name="share_success">Выделено</string>
+    <string name="share_cancel">Отменить выделение</string>
+    <string name="copy_link">Скопировать ссылку</string>
+    <string name="copy_success">Скопирован</string>
+    <string name="share_from">Из Polar Browser</string>
+
+    <string name="share_title">Рекомендовать маленький и интересный браузер</string>
+    <string name="share_title_url">http://vcapp.me</string>
+    <string name="share_content">#Polar Browser# Маленький и быстрый, отличные впечатления. Рекомендуется!</string>
+    <string name="share_introduction_url">http://www.vcapp.cn/introduction.html</string>
+    <string name="share_img">выделить изображение:</string>
+    <string name="share_link">Выделить ссылку:</string>
+    <string name="share_system">Bce</string>
+    <string name="share_video_prefix">Перейти к просмотру этого видео</string>
+</resources>

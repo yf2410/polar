@@ -1,0 +1,240 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+
+#-------------------------------------------定制化区域----------------------------------------------
+#---------------------------------1.实体类---------------------------------
+
+-keep class com.polar.browser.bean.**{*;}
+
+# 数据库业务bean
+-keep public class com.polar.browser.download_refactor.DownloadItemInfo{*;}
+
+-keep class com.polar.browser.location_weather.AlxLocationManager{*;}
+#-------------------------------------------------------------------------
+
+#---------------------------------2.第三方包-------------------------------
+
+-keep class com.mobeta.android.dslv.*
+-keep class com.nineoldandroids.*
+-keep class com.emilsjolander.components.stickylistheaders.*
+-keep class com.google.zxing.*
+-keep class de.innosystec.unrar.** { *; }
+-keep class org.apache.commons.logging.** { *; }
+-keep class net.lingala.zip4j.core.** { *; }
+
+-keepclassmembers class * {
+   public <init>(org.json.JSONObject);
+}
+-keep class com.polar.browser.view.MaterialBackgroundDetector {
+    public void setRadius(float);
+    public void setAlpha(int);
+}
+
+# sharesdk 代码混淆
+-keep class cn.sharesdk.**{*;}
+-keep class com.sina.**{*;}
+-keep class **.R$* {*;}
+-keep class **.R{*;}
+-dontwarn cn.sharesdk.**
+-dontwarn **.R$*
+
+# firebase 实时数据库混淆文件
+# Add this global rule
+-keepattributes Signature
+
+# This rule will properly ProGuard all the model classes in
+# the package com.yourcompany.models. Modify to fit the structure
+# of your app.
+-keepclassmembers class com.yourcompany.models.** {
+  *;
+}
+
+#-------------------------------------------------------------------------
+
+#---------------------------------3.与js互相调用的类------------------------
+
+# 页面取链接文字与JS交互的方法
+# 主页面点击调用JS跳转
+-keep class com.polar.browser.manager.TabViewManager{
+	public void jsShowContent(java.lang.String);
+}
+
+# 页面取链接文字与JS交互的方法
+-keep class com.polar.browser.impl.TabViewOnLongClickListener{
+	public void getString(java.lang.String);
+}
+
+# 页面点击反馈与JS交互的方法
+-keep class com.polar.browser.setting.JavascriptInterfaceFeedBack{
+	public void onFeedBack();
+}
+
+# 页面取链接文字与JS交互的方法
+-keep class com.polar.browser.impl.WebViewClientImpl{
+	public void isHasVideo(java.lang.String);
+	public void jsOutput(java.lang.String);
+	public void getVideoUrl(java.lang.String);
+	public void fillForm(java.lang.String);
+	public void saveUserNamePassWord(java.lang.String, java.lang.String, java.lang.String);
+}
+
+#js接口管理类
+-keep class com.polar.browser.manager.JSInterfaceManager{*;}
+
+-keep class com.polar.browser.imagebrowse.ImageListData{*;}
+-keep class com.polar.browser.imagebrowse.ImageInfo{*;}
+
+# webView选取文件
+-keep class com.polar.browser.webview.JuziWebChromeClient { *; }
+
+#
+-keepclassmembers class com.polar.browser.homepage.homecard.HomeWebCardController$JsInterfaceHomeCard {
+   public *;
+}
+-keepattributes *JavascriptInterface*
+
+
+
+#-------------------------------------------------------------------------
+
+#---------------------------------4.反射相关的类和方法-----------------------
+
+
+
+#----------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------
+
+#-------------------------------------------基本不用动区域--------------------------------------------
+#---------------------------------基本指令区----------------------------------
+# 指定代码的压缩级别
+-optimizationpasses 10
+ # 是否使用大小写混合
+-dontusemixedcaseclassnames
+#指定不去忽略非公共的库的类
+-dontskipnonpubliclibraryclasses
+#指定不去忽略非公共的库的类的成员
+-dontskipnonpubliclibraryclassmembers
+#不做预校验的操作
+-dontpreverify
+-verbose
+-printmapping proguardMapping.txt
+# dontwarn去掉警告
+-dontwarn
+# 这1句是屏蔽警告，脚本中把这行注释去掉
+-ignorewarnings
+-optimizations !code/simplification/arithmetic/cast,!field/*,!class/merging/*
+#指定混淆是采用的算法
+-keepattributes *Annotation*,InnerClasses
+#不混淆泛型
+-keepattributes Signature
+#抛出异常时保留代码行号
+-keepattributes SourceFile,LineNumberTable
+#----------------------------------------------------------------------------
+
+#---------------------------------默认保留区---------------------------------
+
+# 保持哪些类不被混淆
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgentHelper
+-keep public class * extends android.preference.Preference
+-keep public class * extends android.view.View
+-keep public class com.android.vending.licensing.ILicensingService
+-keep class android.support.**
+
+# 保持 native 方法不被混淆
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+-keepclassmembers class * extends android.app.Activity{
+    public void *(android.view.View);
+}
+
+# 保持枚举 enum 类不被混淆
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+-keep public class * extends android.view.View{
+    *** get*();
+    void set*(***);
+    public <init>(android.content.Context);
+    public <init>(android.content.Context, android.util.AttributeSet);
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+# 保持自定义控件类不被混淆
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet);
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+# 保持 Parcelable 不被混淆
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+-keepclassmembers class * implements java.io.Serializable {
+    static final long serialVersionUID;
+    private static final java.io.ObjectStreamField[] serialPersistentFields;
+    private void writeObject(java.io.ObjectOutputStream);
+    private void readObject(java.io.ObjectInputStream);
+    java.lang.Object writeReplace();
+    java.lang.Object readResolve();
+}
+-keep class **.R$* {
+ *;
+}
+-keepclassmembers class * {
+    void *(**On*Event);
+}
+#----------------------------------------------------------------------------
+
+#---------------------------------webview------------------------------------
+-keepclassmembers class fqcn.of.javascript.interface.for.Webview {
+   public *;
+}
+-keepclassmembers class * extends android.webkit.WebViewClient {
+    public void *(android.webkit.WebView, java.lang.String, android.graphics.Bitmap);
+    public boolean *(android.webkit.WebView, java.lang.String);
+}
+-keepclassmembers class * extends android.webkit.WebViewClient {
+    public void *(android.webkit.WebView, jav.lang.String);
+}
+#----------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------
+
+#native层 调用了到这几个
+-keep class com.polar.browser.env.AppEnv{
+    public static final boolean DEBUG;
+}
+
+-keep class com.polar.browser.manager.ThreadManager{
+    public static void init() ;
+}
+
+-keep class com.polar.browser.utils.ConfigWrapper{
+    public static void init();
+}
+#native层 调用了到这几个

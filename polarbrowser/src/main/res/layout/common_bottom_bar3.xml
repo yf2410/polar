@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/common_ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/download_dialog_btn_height"
+    android:background="@drawable/common_bottom_btn_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.polar.browser.common.ui.CommonCheckBox1
+            android:id="@+id/common_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/common_checkbox1_unchecked"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginRight="-12dp"/>
+
+        <TextView
+            android:id="@+id/tv_check_all"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/bottom_menu_font_color_selector"
+            android:textSize="@dimen/common_font_size_d"
+            android:text="@string/check_all"
+            android:layout_marginRight="10dp"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iv_vertical_line" />
+
+    <TextView
+        android:id="@+id/btn_delete"
+        style="@style/History_bottom_tv"
+        android:text="@string/delete" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iv_vertical_line" />
+    <TextView
+        android:id="@+id/btn_complete"
+        style="@style/History_bottom_tv"
+        android:text="@string/complete"
+        />
+
+</LinearLayout>

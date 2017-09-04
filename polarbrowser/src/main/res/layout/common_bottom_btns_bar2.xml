@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/common_ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/download_dialog_btn_height"
+    android:orientation="vertical">
+
+    <View style="@style/TitleLineView" />
+
+    <LinearLayout
+        android:id="@+id/common_ll_btns"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/common_btn_left"
+            style="@style/DownLoadDialog_cancel_btn"
+            android:text="@string/cancel" />
+
+        <View
+            android:id="@+id/common_ll_mid_line1"
+            style="@style/DownLoadDialog_vertical_Ivline" />
+
+        <Button
+            android:id="@+id/common_btn_middle"
+            style="@style/DownLoadDialog_OK_btn"
+            android:text="@string/ok" />
+
+        <View
+            android:id="@+id/common_ll_mid_line2"
+            style="@style/DownLoadDialog_vertical_Ivline" />
+
+        <Button
+            android:id="@+id/common_btn_right"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:singleLine="true"
+            android:textColor="@color/common_font_color_6"
+            android:textSize="@dimen/common_font_size_d"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/menu_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black50"
+        android:orientation="vertical">
+    </View>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:id="@+id/menu"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="50dp"
+            android:background="@color/white"
+            android:baselineAligned="false"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp">
+
+                <TextView
+                    android:id="@+id/menu_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="87dp"
+                    android:gravity="center"
+                    android:text="@string/account_login"
+                    android:textColor="@color/black87"
+                    android:textSize="16sp"/>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0">
+
+                    <ImageView
+                        android:id="@+id/img_push_tip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center_vertical"
+                        android:layout_marginRight="14dp"
+                        android:padding="6dp"
+                        android:src="@drawable/menu_push_tip_selector"/>
+
+                    <TextView
+                        android:id="@+id/menu_tv_msg_dot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|top"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="3dp"
+                        android:background="@drawable/fb_dot_number"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:visibility="gone"/>
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/common_dlg_bar_divider"/>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/menu_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="174dp"/>
+
+            <LinearLayout
+                android:id="@+id/dots_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="40dp"
+                android:orientation="horizontal"/>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="54dp"
+            android:background="@drawable/menu_bg_head"
+            >
+            <com.polar.browser.view.clipview.view.CircleImageView
+                android:id="@+id/menu_avatar_iv"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center"
+                android:src="@drawable/menu_default_head"
+                android:visibility="visible"
+                />
+        </FrameLayout>
+
+
+    </FrameLayout>
+
+
+    <View
+        android:id="@+id/menu_touch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="#0000"
+        android:orientation="vertical">
+    </View>
+
+
+
+</merge>

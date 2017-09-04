@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="email">อีเมล</string>
+    <string name="shortmessage">Messenger</string>
+    <!-- share -->
+    <string name="share">แชร์</string>
+    <string name="share_download_url">แชร์ลิงก์ไปยัง</string>
+    <string name="share_fail">ล้มเหลว</string>
+    <string name="share_success">สำเร็จ</string>
+    <string name="share_cancel">ยกเลิก</string>
+    <string name="copy_link">คัดลอกลิงก์</string>
+    <string name="copy_success">สำเร็จ</string>
+    <string name="share_from">มาจากโพลาร์เบราว์เซอร</string>
+    <string name="share_title">แนะนำเบราว์เซอร์ขนาดเล็กและน่าสนใจ</string>
+    <string name="share_title_url">http://vcapp.me</string>
+    <string name="share_content">#โพลาร์เบราว์เซอร์# ขนาดเล็ก รวดเร็วและใช้งานดีเยี่ยม ขอแนะนำ!</string>
+    <string name="share_introduction_url">http://www.vcapp.cn/introduction.html</string>
+    <string name="share_img">แชร์รูปภาพ:</string>
+    <string name="share_link">แชร์ลิงก์:</string>
+    <string name="share_system">เพิ่มเติม</string>
+    <string name="share_video_prefix">มาดูวิดีโอนี้</string>
+</resources>

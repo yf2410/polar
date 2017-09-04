@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/file_list_item_height_high"
+    android:descendantFocusability="blocksDescendants"
+    >
+
+    <CheckBox
+        android:id="@+id/uncompress_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/file_list_item_cb_marginLeft"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/file_common_checkbox_bg"
+        android:button="@null"
+        android:focusable="false"
+        android:visibility="gone"
+        android:focusableInTouchMode="false"/>
+
+    <ImageView
+        android:id="@+id/uncompress_icon"
+        android:layout_width="@dimen/file_list_item_other_iv_width"
+        android:layout_height="@dimen/file_list_item_other_iv_width"
+        android:layout_marginLeft="@dimen/file_list_item_cb_marginLeft"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/uncompress_checkbox"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_folder"/>
+
+    <ImageView
+        android:id="@+id/image_right_arrow"
+        android:layout_width="@dimen/side_arrow_right_width"
+        android:layout_height="@dimen/side_arrow_right_height"
+        android:layout_marginRight="@dimen/file_list_item_cb_marginLeft"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/side_arrow_right"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/file_list_item_height"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/file_list_item_rl_marginLeft"
+        android:layout_marginRight="@dimen/file_list_item_rl_marginLeft"
+        android:layout_toRightOf="@id/uncompress_icon"
+        android:layout_toLeftOf="@id/image_right_arrow"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:id="@+id/uncompress_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="middle"
+            android:textSize="@dimen/file_list_textsize_16"
+            android:layout_marginRight="@dimen/file_list_item_apk_title_marginRight"
+            android:textColor="@color/file_list_text_name_color"
+            android:text="文档/小说"
+            />
+
+        <TextView
+            android:id="@+id/uncompress_path"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_padding_5"
+            android:textColor="@color/file_list_text_detail_color"
+            android:layout_marginRight="@dimen/file_list_item_path_marginRight"
+            android:singleLine="true"
+            android:ellipsize="middle"
+            android:textSize="@dimen/file_list_textsize_13"
+            android:text="170"
+            />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

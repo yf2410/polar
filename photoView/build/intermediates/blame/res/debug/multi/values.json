@@ -1,0 +1,50 @@
+[
+    {
+        "outputFile": "/Users/yangfan/Documents/workspace/sxlc/polar/photoView/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 46,
+                    "endOffset": 97
+                },
+                "from": {
+                    "file": "/Users/yangfan/Documents/workspace/sxlc/polar/photoView/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 16,
+                        "endColumn": 46,
+                        "endOffset": 58
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/yangfan/Documents/workspace/polar/photoView/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 46,
+                    "endOffset": 97
+                },
+                "from": {
+                    "file": "/Users/yangfan/Documents/workspace/polar/photoView/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 16,
+                        "endColumn": 46,
+                        "endOffset": 58
+                    }
+                }
+            }
+        ]
+    }
+]

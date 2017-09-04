@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sb="http://schemas.android.com/apk/res/com.polar.browser"
+    android:id="@+id/root_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/log_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <com.polar.browser.common.ui.CommonTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/account_login_user_center"/>
+
+    <ImageView
+        android:id="@+id/iv_log_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/common_padding_12"
+        android:padding="5dp"
+        android:src="@drawable/personal_icon_set"/>
+    </RelativeLayout>>
+    <RelativeLayout
+        android:id="@+id/log"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:orientation="vertical"
+        android:layout_below="@id/log_title_bar"
+        android:background="@drawable/account_personal_center_bg"
+        >
+        <FrameLayout
+            android:id="@+id/fl_login_user_avatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            >
+            <com.polar.browser.view.clipview.view.CircleImageView
+                android:id="@+id/iv_login_user_avatar"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/menu_default_head"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/head_icon_camera"
+                android:layout_gravity="bottom|end"
+                />
+        </FrameLayout>
+        <TextView
+            android:id="@+id/tv_login_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/fl_login_user_avatar"
+            android:text="@string/account_welcome_to_polar"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_mask"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:id="@+id/setting_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/log"
+        android:layout_marginTop="@dimen/common_padding_20">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View style="@style/space_SettingActivityItem" />
+
+            <!-- 书签 -->
+            <RelativeLayout
+                android:id="@+id/log_bookmark"
+                style="@style/logout_item">
+
+                <TextView
+                    android:id="@+id/tv_bookmak"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/favorite" />
+
+                <com.polar.browser.view.switchbutton.SwitchButton
+                    android:id="@+id/sb_bookmark"
+                    style="@style/SwitchButtonStyle"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    sb:offColor="@color/day_sb_off_color"
+                    sb:onColor="@color/day_sb_on_color"
+                    sb:thumbColor="@color/day_sb_thumb_color" />
+            </RelativeLayout>
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <!-- 主页图标 -->
+
+            <RelativeLayout
+                android:id="@+id/homepage_icon"
+                style="@style/logout_item">
+
+                <TextView
+                    android:id="@+id/tv_homepage_icon"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/logo_on_homepage" />
+
+                <com.polar.browser.view.switchbutton.SwitchButton
+                    android:id="@+id/sb_homepage_icon"
+                    style="@style/SwitchButtonStyle"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    sb:offColor="@color/day_sb_off_color"
+                    sb:onColor="@color/day_sb_on_color"
+                    sb:thumbColor="@color/day_sb_thumb_color" />
+            </RelativeLayout>
+
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <!-- 浏览器设置 -->
+
+            <RelativeLayout
+                android:id="@+id/browser_set"
+                style="@style/logout_item">
+
+                <TextView
+                    android:id="@+id/tv_browser_set"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/browser_settings" />
+
+                <com.polar.browser.view.switchbutton.SwitchButton
+                    android:id="@+id/sb_browser_setting"
+                    style="@style/SwitchButtonStyle"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    sb:offColor="@color/day_sb_off_color"
+                    sb:onColor="@color/day_sb_on_color"
+                    sb:thumbColor="@color/day_sb_thumb_color" />
+            </RelativeLayout>
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <!-- 标签 -->
+
+            <RelativeLayout
+                android:id="@+id/tag"
+                android:visibility="gone"
+                style="@style/logout_item">
+
+                <TextView
+                    android:id="@+id/tv_tag"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/dialog_ssl_title" />
+
+                <com.polar.browser.view.switchbutton.SwitchButton
+                    android:id="@+id/sb_tag"
+                    style="@style/SwitchButtonStyle"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    sb:offColor="@color/day_sb_off_color"
+                    sb:onColor="@color/day_sb_on_color"
+                    sb:thumbColor="@color/day_sb_thumb_color" />
+            </RelativeLayout>
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <View style="@style/space_SettingActivityItem" />
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <RelativeLayout
+                android:id="@+id/sync_in_wifi"
+                style="@style/logout_item">
+
+                <TextView
+                    android:id="@+id/tv_sync_in_wifi"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/sync_only_in_wifi" />
+
+                <com.polar.browser.view.switchbutton.SwitchButton
+                    android:id="@+id/sb_sync_in_wifi"
+                    style="@style/SwitchButtonStyle"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    sb:offColor="@color/day_sb_off_color"
+                    sb:onColor="@color/day_sb_on_color"
+                    sb:thumbColor="@color/day_sb_thumb_color" />
+            </RelativeLayout>
+        </LinearLayout>
+        >
+    </ScrollView>
+
+
+
+    <Button
+        android:id="@+id/btn_save_avatar"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="111dp"
+        android:text="@string/account_save_avatar"
+        android:visibility="gone"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_login_save_avatar_selector"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+</RelativeLayout>

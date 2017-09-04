@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/ll_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/tv_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="24dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/clear_all_2"
+            android:textColor="@color/bottom_menu_font_color_selector"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_edit"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/edit"
+            android:textColor="@color/bottom_menu_font_color_selector"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/tv_edit"
+            android:src="@drawable/iv_vertical_line" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_operate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:orientation="horizontal">
+
+            <com.polar.browser.common.ui.CommonCheckBox1
+                android:id="@+id/cb_check_all"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="-10dp"
+                android:layout_marginRight="-12dp"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/tv_check_all"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/check_all"
+                android:textColor="@color/bottom_menu_font_color_selector"
+                android:textSize="@dimen/common_font_size_d" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iv_vertical_line" />
+
+        <TextView
+            android:id="@+id/tv_delete"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/delete"
+            android:textColor="@color/bottom_menu_font_color_selector"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iv_vertical_line" />
+
+        <TextView
+            android:id="@+id/tv_more"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/card_news_more"
+            android:textColor="@color/bottom_menu_font_color_selector"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iv_vertical_line" />
+
+        <TextView
+            android:id="@+id/tv_complete"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/complete"
+            android:textColor="@color/bottom_menu_font_color_selector"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</merge>

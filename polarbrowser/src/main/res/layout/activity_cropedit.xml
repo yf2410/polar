@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#212121">
+
+    <View
+        android:id="@+id/v_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"/>
+
+    <LinearLayout
+        android:id="@+id/bottom_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/v_bottom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:paddingBottom="4dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp">
+
+        <ImageView
+            android:id="@+id/btn_crop"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/color_box_bg_4dp"
+            android:padding="5dp"
+            android:src="@drawable/btn_paint_crop_selector"/>
+
+        <ImageView
+            android:id="@+id/btn_mosaics"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/color_box_bg_4dp"
+            android:padding="5dp"
+            android:src="@drawable/btn_paint_mosaics_selector"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/color_box_bg_4dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btn_paint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_brush_jiao"
+                android:padding="5dp"
+                android:src="@drawable/icon_brush3_gray"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="6dp"
+                android:background="#282828"/>
+
+            <com.polar.browser.cropedit.BrushPoit
+                android:id="@+id/btn_choose_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:id="@+id/btn_revert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="5dp"
+                android:src="@drawable/btn_revert_selector"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/btn_paint_back_selector"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="@string/goback"
+        android:textColor="#b1b1b1"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/btn_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:drawableRight="@drawable/btn_paint_share_selector"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="@string/save_or_share"
+        android:textColor="#b1b1b1"
+        android:textSize="14sp"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_toolbar"
+        android:layout_below="@id/btn_share"
+        android:layout_margin="8dp">
+    </RelativeLayout>
+
+    <org.sprite2d.apps.pp.PainterCanvas
+        android:id="@+id/canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"/>
+
+    <View
+        android:id="@+id/canvas_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@color/canvas_mask"
+        android:visibility="gone"/>
+
+    <View
+        android:id="@+id/color_box_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btn_share"
+        android:visibility="gone"/>
+
+    <com.polar.browser.cropedit.ColorBoxView
+        android:id="@+id/color_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/color_box_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
+        android:paddingLeft="120dp"
+        android:paddingRight="0dp"
+        android:src="@drawable/icon_paint_arrow"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_paints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/color_box_bg_2dp"
+        android:padding="6dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/paint_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/icon_brush3"/>
+
+        <ImageView
+            android:id="@+id/paint_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/paint_3"
+            android:padding="5dp"
+            android:src="@drawable/icon_brush_gray"/>
+
+        <ImageView
+            android:id="@+id/paint_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/paint_1"
+            android:padding="5dp"
+            android:src="@drawable/icon_brush2_gray"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/paints_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:src="@drawable/icon_paint_arrow"
+        android:visibility="gone"/>
+
+    <com.polar.browser.cropedit.CropView
+        android:id="@+id/crop_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <com.polar.browser.cropedit.CropShareView
+        android:id="@+id/crop_share_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <com.polar.browser.cropedit.MosaicsView
+        android:id="@+id/mosaics_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+</RelativeLayout>

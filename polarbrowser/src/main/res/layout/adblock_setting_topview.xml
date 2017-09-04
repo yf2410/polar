@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/adblock_setting_top_bg">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/adblock_share_iv"
+        android:layout_alignParentRight="true"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:paddingBottom="15dp"
+        android:src="@drawable/img_video_share"/>
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/ad_sign_shield"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:padding="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/top_ad_count_tv"
+            android:textColor="@color/theme_green"
+            android:textSize="30sp"
+            android:layout_marginLeft="20dp"
+            android:text="1"
+            android:gravity="center"
+            android:minWidth="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textColor="@color/theme_green"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:text="Ads"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/top_layout"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:id="@+id/bottom_ad_count_tv"
+        android:layout_marginTop="6dp"
+        android:text="广告拦截共100条"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@+id/bottom_ad_count_tv"
+        android:layout_marginTop="15dp">
+        <LinearLayout
+            android:layout_marginLeft="40dp"
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/ad_sign_data"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:id="@+id/tv_reduce_traffic"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:id="@+id/tv_reduce_traffic_unit"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_weight="1.0"
+            android:orientation="vertical"
+            android:layout_marginRight="40dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/ad_sign_time"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/white"
+                android:id="@+id/tv_reduce_time"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</merge>

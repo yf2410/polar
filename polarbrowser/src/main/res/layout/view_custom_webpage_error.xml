@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@color/day_setting_session_line_bg"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_webpage_error_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_webpage_error_msg"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="14dp"
+        android:textSize="16sp"
+        android:textColor="@color/web_page_error_msg"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_webpage_error_msg_detail"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:textColor="@color/web_page_error_msg_detail"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_webpage_error_retry"
+            android:layout_width="100dp"
+            android:text="@string/refresh"
+            android:background="@drawable/btn_bg_with_stroke"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/web_page_error_msg"
+            android:layout_height="39dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:id="@+id/tv_webpage_error_back"
+            android:background="@drawable/btn_bg_with_stroke_blue"
+            android:gravity="center"
+            android:text="@string/back"
+            android:textSize="14sp"
+            android:layout_marginStart="15dp"
+            android:textColor="@color/set_about"
+            android:layout_marginLeft="15dp"
+            android:layout_height="39dp" />
+    </LinearLayout>
+
+</LinearLayout>

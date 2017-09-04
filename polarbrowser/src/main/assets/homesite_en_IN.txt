@@ -1,0 +1,58 @@
+[
+    {
+        "siteAddr": "https://www.google.co.in",
+        "sitePic": "file:///android_asset/google.png",
+        "siteId": "f0b7ba0a991a47ce9e00b7301b17363f",
+        "siteName": "Google",
+        "order": 0
+    },
+    {
+        "siteAddr": "http://vcmobi.ampxdirect.com/facebook-pbrowser",
+        "sitePic": "file:///android_asset/facebook.png",
+        "siteId": "2f97f1cfe03a468da25e872e23ddfb2a",
+        "siteName": "Facebook",
+        "order": 1
+    },
+    {
+        "siteAddr": "https://Youtube.com",
+        "sitePic": "file:///android_asset/youtube.png",
+        "siteId": "2a06d455ed4e4e76bba8c81d6f9b6e10",
+        "siteName": "Youtube",
+        "order": 2
+    },
+    {
+        "siteAddr": "https://Instagram.com/",
+        "sitePic": "file:///android_asset/instagram.png",
+        "siteId": "d555a68367e84b8aac54decaf9f54dc3",
+        "siteName": "Instagram",
+        "order": 3
+    },
+    {
+        "siteAddr": "http://www.olx.com",
+        "sitePic": "file:///android_asset/olx.png",
+        "siteId": "'8361ed4aa1324cdbbdb59fa47f640f9c",
+        "siteName": "OLX",
+        "order": 4
+    },
+    {
+        "siteAddr": "https://www.wikipedia.org",
+        "sitePic": "file:///android_asset/wikipedia.png",
+        "siteId": "efb6ae9066d34000a64a1d8102cee34f",
+        "siteName": "Wiki",
+        "order": 5
+    },
+    {
+        "siteAddr": "http://www.cricbuzz.com/",
+        "sitePic": "file:///android_asset/cricbuzz.png",
+        "siteId": "4ec6c69d26134990813daf9ddc2c48d0",
+        "siteName": "Cricbuzz",
+        "order": 6
+    },
+    {
+        "siteAddr": "###History",
+        "sitePic": "file:///android_asset/history.png",
+        "siteId": "",
+        "siteName": "History",
+        "order": 7
+    }
+]

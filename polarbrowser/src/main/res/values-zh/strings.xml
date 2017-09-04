@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">极地浏览器</string>
+    <string name="search_input_hint">请输入搜索内容或网址</string>
+
+    <string name="copy">复制</string>
+    <string name="album">相册</string>
+    <string name="home_page">主页</string>
+    <string name="already_on_home_page">已在主页</string>
+    <string name="title">标题</string>
+    <string name="toast_tab_limited">标签数量已达到上限</string>
+    <string name="network_connect_error">网络连接错误，请检查网络</string>
+    <string name="choose_file">请选择文件</string>
+    <string name="play_video_error">该视频不能播放</string>
+    <string name="file_open_ing">正在打开，请稍后...</string>
+    <string name="goback">返回</string>
+
+    <!-- history/favorite -->
+    <string name="history">历史</string>
+    <string name="today">今天</string>
+    <string name="yesterday">昨天</string>
+    <string name="earlier">更早</string>
+    <string name="favorite">书签</string>
+    <string name="add_bookmark_tips">已添加到书签</string>
+    <string name="already_add_bookmark_tips">书签已添加</string>
+    <string name="delete_bookmark_tips">已删除书签</string>
+    <string name="history_search_record">搜索记录</string>
+    <string name="no_history_search_record">无搜索记录</string>
+    <string name="no_history_visit_record">无访问记录</string>
+
+    <!-- search -->
+    <string name="go">进入</string>
+    <string name="search">搜索</string>
+    <string name="history_visit">访问记录</string>
+    <string name="history_search">搜索记录</string>
+    <string name="edittext_empty_tip">请输入搜索内容或网址</string>
+
+    <!-- qr code  -->
+    <string name="qrcode_scan">扫码</string>
+    <string name="qrcode_describe">请将二维码对准于框内</string>
+    <string name="qrcode_not_find">未找到二维码</string>
+    <string name="qrcode_result">扫描结果</string>
+    <string name="qrcode_type_text">文本:</string>
+    <string name="qrcode_text_more">...</string>
+    <string name="qrcode_return">返回</string>
+    <string name="qrcode_choose_pic">选择二维码图片</string>
+    <string name="website_qrcode">二维码</string>
+    <string name="from_vc_browser">来自Polar Browser</string>
+    <string name="no_flash_found">未发现闪光灯</string>
+    <string name="qrcode_processing">正在处理</string>
+
+
+    <!-- download -->
+    <string name="download">下载</string>
+    <string name="downloading">正在下载</string>
+    <string name="download_finish">下载完成</string>
+    <string name="download_waite">等待下载</string>
+    <string name="download_error">下载失败</string>
+    <string name="download_pause">暂停下载</string>
+    <string name="download_start">开始下载</string>
+    <string name="download_manager">下载管理</string>
+    <string name="disk_free_size">/可用 %1$s</string>
+    <string name="disk_used_size">已用 %1$s</string>
+    <string name="download_task_already_exists">下载任务已存在，是否再下载一次？</string>
+    <string name="download_no_available_space">存储空间不足，无法下载！</string>
+    <string name="net_changed_when_downloading">当前为非WIFI网络，是否继续下载？</string>
+    <string name="file_can_not_open">文件无法打开，请安装相应的软件!</string>
+    <string name="name">名称：</string>
+    <string name="size">大小：</string>
+    <string name="size_unknown">未知大小</string>
+    <string name="empty_file_name">文件名为空</string>
+    <string name="download_file_name_exists">文件名已存在</string>
+    <string name="click_to_see">点击查看</string>
+    <string name="net_no_connect">没有网络连接</string>
+    <string name="download_status_downloading">下载中</string>
+    <string name="download_status_waiting">等待下载</string>
+    <string name="download_status_start">开始下载</string>
+    <string name="download_status_start_nonetwork">网络断开，下载暂停！</string>
+    <string name="download_status_pause">暂停下载</string>
+    <string name="download_status_pauseing">暂停中</string>
+    <string name="download_status_failure">下载失败</string>
+    <string name="download_edit_name_hint">文件名</string>
+    <string name="download_set_path_default">路径不可用,已下载到默认路径！</string>
+    <string name="download_rename">重命名</string>
+    <string name="download_redownload">重新下载</string>
+    <string name="download_detail">任务详情</string>
+    <string name="download_file_size">文件大小</string>
+    <string name="download_support_point">断点续传</string>
+    <string name="support">支持</string>
+    <string name="not_support">不支持</string>
+    <string name="download_file_path">保存路径</string>
+    <string name="download_file_url">下载地址</string>
+    <string name="download_share_from">来自Polar浏览器</string>
+    <string name="download_file_property">文件属性</string>
+    <string name="extract_view_now">立即查看</string>
+
+    <!-- common -->
+    <string name="edit">编辑</string>
+    <string name="popup_edit">编 辑</string>
+    <string name="complete">完成</string>
+    <string name="delete">删除</string>
+    <string name="delete_with_count">删除 (%1$d项)</string>
+    <string name="check_all">全部</string>
+    <string name="check_all_cancel">取消</string>
+    <string name="delete_checked_task">删除选中的(%1$d项)任务？</string>
+    <string name="delete_not_select">请选择要删除的项</string>
+    <string name="never_remind">不再提示</string>
+    <string name="loading">加载中...</string>
+
+    <!-- dialog -->
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="tips">提示</string>
+    <string name="tips_alert">警告</string>
+    <string name="update_tips">更新说明</string>
+    <string name="update_ok">立即升级</string>
+    <string name="update_cancel">下次再说</string>
+    <string name="go_download">去下载</string>
+    <string name="manually_update_ok">去尝鲜</string>
+    <string name="manually_update_cancel">取消</string>
+    <string name="history_clean_content">确定删除选中的历史记录？</string>
+    <string name="history_clean_visited">确定清除所有访问记录？</string>
+    <string name="history_clean_searched">确定清除所有搜索记录？</string>
+    <string name="bookmark_delete_content">确定删除选中的收藏？</string>
+    <string name="delete_with_files">同时删除文件</string>
+
+    <!-- play -->
+    <string name="play_cancel">取消播放</string>
+    <string name="play_continue">继续播放</string>
+    <string name="play_network_gprs_tip">无wifi网络,使用手机流量继续播放？</string>
+
+    <!-- menu -->
+    <string name="menu_add_favorite">收藏</string>
+    <string name="menu_history">历史</string>
+    <string name="menu_favorite">书签</string>
+    <string name="menu_download">下载管理</string>
+    <string name="menu_nightmode">夜间模式</string>
+    <string name="menu_setting">设置</string>
+    <string name="menu_no_imgmode">无图模式</string>
+    <string name="menu_web_mode">PC模式</string>
+    <string name="menu_exit">退出</string>
+
+    <!-- add & edit favorite -->
+    <string name="menu_add_shortcut">手机桌面</string>
+    <string name="menu_add_logo">快捷方式</string>
+    <string name="add_to">添加网址至</string>
+    <string name="edit_url">编辑网址</string>
+    <string name="add_shortcut_successful">添加成功</string>
+    <string name="already_add_shortcut_successful">桌面图标已添加</string>
+    <string name="add_shortcut_failed">您的手机暂时不支持此功能！</string>
+    <string name="add_logo_empty_tip">标题或者网址为空</string>
+    <string name="add_logo_checke_empty_tip">请选择一个要添加到的路径</string>
+
+    <!-- setting -->
+    <string name="setting">设置</string>
+    <string name="popup_setting">设 置</string>
+    <string name="setting_saved_account">保存密码</string>
+    <string name="setting_search_engine">搜索引擎</string>
+    <string name="version">版本</string>
+    <string name="setting_font_size">字体大小</string>
+    <string name="setting_font_size_min">小号</string>
+    <string name="setting_font_size_mid">中号</string>
+    <string name="setting_font_size_large">特大</string>
+    <string name="setting_sliding_type">滑屏翻页手势</string>
+    <string name="setting_sliding_type_close">关闭</string>
+    <string name="setting_sliding_type_border">从屏幕边缘滑动</string>
+    <string name="setting_sliding_type_fullscreen">全屏滑动</string>
+    <string name="setting_sliding_type_tip">您可以选择多种滑屏翻页手势！</string>
+    <string name="setting_editlogo_type_tip">主页图标已满，长按可编辑！</string>
+    <string name="setting_videodownload_type_tip">是否要安装视频下载插件？</string>
+    <string name="setting_editlogo_type_ok">确定</string>
+    <string name="setting_plug_center">插件</string>
+    <string name="setting_save_tab">退出时保留标签页</string>
+    <string name="setting_screen_lock">竖屏锁定</string>
+    <string name="setting_ad_block">广告拦截</string>
+    <string name="setting_ad_block_tips">广告拦截提示</string>
+    <string name="setting_ad_block_count">已拦截 %1$d 条广告</string>
+    <string name="ad_block_count_format">广告拦截共&lt;font&gt;&lt;big&gt;&lt;big&gt;%1$d&lt;/big&gt;&lt;/big&gt;&lt;/font&gt;条</string>
+    <string name="ad_block_save_traffic">节省流量&lt;font&gt;&lt;big&gt;&lt;big&gt;%1$s&lt;/big&gt;&lt;/big&gt;&lt;/font&gt;</string>
+    <string name="ad_block_save_time">提升速度&lt;font&gt;&lt;big&gt;&lt;big&gt;%1$s&lt;/big&gt;&lt;/big&gt;&lt;/font&gt;s</string>
+    <string name="ad_block_share_content">感谢Polar Browser 为我拦截了%1$d个广告</string>
+    <string name="vc_domain">http://www.vcbrowser.com/</string>
+    <string name="setting_full_screen">全屏模式</string>
+    <string name="setting_quick_search">快捷搜索</string>
+    <string name="setting_clear_data">清除个人数据</string>
+    <string name="setting_set_default_browser">设置默认浏览器</string>
+    <string name="setting_download_path">存储路径</string>
+    <string name="setting_custom_ua">浏览器标识（UA）</string>
+    <string name="setting_recover_setting">恢复默认设置</string>
+    <string name="file_opening">文件正在打开</string>
+    <string name="recover_setting_content">确定要恢复到默认设置？</string>
+    <string name="setting_clear_data_exit">退出时清除浏览记录</string>
+    <string name="setting_clear_default_success">清除默认成功</string>
+    <string name="setting_clear_default_failed">清除默认失败</string>
+    <string name="setting_default_failed">设置默认失败</string>
+    <string name="setting_default_self_tip">Polar浏览器已经是您的默认浏览器，确定清除吗？</string>
+    <string name="setting_remember_username_and_password_tip">确定要保存\"%1$s\"的账号和密码吗？</string>
+    <string name="saved_account">保存密码</string>
+    <string name="file_child_count">共 %1$d 项</string>
+    <string name="current_download_folder">当前存储位置: %1$s</string>
+    <string name="download_folder_space">剩余%1$s,共%2$s</string>
+    <string name="download_folder_alert_19">受安卓系统限制，版本在4.4及以上的系统，在使用SD卡时文件必须存储在固定目录，且卸载浏览器后，所下载文件将被删除。确定要使用SD卡？</string>
+    <string name="download_folder_phone">手机存储</string>
+    <string name="download_folder_sd">SD卡</string>
+    <string name="download_folder_sd_removed">SD卡已被移除</string>
+    <string name="download_folder_selected_sd">已选择为SD卡</string>
+    <string name="setting_download_only_with_wifi">只在wifi连接时下载</string>
+
+    <!-- 模块管理 -->
+    <string name="module_manager">模块管理</string>
+    <string name="module_logos">快捷方式</string>
+    <string name="module_news">每日热点</string>
+    <string name="module_navigate">常用网址</string>
+    <string name="module_tools">工具模块</string>
+
+    <!-- set default browser -->
+    <string name="start_to_set">开始设置</string>
+    <string name="clear_default">去清除</string>
+    <string name="clear_default_self">清除默认设置</string>
+
+    <string name="clear_default_tip1">步骤1：找到默认启动栏</string>
+    <string name="clear_default_tip2">步骤2：点击“清除默认设置”</string>
+    <string name="clear_default_tip3">步骤3：返回进行下一步</string>
+
+    <string name="clear_default_tip_self1">Polar浏览器已经是您的默认浏览器</string>
+
+    <string name="set_default_step1">步骤1：勾选“默认选项”</string>
+    <string name="set_default_step2">步骤2：选择Polar浏览器</string>
+
+    <string name="set_default_2_step1">步骤1：勾选“默认选项”</string>
+    <string name="set_default_2_step2">步骤2：选择Polar浏览器</string>
+
+    <!-- clear data -->
+    <string name="clear_cookie">清除Cookie</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="clear_history">清除历史记录</string>
+    <string name="clear_download">清除下载记录</string>
+    <string name="clear_all">清除全部？</string>
+    <string name="clear_all_2">清除全部</string>
+    <string name="clear_to_confirm">确定%1$s?</string>
+    <string name="clear_browser_record">清除访问记录</string>
+
+    <!-- about feedback -->
+    <string name="feedback">意见反馈</string>
+    <string name="feedback_hi">写下您的反馈意见</string>
+    <string name="feedback_contact">联系方式:</string>
+    <string name="feedback_contact_hint">手机号/邮箱:</string>
+    <string name="feedback_cont_null">请填写意见反馈！</string>
+    <string name="feedback_ok">反馈成功！</string>
+    <string name="feedback_check_network">反馈失败，请检查网络链接！</string>
+    <string name="feedback_copy_ok">已复制到剪贴板！</string>
+    <string name="feedback_send">发送</string>
+
+    <!-- exit dialog -->
+    <string name="exit_dialog_title">确定退出Polar浏览器吗？</string>
+    <string name="exit_press_back_again">再次点击退出</string>
+
+    <!-- context menu -->
+    <string name="menu_item_view_img">查看图片</string>
+    <string name="menu_item_download_img">保存图片</string>
+    <string name="menu_item_share_img">分享图片</string>
+    <string name="menu_item_open_background">在后台打开</string>
+    <string name="menu_item_open_new">在新标签页打开</string>
+    <string name="menu_item_add_to_bookmark">添加到书签</string>
+    <string name="menu_item_copy_link_text">复制文字</string>
+    <string name="toast_opened_background">后台已打开链接</string>
+    <string name="menu_item_savepage">保存网页</string>
+    <string name="menu_item_search">页内查找</string>
+    <string name="menu_item_share">分享网页</string>
+    <string name="menu_item_edit">截屏涂鸦</string>
+    <string name="menu_item_add_bookmark">添加收藏</string>
+    <string name="menu_item_cancel_bookmark">取消收藏</string>
+    <string name="edit_logo_title">编辑快捷方式</string>
+
+    <!-- 网页内查找-->
+
+
+
+    <!-- crash -->
+    <string name="app_crash_upload_tip">很抱歉，程序遇到问题需要关闭，是否上传崩溃信息？</string>
+    <string name="app_crash_uploading">正在上传...</string>
+
+    <!-- context menu -->
+    <string name="toast_copy_link_text">已复制该文字</string>
+
+    <!-- http auth -->
+    <string name="auth_request_username">用户名</string>
+    <string name="auth_request_password">密码</string>
+    <string name="auth_request_login">登录：</string>
+
+    <!-- custom ua -->
+    <string name="custom_ua_input_hint">请输入自定义UA</string>
+    <string name="custom_ua_title">自定义浏览器标识（UA）</string>
+    <string name="custom_ua_default">安卓手机</string>
+    <string name="custom_ua_pc">PC</string>
+    <string name="custom_ua_ios">iPhone</string>
+    <string name="custom_ua_custom">自定义</string>
+
+    <!-- add url -->
+    <string name="url_add">添加</string>
+    <string name="url_recommendation">推荐</string>
+    <string name="url_classify">分类</string>
+    <string name="url_custom">自定义</string>
+    <string name="website">网址</string>
+    <string name="edit_logo_max_tip">已加满啦，请删除不常用的网站再重新添加吧。</string>
+    <string name="edit_logo_to_add">添加</string>
+    <string name="edit_logo_custom_edit">自定义</string>
+    <string name="edit_logo_custom_from_history">从历史添加</string>
+    <string name="edit_logo_custom_from_favorite">从书签添加</string>
+    <string name="edit_logo_add_ok">添加成功</string>
+    <string name="already_edit_logo_add_ok">快捷方式已存在</string>
+    <string name="preview">预览</string>
+    <string name="no_network_tip1">...没有找到网络...</string>
+    <string name="no_network_tip2">无法跟世界取得联系</string>
+
+    <!-- import & export bookmark -->
+    <string name="import_bookmarks">导入书签</string>
+    <string name="export_bookmarks">导出书签</string>
+    <string name="backup_bookmarks">导入/导出书签</string>
+    <string name="export_bookmarks_success">导出成功</string>
+    <string name="export_bookmarks_failed">导出失败</string>
+    <string name="import_bookmarks_success">导入成功</string>
+    <string name="import_bookmarks_failed">导入失败</string>
+    <string name="bookmark_file">文件</string>
+    <string name="import_bookmarks_tips">是否要导入%1$s？</string>
+    <string name="bookmark_title">历史/书签</string>
+    <string name="add_bookmark_from_chrome">从Chrome浏览器</string>
+    <string name="add_bookmark_from_system">从系统浏览器</string>
+    <string name="add_bookmark_from_file">从文件</string>
+    <string name="add_bookmark_no_find_chrome">没有找到Chrome浏览器</string>
+    <string name="add_bookmark_chrom_empty">没有找到书签</string>
+    <string name="add_bookmark_system_empty">没有找到书签</string>
+
+    <!-- crop and edit -->
+    <string name="save_or_share">分享/保存</string>
+    <string name="share_screen_shot_to">分享截图至:</string>
+    <string name="save_into_album">保存到相册</string>
+    <string name="saved">已保存</string>
+    <string name="save">保存</string>
+    <string name="exit">退出</string>
+    <string name="save_success">保存成功！</string>
+    <string name="title_exit_edit_crop">是否退出编辑？</string>
+    <string name="tip_exit_edit_crop">退出后将不会保存文件！</string>
+
+    <!-- 无痕模式 -->
+    <string name="tip_privacy_on">已开启无痕模式</string>
+    <string name="tip_privacy_off">已关闭无痕模式</string>
+
+    <!-- 保存网页 -->
+    <string name="offline_web">离线网页(%1$s)</string>
+    <string name="offline_web_title">离线网页</string>
+    <string name="offline_web_delete_content">确定删除选中的离线网页？</string>
+    <string name="offline_web_saved">已保存到：下载-文件-离线网页</string>
+    <string name="offline_web_start_save">正在保存...</string>
+    <string name="offline_web_empty">暂无离线网页文件</string>
+    <string name="cache_files_size">缓存大小：20MB</string>
+    <!-- 打开文件 -->
+    <string name="openfile_error">打开失败，文件已被移动或删除！</string>
+    <string name="openfile_no_exist">文件不存在！</string>
+    <string name="openfile_image_error">图片已损毁！</string>
+    <string name="openfile_decompress_error">解压失败！</string>
+
+    <!-- 常用网址 -->
+    <string name="navigate_title_video">视频</string>
+    <string name="navigate_title_news">新闻</string>
+    <string name="navigate_title_social">社交</string>
+    <string name="navigate_title_games">游戏</string>
+    <string name="navigate_title_sports">运动</string>
+    <string name="navigate_title_music">音乐</string>
+    <string name="navigate_title_shop">购物</string>
+    <string name="navigate_title_life">生活</string>
+
+    <!-- 菜单 -->
+    <string name="image_mode_off_toast">已关闭无图模式</string>
+    <string name="image_mode_on_toast">已进入无图模式</string>
+    <string name="web_mode_off_toast">已关闭PC模式</string>
+    <string name="web_mode_on_toast">已进入PC模式</string>
+    <string name="file_path">文件路径：</string>
+
+    <!-- 视频下载 -->
+    <string name="toolbar_download_video_tip">点这里可以下载视频！</string>
+    <string name="dialog_video_download_tag">视频</string>
+    <string name="dialog_video_download_tag_audio">音频</string>
+    <string name="dialog_video_download_resolution">分辨率：</string>
+    <string name="dialog_video_download_format">格式：</string>
+    <string name="dialog_video_download_parsing">正在解析中，请稍后...</string>
+    <string name="dialog_video_download_parseerror">视频文件被删除！</string>
+    <string name="dialog_video_download_add_task">任务已添加到下载列表！</string>
+    <string name="dialog_video_download_no_network">网络无法连接，解析失败，请重试！</string>
+    <string name="play_download_video_error">文件出错，无法打开！</string>
+
+    <!-- 插件中心 -->
+    <string name="plug_video_download">视频下载</string>
+
+    <string name="dialog_ssl_title">安全警告</string>
+    <string name="dialog_ssl_continue_tips">证书信息></string>
+    <string name="dialog_ssl_continue">继续</string>
+    <string name="dialog_ssl_content">该网站证书不是由受信任的机构颁发！</string>
+    <string name="text_issued_to">颁发给</string>
+    <string name="text_issued_by">颁发者</string>
+    <string name="btn_ssl_close">关闭</string>
+    <string name="ssl_common_name">通用名称：</string>
+    <string name="ssl_organization">组织名称：</string>
+    <string name="ssl_organization_unit">组织单位名称：</string>
+    <string name="ssl_invalid">无效的安全证书</string>
+    <string name="ssl_expired">证书已过期</string>
+    <string name="ssl_idmismatch">主机名不匹配</string>
+    <string name="ssl_date_invalid">证书日期无效</string>
+    <string name="text_valid">有效期</string>
+    <string name="certificate_time">有效期从：</string>
+    <string name="valid_until">有效期到：</string>
+    <string name="notification">通知</string>
+    <string name="notifications">通知</string>
+    <string name="mark_as_read">设为已读</string>
+    <string name="menu_item_copy_link">复制链接</string>
+    <string name="toast_copy_link">已复制该链接</string>
+    <string name="update_tip">升级</string>
+    <string name="update_download_tip">正在升级</string>
+    <string name="choose_upload" msgid="3649366287575002063">"选择要上传的文件"</string>
+    <string name="setting_download_manager">下载设置</string>
+    <string name="setting_check_update">检测更新</string>
+    <string name="check_update_tip">安装GooglePlay才能下载应用！</string>
+    <string name="plug_install_tip">安装已完成，请开启！</string>
+    <string name="permission_dialog_title">开启以下权限才能正常使用</string>
+    <string name="permission_storage">存储空间</string>
+    <string name="permission_location">位置信息</string>
+    <string name="permission_dialog_description">在应用设置页面点击“权限”条目开启</string>
+
+    <!-- 页内查找-->
+    <string name="search_page_tip">输入要查找的内容</string>
+    <string name="setting_card_modle_manage">首页卡片管理</string>
+    <string name="setting_card_modle_news">新闻</string>
+    <string name="card_modle_tip">如果你想重新显示卡片，你可以在设置页开启！</string>
+    <string name="manage_cards_modle">卡片管理</string>
+
+    <string name="card_news_more">更多</string>
+    <string name="card_news_next">切换</string>
+
+    <string name="dialog_lanchanged_restart">重启</string>
+    <string name="dialog_lanchanged_tip">语言已切换为中文，重启应用才能正常使用！</string>
+
+    <string name="add_home_logo">%1$s 已经添加到首页！</string>
+    <string name="feed_back_failed">发送失败！</string>
+    <string name="feed_back_commit">正在发送…</string>
+    <string name="launcher_affiliate_name">快速上网</string>
+    <string name="setting_product_about">帮助</string>
+    <string name="plug_suggestion">搜索建议</string>
+    <string name="setting_about_website">官方网站</string>
+    <string name="setting_about_user_group">加入核心用户组织</string>
+    <string name="setting_about_good_evaluation">给我们好评</string>
+    <string name="setting_about_agreement">用户协议</string>
+    <string name="setting_about">关于</string>
+    <string name="feedback_whatsapp_text">添加WhatsApp客服账号，能得到实时回复！</string>
+    <string name="setting_about_terms">隐私条款</string>
+    <string name="ssl_security_tip">安全证书不受信任，是否继续？</string>
+    <string name="setting_price_comparison">价格比较</string>
+
+
+    <!-- 文件管理 类型-->
+    <string name="file_classify_image">图片</string>
+    <string name="file_classify_document">文档</string>
+    <!--<string name="file_classify_zip_file">压缩文件</string>-->
+    <!--<string name="file_classify_apk">APK</string>-->
+    <string name="file_classify_other">其他</string>
+    <string name="download_apk_installed">已安装</string>
+    <string name="download_apk_not_installed">未安装</string>
+
+    <string name="file_image_count">%1$d 张</string>
+    <string name="file_delete_hint">删除所选文件?</string>
+    <string name="menu_more_set_wallpaper">设为手机壁纸</string>
+    <string name="menu_set_successful">设置成功</string>
+    <string name="menu_set_failed">设置失败</string>
+    <string name="download_change_storage_location">移动到</string>
+    <string name="file_date_added">下载时间</string>
+
+    <string name="download_with_godownloader_tip"><u>GD下载提速300%</u></string>
+    <string name="extract">解压</string>
+    <string name="download_url_error">该下载地址已失效</string>
+    <string name="submenu_file_others_decompression">已解压</string>
+    <string name="camera">相机</string>
+    <string name="video_screen_locked">屏幕已锁定</string>
+    <string name="video_screen_unlocked">屏幕已解锁</string>
+    <string name="start_full_figure">开启</string>
+    <string name="start_full_figure_mode">启用看图模式</string>
+    <string name="unusable_full_figure_mode">无法使用看图模式</string>
+    <string name="share_edit_image">编辑涂鸦</string>
+    <string name="picture_saved">图片已保存！</string>
+    <string name="activity_notify_news">新闻通知</string>
+    <string name="activity_notify_system">系统通知</string>
+    <string name="ad_block_num_100">已成功拦截广告总数达到100</string>
+    <string name="fb_notify_msg_tip">您有新的聊天信息</string>
+    <string name="fb_notify_title">facebook for Polar</string>
+    <string name="new_function_tip">新功能提醒</string>
+    <string name="fb_notify_push_tip">开启消息推送功能,使用Polar浏览器登录facebook,可获取及时消息啊</string>
+    <string name="next_time">下次再说</string>
+    <string name="fb_notify_request_tip">您有新的好友申请消息</string>
+    <string name="fb_notify_notice_tip">您有新的通知消息</string>
+    <string name="str_fb_notify_mag">您有1条新消息</string>
+    <string name="account_edit_avatar">编辑头像</string>
+    <string name="account_login">登录</string>
+    <string name="account_login_phone_num">手机号登录</string>
+    <string name="account_login_success">登录成功</string>
+    <string name="account_logout">退出帐号</string>
+    <string name="account_save_avatar">保存头像</string>
+    <string name="account_welcome_to_polar">Welcome to Polar Browser</string>
+    <string name="account_login_sync_bookmarks">正在同步书签...</string>
+    <string name="account_login_fail">登录失败</string>
+    <string name="sync_bookmark_last_time">上次同步时间：%1$s</string>
+    <string name="sync_bookmark">云同步</string>
+    <string name="sync_bookmark_success">同步成功</string>
+    <string name="sync_bookmark_failed">同步失败，请重试</string>
+    <string name="account_save_avatar_success">保存成功</string>
+    <string name="account_login_user_center">个人中心</string>
+    <string name="download_page_save">图片已保存！</string>
+    <string name="incognito_mode">隐私模式</string>
+    <string name="home_logo_more">引导</string>
+    <string name="setting_font_size_big">大号</string>
+    <string name="account_logging_tip">正在登录...</string>
+    <string name="account_save_avatar_fail">保存失败</string>
+    <string name="facebook_notification">Facebook通知</string>
+    <!-- 天气 -->
+    <string name="no_weather">无天气信息</string>
+    <string name="no_locate">无法定位</string>
+    <string name="location">位置</string>
+    <string name="current_location">当前位置</string>
+    <string name="search_location">通过输入来搜索您的位置</string>
+    <string name="allow_polar_location">允许Polar访问您的位置</string>
+    <string name="unavailable">无法获取</string>
+    <string name="searching">正在搜索</string>
+    <string name="no_result">没有结果</string>
+
+    <string name="tornado">龙卷风</string>
+    <string name="tropical_storm">热带风暴</string>
+    <string name="hurricane">飓风</string>
+    <string name="severe_thunderstorms">严重雷暴</string>
+    <string name="thunderstorms">雷暴</string>
+    <string name="rain_snow">雨夹雪</string>
+    <string name="rain_sleet">雨夹霰</string>
+    <string name="snow_sleet">雪夹霰</string>
+    <string name="freezing_drizzle">小冻雨</string>
+    <string name="drizzle">小雨</string>
+    <string name="freezing_rain">冻雨</string>
+    <string name="showers">阵雨</string>
+    <string name="snow_flurries">阵雪</string>
+    <string name="small_snow_flurries">小阵雪</string>
+    <string name="blowing_snow">高吹雪</string>
+    <string name="snow">雪</string>
+    <string name="hail">冰雹</string>
+    <string name="sleet">霰</string>
+    <string name="dust">扬尘</string>
+    <string name="foggy">雾</string>
+    <string name="haze">霾</string>
+    <string name="smoky">烟尘</string>
+    <string name="blustery">大风</string>
+    <string name="windy">有风</string>
+    <string name="cold">寒冷</string>
+    <string name="cloudy">多云</string>
+    <string name="mostly_cloudy_night">大部分多云（夜）</string>
+    <string name="mostly_cloudy_day">大部分多云（日）</string>
+    <string name="partly_cloudy_night">部分多云（夜）</string>
+    <string name="partly_cloudy_day">部分多云（日）</string>
+    <string name="clear_night">晴朗（夜）</string>
+    <string name="sunny">晴朗</string>
+    <string name="fair_night">晴天（夜）</string>
+    <string name="fair_day">晴天（日）</string>
+    <string name="rain_hail">雨夹冰雹</string>
+    <string name="hot">炎热</string>
+    <string name="isolated_thunderstorms">孤立雷暴</string>
+    <string name="scattered_thunderstorms">分散雷暴</string>
+    <string name="scattered_showers">分散阵雨</string>
+    <string name="heavy_snow">大雪</string>
+    <string name="scattered_snow_showers">分散阵雨雪</string>
+    <string name="partly_cloudy">部分多云</string>
+    <string name="thundershowers">雷阵雨</string>
+    <string name="snow_showers">阵雨雪</string>
+    <string name="isolated_thundershowers">孤立雷阵雨</string>
+    <string name="not_available">不可用</string>
+    <string name="qrcode_frame">请将二维码对准于框内</string>
+    <string name="qrcode_dispose">正在处理</string>
+    <string name="qrcode_failure">识别失败</string>
+    <string name="qrcode_search">搜索</string>
+    <string name="qrcode_copy">复制</string>
+    <string name="qrcode_album">相册</string>
+    <string name="webpage_not_available">网页无法显示</string>
+    <string name="refresh">刷新</string>
+    <string name="no_internet_connection">没有网络连接</string>
+    <string name="visited_add_home">添加到快速拨号</string>
+    <string name="visited_clear">清除记录</string>
+    <string name="visited_close">关闭</string>
+    <string name="visited_setting_tip">最常访问已关闭，您可以在设置中开启此功能</string>
+    <string name="visited_all_clear">确定清除记录？</string>
+    <string name="visited_already_clear_tip">最常访问记录已清空</string>
+    <string name="visited_card_title">最常访问</string>
+    <string name="logo_on_homepage">主页图标</string>
+    <string name="browser_settings">浏览器设置</string>
+    <string name="tag">标签</string>
+    <string name="sync_only_in_wifi">仅在Wifi下自动同步</string>
+    <string name="account_management">帐号管理</string>
+    <string name="avatar">头像</string>
+    <string name="nickname">昵称</string>
+    <string name="change_nickname">更改昵称</string>
+    <string name="letters_limit">4-20个字符</string>
+    <string name="input_again">输入错误，请重新填写</string>
+    <string name="gender">性别</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="secret">保密</string>
+    <string name="date_of_birth">出生日期</string>
+    <string name="please_chosse">请选择</string>
+
+</resources>

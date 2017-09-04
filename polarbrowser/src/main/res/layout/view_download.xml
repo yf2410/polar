@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/root_downloading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+    <ListView
+        android:id="@+id/lv_downloading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#E9EAEE"
+        android:dividerHeight="@dimen/common_divider_width"/>
+
+    <RelativeLayout
+        android:id="@+id/view_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingTop="10dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/empty_icon_downloading"/>
+    </RelativeLayout>
+
+</RelativeLayout>

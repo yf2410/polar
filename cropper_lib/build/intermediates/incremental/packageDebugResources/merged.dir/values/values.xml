@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CropImageView"><attr name="guidelines">
+            <enum name="on" value="2"/>
+            <enum name="onTouch" value="1"/>
+            <enum name="off" value="0"/>
+        </attr><attr format="boolean" name="fixAspectRatio"/><attr format="integer" name="aspectRatioX"/><attr format="integer" name="aspectRatioY"/><attr format="reference" name="imageResource"/></declare-styleable>
+</resources>

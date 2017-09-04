@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/common_dialog_root"
+    android:layout_width="@dimen/download_dialog_width"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/common_dialog_shape"
+    >
+
+    <LinearLayout
+        android:id="@+id/common_ll_content_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:id="@+id/common_ll_title_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/download_dialog_Tvtitle_height">
+
+            <ImageButton
+                android:id="@+id/common_img_title_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/common_txt_title"
+                style="@style/DownLoadDialog_tv_title"
+                />
+
+            <ImageButton
+                android:id="@+id/common_img_title_right"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:src="@drawable/common_btn_close1"
+                android:visibility="gone" />
+
+            <View
+                style="@style/TitleLineView"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/common_ll_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            >
+
+            <!-- listdialog 没有margin，因此把margin标到这个textview上而不是容器上 -->
+
+            <TextView
+                android:id="@+id/common_txt_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:paddingLeft="@dimen/common_padding_10"
+                android:paddingRight="@dimen/common_padding_10"
+                android:textColor="@color/common_font_color_2"
+                android:textSize="@dimen/common_font_size_d" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/common_ll_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/download_dialog_btn_height"
+            android:orientation="horizontal">
+
+            <com.polar.browser.common.ui.CommonBottomBar2
+                android:id="@+id/common_btn_bar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

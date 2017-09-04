@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <com.polar.browser.view.RangeBar
+        android:id="@+id/rangeBar"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        app:gbs_anchor_height="12dp"
+        app:gbs_anchor_width="12dp"
+        app:gbs_paddingBottom="70dp"
+        app:gbs_placeholder_width="20dp"
+        app:gbs_placeholder_height="20dp"
+        app:gbs_paddingLeft="20dp"
+        app:gbs_paddingRight="20dp"
+        app:gbs_leftColor="#b5b5b5"
+        app:gbs_rightColor="#b5b5b5"
+        app:gbs_paddingTop="49dp"
+        app:gbs_textSize="14sp"
+        app:gbs_text_margin="20dp"
+        app:gbs_textColor="#4d4d4d" />
+
+    <RelativeLayout
+        android:id="@+id/rl_menu_done"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_below="@id/rangeBar"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/navigation_bottom_bg">
+
+        <ImageView
+            android:id="@+id/menu_done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/menu_close_selector"/>
+    </RelativeLayout>
+
+</RelativeLayout>

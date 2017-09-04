@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/root_color_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/color_box_bg_2dp">
+
+    <LinearLayout
+        android:id="@+id/ll_colors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="6dp"
+        android:background="@drawable/color_box_bg_1dp"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <View
+            android:id="@+id/color_box1"
+            android:layout_width="@dimen/color_box_item_width"
+            android:layout_height="@dimen/color_box_item_height"
+            android:layout_margin="2dp"
+            android:background="@drawable/color_box_item_1"/>
+
+        <View
+            android:id="@+id/color_box2"
+            android:layout_width="@dimen/color_box_item_width"
+            android:layout_height="@dimen/color_box_item_height"
+            android:layout_margin="2dp"
+            android:background="@drawable/color_box_item_2"/>
+
+        <View
+            android:id="@+id/color_box3"
+            android:layout_width="@dimen/color_box_item_width"
+            android:layout_height="@dimen/color_box_item_height"
+            android:layout_margin="2dp"
+            android:background="@drawable/color_box_item_3"/>
+
+        <View
+            android:id="@+id/color_box4"
+            android:layout_width="@dimen/color_box_item_width"
+            android:layout_height="@dimen/color_box_item_height"
+            android:layout_margin="2dp"
+            android:background="@drawable/color_box_item_4"/>
+
+        <View
+            android:id="@+id/color_box5"
+            android:layout_width="@dimen/color_box_item_width"
+            android:layout_height="@dimen/color_box_item_height"
+            android:layout_margin="2dp"
+            android:background="@drawable/color_box_item_5"/>
+
+        <View
+            android:id="@+id/color_box6"
+            android:layout_width="@dimen/color_box_item_width"
+            android:layout_height="@dimen/color_box_item_height"
+            android:layout_margin="2dp"
+            android:background="@drawable/color_box_item_6"/>
+
+        <View
+            android:id="@+id/color_box7"
+            android:layout_width="@dimen/color_box_item_width"
+            android:layout_height="@dimen/color_box_item_height"
+            android:layout_margin="2dp"
+            android:background="@drawable/color_box_item_7"/>
+
+        <View
+            android:id="@+id/color_box8"
+            android:layout_width="@dimen/color_box_item_width"
+            android:layout_height="@dimen/color_box_item_height"
+            android:layout_margin="2dp"
+            android:background="@drawable/color_box_item_8"/>
+
+        <View
+            android:id="@+id/color_box9"
+            android:layout_width="@dimen/color_box_item_width"
+            android:layout_height="@dimen/color_box_item_height"
+            android:layout_margin="2dp"
+            android:background="@drawable/color_box_item_9"/>
+
+        <View
+            android:id="@+id/color_box10"
+            android:layout_width="@dimen/color_box_item_width"
+            android:layout_height="@dimen/color_box_item_height"
+            android:layout_margin="2dp"
+            android:background="@drawable/color_box_item_10"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_colors"
+        android:layout_centerHorizontal="true"
+        android:padding="11dp">
+
+        <com.polar.browser.cropedit.BrushPoit
+            android:id="@+id/view_poit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"/>
+
+        <SeekBar
+            android:id="@+id/brush_size"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/view_poit"
+            android:maxHeight="4dp"
+            android:minHeight="4dp"
+            android:progress="15"
+            android:progressDrawable="@drawable/paint_seek_bar"
+            android:thumb="@drawable/paint_seekbar_thumb"
+            android:thumbOffset="6dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

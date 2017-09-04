@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/menu_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7333"/>
+
+    <RelativeLayout
+        android:id="@+id/menu_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:clipChildren="true">
+        <include
+            layout="@layout/common_share_model"
+            />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/menu_touch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="#0000"
+        android:orientation="vertical">
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 文本列表对话框的一行 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_list_row1"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        >
+
+        <ImageView
+            android:id="@+id/search_engine_icon"
+            android:layout_width="@dimen/seek_iv_icon"
+            android:layout_height="@dimen/seek_iv_icon"
+            android:layout_marginLeft="@dimen/common_padding_20"
+            android:scaleType="fitCenter"
+            android:src="@drawable/engin_default_bg" />
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_padding_8"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Google"
+            android:textColor="@color/common_font_color_selector_2"
+            android:textSize="@dimen/common_font_size_e" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_check"
+        android:layout_width="@dimen/seek_iv_ok"
+        android:layout_height="@dimen/seek_iv_ok"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/common_padding_20"
+        android:src="@drawable/list_check" />
+
+    <View
+        android:id="@+id/line"
+        style="@style/line_SettingActivityItem"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

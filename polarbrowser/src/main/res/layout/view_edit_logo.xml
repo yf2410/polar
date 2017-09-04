@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.polar.browser.common.ui.DragGridView
+        android:id="@+id/grid_edit_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_bar"
+        android:layout_centerHorizontal="true"
+        android:numColumns="5"
+        android:paddingBottom="68dp"
+        android:verticalSpacing="15dp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="13dp">
+
+        <TextView
+            android:id="@+id/tv_logo_max_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="13dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/edit_logo_max_tip"
+            android:textColor="@color/black54"
+            android:textSize="12sp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_edit_logo_complete"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="@drawable/green_btn_selector"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/complete"
+            android:textColor="@color/white"
+            android:textSize="17sp"/>
+    </LinearLayout>
+
+    <com.polar.browser.common.ui.CommonTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_logo_title"/>
+
+
+
+</merge>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/whitebg"
+    >
+
+    <View
+        android:id="@+id/line_view"
+        style="@style/TitleLineView" />
+
+    <TextView
+        android:id="@+id/btn_edit"
+        android:layout_width="90dp"
+        android:layout_height="47dp"
+        android:text="@string/edit"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:textColor="@color/bottom_menu_font_color_selector"
+        android:textSize="@dimen/common_font_size_d" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/btn_edit"
+        android:src="@drawable/iv_vertical_line"
+        android:layout_centerVertical="true"
+        />
+</RelativeLayout>

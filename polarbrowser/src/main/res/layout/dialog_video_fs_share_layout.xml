@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#80000000"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:weightSum="4">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/video_share_facebook"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/share_icon_facebook"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="@string/facebook"
+            android:textColor="@color/color_box_item_1"
+            android:textSize="@dimen/common_font_size_e" />
+
+        <TextView
+            android:id="@+id/video_share_twitter"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/share_icon_twitter"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="@string/twitter"
+            android:textColor="@color/color_box_item_1"
+            android:textSize="@dimen/common_font_size_e" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/video_share_whatsapp"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/share_icon_whatsapp"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="@string/whatsapp"
+            android:textColor="@color/color_box_item_1"
+            android:textSize="@dimen/common_font_size_e" />
+
+        <TextView
+            android:id="@+id/video_share_email"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/share_icon_mail"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="@string/email"
+            android:textColor="@color/color_box_item_1"
+            android:textSize="@dimen/common_font_size_e" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/video_share_shortmessage"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/share_icon_message"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="@string/shortmessage"
+            android:textColor="@color/color_box_item_1"
+            android:textSize="@dimen/common_font_size_e" />
+
+        <TextView
+            android:id="@+id/video_share_copy_link"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/share_icon_copy"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="@string/copy_link"
+            android:textColor="@color/color_box_item_1"
+            android:textSize="@dimen/common_font_size_e" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/video_share_system"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/share_icon_more"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="@string/share_system"
+            android:textColor="@color/color_box_item_1"
+            android:textSize="@dimen/common_font_size_e" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

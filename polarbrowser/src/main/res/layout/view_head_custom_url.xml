@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:descendantFocusability="afterDescendants">
+    <RelativeLayout
+        android:id="@+id/line_custom_edit"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@drawable/common_list_row1"
+        android:paddingTop="16dp">
+
+        <ImageView
+            android:id="@+id/iv_edit"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/custom_logo_edit"/>
+
+        <TextView
+            android:id="@+id/tv_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@id/iv_edit"
+            android:text="@string/edit_logo_custom_edit"
+            android:textColor="@color/black87"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/black12"/>
+
+    <RelativeLayout
+        android:id="@+id/line_custom_from_history"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@drawable/common_list_row1">
+
+        <ImageView
+            android:id="@+id/iv_from_history"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/custom_logo_history"/>
+
+        <TextView
+            android:id="@+id/tv_from_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@id/iv_from_history"
+            android:text="@string/edit_logo_custom_from_history"
+            android:textColor="@color/black87"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/black12"/>
+
+    <RelativeLayout
+        android:id="@+id/line_custom_from_favorite"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@drawable/common_list_row1">
+
+        <ImageView
+            android:id="@+id/iv_from_favorite"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/custom_logo_favorite"/>
+
+        <TextView
+            android:id="@+id/tv_from_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@id/iv_from_favorite"
+            android:text="@string/edit_logo_custom_from_favorite"
+            android:textColor="@color/black87"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/black12"/>
+
+</LinearLayout>

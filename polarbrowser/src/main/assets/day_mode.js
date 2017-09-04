@@ -1,0 +1,1 @@
+var e=document.getElementById("vc_night_mode_style");e&&document.getElementsByTagName("head")[0].removeChild(e)

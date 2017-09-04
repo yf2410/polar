@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.polar.browser">
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- 闪光灯 -->
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- Toast -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <!-- 读取网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!-- 用于读取手机当前的状态,eg.获取设备ID -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <!-- 访问网络，网络定位需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- SD卡读取权限，用户写入离线定位数据 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <!-- 允许创建快捷方式 -->
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <!--
+     FIX DUMP java.lang.SecurityException: Neither user 10096 nor current process has android.permission.WAKE_LOCK
+     允许程序在手机屏幕关闭后后台进程仍然运行
+    -->
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <!-- 收藏夹操作权限 -->
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
+    <!-- 禁止发出通知，既后台下载，如果要使用这一句必须声明一个权限 -->
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />
+    <!-- 手机重启发送广播权限 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:name="com.polar.browser.JuziApp"
+        android:theme="@style/CustomTheme"
+        tools:replace="android:icon,android:label,android:theme">
+        <!-- Umeng统计 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="56826aaee0f55a404b000b5b"/>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="0"/>
+
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.polar.browser.activity.WelcomeActivity"
+            android:theme="@style/WelcomeTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.WEB_SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <data android:scheme="file"/>
+                <data android:scheme="content"/>
+                <data android:mimeType="text/html"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:name="com.polar.browser.activity.BrowserActivity"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="com.polar.browser.BrowserActivity.goto"/>
+                <action android:name="com.polar.browser.BrowserActivity.load.savedpage"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <!-- Crash handler Activity -->
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:name="com.polar.browser.crashhandler.CrashUploadActivity"
+            android:process="com.polar.browser.crashhandler"
+            android:theme="@style/Transparent"/>
+        <!-- 裁剪、编辑界面 -->
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:name="com.polar.browser.cropedit.CropEditActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.polar.browser.activity.DialogToastActivity"
+            android:theme="@android:style/Theme.Translucent">
+        </activity>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:name="com.polar.browser.bookmark.BookmarkActivity"/>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:name="com.polar.browser.download.savedpage.SavedPageActivity"/>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:name="com.polar.browser.location_weather.SwitchLocationActivity"/>
+        <activity
+            android:name=".location_weather.SearchLocationActivity"
+            android:launchMode="singleTask"/>
+
+        <activity android:name="com.polar.browser.setting.AdBlockSettingActivity" android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <!-- Adblock Service -->
+        <service
+            android:exported="false"
+            android:name="com.polar.browser.service.AdBlockService"
+            android:process=":AdBlockService">
+            <intent-filter>
+                <action android:name="com.polar.browser.service.AdBlockservice.action.bind"/>
+            </intent-filter>
+        </service>
+        <!-- android:process=":DownloadService" -->
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:name="com.polar.browser.download.DownloadActivity"
+            android:process=":DownloadService"
+            android:theme="@style/Transparent"/>
+        <activity
+            android:name="com.polar.business.zxing.CaptureActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+
+            android:name="com.polar.browser.download.DownloadDetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:process=":DownloadService"/>
+        <activity
+            android:launchMode="singleTask"
+            android:name="com.polar.browser.download.DownloadAlertDialog"
+            android:process=":DownloadService"
+            android:theme="@style/dialog"/>
+        <activity
+            android:launchMode="singleTask"
+            android:name="com.polar.browser.download.DownloadNetChangeDialog"
+            android:process=":DownloadService"
+            android:theme="@style/dialog"/>
+        <activity
+            android:launchMode="singleTask"
+            android:name="com.polar.browser.download_refactor.dialog.DownloadFileExistsDialog"
+            android:process=":DownloadService"
+            android:theme="@style/dialog"/>
+        <activity
+            android:launchMode="singleTask"
+            android:name="com.polar.browser.download_refactor.dialog.DownloadDialog"
+            android:process=":DownloadService"
+            android:theme="@style/dialog"/>
+        <activity
+            android:launchMode="singleTask"
+            android:name="com.polar.browser.download_refactor.dialog.DownloadNetChangeDialog"
+            android:process=":DownloadService"
+            android:theme="@style/dialog"/>
+        <activity
+            android:launchMode="singleTask"
+            android:name="com.polar.browser.download_refactor.dialog.DownloadNetChangeDialog2"
+            android:process=":DownloadService"
+            android:theme="@style/dialog"/>
+        <activity
+            android:launchMode="singleTask"
+            android:name="com.polar.browser.download_refactor.dialog.DownloadBase64ImgDialog"
+            android:process=":DownloadService"
+            android:theme="@style/dialog"/>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:excludeFromRecents="true"
+            android:name="com.polar.browser.safe.ssl.SSLDialog"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/Theme.Translucent"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.polar.browser.utils.CustomToastActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/custom_toast_dialog"/>
+
+        <service
+            android:name="com.polar.browser.download.DownloadService"
+            android:process=":DownloadService">
+        </service>
+        <service
+            android:enabled="true"
+            android:name="com.polar.browser.update.DownloadApkService">
+        </service>
+        <!-- [START firebase_service] -->
+        <service android:name="com.polar.browser.push.CustomFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <!-- [END firebase_service] -->
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.polar.browser.setting.SettingActivity"/>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.polar.browser.setting.SettingPlugActivity"/>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.polar.browser.setting.NotifyManagerActivity"/>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.polar.browser.setting.SettingDownloadActivity"/>
+        <activity
+            android:name="com.polar.browser.setting.SettingAboutActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity
+            android:name="com.polar.browser.setting.SetDefaultBrowserActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.polar.browser.setting.SavedAccountActivity"/>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.polar.browser.loginassistant.login.LoginActivity"/>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.polar.browser.loginassistant.login.LogoutActivity"/>
+        <!--用于Facebook web 登录 -->
+        <activity android:name="com.polar.browser.loginassistant.login.FacebookWebLoginActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            />
+        <activity android:name=".loginassistant.login.ImageClipActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            />
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.polar.browser.setting.ClearDataActivity"/>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.polar.browser.downloadfolder.SettingDownloadPath"/>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.polar.browser.downloadfolder.SelectDownloadDir"/>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.polar.browser.bookmark.BookmarkExportActivity"/>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.polar.browser.bookmark.BookmarkImportActivity"/>
+        <activity
+
+            android:name="com.polar.browser.download.OpenFileActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:process=":DownloadService"/>
+
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.polar.browser.setting.FeedBackActivity"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.polar.browser.bookmark.EditBookmarkActivity"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.polar.browser.video.VideoActivity"/>
+
+        <activity
+            android:name="com.polar.browser.ytbdownload.YtbVideoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:theme="@style/ytbdialogvideo"/>
+
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.polar.browser.homepage.sitelist.AddMoreSiteActivity"/>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.polar.browser.homepage.sitelist.classify.details.ClassifyActivity"/>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.polar.browser.homepage.sitelist.recommand.bookmark.SiteFromBookmarkActivity"/>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.polar.browser.homepage.sitelist.recommand.history.SiteFromHistoryActivity"/>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:name="com.polar.browser.imagebrowse.ImageBrowseActivity"/>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.polar.browser.imagebrowse.ImageBrowseGalleryActivity"
+            android:theme="@style/Transparent"/>
+
+        <!--
+     Optionally, register AnalyticsReceiver and AnalyticsService to support background
+     dispatching on non-Google Play devices
+        -->
+
+        <activity
+            android:name=".loginassistant.login.AccountManagementActivity"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name=".loginassistant.login.UserEditNicknameActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+
+        <activity android:name="com.polar.browser.download.ImageFolderDetailsActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:process=":DownloadService"/>
+        <activity android:name="com.polar.browser.download.ImageGalleryActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:process=":DownloadService"/>
+        <activity android:name="com.polar.browser.download.SetWallpaperActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:process=":DownloadService"/>
+        <activity
+            android:name="com.polar.browser.download.DecompresstionFolderActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:process=":DownloadService"/>
+
+        <!-- Optionally, register AnalyticsReceiver and AnalyticsService to support background
+     dispatching on non-Google Play devices -->
+        <receiver android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true">
+
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:enabled="true"
+            android:exported="false"
+            android:name="com.google.android.gms.analytics.AnalyticsService"/>
+        <!--
+     Optionally, register CampaignTrackingReceiver and CampaignTrackingService to enable
+     installation campaign reporting
+        -->
+        <receiver
+            android:exported="true"
+            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.gms.analytics.CampaignTrackingService"/>
+
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.polar.browser.push.SystemNewsListActivity"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.polar.browser.push.loadWebDetailsActivity"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.polar.browser.download.FileClassifyDetailActivity" android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:process=":DownloadService"
+                android:launchMode="singleTask"
+            />
+        <activity android:name="com.polar.browser.download.ChooseDirActivity"  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:process=":DownloadService"
+                  android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.polar.browser.download.FilePropActivity"  android:configChanges="orientation|keyboardHidden|screenSize"
+                  android:windowSoftInputMode="adjustResize" android:process=":DownloadService"/>
+
+        <meta-data
+            android:name="com.google.android.gms.analytics.globalConfigResource"
+            android:resource="@xml/analytics"/>
+        <!-- AppsFlyer: enabling google play services 使谷歌播放服务 -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        <!-- 添加 Facebook 应用编号 -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+        <!-- 添加 Facebook account-kit-start -->
+        <meta-data
+            android:name="com.facebook.accountkit.ApplicationName"
+            android:value="@string/app_name"/>
+        <meta-data
+            android:name="com.facebook.accountkit.ClientToken"
+            android:value="@string/client_token"/>
+        <activity
+            android:name="com.facebook.accountkit.ui.AccountKitActivity"
+            android:theme="@style/CustomFbLoginTheme"
+            tools:replace="android:theme"/>
+        <!-- 添加 Facebook account-kit-end -->
+
+        <!-- Adjust broadcast receiver -->
+        <receiver
+            android:name="com.adjust.sdk.AdjustReferrerReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.polar.browser.manager.VCBroadcastReceiver">
+            <intent-filter >
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.polar.browser.adjust.AdjustService"/>
+        <service android:name=".bookmark.BookmarkService"/>
+        <!--<service android:name="com.polar.browser.service.SuggestionEventService"/>-->
+        <service
+            android:name=".sync.SettingSyncService"
+            android:exported="false"></service>
+
+        <service
+            android:name=".sync.UserHomeSiteService"
+            android:exported="false"></service>
+
+        <service
+            android:name=".sync.SyncService"
+            android:exported="false"></service>
+    </application>
+</manifest>

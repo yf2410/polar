@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <TextView
+        android:id="@+id/tv_select_male"
+        style="@style/dialog_select_photo"
+        android:text="@string/male"/>
+
+    <View
+        style="@style/line_SettingActivityItem"/>
+
+    <TextView
+        android:id="@+id/tv_select_female"
+        style="@style/dialog_select_photo"
+        android:text="@string/female" />
+</LinearLayout>

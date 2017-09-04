@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_search_box"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true">
+
+    <View
+        android:id="@+id/home_status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/navigation_bar_bg" />
+
+    <RelativeLayout
+        android:id="@+id/search_box_bg"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_below="@id/home_status_bar">
+
+        <View
+            android:id="@+id/view_input_standard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:layout_marginTop="3dp" />
+
+        <View
+            android:id="@+id/view_search_input_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/search_box_bg_circle" />
+
+        <TextView
+            android:id="@+id/search_box_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="16dp"
+            android:drawableLeft="@drawable/search_icon"
+            android:drawablePadding="4dp"
+            android:gravity="center_vertical"
+            android:text="@string/search_input_hint"
+            android:textColor="@color/black54"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:id="@+id/group_search_box_btn_qrcode"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginRight="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/search_box_btn_qrcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/btn_qrcode_selector" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toLeftOf="@id/group_search_box_btn_qrcode"
+            android:src="@drawable/iv_search_vertical_line"/>
+
+        <View
+            android:id="@+id/view_search_input_bottom_line"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="#bdbdbd" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

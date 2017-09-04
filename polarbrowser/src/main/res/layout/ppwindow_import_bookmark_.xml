@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/menu_bg"
+              android:background="@drawable/circle_shadow"
+              android:layout_width="200dp"
+              android:layout_height="56dp"
+              android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/ppwindow_import_bookmark"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:background="@drawable/menu_toolbar_top_more_selector"
+        android:gravity="center"
+        android:text="@string/import_bookmarks"
+        android:textColor="@color/menu_tool_bar_top_text"
+        android:textSize="17sp"/>
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0.5dp"-->
+        <!--android:id="@+id/first_line"-->
+        <!--android:background="#dfdfe1"/>-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/ppwindow_from_android_tv"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1.0"-->
+        <!--android:background="@drawable/menu_toolbar_top_more_selector"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/add_bookmark_from_system"-->
+        <!--android:textColor="@color/menu_tool_bar_top_text"-->
+        <!--android:textSize="17sp"/>-->
+
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0.5dp"-->
+        <!--android:id="@+id/second_line"-->
+        <!--android:background="#dfdfe1"/>-->
+    <!--<TextView-->
+        <!--android:id="@+id/ppwindow_from_backup_tv"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1.0"-->
+        <!--android:background="@drawable/menu_toolbar_top_more_selector"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/add_bookmark_from_file"-->
+        <!--android:textColor="@color/menu_tool_bar_top_text"-->
+        <!--android:textSize="17sp"/>-->
+
+
+
+</LinearLayout>

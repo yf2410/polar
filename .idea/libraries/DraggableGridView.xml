@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="DraggableGridView">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/polarbrowser/libs/DraggableGridView.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

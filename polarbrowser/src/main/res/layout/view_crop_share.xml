@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#212121">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/btn_share_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:src="@drawable/btn_paint_back_selector"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="5dp"
+            android:text="@string/save_or_share"
+            android:textColor="@color/white"
+            android:textSize="@dimen/common_font_size_c"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/share_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="5dp"
+            android:text="@string/share_screen_shot_to"
+            android:textColor="@color/white54"
+            android:textSize="@dimen/common_font_size_d"/>
+
+        <LinearLayout
+            android:id="@+id/ll_share_btns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/share_tip"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btn_share_facebook"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/share_icon_facebook"
+                android:gravity="center"
+                android:text="@string/facebook"
+                android:textColor="@color/white87"
+                android:textSize="@dimen/common_font_size_f"/>
+
+            <TextView
+                android:id="@+id/btn_share_twitter"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/share_icon_twitter"
+                android:gravity="center"
+                android:text="@string/twitter"
+                android:textColor="@color/white87"
+                android:textSize="@dimen/common_font_size_f"/>
+
+            <TextView
+                android:id="@+id/btn_share_whatsapp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/share_icon_whatsapp"
+                android:gravity="center"
+                android:text="@string/whatsapp"
+                android:textColor="@color/white87"
+                android:textSize="@dimen/common_font_size_f"/>
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_save"
+            android:layout_width="170dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/ll_share_btns"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/btn_save_selector">
+
+            <TextView
+                android:id="@+id/tv_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableLeft="@drawable/icon_album"
+                android:gravity="center"
+                android:text="@string/save_into_album"
+                android:textColor="@color/white87"
+                android:textSize="17sp"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_save_des"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_save"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:textColor="@color/white26"
+            android:textSize="12sp"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+</RelativeLayout>

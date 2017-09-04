@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:sb="http://schemas.android.com/apk/res/com.polar.browser"
+                android:id="@+id/root_saved_account"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#e8eaf0">
+
+    <com.polar.browser.common.ui.CommonTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/saved_account"/>
+
+    <View
+        android:id="@+id/space_view"
+        style="@style/space_SettingActivityItem"
+        android:layout_below="@id/title_bar"/>
+
+    <RelativeLayout
+        android:id="@+id/line_saved_account_toggle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_line_height"
+        android:layout_below="@id/space_view"
+        android:background="@drawable/common_list_row1">
+
+        <TextView
+            android:id="@+id/tv_save_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/setting_saved_account"
+            android:textColor="#555"
+            android:textSize="15sp"/>
+
+        <com.polar.browser.view.switchbutton.SwitchButton
+            android:id="@+id/sb_save_account"
+            style="@style/SwitchButtonStyle"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            sb:offColor="@color/day_sb_off_color"
+            sb:onColor="@color/day_sb_on_color"
+            sb:thumbColor="@color/day_sb_thumb_color"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/common_dlg_bar_divider"/>
+
+
+    <ListView
+        android:id="@+id/account_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line_saved_account_toggle"
+        android:layout_marginTop="1dp"
+        />
+    <!-- <RelativeLayout
+       android:id="@+id/view_empty"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+       android:visibility="gone" >
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/empty_icon_bookmark" />
+   </RelativeLayout> -->
+
+    <com.polar.browser.common.ui.CommonBottomBar3
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"/>
+
+
+    <LinearLayout
+        android:id="@+id/edit_layout"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:gravity="right"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_height="50dp">
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:background="@color/black50"-->
+            <!--android:layout_height="0.5dp"/>-->
+
+        <TextView
+            android:id="@+id/btn_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginRight="16dp"
+            android:gravity="right|center_vertical"
+            android:text="@string/edit"
+            android:textColor="@color/bottom_menu_font_color_selector"
+            android:textSize="@dimen/common_font_size_d"/>
+
+    </LinearLayout>
+</RelativeLayout>

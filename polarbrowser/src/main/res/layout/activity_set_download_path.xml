@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/root"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#e8eaf0">
+
+    <com.polar.browser.common.ui.CommonTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_download_path"/>
+
+    <LinearLayout
+        android:id="@+id/rl_downlaod_dest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_bar"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="27dp"/>
+
+        <RelativeLayout
+            android:id="@+id/downlaod_dest1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_list_row1">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/common_dlg_bar_divider"/>
+
+            <ImageView
+                android:id="@+id/iv_dest1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="15dp"
+                android:src="@drawable/folder_uncheck"/>
+
+            <ImageView
+                android:id="@+id/iv_arrow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="12dp"
+                android:src="@drawable/list_forward"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/iv_arrow1"
+                android:layout_toRightOf="@+id/iv_dest1"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:id="@+id/tv_dest1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/icon_phone"
+                    android:drawablePadding="5dp"
+                    android:text="@string/download_folder_phone"
+                    android:textColor="@color/sys_news"
+                    android:textSize="16sp"/>
+
+                <ProgressBar
+                    android:id="@+id/progress1"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_marginTop="5dp"
+                    android:progressDrawable="@drawable/green_progress_bg"/>
+
+                <TextView
+                    android:id="@+id/tv_space1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/sys_news"
+                    android:layout_marginTop="7dp"
+                    android:textSize="13sp"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/downlaod_dest2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_list_row1">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/common_dlg_bar_divider"/>
+
+            <ImageView
+                android:id="@+id/iv_dest2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="15dp"
+                android:layout_toLeftOf="@+id/iv_arrow1"
+                android:src="@drawable/folder_uncheck"/>
+
+            <ImageView
+                android:id="@+id/iv_arrow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="12dp"
+                android:src="@drawable/list_forward"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/iv_arrow2"
+                android:layout_toRightOf="@+id/iv_dest2"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <TextView
+                    android:id="@+id/tv_dest2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/icon_sd_card"
+                    android:drawablePadding="5dp"
+                    android:textColor="@color/sys_news"
+                    android:text="@string/download_folder_sd"
+                    android:textSize="16sp"/>
+
+                <ProgressBar
+                    android:id="@+id/progress2"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_marginTop="5dp"
+                    android:progressDrawable="@drawable/green_progress_bg"/>
+
+                <TextView
+                    android:id="@+id/tv_space2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/sys_news"
+                    android:layout_marginTop="7dp"
+                    android:textSize="13sp"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_dlg_bar_divider"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/current_dest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_downlaod_dest"
+        android:textColor="@color/sys_news"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="15dp"
+        android:text=""/>
+</RelativeLayout>

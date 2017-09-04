@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/day_setting_session_line_bg">
+
+    <com.polar.browser.common.ui.CommonTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/location" />
+
+    <RelativeLayout
+        android:id="@+id/group_search_location"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/title_bar"
+        android:background="@color/download_dialog_btn_nor">
+
+        <TextView
+            android:id="@+id/tv_location_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawableLeft="@drawable/search_icon"
+            android:drawablePadding="8dp"
+            android:hint="@string/search_location"
+            android:padding="8dp"
+            android:textColor="@color/black87"
+            android:textColorHint="@color/gray"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_weather_current_location_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/group_search_location"
+        android:gravity="center_vertical"
+        android:paddingLeft="12dp"
+        android:textColor="@color/gray"
+        android:textSize="14sp"
+        android:text="@string/current_location" />
+
+    <RelativeLayout
+        android:id="@+id/group_current_location"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_weather_current_location_desc"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:background="@drawable/common_list_row1">
+
+        <TextView
+            android:id="@+id/tv_weather_current_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/group_location_refresh"
+            android:layout_marginRight="8dp"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:textColor="@color/sys_news"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:id="@+id/group_location_refresh"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:id="@+id/iv_location_refresh"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_refresh_location" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_permission_deny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_below="@id/group_current_location"
+        android:layout_centerHorizontal="true"
+        android:autoLink="all"
+        android:textColor="@color/sys_news"
+        android:gravity="center"
+        android:text="@string/allow_polar_location" />
+
+</RelativeLayout>

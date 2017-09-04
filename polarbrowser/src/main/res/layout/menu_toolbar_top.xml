@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/menu_bg"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/menu_toolbar_top_white_bg"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/menu_add_bookmark"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/menu_toolbar_top_more_selector"
+        android:orientation="horizontal"
+        android:paddingLeft="0dp"
+        android:paddingRight="16dp">
+
+        <ImageView
+            android:id="@+id/menu_add_bookmark_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="8dp"
+            android:src="@drawable/menu_toolbar_top_add_mark"/>
+
+        <TextView
+            android:id="@+id/toolbar_top_add_bookmark"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:text="@string/menu_item_add_bookmark"
+            android:textColor="@color/menu_tool_bar_top_text"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu_share_page"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/menu_toolbar_top_more_selector"
+        android:orientation="horizontal"
+        android:paddingLeft="0dp"
+        android:paddingRight="16dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="8dp"
+            android:src="@drawable/menu_toolbar_top_share"/>
+
+        <TextView
+            android:id="@+id/toolbar_top_share_page"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:text="@string/menu_item_share"
+            android:textColor="@color/menu_tool_bar_top_text"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu_save_page"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/menu_toolbar_top_more_selector"
+        android:orientation="horizontal"
+        android:paddingLeft="0dp"
+        android:paddingRight="16dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="8dp"
+            android:src="@drawable/menu_toolbar_top_save"/>
+
+        <TextView
+            android:id="@+id/toolbar_top_save_page"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:text="@string/menu_item_savepage"
+            android:textColor="@color/menu_tool_bar_top_text"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu_search_page"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/menu_toolbar_top_more_selector"
+        android:orientation="horizontal"
+        android:paddingLeft="0dp"
+        android:paddingRight="16dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="8dp"
+            android:src="@drawable/search_icon_green"/>
+
+        <TextView
+            android:id="@+id/tooølbar_top_search_page"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:text="@string/menu_item_search"
+            android:textColor="@color/menu_tool_bar_top_text"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/menu_edit_img"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/menu_toolbar_top_more_selector"
+        android:orientation="horizontal"
+        android:paddingLeft="0dp"
+        android:paddingRight="16dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="8dp"
+            android:src="@drawable/menu_toolbar_top_edit"/>
+
+        <TextView
+            android:id="@+id/toolbar_top_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:text="@string/menu_item_edit"
+            android:textColor="@color/menu_tool_bar_top_text"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</LinearLayout>

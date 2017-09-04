@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+                android:background="#bb000000">
+    <ImageView
+        android:id="@+id/iv_fb_notify_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/fb_notify_logo_vc"/>
+
+    <TextView
+        android:id="@+id/tv_fb_notify_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/iv_fb_notify_logo"
+        android:text="@string/fb_notify_title"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_fb_notify_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_fb_notify_logo"
+        android:layout_below="@id/tv_fb_notify_title"
+        android:layout_alignLeft="@id/tv_fb_notify_title"
+        android:layout_marginTop="4dp"
+        android:textColor="#bbbbbb"
+        android:textSize="14sp"
+        android:text="@string/fb_notify_msg_tip"/>
+
+</RelativeLayout>

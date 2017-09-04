@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_image_gallery"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black92"
+    tools:context=".download.ImageGalleryActivity">
+
+    <com.polar.browser.download.view.HackyViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30sp"
+    android:layout_marginLeft="15dp"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/iv_head"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:text="username"
+        android:layout_gravity="center_vertical"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/btn_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iv_btn_share_selector" />
+
+        <ImageView
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iv_btn_save_selector"
+            android:paddingLeft="60dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

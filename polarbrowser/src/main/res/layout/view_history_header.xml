@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingLeft="12dp"
+        android:paddingTop="12dp"
+        android:background="@color/day_setting_session_line_bg"
+        android:textColor="#9a9a9a"
+        android:textSize="@dimen/common_font_size_f" />
+
+    <View style="@style/line_SettingActivityItem" />
+
+</LinearLayout>

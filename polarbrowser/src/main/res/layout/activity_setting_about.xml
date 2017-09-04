@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sb="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_setting_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/day_setting_session_line_bg">
+
+    <com.polar.browser.common.ui.CommonTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_about" />
+
+    <ScrollView
+        android:id="@+id/setting_about_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_bar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!-- 版本显示区域 -->
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <RelativeLayout
+                android:id="@+id/area_app_version"
+                android:layout_width="match_parent"
+                android:layout_height="152dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/app_icon"
+                    android:layout_width="67dp"
+                    android:layout_height="67dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/app_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/app_icon"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/app_name"
+                    android:textColor="@color/sys_news"
+                    android:textSize="@dimen/file_list_textsize_17" />
+
+                <TextView
+                    android:id="@+id/app_version_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/app_name"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/file_list_textsize_14"
+                    tools:text="版本" />
+
+            </RelativeLayout>
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <!-- 检测更新 -->
+            <RelativeLayout
+                android:id="@+id/line_update"
+                style="@style/SettingActivityItem"
+                >
+
+                <TextView
+                    android:id="@+id/tv_check_update"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/setting_check_update" />
+
+                <ImageView style="@style/Iv_SettingActivityItem" />
+            </RelativeLayout>
+
+            <View
+                style="@style/space_SettingActivityItem"/>
+
+            <View style="@style/line_SettingActivityItem"
+                />
+
+            <!-- Facebook -->
+            <RelativeLayout
+                android:id="@+id/line_face_book"
+                style="@style/SettingActivityItem" >
+
+                <TextView
+                    android:id="@+id/face_book"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/setting_about_facebook" />
+
+
+                <ImageView style="@style/Iv_SettingActivityItem" />
+            </RelativeLayout>
+
+            <View style="@style/line_SettingActivityItem" />
+            <!-- 官网网站 -->
+            <RelativeLayout
+                android:id="@+id/line_website"
+                style="@style/SettingActivityItem">
+
+                <TextView
+                    android:id="@+id/website"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/setting_about_website" />
+
+                <ImageView style="@style/Iv_SettingActivityItem" />
+            </RelativeLayout>
+
+            <View style="@style/line_SettingActivityItem" />
+
+            <!-- 加入核心用户组织 -->
+            <RelativeLayout
+                android:id="@+id/line_user_group"
+                style="@style/SettingActivityItem" >
+
+                <TextView
+                    android:id="@+id/user_group"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/setting_about_user_group" />
+
+                <ImageView style="@style/Iv_SettingActivityItem" />
+            </RelativeLayout>
+
+            <View style="@style/line_SettingActivityItem"
+                />
+
+            <View
+                style="@style/space_SettingActivityItem"/>
+
+            <!-- 给我们好评 -->
+            <RelativeLayout
+                android:id="@+id/line_good_evaluation"
+                style="@style/SettingActivityItem"
+                 >
+
+                <TextView
+                    android:id="@+id/good_evaluation"
+                    style="@style/Tv_SettingActivityItem"
+                    android:text="@string/setting_about_good_evaluation" />
+
+                <ImageView style="@style/Iv_SettingActivityItem" />
+            </RelativeLayout>
+
+            <View style="@style/line_SettingActivityItem"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- 用户协议和条款 -->
+    <LinearLayout
+        android:id="@+id/line_agreement_terms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:id="@+id/agreement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/setting_about_agreement"
+            android:textColor="@color/set_about"
+            android:textSize="@dimen/font_size_weather_city" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iv_vertical_line"
+            android:layout_marginLeft="@dimen/common_padding_10"
+            android:layout_marginRight="@dimen/common_padding_10"
+            />
+
+        <TextView
+            android:id="@+id/terms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_about_terms"
+            android:textColor="@color/set_about"
+            android:textSize="@dimen/font_size_weather_city" />
+    </LinearLayout>
+</RelativeLayout>

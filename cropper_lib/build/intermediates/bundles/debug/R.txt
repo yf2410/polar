@@ -1,0 +1,17 @@
+int attr aspectRatioX 0x7f010002
+int attr aspectRatioY 0x7f010003
+int attr fixAspectRatio 0x7f010001
+int attr guidelines 0x7f010000
+int attr imageResource 0x7f010004
+int id CropOverlayView 0x7f030004
+int id ImageView_image 0x7f030003
+int id off 0x7f030000
+int id on 0x7f030001
+int id onTouch 0x7f030002
+int layout crop_image_view 0x7f020000
+int[] styleable CropImageView { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003, 0x7f010004 }
+int styleable CropImageView_aspectRatioX 2
+int styleable CropImageView_aspectRatioY 3
+int styleable CropImageView_fixAspectRatio 1
+int styleable CropImageView_guidelines 0
+int styleable CropImageView_imageResource 4

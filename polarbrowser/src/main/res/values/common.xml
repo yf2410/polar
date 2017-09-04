@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 默认的文字尺寸 -->
+    <dimen name="common_font_size_b">24sp</dimen>
+    <dimen name="common_font_size_c">18sp</dimen>
+    <dimen name="common_font_size_d">16sp</dimen>
+    <dimen name="common_font_size_e">14sp</dimen>
+    <dimen name="common_font_size_f">12sp</dimen>
+    <dimen name="common_font_size_g">15sp</dimen>
+    <dimen name="common_font_size_h">20sp</dimen>
+    <dimen name="common_font_size_i">11sp</dimen>
+    <dimen name="common_font_size_j">17sp</dimen>
+
+    <!-- 默认的文字颜色 -->
+    <color name="common_font_color_1">#000000</color>
+    <color name="common_font_color_2">#41434A</color>
+    <color name="common_font_color_3">#A1A9AE</color>
+    <color name="common_font_color_4">#C9CACA</color>
+    <color name="common_font_color_6">#e36d59</color>
+    <color name="common_font_color_7">#707070</color>
+    <color name="common_font_color_9">#4CB700</color>
+    <color name="common_font_color_10">#797F8C</color>
+    <color name="common_font_color_15">#353535</color>
+    <color name="common_font_color_16">#a2a8a0</color>
+    <color name="common_font_color_11">#9a9a9a</color>
+    <color name="common_font_color_12">#414141</color>
+    <color name="common_font_color_13">#151515</color>
+    <color name="common_font_color_14">#d7d7d7</color>
+
+    <color name="common_font_color_17">#C7C7C7</color>
+    <color name="common_font_color_grey_disabled">#6B6A6A</color>
+
+    <!-- 默认的背景颜色 -->
+    <color name="common_bg_color_1">#3C4042</color>
+    <color name="common_bg_color_2">#EDEDED</color>
+    <color name="common_bg_color_3">#F0F0F0</color>
+    <color name="common_bg_color_4">#F5F5F5</color>
+    <color name="common_bg_color_5">#fbfbfb</color>
+    <color name="common_bg_color_6">#fafafa</color>
+    <color name="common_bg_color_grey">#f6f6f6</color>
+
+    <!-- title bar -->
+    <color name="common_title_bar_blue">#468eff</color>
+
+    <!-- 其它颜色 -->
+    <color name="common_grey_color1">#dddddd</color>
+    <color name="common_grey_color2">#bbbbbb</color>
+    <color name="common_grey_color3">#eeeeee</color>
+    <color name="common_grey_color4">#e3e3e3</color>
+    <color name="common_transparent">#00000000</color>
+    <color name="common_dlg_bar_divider">#ebebeb</color>
+    <color name="title_line_view_bg">#dbdbdb</color>
+    <color name="ssl_dlg_divider">#c4c4c4</color>
+    <color name="common_dlg_bar_btn_pressed">#ffdddddd</color>
+    <color name="common_line">#33000000</color>
+    <color name="common_text_day">#de404040</color>
+
+    <!-- 列表行的高度 -->
+    <dimen name="common_list_row_height_1">64dp</dimen>
+    <dimen name="common_list_row_height_2">40dp</dimen>
+    <dimen name="common_list_row_height_3">48dp</dimen>
+
+    <!-- titlebar的高度 -->
+    <dimen name="common_titlebar_content_height">52dp</dimen>
+    <dimen name="common_titlebar_setting_min_width">56dp</dimen>
+
+    <!-- bottom btn bar的高度 -->
+    <dimen name="common_btn_bar_height">60dp</dimen>
+    <dimen name="common_btn_bar2_height">48dp</dimen>
+
+
+    <!-- 默认的分隔线宽度 -->
+    <dimen name="common_divider_width">1px</dimen>
+
+    <dimen name="common_dialog_bg_radius">5dp</dimen>
+
+    <!-- 默认的style -->
+    <style name="common_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="loading_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="dialog_anim_show_from_bottom" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/slide_in_from_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/slide_out_to_bottom</item>
+    </style>
+
+    <style name="dialog_anim_show_from_right" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/slide_in_from_right</item>
+        <item name="@android:windowExitAnimation">@anim/slid_out_to_right</item>
+    </style>
+
+</resources>

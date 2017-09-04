@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="52dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/iv_top_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/top_bg"
+                    android:scaleType="fitXY"/>
+
+                <include
+                    android:id="@+id/layout_search_box"
+                    layout="@layout/search_box" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_weather"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="@dimen/common_padding_12"
+                    android:layout_marginStart="@dimen/common_padding_12"
+                    android:layout_marginTop="45dp">
+
+                    <ImageView
+                        android:id="@+id/iv_weather_condition_img"
+                        android:layout_width="38dp"
+                        android:layout_height="38dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/sunny" />
+
+                    <TextView
+                        android:id="@+id/tv_weather_tmp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/common_padding_10"
+                        android:layout_marginStart="@dimen/common_padding_10"
+                        android:layout_toEndOf="@id/iv_weather_condition_img"
+                        android:layout_toRightOf="@id/iv_weather_condition_img"
+                        android:textColor="@color/weather_text"
+                        android:textSize="@dimen/file_list_textsize_20"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:id="@+id/tv_weather_condition"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_weather_tmp"
+                        android:layout_marginLeft="@dimen/common_padding_10"
+                        android:layout_marginStart="@dimen/common_padding_10"
+                        android:layout_toEndOf="@id/iv_weather_condition_img"
+                        android:layout_toRightOf="@id/iv_weather_condition_img"
+                        android:text="@string/weather_loading"
+                        android:textColor="@color/weather_text"
+                        android:textSize="@dimen/file_list_textsize_12" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/btn_switch_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/common_padding_12"
+                    android:layout_marginRight="@dimen/common_padding_12"
+                    android:textSize="@dimen/file_list_textsize_12"
+                    android:textColor="@color/weather_text"
+                    android:drawablePadding="@dimen/common_padding_8"
+                    android:text="@string/location"
+                    android:drawableEnd="@drawable/position"
+                    android:drawableRight="@drawable/position"
+                    android:layout_alignBottom="@id/rl_weather"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <com.polar.browser.view.ObservableScrollView
+        android:id="@+id/home_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.polar.browser.homepage.customlogo.HomeLogoView
+                android:id="@+id/view_homepage_logo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp" />
+            <View style="@style/line_SettingActivityItem" />
+            <com.polar.browser.homepage.customlogo.HomeVisitedView
+                android:id="@+id/view_homepage_visited"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/day_setting_session_line_bg"/>
+
+            <include
+                android:id="@+id/native_ad_container"
+                layout="@layout/native_ad_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <WebView
+                android:id="@+id/home_web_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none" />
+
+        </LinearLayout>
+    </com.polar.browser.view.ObservableScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

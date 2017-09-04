@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Polar Browser</string>
+    <string name="search_input_hint">Arama Yapın ya da URL Girin</string>
+
+    <string name="copy">Kopyala</string>
+    <string name="album">Albüm</string>
+    <string name="home_page">Giriş Sayfası</string>
+    <string name="already_on_home_page">Zaten Giriş Sayfasındasınız</string>
+    <string name="title">Başlık</string>
+    <string name="toast_tab_limited">Yeni sekme için yer yok</string>
+    <string name="network_connect_error">Bağlantı Hatası. İnternete bağlı değilsiniz</string>
+    <string name="choose_file">Bir dosya seç</string>
+    <string name="play_video_error">Üzgünüz, bu video oynatılamıyor</string>
+    <string name="file_open_ing">Açılıyor...</string>
+    <string name="goback">Geri</string>
+
+    <!-- history/favorite -->
+    <string name="history">Geçmiş</string>
+    <string name="today">Bugün</string>
+    <string name="yesterday">Dün</string>
+    <string name="earlier">Daha Önce</string>
+    <string name="favorite">Yer İmleri</string>
+    <string name="add_bookmark_tips">Yer İmlerine Eklendi</string>
+    <string name="already_add_bookmark_tips">Zaten mevcut</string>
+    <string name="delete_bookmark_tips">Yer İmi Kaldırıldı</string>
+    <string name="history_search_record">Arama Kayıtları</string>
+    <string name="no_history_search_record">Arama kaydı yok</string>
+    <string name="no_history_visit_record">Tarayıcı kaydı yok</string>
+
+
+    <!-- search -->
+    <string name="go">Git</string>
+    <string name="search">Ara</string>
+    <string name="history_visit">Tarayıcı kayıtları</string>
+    <string name="history_search">Arama kayıtları</string>
+    <string name="edittext_empty_tip">Arama Yapın ya da URL Girin</string>
+
+    <!-- download -->
+    <string name="download">İndir</string>
+    <string name="downloading">İndiriliyor</string>
+    <string name="download_finish">Tamamlandı</string>
+    <string name="download_waite">İndirme Bekliyor</string>
+    <string name="download_error">İndirme Başarısız Oldu</string>
+    <string name="download_pause">İndirme İşlemini Duraklat</string>
+    <string name="download_start">İndirmeye başla</string>
+    <string name="download_manager">İndirilenler</string>
+    <string name="disk_free_size">/%1$s Mevcut</string>
+    <string name="disk_used_size">%1$s Kullanıldı</string>
+    <string name="download_task_already_exists">Görev zaten mevcut. Tekrar indirmek istediğinden emin misin?</string>
+    <string name="download_no_available_space">Yetersiz Depolama Alanı Mevcut</string>
+    <string name="net_changed_when_downloading">Wi-Fi bağlantısı yok, yine de indirmek istiyor musun?</string>
+    <string name="file_can_not_open">Dosya mevcut bir uygulamayla açılamıyor</string>
+    <string name="name">Adı:</string>
+    <string name="size">Boyut:</string>
+    <string name="size_unknown">Bilinmeyen Boyut</string>
+    <string name="empty_file_name">Dosya adı boş</string>
+    <string name="download_file_name_exists">Dosya adı mevcut</string>
+    <string name="click_to_see">Açmak için tıkla</string>
+    <string name="net_no_connect">İnternete bağlı değilsiniz</string>
+    <string name="download_status_downloading">İndiriliyor</string>
+    <string name="download_status_waiting">İndirme bekleniyor</string>
+    <string name="download_status_start">İndirmeye başla</string>
+    <string name="download_status_start_nonetwork">İnternet bağlantısı yok,İndirme Duraklatıldı</string>
+    <string name="download_status_pause">İndirme Duraklatıldı</string>
+    <string name="download_status_pauseing">Duraklat</string>
+    <string name="download_status_failure">İndirme Başarısız Oldu</string>
+    <string name="download_edit_name_hint">Adı</string>
+    <string name="download_set_path_default">Dosya yolu kullanılamaz. Dosya varsayılan depolama dosya yoluna indirildi</string>
+    <string name="extract_view_now">şimdi kontrol edin</string>
+    <!-- common -->
+    <string name="edit">Düzenle</string>
+    <string name="popup_edit">Düzenle</string>
+    <string name="complete">Bitti</string>
+    <string name="delete">Sil</string>
+    <string name="delete_with_count">Sil (%1$d)</string>
+    <string name="check_all">Tümü </string>
+    <string name="check_all_cancel">İptal</string>
+    <string name="delete_checked_task">Seçtiğin (%1$d) görevlerini sil?</string>
+    <string name="delete_not_select">Lütfen silmek istediğin öğeleri seçin</string>
+    <string name="never_remind">Artık hatırlatma yok</string>
+    <string name="loading">Yükleniyor...</string>
+
+    <!-- dialog -->
+    <string name="ok">Tamam</string>
+    <string name="cancel">İptal</string>
+    <string name="tips">Uyarı</string>
+    <string name="tips_alert">Uyarı</string>
+    <string name="update_tips">Giriş</string>
+    <string name="update_ok">Şimdi Güncelle</string>
+    <string name="update_cancel">İptal</string>
+    <string name="go_download">İndir</string>
+    <string name="manually_update_ok">Tamam</string>
+    <string name="manually_update_cancel">İptal</string>
+    <string name="history_clean_content">Seçilen tüm öğeleri silmek istiyor musunuz?</string>
+    <string name="history_clean_visited">Tüm tarayıcı geçmişini silmek istiyor musunuz?</string>
+    <string name="history_clean_searched">Tüm arama kaydını silmek istiyor musunuz?</string>
+    <string name="bookmark_delete_content">Seçilen tüm öğeleri silmek istiyor musunuz?</string>
+    <string name="delete_with_files">Kaynak dosyasını da sil</string>
+
+    <!-- play -->
+    <string name="play_cancel">İptal</string>
+    <string name="play_continue">Oynat</string>
+    <string name="play_network_gprs_tip">Wi-Fi yok, oynatmak için GPRS kullan?</string>
+
+    <!-- menu -->
+    <string name="menu_add_favorite">Yer İmi Ekle</string>
+    <string name="menu_history">Geçmiş</string>
+    <string name="menu_favorite">Yer İmleri</string>
+    <string name="menu_download">İndirilenler</string>
+    <string name="menu_nightmode">Gece</string>
+    <string name="menu_setting">Ayarlar</string>
+    <string name="menu_no_imgmode">Resim Yok</string>
+    <string name="menu_web_mode">PC Modu</string>
+    <string name="menu_exit">Çık</string>
+
+    <!-- add & edit favorite -->
+    <string name="menu_add_shortcut">Ana Sayfa Ekranı</string>
+    <string name="menu_add_logo">Hızlı Çevir</string>
+    <string name="add_to">Şuraya ekle:</string>
+    <string name="edit_url">URL\'yi Düzenle</string>
+    <string name="add_shortcut_successful">Başarılı</string>
+    <string name="already_add_shortcut_successful">Kısayol zaten mevcut</string>
+    <string name="add_shortcut_failed">Cihazın bu özelliği desteklemiyor</string>
+    <string name="add_logo_empty_tip">Adı ya da URL boş</string>
+    <string name="add_logo_checke_empty_tip">Lütfen web sayfasının nereye ekleneceğini seç</string>
+
+    <!-- setting -->
+    <string name="setting">Ayarlar</string>
+    <string name="setting_saved_account">Şifreleri kaydet</string>
+    <string name="setting_search_engine">Arama Motoru</string>
+    <string name="version">Sürüm</string>
+    <string name="setting_font_size">Yazı Tipi Boyutu</string>
+    <string name="setting_font_size_min">Küçük</string>
+    <string name="setting_font_size_mid">Orta</string>
+    <string name="setting_font_size_large">"Ekstra büyük "</string>
+    <string name="setting_sliding_type">Kaydırma Tercihleri</string>
+    <string name="setting_sliding_type_close">Kaydırma Yok</string>
+    <string name="setting_sliding_type_border">Kenar Kaydırma</string>
+    <string name="setting_sliding_type_fullscreen">Tam Ekran Kaydırma</string>
+    <string name="setting_sliding_type_tip">Kaydırma tercihinizi ayarlardan belirleyebilirsiniz!</string>
+    <string name="setting_editlogo_type_tip">Ana sayfada daha fazla simgeye yer yok. Düzenlemek için dokunun ve basılı tutun.</string>
+    <string name="setting_videodownload_type_tip">Web sitelerinden videolar indirmek için bir eklenti kurmak istiyor musunuz?</string>
+    <string name="setting_editlogo_type_ok">Tamam</string>
+    <string name="setting_plug_center">Eklentiler</string>
+    <string name="setting_save_tab">Çıkışta Sekmeleri Kaydet</string>
+    <string name="setting_screen_lock">Dikey Oryantasyon Kilidi</string>
+    <string name="setting_ad_block">Reklamları Engelle</string>
+    <string name="setting_full_screen">Tam Ekran Modu</string>
+    <string name="setting_quick_search">Hızlı Arama</string>
+    <string name="setting_clear_data">Verileri Temizle</string>
+    <string name="setting_set_default_browser">Polar Browser\'ı varsayılan olarak ayarla</string>
+    <string name="setting_custom_ua">Kullanıcı Temsilcisi</string>
+    <string name="setting_recover_setting">Varsayılan Ayarlara Geri Dön</string>
+    <string name="file_opening">Açılıyor...</string>
+    <string name="recover_setting_content">Varsayılan ayarlara geri dönmek istediğinizden emin misiniz?</string>
+    <string name="setting_clear_data_exit">Çıkışta Tarayıcı Geçmişini Temizle</string>
+    <string name="setting_clear_default_success">Başarılı Bir Şekilde Temizlendi</string>
+    <string name="setting_clear_default_failed">Temizleme Başarısız</string>
+    <string name="setting_default_failed">Ayar başarısız</string>
+    <string name="setting_default_self_tip">Polar Browser\'ın varsayılan olarak kullanılmasını durdurmak istiyor musunuz?</string>
+    <string name="setting_remember_username_and_password_tip">\"%1$s\" karşılığında şifrenizi kaydetmek ister misiniz?</string>
+    <string name="saved_account">Şifreleri kaydet</string>
+    <string name="file_child_count">%1$d öğe</string>
+    <string name="current_download_folder">Şuraya kaydedildi: %1$s</string>
+    <string name="download_folder_space">%1$s kaldı, toplamda %2$s</string>
+    <string name="download_folder_alert_19">Android 4.4 (dâhil) sonrası sistemler için SD kart kullanılırken dosyaların belirli dizinlere kaydedilmelidir. İndirilen dosyalar, tarayıcı kaldırıldığında silinecek. SD karta kaydedilmeye devam edilsin mi?</string>
+    <string name="download_folder_phone">Dahili Depolama</string>
+    <string name="download_folder_sd">SD Kart</string>
+    <string name="download_folder_sd_removed">SD Kart çıkarıldı</string>
+    <string name="download_folder_selected_sd">SD kartı seçtiniz</string>
+
+    <!-- 模块管理 -->
+    <string name="module_manager">Modül Yöneticisi</string>
+    <string name="module_logos">Gezinti Simgeleri</string>
+    <string name="module_news">Haberler</string>
+    <string name="module_navigate">Sıkça Ziyaret Edilen Siteler</string>
+    <string name="module_tools">Araçlar</string>
+
+    <!-- set default browser -->
+    <string name="start_to_set">Başlat</string>
+    <string name="clear_default">Temizle</string>
+    <string name="clear_default_self">Varsayılan Ayarı Temizle</string>
+
+    <string name="clear_default_tip1">1. Adım: Başlatma öğesini varsayılan yapmak için kaydırın</string>
+    <string name="clear_default_tip2">2. Adım: "Varsayılan Ayarı Temizle" öğesini seçin</string>
+    <string name="clear_default_tip3">3. Adım: Sonraki adıma geri dönün</string>
+
+    <string name="clear_default_tip_self1">Varsayılan tarayıcı Polar</string>
+
+    <string name="set_default_step1">1. Adım: "Varsayılan Ayarlar" öğesini işaretleyin</string>
+    <string name="set_default_step2">Adım 2: Polar Browser\'ı seçin</string>
+
+    <string name="set_default_2_step1">1. Adım: "Varsayılan Ayarlar" öğesini işaretleyin</string>
+    <string name="set_default_2_step2">Adım 2: Polar Browser\'ı seçin</string>
+
+    <!-- clear data -->
+    <string name="clear_cookie">Çerezi Temizle</string>
+    <string name="clear_cache">Önbelleği Temizle</string>
+    <string name="clear_history">Geçmişi Temizle</string>
+    <string name="clear_download">İndirme Verilerini Temizle</string>
+    <string name="clear_all">Tümünü Temizle</string>
+    <string name="clear_all_2">Tümünü Temizle</string>
+    <string name="clear_to_confirm">Evet%1$s?</string>
+    <string name="clear_browser_record">Tarama Geçmişini Temizle</string>
+
+    <!-- about feedback -->
+    <string name="feedback">Geri Bildirim</string>
+    <string name="feedback_hi">Önerinizi buraya yazın</string>
+    <string name="feedback_contact">İletişim Bilgileri:</string>
+    <string name="feedback_contact_hint">Telefon numarası ya da E-posta:</string>
+    <string name="feedback_cont_null">Lütfen geri bildiriminizi girin</string>
+    <string name="feedback_ok">Başarılı bir şekilde gönderildi, teşekkür ederiz</string>
+    <string name="feedback_check_network">Gönderme başarısız, lütfen ağınızı kontrol edin.</string>
+    <string name="feedback_copy_ok">Panoya kopyalandı.</string>
+    <string name="feedback_send">Gönder</string>
+
+    <!-- exit dialog -->
+    <string name="exit_dialog_title">Çıkmak istiyor musunuz?</string>
+    <string name="exit_press_back_again">Çıkmak için yeniden tıklayın</string>
+
+    <!-- context menu -->
+    <string name="menu_item_view_img">Görüntüle</string>
+    <string name="menu_item_download_img">Resmi Kaydet</string>
+    <string name="menu_item_share_img">Resmi Paylaş</string>
+    <string name="menu_item_open_background">Arka Planda Aç</string>
+    <string name="menu_item_open_new">Yeni Sekmede Aç</string>
+    <string name="menu_item_add_to_bookmark">Yer İmleri</string>
+    <string name="menu_item_copy_link_text">Metni Kopyala</string>
+    <string name="toast_opened_background">Arka Planda Açıldı</string>
+    <string name="menu_item_savepage">Kaydet</string>
+    <string name="menu_item_share">Paylaş</string>
+    <string name="menu_item_edit">Grafiti Ekran Görüntüsü</string>
+    <string name="menu_item_add_bookmark">Yer İmi Ekle</string>
+    <string name="menu_item_cancel_bookmark">Yer İmini kaldır</string>
+    <string name="edit_logo_title">Küçük Resimleri Düzenle</string>
+
+    <!-- crash -->
+    <string name="app_crash_upload_tip">Üzgünüz, bazı sorunlar nedeniyle uygulama kapandı. Çökmeyi bildir?</string>
+    <string name="app_crash_uploading">Karşıya yükleniyor...</string>
+
+    <!-- context menu -->
+    <string name="toast_copy_link_text">Metin Kopyalandı</string>
+
+    <!-- http auth -->
+    <string name="auth_request_username">Kullanıcı Adı</string>
+    <string name="auth_request_password">Şifre</string>
+    <string name="auth_request_login">Giriş:</string>
+
+    <!-- custom ua -->
+    <string name="custom_ua_input_hint">Kullanıcı Temsilcinizi buraya yazın</string>
+    <string name="custom_ua_title">Özel Kullanıcı Temsilcisi</string>
+    <string name="custom_ua_default">Android</string>
+    <string name="custom_ua_pc">Masaüstü</string>
+    <string name="custom_ua_ios">iPhone</string>
+    <string name="custom_ua_custom">Özel</string>
+
+    <!-- add url -->
+    <string name="url_add">Daha Fazla Ekle</string>
+    <string name="url_recommendation">Tavsiye Edilen</string>
+    <string name="url_classify">Kategoriler</string>
+    <string name="url_custom">Özel</string>
+    <string name="website">URL</string>
+    <string name="edit_logo_max_tip">Yeni site için yer yok. Lütfen bazılarını silerek yeniden deneyin.</string>
+    <string name="edit_logo_to_add">Ekle</string>
+    <string name="edit_logo_custom_edit">Özel</string>
+    <string name="edit_logo_custom_from_history">Geçmişten Ekle</string>
+    <string name="edit_logo_custom_from_favorite">Yer İmlerinden Ekle</string>
+    <string name="edit_logo_add_ok">Başarılı Bir Şekilde Eklendi</string>
+    <string name="already_edit_logo_add_ok">Hızlı çevir zaten mevcut</string>
+    <string name="preview">Önizleme</string>
+    <string name="no_network_tip1">...Ağa ulaşılamıyor...</string>
+    <string name="no_network_tip2">İnternete bağlanılamıyor</string>
+
+    <!-- import & export bookmark -->
+    <string name="import_bookmarks">Yer İmlerini İçeri Aktar</string>
+    <string name="export_bookmarks">Yer İmlerini Dışarı Aktar</string>
+    <string name="backup_bookmarks">Yer İmlerini İçeri/Dışarı Aktar</string>
+    <string name="export_bookmarks_success">Başarılı Bir Şekilde Dışarı Aktarıldı</string>
+    <string name="export_bookmarks_failed">Dışarı Aktarma Başarısız Oldu</string>
+    <string name="import_bookmarks_success">Başarılı Bir Şekilde İçeri Aktarıldı</string>
+    <string name="import_bookmarks_failed">İçeri Aktarma Başarısız Oldu</string>
+    <string name="bookmark_file">Dosyalar</string>
+    <string name="import_bookmarks_tips">%1$s içeri aktar?</string>
+    <string name="bookmark_title">Geçmiş/Yer İmleri</string>
+    <string name="add_bookmark_from_chrome">Chrome tarayıcıdan</string>
+    <string name="add_bookmark_from_system">Android tarayıcıdan</string>
+    <string name="add_bookmark_from_file">Yedekten</string>
+    <string name="add_bookmark_no_find_chrome">Chrome Tarayıcı Bulunamadı </string>
+    <string name="add_bookmark_chrom_empty">Chrome Tarayıcıda Yer İmi Yok</string>
+    <string name="add_bookmark_system_empty">Android Tarayıcıda Yer İmi Yok</string>
+
+    <!-- crop and edit -->
+    <string name="save_or_share">Paylaş/Kaydet</string>
+    <string name="share_screen_shot_to">Ekran görüntüsünü paylaş:</string>
+    <string name="save_into_album">Albüme kaydet</string>
+    <string name="saved">Kaydedildi</string>
+    <string name="save">Kaydet</string>
+    <string name="exit">Çık</string>
+    <string name="save_success">Başarılı Bir Şekilde Kaydedildi</string>
+    <string name="title_exit_edit_crop">Düzenlemeden Çık?</string>
+    <string name="tip_exit_edit_crop">Çıkarsanız resim kaydedilmez.</string>
+
+    <!-- 无痕模式 -->
+    <string name="tip_privacy_on">Özel tarayıcıya girdiniz</string>
+    <string name="tip_privacy_off">Özel tarayıcı kapandı</string>
+
+    <!-- 保存网页 -->
+    <string name="offline_web">Çevrimdışı Web Siteleri (%1$s)</string>
+    <string name="offline_web_title">Çevrimdışı Web Sitesi</string>
+    <string name="offline_web_delete_content">İşaretlenen çevrimdışı web sitelerini sil?</string>
+    <string name="offline_web_saved">e kaydedildi: İndirilenler-Dosyalar-Çevrimdışı Web Siteleri</string>
+    <string name="offline_web_start_save">Kaydediliyor…</string>
+    <string name="offline_web_empty">Çevrimdışı Web Sitesi Yok</string>
+    <string name="cache_files_size">Önbellek:20MB</string>
+    <!-- 打开文件 -->
+    <string name="openfile_error">Açılamıyor, dosya kaldırılmış veya silinmiş!</string>
+    <string name="openfile_no_exist">Dosya Mevcut Değil</string>
+    <string name="openfile_image_error">Resim hasar görmüş</string>
+    <string name="openfile_decompress_error">Çıkarma başarısız oldu</string>
+
+    <!-- 常用网址 -->
+    <string name="navigate_title_video">Video</string>
+    <string name="navigate_title_news">Haberler</string>
+    <string name="navigate_title_social">Sosyal</string>
+    <string name="navigate_title_games">Oyunlar</string>
+    <string name="navigate_title_sports">Spor</string>
+    <string name="navigate_title_music">Müzik</string>
+    <string name="navigate_title_shop">Alışveriş</string>
+    <string name="navigate_title_life">Yaşam tarzı</string>
+
+    <!-- 菜单 -->
+    <string name="image_mode_off_toast">Resim yok modu kapatıldı</string>
+    <string name="image_mode_on_toast">Resim yok modu etkinleştirildi</string>
+    <string name="web_mode_off_toast">Bilgisayar Modunu kapattınız</string>
+    <string name="web_mode_on_toast">Bilgisayar Modu etkinleştirildi</string>
+    <string name="file_path">Şuraya kaydedildi:</string>
+
+    <!-- 视频下载 -->
+    <string name="toolbar_download_video_tip">Videoyu indirmek için buraya tıklayın!</string>
+    <string name="dialog_video_download_tag">Video</string>
+    <string name="dialog_video_download_tag_audio">Ses</string>
+    <string name="dialog_video_download_resolution">Kalite：</string>
+    <string name="dialog_video_download_format">Format：</string>
+    <string name="dialog_video_download_parsing">Analiz ediliyor, lütfen bekleyin...</string>
+    <string name="dialog_video_download_parseerror">Analiz başarısız oldu!</string>
+    <string name="dialog_video_download_add_task">Görev, İndirme Listesine eklendi!</string>
+    <string name="dialog_video_download_no_network">Ağa bağlanılamadı, analiz işlemi başarısız oldu. Lütfen yeniden deneyin!</string>
+    <string name="play_download_video_error">HATA: Açılamadı!</string>
+
+    <!-- 插件中心 -->
+    <string name="plug_video_download">Videoyu indir</string>
+
+    <string name="dialog_ssl_title">Güvenlik uyarısı</string>
+    <string name="dialog_ssl_content">Sitenin sertifikası güvenilir bir merci tarafından düzenlenmemiş!</string>
+    <string name="dialog_ssl_continue_tips">Sertifika bilgisi ></string>
+    <string name="dialog_ssl_continue">Devam et</string>
+
+    <string name="text_issued_to">Düzenlenmenin yapıldığı taraf</string>
+    <string name="text_issued_by">Düzenleyen</string>
+    <string name="btn_ssl_close">kapat</string>
+    <string name="ssl_common_name">Bilinen Adı:</string>
+    <string name="ssl_organization">Kuruluşun Adı:</string>
+    <string name="ssl_organization_unit">Kurumsal Birim Adı:</string>
+    <string name="ssl_invalid">Geçersiz güvenlik sertifikası</string>
+    <string name="ssl_expired">Sertifikanın süresi dolmuş</string>
+    <string name="ssl_idmismatch">Ana makine adı uyuşmuyor</string>
+    <string name="ssl_date_invalid">Sertifika tarihi geçersiz</string>
+    <string name="text_valid">Geçerlilik süresi</string>
+    <string name="certificate_time">Geçerlilik Başlangıç Tarihi:</string>
+    <string name="valid_until">Geçerlilik Bitiş Tarihi:</string>
+    <string name="notification">Bildirim</string>
+    <string name="mark_as_read">Okunmuş olarak işaretle</string>
+    <string name="notifications">Bildirim</string>
+    <string name="menu_item_copy_link">Bağlantıyı Kopyala</string>
+    <string name="toast_copy_link">Bağlantıyı Kopyalandı</string>
+    <string name="update_download_tip">Güncelleniyor</string>
+    <string name="update_tip">Güncelle</string>
+    <string name="choose_upload" msgid="3649366287575002063">"Yüklemek istediğiniz belgeyi seçin"</string>
+    <string name="popup_setting">Ayarlar</string>
+    <string name="setting_download_manager">İndirme Ayarları</string>
+    <string name="setting_download_only_with_wifi">Sadece Wi-Fi ağından indir</string>
+    <string name="setting_download_path">Varsayılan Yol</string>
+    <string name="setting_check_update">Güncellemeleri kontrol et</string>
+    <string name="check_update_tip">Sadece Google Play\'i yükledikten sonra uygulamayı indirebilirsiniz.</string>
+    <string name="plug_install_tip">Yükleme tamamlandı, lütfen uygulamayı açın.</string>
+    <string name="permission_dialog_title">Uygulamayı kullanmak için şu izinleri vermeniz gereklidir</string>
+    <string name="permission_storage">depolama</string>
+    <string name="permission_location">konum</string>
+    <string name="permission_dialog_description">Lütfen aşağıdaki \"Ayarlar\" öğesine tıklayın ve \"İzin\" bölümünü etkinleştirin</string>
+
+    <!-- 页内查找-->
+    <string name="search_page_tip">Sayfada bul</string>
+    <string name="menu_item_search">Sayfada bul</string>
+    <string name="setting_card_modle_news">Haberler</string>
+    <string name="setting_card_modle_manage">Ana Sayfa Kartlarını Yönet</string>
+    <string name="card_modle_tip">Kartları \"Ayarlar\" bölümünde yeniden etkinleştirebilirsin</string>
+    <string name="manage_cards_modle">Kartları Yönet</string>
+
+    <string name="card_news_more">Daha Fazla</string>
+    <string name="card_news_next">Sonraki</string>
+    <string name="dialog_lanchanged_tip">Dil seçeneği Türkçe olarak değiştirildi. Lütfen devam etmek için uygulamayı tekrar açınız.</string>
+    <string name="dialog_lanchanged_restart">yeniden açmak</string>
+    <string name="add_home_logo">%1$s ana sayfaya eklendi!</string>
+    <string name="feed_back_failed">Gönderme başarısız!</string>
+    <string name="feed_back_commit">Gönderiliyor…</string>
+    <string name="launcher_affiliate_name">Hızlı Gezinme</string>
+    <string name="setting_product_about">yardım</string>
+    <string name="plug_suggestion">Öneriler Aranıyor</string>
+    <string name="ssl_security_tip">Güvenlik sertifikası güvenilir değil, devam etmek istiyor musunuz?</string>
+    <string name="setting_about_website">Resmi Web Sitesi</string>
+    <string name="setting_about_user_group">Ana Kullanıcı Grubuna Katılın</string>
+    <string name="setting_about_good_evaluation">Bizi puanlayın</string>
+    <string name="setting_about_agreement">Kullanıcı Sözleşmesi</string>
+    <string name="setting_about">Hakkında</string>
+    <string name="feedback_whatsapp_text">Müşteri destek hizmetimiz ile temasa geçin anında yanıt alın !</string>
+    <string name="setting_about_terms">Gizlilik Politikası</string>
+    <string name="setting_price_comparison">Fiyat Karşılaştırması</string>
+
+
+
+    <!-- 文件分类-->
+    <string name="file_classify_image">Resim</string>
+    <string name="file_classify_document">Belgeler </string>
+    <!--<string name="file_classify_zip_file">Sıkıştırılmış dosyalar</string>-->
+    <!--<string name="file_classify_apk"> Yükleme Paketi</string>-->
+    <string name="file_classify_other"> Diğerleri</string>
+
+     
+    <string name="download_apk_installed">Yüklendi</string>
+     
+    <string name="download_apk_not_installed">Kaldırıldı</string>
+
+    <string name="file_image_count">%1$d 张</string>
+     
+    <string name="file_delete_hint"> Seçili dosyaları sil</string>
+     
+    <string name="menu_more_set_wallpaper">Duvar kağıdı olarak ayarla</string>
+     
+    <string name="menu_set_successful">Başarılı</string>
+     
+    <string name="menu_set_failed">Başarısız</string>
+     
+    <string name="download_change_storage_location"> Şuraya taşı:</string>
+    <string name="download_file_path">Adresi kaydet</string>
+    <string name="download_file_property">Dosya özniteliği</string>
+    <string name="download_file_size">Dosya boyutu</string>
+    <string name="download_file_url">İndirme adresi</string>
+    <string name="download_rename">Yeniden adlandır</string>
+    <string name="download_redownload">Yeniden İndir</string>
+    <string name="download_support_point">Kesilen indirme işlemine devam et</string>
+    <string name="support">Destekleniyor</string>
+    <string name="not_support">Desteklenmiyor</string>
+    <string name="download_share_from">Polar Browser\'dan</string>
+    <string name="download_detail">Ayrıntılar</string>
+    <string name="file_date_added">Zaman</string>
+    <string name="download_with_godownloader_tip"><u>%300 daha hızlı</u></string>
+    <string name="extract">Çıkar</string>
+    <string name="submenu_file_others_decompression">Çıkartıldı</string>
+    <string name="download_url_error">Bu link artık işlevsel değil.</string>
+    <string name="video_screen_locked">Ekran kilitlendi</string>
+    <string name="video_screen_unlocked">Ekran kilidi açıldı</string>
+    <string name="start_full_figure">İzin ver</string>
+    <string name="unusable_full_figure_mode">Sadece resim modu erişilebilir değil</string>
+
+    <string name="share_edit_image">Düzenle &amp; grafiti</string>
+    <string name="picture_saved">Resim Kaydedildi</string>
+
+    <!-- 广告拦截设置-->
+    <string name="ad_block_save_traffic">Kurtarılan veri: &lt;font&gt;&lt;big&gt;&lt;big&gt;%1$s&lt;/big&gt;&lt;/big&gt;&lt;/font&gt;</string>
+    <string name="setting_ad_block_tips">Engellenen reklamları hatırlat</string>
+    <string name="setting_ad_block_count">Engellenen reklamlar: %1$d</string>
+    <string name="ad_block_count_format">Engellenen reklamlar: &lt;font&gt;&lt;big&gt;&lt;big&gt;%1$d&lt;/big&gt;&lt;/big&gt;&lt;/font&gt;</string>
+    <string name="ad_block_save_time">Hızlandırma:&lt;font&gt;&lt;big&gt;&lt;big&gt;%1$s&lt;/big&gt;&lt;/big&gt;&lt;/font&gt;s</string>
+    <string name="ad_block_num_100">100\'den fazla reklam engellendi</string>
+    <string name="ad_block_share_content">Polar Browser, benim için %1$d reklam engelledi</string>
+    <string name="vc_domain">http://www.vcbrowser.com/</string>
+
+    <string name="activity_notify_news">Yeni bildirim</string>
+    <string name="activity_notify_system">Sistem bildirimi</string>
+
+    <string name="new_function_tip">Yeni özellikler hatırlatması</string>
+    <string name="next_time">Sonra</string>
+    <string name="fb_notify_notice_tip">Yeni bildirimleriniz var.</string>
+    <string name="fb_notify_push_tip">Bildirimleri etkinleştirin, Polar Browser\'da Facebook\'ta oturum açın, anlık mesajlar alabilirsiniz.</string>
+    <string name="fb_notify_request_tip">Yeni arkadaşlık istekleriniz var.</string>
+    <string name="fb_notify_msg_tip">Yeni mesajlarınız var.</string>
+    <string name="str_fb_notify_mag">1 mesajınız var</string>
+    <string name="account_edit_avatar">Avatarı düzenle</string>
+    <string name="account_login">Oturum aç</string>
+    <string name="account_login_phone_num">Telefon Numarası</string>
+    <string name="account_login_success">Oturum açıldı</string>
+    <string name="account_logout">Oturumu kapat</string>
+    <string name="account_save_avatar">Rehber</string>
+    <string name="account_welcome_to_polar">Polar Browser\'a hoşgeldiniz</string>
+    <string name="account_login_sync_bookmarks">İşaretlenenler senkronize ediliyor...</string>
+    <string name="account_login_fail">Oturum açma başarısız</string>
+    <string name="sync_bookmark_last_time">Son eşitleme zamanı %1$s</string>
+    <string name="sync_bookmark">Cloud senkronizasyon</string>
+    <string name="sync_bookmark_success">"Senkronizasyon başarılı "</string>
+    <string name="sync_bookmark_failed">"Senkronizasyon basarız lütfen tekrar deneyiniz "</string>
+    <string name="account_save_avatar_success">Başarıyla kaydedildi</string>
+    <string name="account_login_user_center">Kullanıcı Merkezi</string>
+    <string name="download_page_save">"Resim Kaydedildi "</string>
+    <string name="incognito_mode">Gizli Mod</string>
+    <string name="home_logo_more">Rehber</string>
+    <string name="account_logging_tip">Oturum açılıyor...</string>
+    <string name="account_save_avatar_fail">Kaydedilemedi</string>
+    <string name="setting_font_size_big">Büyük</string>
+    <string name="facebook_notification">Facebook bildirimi</string>
+    <string name="no_weather">Hiç hava durumu bilgisi yok</string>
+    <string name="no_locate">Konum belirlenemedi</string>
+    <string name="location">Konum</string>
+    <string name="current_location">Mevcut konum</string>
+    <string name="search_location">Konumunu gir ve seç</string>
+    <string name="allow_polar_location">Polar\'ın konumuna erişim sağlamasına izin ver</string>
+    <string name="unavailable">Kullanılamıyor</string>
+    <string name="searching">Arıyor...</string>
+    <string name="no_result">Hiç sonuç bulunamadı.</string>
+    <string name="tornado">kasırga</string>
+    <string name="tropical_storm">tropik fırtına</string>
+    <string name="hurricane">hortum</string>
+    <string name="severe_thunderstorms">kuvvetli oraj</string>
+    <string name="thunderstorms">orajlar</string>
+    <string name="rain_snow">karla karışık yağmur</string>
+    <string name="rain_sleet">yağmurla karışık kar</string>
+    <string name="snow_sleet">sulu kar</string>
+    <string name="freezing_drizzle">donan çisenti</string>
+    <string name="drizzle">çisenti</string>
+    <string name="freezing_rain">donan yağmur</string>
+    <string name="showers">sağanak yağış</string>
+    <string name="snow_flurries">ince kar yağışı</string>
+    <string name="small_snow_flurries">hafif kar sağanağı</string>
+    <string name="blowing_snow">kar tipisi</string>
+    <string name="snow">kar</string>
+    <string name="hail">dolu</string>
+    <string name="sleet">sulu sepken</string>
+    <string name="dust">toz</string>
+    <string name="foggy">sisli</string>
+    <string name="haze">puslu</string>
+    <string name="smoky">dumanlı</string>
+    <string name="blustery">sert rüzgarlı</string>
+    <string name="windy">rüzgarlı</string>
+    <string name="cold">soğuk</string>
+    <string name="cloudy">bulutlu</string>
+    <string name="mostly_cloudy_night">çoğunlukla bulutlu (gece)</string>
+    <string name="mostly_cloudy_day">çoğunlukla bulutlu (gündüz)</string>
+    <string name="partly_cloudy_night">yer yer bulutlu (gece)</string>
+    <string name="partly_cloudy_day">yer yer bulutlu (gündüz)</string>
+    <string name="clear_night">açık (gece)</string>
+    <string name="sunny">güneşli</string>
+    <string name="fair_night">iyi (gece)</string>
+    <string name="fair_day">iyi (gündüz)</string>
+    <string name="rain_hail">karla karışık dolu</string>
+    <string name="hot">sıcak</string>
+    <string name="isolated_thunderstorms">izole orajlar</string>
+    <string name="scattered_thunderstorms">aralıklarla oraj</string>
+    <string name="scattered_showers">aralıklarla sağanak yağış</string>
+    <string name="heavy_snow">yoğun kar yağışı</string>
+    <string name="not_available">mevcut değil</string>
+    <string name="isolated_thundershowers">izole gök gürültülü sağanak yağışlı</string>
+    <string name="snow_showers">kar sağanağı</string>
+    <string name="thundershowers">gök gürültülü sağanak yağışlı</string>
+    <string name="partly_cloudy">yer yer bulutlu</string>
+    <string name="qrcode_processing">İşleniyor…</string>
+    <string name="qrcode_scan">QR Kodunu tara</string>
+    <string name="qrcode_return">Geri</string>
+    <string name="qrcode_not_find">QR Kodu bulunamadı</string>
+    <string name="qrcode_result">Sonuç</string>
+    <string name="qrcode_album">Albüm</string>
+    <string name="qrcode_describe">QR kodunu taramak için çerçeve dahilinde hizala</string>
+    <string name="qrcode_dispose">İşleniyor…</string>
+    <string name="qrcode_failure">Tarama başarısız oldu</string>
+    <string name="qrcode_type_text">Metin</string>
+    <string name="qrcode_search">Arama</string>
+    <string name="qrcode_copy">Kopyala</string>
+    <string name="qrcode_choose_pic">QR Resmini seç</string>
+    <string name="website_qrcode">QR Kodu</string>
+    <string name="from_vc_browser">Polar Browser\'dan</string>
+    <string name="qrcode_frame">QR kodunu taramak için çerçeve dahilinde hizala</string>
+    <string name="no_flash_found">El feneri bulunamadı</string>
+    <string name="webpage_not_available">Web sayfası kullanılamıyor</string>
+    <string name="refresh">Yenile</string>
+    <string name="no_internet_connection">İnternet bağlantısı yok</string>
+    <string name="logo_on_homepage">Ana sayfadaki logo</string>
+    <string name="browser_settings">Tarayıcı ayarları</string>
+    <string name="tag">Etiketle</string>
+    <string name="sync_only_in_wifi">Sadece Wi-Fi\'de senkronize et</string>
+    <string name="account_management">Hesap yönetimi</string>
+    <string name="avatar">Avatar</string>
+    <string name="nickname">Rumuz</string>
+    <string name="change_nickname">Rumuzu değiştir</string>
+    <string name="letters_limit">4-20 harf</string>
+    <string name="input_again">Hata, lütfen tekrar gir</string>
+    <string name="gender">Cinsiyet</string>
+    <string name="male">Erkek</string>
+    <string name="female">Kadın</string>
+    <string name="secret">Gizli</string>
+    <string name="date_of_birth">Doğum Tarihi</string>
+    <string name="please_chosse">Seç</string>
+</resources>

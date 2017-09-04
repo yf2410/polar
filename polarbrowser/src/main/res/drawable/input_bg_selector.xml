@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--获得焦点时的图片背景-->
+    <item android:drawable="@drawable/input_line_normal" android:state_focused="true"/>
+    <!--获得焦点时的图片背景-->
+    <item android:drawable="@drawable/input_line_unable" android:state_focused="false"/>
+    <!-- 窗口没有处于交互时的背景图片 -->
+    <item android:drawable="@drawable/input_line_normal"/>
+</selector>

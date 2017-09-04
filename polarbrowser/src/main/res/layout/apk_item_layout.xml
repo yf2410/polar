@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.polar.browser.common.ui.CommonCheckBox1
+        android:id="@+id/check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="-20dp"
+        android:layout_marginRight="-20dp"
+        android:checked="false"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/iv_apk"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/check_box"
+        android:scaleType="fitCenter"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:layout_toEndOf="@id/iv_apk"
+        android:layout_toLeftOf="@+id/apk_install_state"
+        android:layout_toRightOf="@id/iv_apk"
+        android:layout_toStartOf="@+id/apk_install_state"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_apk_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#090909"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_apk_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#888888"
+            android:textSize="14sp"/>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@id/apk_install_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:textColor="#333333"
+        android:textSize="14sp"/>
+</merge>

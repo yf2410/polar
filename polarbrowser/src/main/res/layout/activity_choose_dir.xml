@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:skin="http://schemas.android.com/android/skin"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <com.polar.browser.common.ui.CommonTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_download_path" />
+
+    <RelativeLayout
+        android:id="@+id/tv_current_folder"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/day_setting_session_line_bg"
+        android:layout_below="@id/title_bar">
+
+        <TextView
+            android:id="@+id/tv_root"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="手机存储"
+            android:textColor="@color/black"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/iv_root_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_toRightOf="@+id/tv_root"
+            android:background="@drawable/side_arrow_right" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview_choose_path"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/iv_root_arrow" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/top_line"
+        android:layout_below="@id/tv_current_folder"
+        style="@style/TitleLineView" />
+
+
+
+    <LinearLayout
+        android:id="@+id/bottom_edit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/btn_confirm"
+            android:layout_width="336dp"
+            android:layout_height="38dp"
+            android:background="@drawable/export_bookmark_btn_selector"
+            android:gravity="center"
+            android:text="@string/ok"
+            android:textColor="@color/color_box_item_1"
+            android:textSize="17sp" />
+        />
+    </LinearLayout>
+    <View
+        style="@style/TitleLineView"
+        android:layout_alignTop="@id/bottom_edit_btn"
+        />
+    <ListView
+        android:id="@+id/lv_folders"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_edit_btn"
+        android:layout_below="@id/top_line" />
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/multiwindow_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/item_multi_window_margin"
+    android:layout_marginRight="@dimen/item_multi_window_margin"
+    android:layout_marginTop="@dimen/common_padding_5"
+    android:layout_marginBottom="@dimen/common_padding_5"
+    android:background="#0000">
+
+    <ImageView
+        android:id="@+id/screen_shot"
+        android:layout_width="125dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/common_padding_15"
+        android:background="@drawable/screen_shot_bg_pre"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher"
+        android:padding="3dp"/>
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="@dimen/item_multi_window_iv_close"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/tab_del" />
+
+    <TextView
+        android:id="@+id/tv_describe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="@dimen/common_padding_25"
+        android:layout_toLeftOf="@id/close"
+        android:layout_toRightOf="@id/screen_shot"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="@color/white"
+        android:textSize="@dimen/file_list_textsize_16" />
+
+</RelativeLayout>

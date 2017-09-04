@@ -1,0 +1,24 @@
+<resources>
+
+    <dimen name="dpi">3px</dimen>
+    <dimen name="height">750px</dimen>
+    <dimen name="width">480px</dimen>
+
+    <dimen name="setting_line_height">56dp</dimen>
+    <dimen name="setting_session_line_height">30dp</dimen>
+
+    <dimen name="home_search_text_height">40dp</dimen>
+    <dimen name="home_lemon_hand_margin_top">47dp</dimen>
+    <dimen name="menu_lemon_margin_top">8dp</dimen>
+
+    <dimen name="guide_page_img_margin_top">20dp</dimen>
+    <dimen name="guide_page_text_margin_top1">10dp</dimen>
+    <dimen name="guide_page_button_margin_bottom">30dp</dimen>
+    <dimen name="guide_view_indicator_margin_bottom">0dp</dimen>
+    <dimen name="guide_view_indicator_radius">3dp</dimen>
+
+    <dimen name="font_size_temp">48sp</dimen>
+    <dimen name="font_size_du">35sp</dimen>
+    <dimen name="font_size_temp_area">13sp</dimen>
+
+</resources>

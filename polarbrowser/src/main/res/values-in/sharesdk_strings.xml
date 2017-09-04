@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="email">Surel</string>
+    <string name="shortmessage">Messenger</string>
+    <!-- share -->
+    <string name="share">Bagikan</string>
+    <string name="share_download_url">Bagikan tautan ini ke</string>
+    <string name="share_fail">Gagal</string>
+    <string name="share_success">Berhasil</string>
+    <string name="share_cancel">Batalkan</string>
+    <string name="copy_link">Salin Tautan</string>
+    <string name="copy_success">Berhasil</string>
+    <string name="share_from">Dari Polar Browser</string>
+    <string name="share_title">Sarankan peramban yang kecil dan menarik</string>
+    <string name="share_title_url">http://vcapp.me</string>
+    <string name="share_content">#Polar Browser# Kecil dan cepat,pengalaman unggul. Direkomedasikan</string>
+    <string name="share_introduction_url">http://www.vcapp.cn/introduction.html</string>
+    <string name="share_img">Bagikan gambar:</string>
+    <string name="share_link">Bagikan tautan:</string>
+    <string name="share_system">Selengkapnya</string>
+    <string name="share_video_prefix">Datang dan tonton video ini</string>
+</resources>

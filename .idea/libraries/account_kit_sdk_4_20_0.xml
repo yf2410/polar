@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="account-kit-sdk-4.20.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/polarbrowser/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.20.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/polarbrowser/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.20.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

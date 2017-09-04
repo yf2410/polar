@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="okhttpfinal-2.0.7">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/polarbrowser/build/intermediates/exploded-aar/cn.finalteam/okhttpfinal/2.0.7/res" />
+      <root url="jar://$PROJECT_DIR$/polarbrowser/build/intermediates/exploded-aar/cn.finalteam/okhttpfinal/2.0.7/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.finalteam/okhttpfinal/2.0.7/d634288aa1b69dc1eb7fc3bc47a003d7e5a19c46/okhttpfinal-2.0.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

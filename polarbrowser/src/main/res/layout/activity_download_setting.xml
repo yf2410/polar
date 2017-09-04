@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:sb="http://schemas.android.com/apk/res/com.polar.browser"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/root_setting"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/day_setting_session_line_bg">
+
+    <com.polar.browser.common.ui.CommonTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_download_manager"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_bar"
+        android:orientation="vertical">
+
+        <View
+            style="@style/space_SettingActivityItem"/>
+
+        <View
+            style="@style/line_SettingActivityItem"/>
+
+        <!-- WiFi下下载 -->
+
+        <RelativeLayout
+            android:id="@+id/line_download_wifi"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_line_height"
+            android:background="@drawable/common_list_row1">
+
+            <TextView
+                android:id="@+id/download_wifi_lock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="@string/setting_download_only_with_wifi"
+                android:textColor="#555"
+                android:textSize="15sp"/>
+
+            <com.polar.browser.view.switchbutton.SwitchButton
+                android:id="@+id/sb_download_wifi_lock"
+                style="@style/SwitchButtonStyle"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                sb:offColor="@color/day_sb_off_color"
+                sb:onColor="@color/day_sb_on_color"
+                sb:thumbColor="@color/day_sb_thumb_color"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_dlg_bar_divider"/>
+
+        <!-- 存储路径 -->
+
+        <RelativeLayout
+            android:id="@+id/line_download_path"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_line_height"
+            android:background="@drawable/common_list_row1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/download_path"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/setting_download_path"
+                    android:textColor="#555"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/tv_download_path"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    tools:text="路径-----------"
+                    android:textColor="@color/setting_second_name"
+                    android:textSize="13sp"/>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/arrow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="12dp"
+                android:src="@drawable/list_forward"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_dlg_bar_divider"/>
+
+    </LinearLayout>
+</RelativeLayout>

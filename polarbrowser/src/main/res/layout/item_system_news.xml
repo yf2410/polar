@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:background="#fafafa"
+    >
+
+    <com.polar.browser.common.ui.CommonCheckBox1
+        android:id="@+id/check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="-20dp"
+        android:layout_marginRight="-12dp"/>
+
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/check_box"
+        android:layout_marginTop="17dp">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/push_system_tip" />
+
+        <TextView
+            android:id="@+id/titleTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_toRightOf="@id/image_view"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/sys_news"
+            android:textSize="@dimen/common_font_size_d" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/timeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/title"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:lines="1"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/common_font_size_i" />
+</RelativeLayout>

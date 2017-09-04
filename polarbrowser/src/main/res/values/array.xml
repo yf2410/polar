@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="topic_nation">
+        <item>cn</item>
+        <item>us</item>
+        <item>br</item>
+        <item>cl</item>
+        <item>in</item>
+        <item>id</item>
+        <item>ru</item>
+        <item>eg</item>
+        <item>en</item>
+        <item>th</item>
+        <item>tr</item>
+        <item>pk</item>
+    </string-array>
+    <string-array name="topic_language">
+        <item>zh</item>
+        <item>en</item>
+        <item>pt</item>
+        <item>es</item>
+        <item>hi</item>
+        <item>in</item>
+        <item>ru</item>
+        <item>ar</item>
+        <item>th</item>
+        <item>tr</item>
+        <item>fr</item>
+    </string-array>
+</resources>

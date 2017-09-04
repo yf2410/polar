@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:sb="http://schemas.android.com/apk/res/com.polar.browser"
+                android:id="@+id/root_setting"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/day_setting_session_line_bg">
+
+    <com.polar.browser.common.ui.CommonTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_plug_center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_bar"
+        android:orientation="vertical">
+
+        <View
+            style="@style/space_SettingActivityItem"/>
+
+        <View
+            style="@style/line_SettingActivityItem"/>
+
+
+        <!-- 视频下载 -->
+
+        <RelativeLayout
+            android:id="@+id/line_video_download"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_line_height"
+            android:background="@drawable/common_list_row1">
+
+            <ImageView
+                android:id="@+id/iv_video_download"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:scaleType="center"
+                android:src="@drawable/plug_video_download"/>
+
+            <com.polar.browser.view.switchbutton.SwitchButton
+                android:id="@+id/sb_video_download"
+                style="@style/SwitchButtonStyle"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                sb:offColor="@color/day_sb_off_color"
+                sb:onColor="@color/day_sb_on_color"
+                sb:thumbColor="@color/day_sb_thumb_color"/>
+
+            <TextView
+                android:id="@+id/video_download"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toLeftOf="@id/sb_video_download"
+                android:layout_toRightOf="@id/iv_video_download"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/plug_video_download"
+                android:textColor="#555"
+                android:textSize="15sp"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_dlg_bar_divider"/>
+
+        <!-- 广告拦截 -->
+
+        <RelativeLayout
+            android:id="@+id/line_ad_block"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="@dimen/setting_line_height"
+            android:background="@drawable/common_list_row1">
+
+            <ImageView
+                android:id="@+id/iv_ad_block"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:scaleType="center"
+                android:src="@drawable/plug_adblock"/>
+
+            <com.polar.browser.view.switchbutton.SwitchButton
+                android:id="@+id/sb_ad_block"
+                style="@style/SwitchButtonStyle"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                sb:offColor="@color/day_sb_off_color"
+                sb:onColor="@color/day_sb_on_color"
+                sb:thumbColor="@color/day_sb_thumb_color"/>
+
+            <TextView
+                android:id="@+id/ad_block"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toLeftOf="@id/sb_ad_block"
+                android:layout_toRightOf="@id/iv_ad_block"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/setting_ad_block"
+                android:textColor="#555"
+                android:textSize="15sp"/>
+        </RelativeLayout>
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1px"-->
+            <!--android:background="@color/common_dlg_bar_divider"/>-->
+
+        <!-- 比价插件 -->
+
+        <RelativeLayout
+            android:id="@+id/line_price_comparison"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_line_height"
+            android:background="@drawable/common_list_row1"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_price_comparison"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:scaleType="center"
+                android:src="@drawable/plug_price_comparison"/>
+
+            <com.polar.browser.view.switchbutton.SwitchButton
+                android:id="@+id/sb_price_comparison"
+                style="@style/SwitchButtonStyle"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                sb:offColor="@color/day_sb_off_color"
+                sb:onColor="@color/day_sb_on_color"
+                sb:thumbColor="@color/day_sb_thumb_color"/>
+
+            <TextView
+                android:id="@+id/price_comparison"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toLeftOf="@id/sb_price_comparison"
+                android:layout_toRightOf="@id/iv_price_comparison"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/setting_price_comparison"
+                android:textColor="#555"
+                android:textSize="15sp"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_dlg_bar_divider"/>
+        <!-- 广告拦截 -->
+
+        <RelativeLayout
+            android:id="@+id/line_suggestion_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_line_height"
+            android:background="@drawable/common_list_row1">
+
+            <ImageView
+                android:id="@+id/iv_suggestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:scaleType="center"
+                android:src="@drawable/plug_suggestion"/>
+
+            <com.polar.browser.view.switchbutton.SwitchButton
+                android:id="@+id/sb_suggestion"
+                style="@style/SwitchButtonStyle"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                sb:offColor="@color/day_sb_off_color"
+                sb:onColor="@color/day_sb_on_color"
+                sb:thumbColor="@color/day_sb_thumb_color"/>
+
+            <TextView
+                android:id="@+id/suggestion_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toLeftOf="@id/sb_suggestion"
+                android:layout_toRightOf="@id/iv_suggestion"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/plug_suggestion"
+                android:textColor="#555"
+                android:textSize="15sp"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_dlg_bar_divider"/>
+    </LinearLayout>
+</RelativeLayout>

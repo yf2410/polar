@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Polar Browser</string>
+    <string name="search_input_hint">Cari atau Masukkan URL</string>
+
+    <string name="copy">Salin</string>
+    <string name="album">Album</string>
+    <string name="home_page">Beranda</string>
+    <string name="already_on_home_page">Sudah di Beranda</string>
+    <string name="title">Judul</string>
+    <string name="toast_tab_limited">Tidak ada tempat untuk tab baru</string>
+    <string name="network_connect_error">Gangguan Koneksi. Anda tidak terhubung ke Internet</string>
+    <string name="choose_file">Pilih berkas</string>
+    <string name="play_video_error">Maaf, video ini tidak dapat diputar</string>
+    <string name="file_open_ing">Membuka...</string>
+    <string name="goback">Kembali</string>
+
+    <!-- history/favorite -->
+    <string name="history">Riwayat</string>
+    <string name="today">Hari Ini</string>
+    <string name="yesterday">Kemarin</string>
+    <string name="earlier">Sebelumnya</string>
+    <string name="favorite">Penanda</string>
+    <string name="add_bookmark_tips">Ditambahkan ke Penanda</string>
+    <string name="already_add_bookmark_tips">Sudah ada</string>
+    <string name="delete_bookmark_tips">Penanda Dihapus</string>
+    <string name="history_search_record">Mencari Catatan</string>
+    <string name="no_history_search_record">Tidak ada catatan Pencarian</string>
+    <string name="no_history_visit_record">Tidak ada catatan Perambanan</string>
+
+    <!-- search -->
+    <string name="go">Jalan</string>
+    <string name="search">Cari</string>
+    <string name="history_visit">Catatan perambanan</string>
+    <string name="history_search">Catatan pencarian</string>
+    <string name="edittext_empty_tip">Cari atau masukkan URL</string>
+
+    <!-- download -->
+    <string name="download">Unduh</string>
+    <string name="downloading">Mengunduh</string>
+    <string name="download_finish">Selesai</string>
+    <string name="download_waite">Menunggu Pengunduhan</string>
+    <string name="download_error">Pengunduhan Gagal</string>
+    <string name="download_pause">Jeda Pengunduhan</string>
+    <string name="download_start">Memulai Pengunduhan</string>
+    <string name="download_manager">Unduhan</string>
+    <string name="disk_free_size">/%1$s yang tersedia</string>
+    <string name="disk_used_size">%1$s yang digunakan</string>
+    <string name="download_task_already_exists">Tugas sudah ada. Yakin ingin mengunduh ulang?</string>
+    <string name="download_no_available_space">Penyimpanan Tidak Cukup</string>
+    <string name="net_changed_when_downloading">Anda tidak terhubung ke Wi-Fi, masih ingin mengunduh?</string>
+    <string name="file_can_not_open">Berkas tidak dapat dibuka menggunakan aplikasi yang ada</string>
+    <string name="name">Nama:</string>
+    <string name="size">Ukuran:</string>
+    <string name="size_unknown">Ukuran tidak Diketahui</string>
+    <string name="empty_file_name">Nama berkas kosong</string>
+    <string name="download_file_name_exists">Nama berkas sudah ada</string>
+    <string name="click_to_see">Klik untuk membuka</string>
+    <string name="net_no_connect">Anda tidak terhubung ke Internet</string>
+    <string name="download_status_downloading">Mengunduh</string>
+    <string name="download_status_waiting">Menunggu pengunduhan</string>
+    <string name="download_status_start">Memulai pengunduhan</string>
+    <string name="download_status_start_nonetwork">Tidak ada koneksi internet,Jeda Pengunduhan</string>
+    <string name="download_status_pause">Jeda Pengunduhan</string>
+    <string name="download_status_pauseing">Jeda</string>
+    <string name="download_status_failure">Pengunduhan Gagal</string>
+    <string name="download_edit_name_hint">Nama</string>
+    <string name="download_set_path_default">Jalur tidak stabil. Berkas telah diunduh ke jalur penyimpanan bawaan</string>
+    <string name="extract_view_now">periksa sekarang</string>
+    <!-- common -->
+    <string name="edit">Edit</string>
+    <string name="popup_edit">Edit</string>
+    <string name="complete">Selesai</string>
+    <string name="delete">Hapus</string>
+    <string name="delete_with_count">Hapus (%1$d)</string>
+    <string name="check_all">Semua</string>
+    <string name="check_all_cancel">Batalkan</string>
+    <string name="delete_checked_task">Hapus (%1$d) tugas yang Anda pilih?</string>
+    <string name="delete_not_select">Mohon pilih item yang ingin Anda hapus</string>
+    <string name="never_remind">Jangan ingatkan lagi</string>
+    <string name="loading">Memuat...</string>
+
+    <!-- dialog -->
+    <string name="ok">OK</string>
+    <string name="cancel">Batalkan</string>
+    <string name="tips">Perhatian</string>
+    <string name="tips_alert">Perhatian</string>
+    <string name="update_tips">Perkenalan</string>
+    <string name="update_ok">Perbarui Sekarang</string>
+    <string name="update_cancel">Batalkan</string>
+    <string name="go_download">Unduh</string>
+    <string name="manually_update_ok">OK</string>
+    <string name="manually_update_cancel">Batalkan</string>
+    <string name="history_clean_content">Apakah Anda ingin menghapus semua item yang telah dipilih?</string>
+    <string name="history_clean_visited">Apakah Anda ingin menghapus semua riwayat perambanan Anda?</string>
+    <string name="history_clean_searched">Apakah Anda ingin menghapus semua riwayat pencarian Anda?</string>
+    <string name="bookmark_delete_content">Apakah Anda ingin menghapus semua item yang dipilih?</string>
+    <string name="delete_with_files">Hapus berkas sumber juga</string>
+
+    <!-- play -->
+    <string name="play_cancel">Batalkan</string>
+    <string name="play_continue">Putar</string>
+    <string name="play_network_gprs_tip">Tidak ada WiFi, gunakan GPRS untuk memutar?</string>
+
+    <!-- menu -->
+    <string name="menu_add_favorite">Tambahkan Penanda</string>
+    <string name="menu_history">Riwayat</string>
+    <string name="menu_favorite">Penanda</string>
+    <string name="menu_download">Unduhan</string>
+    <string name="menu_nightmode">Modus Malam</string>
+    <string name="menu_setting">Pengaturan</string>
+    <string name="menu_no_imgmode">Tidak Ada Gambar</string>
+    <string name="menu_web_mode">Modus PC</string>
+    <string name="menu_exit">Berhenti</string>
+
+    <!-- add & edit favorite -->
+    <string name="menu_add_shortcut">Layar Beranda</string>
+    <string name="menu_add_logo">Tunjuk Cepat</string>
+    <string name="add_to">Tambahkan ke</string>
+    <string name="edit_url">Edit URL</string>
+    <string name="add_shortcut_successful">Berhasil</string>
+    <string name="already_add_shortcut_successful">Jalan pintas sudah ada</string>
+    <string name="add_shortcut_failed">Perangkat Anda tidak mendukung fitur ini</string>
+    <string name="add_logo_empty_tip">Nama atau URL kosong</string>
+    <string name="add_logo_checke_empty_tip">Mohon pilih ke mana halaman web akan ditambahkan</string>
+
+    <!-- setting -->
+    <string name="setting">Pengaturan</string>
+    <string name="setting_saved_account">Simpan kata sandi</string>
+    <string name="setting_search_engine">Mesin Pencari</string>
+    <string name="version">Versi</string>
+    <string name="setting_font_size">Ukuran Jenis Huruf</string>
+    <string name="setting_font_size_min">Kecil</string>
+    <string name="setting_font_size_mid">Sedang</string>
+    <string name="setting_sliding_type">Pengaturan Penggeseran</string>
+    <string name="setting_sliding_type_close">Tanpa Penggeseran</string>
+    <string name="setting_sliding_type_border">Penggeseran Tepi</string>
+    <string name="setting_sliding_type_fullscreen">Penggeseran Layar Penuh</string>
+    <string name="setting_sliding_type_tip">Anda dapat mengatur penggeseran melalui pengaturan!</string>
+    <string name="setting_editlogo_type_tip">Tidak ada tempat untuk ikon lain di beranda. Ketuk dan tahan untuk mengedit.</string>
+    <string name="setting_videodownload_type_tip">Apakah Anda ingin memasang tambahan untuk mengunduh video dari situs web?</string>
+    <string name="setting_editlogo_type_ok">OK</string>
+    <string name="setting_plug_center">Tambahan</string>
+    <string name="setting_save_tab">Simpan Tab saat Keluar</string>
+    <string name="setting_screen_lock">Kunci Orientasi Potret</string>
+    <string name="setting_ad_block">Blokir Iklan</string>
+    <string name="setting_full_screen">Modus Layar Penuh</string>
+    <string name="setting_quick_search">Pencarian Cepat</string>
+    <string name="setting_clear_data">Hapus Data</string>
+    <string name="setting_set_default_browser">Atur Polar Browser sebagai peramban tetap</string>
+    <string name="setting_download_path">Jalur Standar</string>
+    <string name="setting_custom_ua">Agen Pengguna</string>
+    <string name="setting_recover_setting">Kembali ke Pengaturan Bawaan</string>
+    <string name="file_opening">Membuka...</string>
+    <string name="recover_setting_content">Apakah Anda yakin ingin kembali ke pengaturan bawaan?</string>
+    <string name="setting_clear_data_exit">Hapus Riwayat Perambanan saat Keluar</string>
+    <string name="setting_clear_default_success">Berhasil Dihapus</string>
+    <string name="setting_clear_default_failed">Gagal Dihapus</string>
+    <string name="setting_default_failed">Pengaturan gagal</string>
+    <string name="setting_default_self_tip">Apakah anda ingin berhenti menggunakan Polar Browser sebagai peramban tetap?</string>
+    <string name="setting_remember_username_and_password_tip">Apakah Anda ingin menyimpan kata sandi Anda untuk \"%1$s\"?</string>
+    <string name="saved_account">Simpan kata sandi</string>
+    <string name="file_child_count">%1$d item</string>
+    <string name="current_download_folder">Disimpan di: %1$s</string>
+    <string name="download_folder_space">Sisa %1$s, total sebanyak %2$s</string>
+    <string name="download_folder_alert_19">Untuk sistem di luar Android 4.4 (termasuk), berkas harus disimpan di direktori tertentu ketika menggunakan kartu SD. Berkas yang diunduh akan dihapus jika peramban dihapus. Lanjutkan menyimpan di kartu SD?</string>
+    <string name="download_folder_phone">Penyimpanan Internal</string>
+    <string name="download_folder_sd">Kartu SD</string>
+    <string name="download_folder_sd_removed">Kartu SD telah dilepas</string>
+    <string name="download_folder_selected_sd">Anda telah memilih kartu SD</string>
+
+    <!-- 模块管理 -->
+    <string name="module_manager">Pengelola Modul</string>
+    <string name="module_logos">Ikon Navigasi</string>
+    <string name="module_news">Berita</string>
+    <string name="module_navigate">Situs yang Sering Dikunjungi</string>
+    <string name="module_tools">Perkakas</string>
+
+    <!-- set default browser -->
+    <string name="start_to_set">Mulai</string>
+    <string name="clear_default">Hapus</string>
+    <string name="clear_default_self">Hapus Pengaturan Bawaan</string>
+
+    <string name="clear_default_tip1">Langkah1:Geser ke item peluncuran bawaan</string>
+    <string name="clear_default_tip2">Langkah2:Pilih "Hapus Pengaturan Bawaan"</string>
+    <string name="clear_default_tip3">Langkah3:Kembali ke langkah selanjutnya</string>
+
+    <string name="clear_default_tip_self1">Peramban bawaannya ialah Polar</string>
+
+    <string name="set_default_step1">Langkah1:Cek "Pengaturan Bawaan"</string>
+    <string name="set_default_step2">Langkah 2: Pilih Polar Browser</string>
+
+    <string name="set_default_2_step1">Langkah1:Cek "Pengaturan Bawaan"</string>
+    <string name="set_default_2_step2">Langkah 2: Pilih Polar Browser</string>
+
+    <!-- clear data -->
+    <string name="clear_cookie">Hapus Cookie</string>
+    <string name="clear_cache">Hapus Cache</string>
+    <string name="clear_history">Hapus Riwayat</string>
+    <string name="clear_download">Hapus Data Unduhan</string>
+    <string name="clear_all">Hapus Semuanya</string>
+    <string name="clear_all_2">Hapus Semuanya</string>
+    <string name="clear_to_confirm">Ya%1$s?</string>
+    <string name="clear_browser_record">Hapus Riwayat Perambanan</string>
+
+    <!-- about feedback -->
+    <string name="feedback">Masukan</string>
+    <string name="feedback_hi">Ketikkan saran Anda di sini</string>
+    <string name="feedback_contact">Informasi Kontak:</string>
+    <string name="feedback_contact_hint">Nomor telepon atau Surel:</string>
+    <string name="feedback_cont_null">Mohon isi saran Anda</string>
+    <string name="feedback_ok">Berhasil dikirimkan, terima kasih</string>
+    <string name="feedback_check_network">Gagal mengirim, mohon periksa jaringan Anda.</string>
+    <string name="feedback_copy_ok">Telah disalin ke papan klip.</string>
+    <string name="feedback_send">Kirim</string>
+
+    <!-- exit dialog -->
+    <string name="exit_dialog_title">Ingin keluar?</string>
+    <string name="exit_press_back_again">Klik lagi untuk keluar</string>
+
+    <!-- context menu -->
+    <string name="menu_item_view_img">Tampilkan</string>
+    <string name="menu_item_download_img">Simpan Gambar</string>
+    <string name="menu_item_share_img">Bagikan Gambar</string>
+    <string name="menu_item_open_background">Buka di Latar Belakang</string>
+    <string name="menu_item_open_new">Buka di Tab Baru</string>
+    <string name="menu_item_add_to_bookmark">Penanda</string>
+    <string name="menu_item_copy_link_text">Salin Teks</string>
+    <string name="toast_opened_background">Telah Dibuka di Latar Belakang</string>
+    <string name="menu_item_savepage">Simpan</string>
+    <string name="menu_item_share">Bagikan</string>
+    <string name="menu_item_edit">Grafiti Cuplikan Layar</string>
+    <string name="menu_item_add_bookmark">Tambahkan Penanda</string>
+    <string name="menu_item_cancel_bookmark">Hapus Penanda</string>
+    <string name="edit_logo_title">Edit Gambar Kecil</string>
+
+    <!-- crash -->
+    <string name="app_crash_upload_tip">Maaf, aplikasi ditutup karena ada masalah. Laporkan?</string>
+    <string name="app_crash_uploading">Mengunggah...</string>
+
+    <!-- context menu -->
+    <string name="toast_copy_link_text">Teks Telah Disalin</string>
+
+    <!-- http auth -->
+    <string name="auth_request_username">Nama pengguna</string>
+    <string name="auth_request_password">Kata sandi</string>
+    <string name="auth_request_login">Login:</string>
+
+    <!-- custom ua -->
+    <string name="custom_ua_input_hint">Masukkan Agen Pengguna Sesuaian di sini</string>
+    <string name="custom_ua_title">Agen Pengguna Sesuaian</string>
+    <string name="custom_ua_default">Android</string>
+    <string name="custom_ua_pc">PC</string>
+    <string name="custom_ua_ios">iPhone</string>
+    <string name="custom_ua_custom">Sesuaikan</string>
+
+    <!-- add url -->
+    <string name="url_add">Tambahkan Lagi</string>
+    <string name="url_recommendation">Direkomendasikan</string>
+    <string name="url_classify">Kategori</string>
+    <string name="url_custom">Sesuaikan</string>
+    <string name="website">URL</string>
+    <string name="edit_logo_max_tip">Tidak ada tempat untuk situs baru. Mohon hapus beberapa dan coba lagi.</string>
+    <string name="edit_logo_to_add">Tambahkan</string>
+    <string name="edit_logo_custom_edit">Sesuaikan</string>
+    <string name="edit_logo_custom_from_history">Tambahkan Dari Riwayat</string>
+    <string name="edit_logo_custom_from_favorite">Tambahkan Dari Penanda</string>
+    <string name="edit_logo_add_ok">Berhasil Ditambahkan</string>
+    <string name="already_edit_logo_add_ok">Tunjuk cepat sudah ada</string>
+    <string name="preview">Pratinjau</string>
+    <string name="no_network_tip1">...Tidak dapat mencapai jaringan...</string>
+    <string name="no_network_tip2">Tidak dapat terhubung ke Internet</string>
+
+    <!-- import & export bookmark -->
+    <string name="import_bookmarks">Impor Penanda</string>
+    <string name="export_bookmarks">Ekspor Penanda</string>
+    <string name="backup_bookmarks">Impor/Ekspor Penanda</string>
+    <string name="export_bookmarks_success">Sukses Diekspor</string>
+    <string name="export_bookmarks_failed">Gagal Mengekspor</string>
+    <string name="import_bookmarks_success">Sukses Diimpor</string>
+    <string name="import_bookmarks_failed">Gagal Mengimpor</string>
+    <string name="bookmark_file">Berkas</string>
+    <string name="import_bookmarks_tips">Impor %1$s?</string>
+    <string name="bookmark_title">Riwayat/Penanda</string>
+    <string name="add_bookmark_from_chrome">Dari Browser Chrome</string>
+    <string name="add_bookmark_from_system">Dari Browser Android</string>
+    <string name="add_bookmark_from_file">Dari Backup</string>
+    <string name="add_bookmark_no_find_chrome">Peramban Chrome tidak ditemukan</string>
+    <string name="add_bookmark_chrom_empty">Tidak ada Penunjuk di Peramban Chrome</string>
+    <string name="add_bookmark_system_empty">Tidak ada Penunjuk di Peramban Android</string>
+
+
+    <!-- crop and edit -->
+    <string name="save_or_share">Bagikan/Simpan</string>
+    <string name="share_screen_shot_to">Bagikan cuplikan layar kepada:</string>
+    <string name="save_into_album">Simpan ke album</string>
+    <string name="saved">Telah disimpan</string>
+    <string name="save">Simpan</string>
+    <string name="exit">Berhenti</string>
+    <string name="save_success">Berhasil Disimpan</string>
+    <string name="title_exit_edit_crop">Berhenti Mengedit?</string>
+    <string name="tip_exit_edit_crop">Gambar tidak akan disimpan jika Anda berhenti.</string>
+
+    <!-- 无痕模式 -->
+    <string name="tip_privacy_on">Anda telah memasuki perambanan pribadi</string>
+    <string name="tip_privacy_off">Perambanan pribadi ditutup</string>
+
+    <!-- 保存网页 -->
+    <string name="offline_web">Situs-situs Web Offline (%1$s)</string>
+    <string name="offline_web_title">Situs Web Offline</string>
+    <string name="offline_web_delete_content">Hapus situs web offline yang telah ditandai?</string>
+    <string name="offline_web_saved">Telah disimpan ke dalam: Unduhan-Berkas-Situs-situs Web Offline</string>
+    <string name="offline_web_start_save">Menyimpan…</string>
+    <string name="offline_web_empty">Tidak ada Situs Web Offline</string>
+    <string name="cache_files_size">Cache:20MB</string>
+    <!-- 打开文件 -->
+    <string name="openfile_error">Tidak dapat dibuka, berkas telah dipindahkan atau dihapus!</string>
+    <string name="openfile_no_exist">Berkas Tidak Ada</string>
+    <string name="openfile_image_error">Gambar rusak</string>
+    <string name="openfile_decompress_error">Dekompresi gagal</string>
+
+    <!-- 常用网址 -->
+    <string name="navigate_title_video">Video</string>
+    <string name="navigate_title_news">Berita</string>
+    <string name="navigate_title_social">Sosial</string>
+    <string name="navigate_title_games">Permainan</string>
+    <string name="navigate_title_sports">Olahraga</string>
+    <string name="navigate_title_music">Musik</string>
+    <string name="navigate_title_shop">Belanja</string>
+    <string name="navigate_title_life">Gaya Hidup</string>
+
+    <!-- 菜单 -->
+    <string name="image_mode_off_toast">Modus Tanpa Gambar ditutup</string>
+    <string name="image_mode_on_toast">Modus Tanpa Gambar aktif</string>
+    <string name="web_mode_off_toast">Anda telah menutup Modus PC</string>
+    <string name="web_mode_on_toast">Modus PC aktif</string>
+    <string name="file_path">Disimpan di:</string>
+
+    <!-- 视频下载 -->
+    <string name="toolbar_download_video_tip">Klik di sini untuk mengunduh video!</string>
+    <string name="dialog_video_download_tag">Video</string>
+    <string name="dialog_video_download_tag_audio">Audio</string>
+    <string name="dialog_video_download_resolution">Kualitas：</string>
+    <string name="dialog_video_download_format">Format：</string>
+    <string name="dialog_video_download_parsing">Sedang menganalisis, mohon tunggu...</string>
+    <string name="dialog_video_download_parseerror">Berkas video sudah dihapus!</string>
+    <string name="dialog_video_download_add_task">Tugas sudah ditambahkan pada Daftar Unduh!</string>
+    <string name="dialog_video_download_no_network">Tidak bisa terhubung ke jaringan - analisis gagal. Silakan coba lagi!</string>
+    <string name="play_download_video_error">GALAT: Tidak dapat di buka!</string>
+
+    <!-- 插件中心 -->
+    <string name="plug_video_download">Unduhan video</string>
+
+    <string name="dialog_ssl_title">Peringatan keamanan</string>
+    <string name="dialog_ssl_content">Sertifikat situs tidak dikeluarkan oleh otoritas terpercaya!</string>
+    <string name="dialog_ssl_continue_tips">Informasi sertifikat ></string>
+    <string name="dialog_ssl_continue">Lanjutkan</string>
+
+    <string name="text_issued_to">Diterbitkan untuk</string>
+    <string name="text_issued_by">Penerbit</string>
+    <string name="btn_ssl_close">tutup</string>
+    <string name="ssl_common_name">Nama Umum:</string>
+    <string name="ssl_organization">Nama Organisasi:</string>
+    <string name="ssl_organization_unit">Nama Unit Organisasi</string>
+    <string name="ssl_invalid">Sertifikat keamanan tidak berlaku</string>
+    <string name="ssl_expired">Sertifikat telah kedaluwarsa</string>
+    <string name="ssl_idmismatch">Nama host tidak cocok</string>
+    <string name="ssl_date_invalid">Tanggal sertifikat tidak berlaku</string>
+    <string name="text_valid">Masa berlaku</string>
+    <string name="certificate_time">Berlaku mulai:</string>
+    <string name="valid_until">Berlaku sampai:</string>
+    <string name="notification">Pemberitahuan</string>
+    <string name="mark_as_read">Tandai sebagai sudah dibaca</string>
+    <string name="notifications">Notifikasi</string>
+    <string name="menu_item_copy_link">Salin Tautan</string>
+    <string name="toast_copy_link">Tautan Telah Disalin</string>
+    <string name="update_download_tip">Memperbarui</string>
+    <string name="update_tip">Perbarui</string>
+    <string name="choose_upload" msgid="3649366287575002063">"Pilih dokumen yang ingin Anda unggah"</string>
+    <string name="popup_setting">Pengaturan</string>
+    <string name="setting_download_manager">Pengaturan Unduhan</string>
+    <string name="setting_download_only_with_wifi">Unduh hanya pada jaringan Wi-Fi</string>
+    <string name="setting_check_update">Periksa pembaruan</string>
+    <string name="check_update_tip">Anda hanya dapat mengunduh Aplikasi setelah Anda memasang Google Play.</string>
+    <string name="plug_install_tip">Pemasangan selesai, silakan buka Aplikasi.</string>
+    <string name="permission_dialog_title">Untuk menggunakan APLIKASI ini, Anda perlu memberi izin ke:</string>
+    <string name="permission_storage">penyimpanan</string>
+    <string name="permission_location">lokasi</string>
+    <string name="permission_dialog_description">Klik \"Pengaturan\" di bawah dan aktifkan \"Izin\"</string>
+    <!-- 页内查找-->
+    <string name="menu_item_search">Temukan di halaman</string>
+    <string name="search_page_tip">Temukan di halaman</string>
+    <string name="setting_card_modle_news">Berita</string>
+    <string name="setting_card_modle_manage">Kelola Kartu Halaman Depan</string>
+    <string name="card_modle_tip">Anda dapat mengaktifkan kembali kartu di \"Pengaturan\"</string>
+    <string name="manage_cards_modle">Kelola Kartu</string>
+
+    <string name="card_news_more">Selengkapnya</string>
+    <string name="card_news_next">Berikutnya</string>
+    <string name="dialog_lanchanged_tip">"Bahasa telah diubah menjadi Indonesia. Silakan buka kembali aplikasi untuk memproses. "</string>
+    <string name="dialog_lanchanged_restart">Buka kembali</string>
+    <string name="add_home_logo">%1$s ditambahkan di halaman depan !</string>
+    <string name="feed_back_failed">Pengiriman gagal!</string>
+    <string name="feed_back_commit">Mengirim…</string>
+    <string name="launcher_affiliate_name">Penjelajahan Cepat</string>
+    <string name="setting_product_about">Bantuan</string>
+    <string name="plug_suggestion">Saran Pencarian</string>
+    <string name="ssl_security_tip">Sertifikat keamanan tidak dipercaya, apakah Anda ingin melanjutkan?</string>
+    <string name="feedback_whatsapp_text">Hubungi dukungan pelanggan kami, dapatkan balasan dengan segera!</string>
+    <string name="setting_about">Tentang</string>
+    <string name="setting_about_website">Situs Resmi</string>
+    <string name="setting_about_user_group">Bergabung di Grup Pengguna Utama</string>
+    <string name="setting_about_good_evaluation">Beri kami nilai</string>
+    <string name="setting_about_agreement">Perjanjian Pengguna</string>
+    <string name="setting_about_terms">Kebijakan Privasi</string>
+    <string name="setting_price_comparison">Perbandingan Harga</string>
+
+
+
+    <!-- 文件分类-->
+    <string name="file_classify_image">Gambar</string>
+    <string name="file_classify_document"> Dokumen</string>
+    <!--<string name="file_classify_zip_file">Berkas terkompresi</string>-->
+    <!--<string name="file_classify_apk"> Paket Pemasangan</string>-->
+    <string name="file_classify_other">Lainnya</string>
+
+    <string name="download_apk_installed">Dipasang</string>
+    <string name="download_apk_not_installed">Dicopot</string>
+
+    <string name="file_image_count">%1$d 张</string>
+    <string name="file_delete_hint"> Hapus berkas-berkas yang dipilih</string>
+    <string name="menu_more_set_wallpaper">Atur sebagai gambar latar</string>
+    <string name="menu_set_successful">Berhasil</string>
+    <string name="menu_set_failed">Gagal</string>
+    <string name="download_change_storage_location">Pindah ke</string>
+    <string name="download_file_path">Simpan alamat</string>
+
+    <string name="download_file_property">Atribut berkas</string>
+    <string name="download_file_size">Ukuran berkas</string>
+    <string name="download_file_url">Unduh alamat</string>
+    <string name="download_rename">Menamakan kembali</string>
+    <string name="download_redownload">Unduh lagi</string>
+    <string name="download_support_point">Memulai kembali unduhan yang terganggu</string>
+    <string name="support">Didukung</string>
+    <string name="not_support">Tidak didukung</string>
+    <string name="download_share_from">Dari Polar Browser</string>
+    <string name="download_detail">Perincian</string>
+    <string name="file_date_added">Waktu</string>
+
+    <string name="download_with_godownloader_tip"><u>300% lebih cepat</u></string>
+    <string name="extract">Ekstraksi</string>
+    <string name="submenu_file_others_decompression">Diekstrak</string>
+    <string name="camera">Camera</string>
+    <string name="download_url_error">Tautan ini tidak berfungsi lagi.</string>
+    <string name="video_screen_locked">Layar terkunci</string>
+    <string name="video_screen_unlocked">Layar terbuka</string>
+    <string name="start_full_figure">Izinkan</string>
+    <string name="start_full_figure_mode">Apakah anda akan keluar dari mode gambar saja?</string>
+    <string name="unusable_full_figure_mode">Image-only mode tidak tersedia</string>
+
+    <string name="share_edit_image">Edit &amp; graffiti</string>
+    <string name="picture_saved">Gambar tersimpan!</string>
+    <!-- 广告拦截设置-->
+    <string name="ad_block_save_traffic">Data disimpan: &lt;font&gt;&lt;big&gt;&lt;big&gt;%1$s&lt;/big&gt;&lt;/big&gt;&lt;/font&gt;</string>
+    <string name="setting_ad_block_tips">Ingatkan iklan diblokir</string>
+    <string name="setting_ad_block_count">Iklan diblokir: %1$d</string>
+    <string name="ad_block_count_format">Iklan diblokir: &lt;font&gt;&lt;big&gt;&lt;big&gt;%1$d&lt;/big&gt;&lt;/big&gt;&lt;/font&gt;</string>
+    <string name="ad_block_save_time">Mempercepat:&lt;font&gt;&lt;big&gt;&lt;big&gt;%1$s&lt;/big&gt;&lt;/big&gt;&lt;/font&gt;s</string>
+    <string name="ad_block_num_100">Lebih dari 100 iklan telah diblokir</string>
+    <string name="ad_block_share_content">Polar browser telah memblokir iklan %1$d untuk saya</string>
+    <string name="vc_domain">http://www.vcbrowser.com/</string>
+
+    <string name="activity_notify_news">Pemberitahuan berita</string>
+    <string name="activity_notify_system">Pemberitahuan sistem</string>
+
+    <string name="new_function_tip">Mengingatkan fitur baru</string>
+    <string name="next_time">Nanti</string>
+    <string name="fb_notify_notice_tip">Anda memiliki pemberitahuan baru.</string>
+    <string name="fb_notify_push_tip">Aktifkan peningkat, masuk ke Facebook pada Polar Browser, dan Anda dapat menerima pesan instan.</string>
+    <string name="fb_notify_request_tip">Anda memiliki permintaan teman baru.</string>
+    <string name="fb_notify_msg_tip">Anda memiliki pesan baru.</string>
+    <string name="str_fb_notify_mag">Anda memiliki 1 pesan</string>
+    <string name="account_edit_avatar">Sunting avatar</string>
+    <string name="account_login">Masuk</string>
+    <string name="account_login_phone_num">Nomor Telepon</string>
+    <string name="account_login_success">Berhasil masuk</string>
+    <string name="account_logout">Keluar</string>
+    <string name="account_save_avatar">Panduan</string>
+    <string name="account_welcome_to_polar">Selamat datang di Polar browser</string>
+    <string name="account_login_sync_bookmarks">Sinkronisasi penanda...</string>
+    <string name="account_login_fail">Login gagal</string>
+    <string name="sync_bookmark_last_time">Waktu sinkronisasi terakhir %1$s</string>
+    <string name="sync_bookmark">Sinkronisasi cloud</string>
+    <string name="sync_bookmark_success">Sinkronisasi berhasil</string>
+    <string name="sync_bookmark_failed">Sinkronisasi gagal, cobalah kembali</string>
+    <string name="account_save_avatar_success">Berhasil tersimpan</string>
+    <string name="account_login_user_center">Pusat Pengguna</string>
+    <string name="download_page_save">Gambar tersimpan!</string>
+    <string name="incognito_mode">Mode Penyamaran</string>
+    <string name="home_logo_more">Panduan</string>
+    <string name="account_logging_tip">Masuk...</string>
+    <string name="account_save_avatar_fail">Gagal menyimpan</string>
+    <string name="setting_font_size_big">Besar</string>
+    <string name="setting_font_size_large">Ekstra besar</string>
+    <string name="no_weather">Tidak ada informasi cuaca</string>
+    <string name="no_locate">Tidak dapat menemukan lokasi</string>
+    <string name="location">Lokasi</string>
+    <string name="current_location">Lokasi saat ini</string>
+    <string name="search_location">Ketik dan pilih lokasi Anda</string>
+    <string name="allow_polar_location">Izinkan Polar untuk mengakses lokasi Anda</string>
+    <string name="unavailable">Tidak tersedia</string>
+    <string name="searching">Mencari...</string>
+    <string name="no_result">Tidak ada hasil yang ditemukan.</string>
+    <string name="tornado">tornado</string>
+    <string name="tropical_storm">badai tropis</string>
+    <string name="hurricane">angin topan</string>
+    <string name="severe_thunderstorms">badai petir parah</string>
+    <string name="thunderstorms">badai petir</string>
+    <string name="rain_snow">campuran hujan dan salju</string>
+    <string name="rain_sleet">campuran hujan dan hujan es</string>
+    <string name="snow_sleet">campuran salju dan hujan es</string>
+    <string name="freezing_drizzle">gerimis beku</string>
+    <string name="drizzle">gerimis</string>
+    <string name="freezing_rain">hujan beku</string>
+    <string name="showers">hujan deras</string>
+    <string name="snow_flurries">banjir salju</string>
+    <string name="small_snow_flurries">hujan salju ringan</string>
+    <string name="blowing_snow">salju bertiup</string>
+    <string name="snow">salju</string>
+    <string name="hail">hujan batu es</string>
+    <string name="sleet">hujan es</string>
+    <string name="dust">debu</string>
+    <string name="foggy">berkabut</string>
+    <string name="haze">kabut</string>
+    <string name="smoky">berasap</string>
+    <string name="blustery">angin kencang</string>
+    <string name="windy">berangin</string>
+    <string name="cold">dingin</string>
+    <string name="cloudy">berawan</string>
+    <string name="mostly_cloudy_night">sebagian besar berawan (malam)</string>
+    <string name="mostly_cloudy_day">sebagian besar berawan (siang)</string>
+    <string name="partly_cloudy_night">sebagian berawan (malam)</string>
+    <string name="partly_cloudy_day">sebagian berawan (siang)</string>
+    <string name="clear_night">terang (malam)</string>
+    <string name="sunny">cerah</string>
+    <string name="fair_night">cukup terang (malam)</string>
+    <string name="fair_day">cukup terang (siang)</string>
+    <string name="rain_hail">campuran hujan dan hujan batu es</string>
+    <string name="hot">panas</string>
+    <string name="isolated_thunderstorms">badai yang terisolasi</string>
+    <string name="scattered_thunderstorms">badai yang tersebar</string>
+    <string name="scattered_showers">hujan deras yang tersebar</string>
+    <string name="heavy_snow">salju berat</string>
+    <string name="not_available">tidak tersedia</string>
+    <string name="isolated_thundershowers">hujan petir yang terisolasi</string>
+    <string name="snow_showers">hujan salju</string>
+    <string name="thundershowers">hujan petir</string>
+    <string name="partly_cloudy">sebagian berawan</string>
+    <string name="scattered_snow_showers">hujan salju yang tersebar</string>
+    <string name="qrcode_processing">Pengolahan…</string>
+    <string name="qrcode_scan">Pindai Kode QR</string>
+    <string name="qrcode_return">Kembali</string>
+    <string name="qrcode_not_find">Kode QR tidak ditemukan</string>
+    <string name="qrcode_result">Hasil</string>
+    <string name="qrcode_album">Album</string>
+    <string name="qrcode_dispose">Pengolahan…</string>
+    <string name="qrcode_failure">Pemindaian gagal</string>
+    <string name="qrcode_type_text">Teks</string>
+    <string name="qrcode_search">Pencarian</string>
+    <string name="qrcode_copy">Salin</string>
+    <string name="qrcode_choose_pic">Pilih gambar QR</string>
+    <string name="website_qrcode">Kode QR</string>
+    <string name="from_vc_browser">Dari Peramban Polar</string>
+    <string name="qrcode_frame">Sejajarkan kode QR dalam bingkai untuk dipindai</string>
+    <string name="qrcode_describe">Sejajarkan kode QR dalam bingkai untuk dipindai</string>
+    <string name="no_flash_found">Tidak ditemukan senter</string>
+    <string name="webpage_not_available">Halaman web tidak tersedia</string>
+    <string name="refresh">Segarkan</string>
+    <string name="no_internet_connection">Tidak ada koneksi internet</string>
+    <string name="visited_add_home">Tambahkan ke panggilan cepat</string>
+    <string name="visited_all_clear">Apakah Anda ingin menghapus catatan?</string>
+    <string name="visited_already_clear_tip">Catatan yang paling banyak dikunjungi telah dihapus.</string>
+    <string name="visited_clear">Hapus catatan</string>
+    <string name="visited_close">Matikan</string>
+    <string name="visited_setting_tip">\"Paling banyak dikunjungi\" tidak aktif. Anda dapat mengaktifkannya di Pengaturan.</string>
+    <string name="visited_card_title">Paling banyak dikunjungi</string>
+    <string name="logo_on_homepage">Logo di beranda</string>
+    <string name="browser_settings">Pengaturan peramban</string>
+    <string name="tag">Tandai</string>
+    <string name="sync_only_in_wifi">Sinkronkan hanya di Wi-Fi</string>
+    <string name="account_management">Manajemen akun</string>
+    <string name="avatar">Avatar</string>
+    <string name="nickname">Nama panggilan</string>
+    <string name="change_nickname">Ubah nama panggilan</string>
+    <string name="letters_limit">4-20 huruf</string>
+    <string name="input_again">Kesalahan, harap masukan lagi</string>
+    <string name="gender">Jenis kelamin</string>
+    <string name="male">Pria</string>
+    <string name="female">Wanita</string>
+    <string name="secret">Rahasia</string>
+    <string name="date_of_birth">Tanggal lahir</string>
+    <string name="please_chosse">Pilih</string>
+
+</resources>

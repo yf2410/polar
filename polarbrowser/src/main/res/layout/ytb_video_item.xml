@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tool="http://schemas.android.com/tools"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:gravity="center_vertical"
+              android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/video_quality"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#666666"
+        android:textSize="13sp"
+        android:gravity="center"
+        tool:text="480p"/>
+
+    <TextView
+        android:id="@+id/video_format"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#666666"
+        android:textSize="13sp"
+        android:gravity="center"
+        tool:text="MP4"/>
+
+    <TextView
+        android:id="@+id/video_size"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textColor="#666666"
+        android:textSize="13sp"
+        android:gravity="center"
+        tool:text="14.1M"/>
+
+    <TextView
+        android:id="@+id/video_download_click"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="30dp"
+        android:textColor="@color/selector_ytb_video_item"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:background="@drawable/ytb_video_item_selector"
+        android:text="Download"
+        android:layout_marginRight="5dp"/>
+
+</merge>

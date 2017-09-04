@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--矩形裁剪框示例 -->
+    <com.polar.browser.view.clipview.view.ClipViewLayout
+        android:id="@+id/clipViewLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:clipBorderWidth="1.5dp"
+        app:clipType="circle"
+        app:mHorizontalPadding="30dp"
+        />
+
+    <!-- Title -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="#cd000000"
+        >
+        <TextView
+            android:id="@+id/clip_tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textSize="@dimen/file_list_textsize_16"
+            android:textColor="@drawable/btn_clip_ok_cancel_selector"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/account_edit_avatar"
+            android:textSize="@dimen/file_list_textsize_18"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:id="@+id/clip_tv_done"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:text="@string/complete"
+            android:textSize="@dimen/file_list_textsize_16"
+            android:textColor="@drawable/btn_clip_ok_cancel_selector"
+            />
+    </RelativeLayout>
+</FrameLayout>

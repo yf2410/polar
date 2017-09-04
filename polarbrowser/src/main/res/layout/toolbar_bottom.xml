@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="52dp"
+              android:layout_above="@id/browser_navigation_bar"
+              android:animateLayoutChanges="true"
+              android:background="@drawable/navigation_bottom_bg"
+              android:baselineAligned="false"
+              android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/blank_area_left"
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/area_middle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/menu_done_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:id="@+id/rl_menu_done"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/menu_done"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/menu_close_selector"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menu_shown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical">
+                <!--关闭窗口按钮-->
+                <RelativeLayout
+                    android:id="@+id/rl_close_window"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/close_window"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/toolbar_close_window_selector"/>
+                </RelativeLayout>
+                <!--后退按钮-->
+                <RelativeLayout
+                    android:id="@+id/rl_backward"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/backward"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/toolbar_backward_selector"/>
+                </RelativeLayout>
+
+            </FrameLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_forward"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/forward"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/toolbar_forward_selector"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_menu"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/menu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/toolbar_menu_selector"/>
+
+                <ImageView
+                    android:id="@+id/toolbar_dot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/menu"
+                    android:layout_alignRight="@+id/menu"
+                    android:background="@drawable/dot"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_home"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/toolbar_home_selector"/>
+            </RelativeLayout>
+
+            <com.polar.browser.view.LongClickAddRelativeLayout
+                android:id="@+id/rl_multiwindow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/iv_multi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/toolbar_multiwindow_selector"/>
+
+                <TextView
+                    android:id="@+id/multiwindow_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:paddingBottom="3dp"
+                    android:text="1"
+                    android:textColor="@color/toolbar_multiwindow_selector_text"
+                    android:textSize="10sp"/>
+            </com.polar.browser.view.LongClickAddRelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/blank_area_right"
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <!--   -->
+
+</LinearLayout>

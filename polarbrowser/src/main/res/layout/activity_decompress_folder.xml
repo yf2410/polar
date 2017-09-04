@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg_color_5"
+    android:orientation="vertical"
+    tools:context="com.polar.browser.download.DecompresstionFolderActivity">
+
+    <com.polar.browser.common.ui.CommonTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/file_list_paddingTop"
+            android:background="@color/common_bg_color_5"
+            android:dividerHeight="@dimen/common_divider_width"
+            android:divider="@null"
+            />
+        <ImageView
+            android:id="@+id/autio_file_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/icon_offline_page_empty"
+            android:visibility="gone"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/shadown_top"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/shadown_footer"/>
+    </RelativeLayout>
+
+    <com.polar.browser.download.download.FileDetailOperateView
+        android:id="@+id/bottom_edit_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <include layout="@layout/common_bottom_edit"
+             android:id="@+id/bottom_edit_layout" android:visibility="visible"/>
+
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/uncompress_rl_folder"
+    android:layout_width="match_parent"
+    android:layout_height="69dp"
+    android:paddingTop="@dimen/common_padding_4"
+    android:paddingBottom="@dimen/common_padding_4"
+    android:descendantFocusability="blocksDescendants"
+    android:background="@color/common_bg_color_5"
+        >
+    <ImageView
+        android:id="@+id/uncompress_icon"
+        android:layout_width="@dimen/file_list_item_other_iv_width"
+        android:layout_height="@dimen/file_list_item_other_iv_width"
+        android:layout_marginLeft="@dimen/file_list_item_cb_marginLeft"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_folder"/>
+
+    <ImageView
+        android:id="@+id/uncompress_right_arrow"
+        android:layout_width="@dimen/side_arrow_right_width"
+        android:layout_height="@dimen/side_arrow_right_height"
+        android:layout_marginRight="@dimen/file_list_item_cb_marginLeft"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/side_arrow_right"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/file_list_item_height"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/file_list_item_rl_marginLeft"
+        android:layout_marginRight="@dimen/file_list_item_rl_marginLeft"
+        android:layout_toRightOf="@id/uncompress_icon"
+        android:layout_toLeftOf="@id/uncompress_right_arrow"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:id="@+id/uncompress_dir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="middle"
+            android:layout_toRightOf="@id/uncompress_icon"
+            android:textSize="@dimen/file_list_textsize_16"
+            android:textColor="@color/file_list_text_name_color"
+            android:text="@string/submenu_file_others_decompression"
+            />
+        <TextView
+            android:id="@+id/uncompress_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/uncompress_icon"
+            android:layout_below="@id/uncompress_dir"
+            android:layout_marginTop="@dimen/file_list_lineSpacing"
+            android:textColor="@color/file_list_text_detail_color"
+            android:textSize="@dimen/file_list_textsize_13"
+            android:text="0"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

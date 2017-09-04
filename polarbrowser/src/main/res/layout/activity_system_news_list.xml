@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_system_news_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebebeb"
+    tools:context="com.polar.browser.push.SystemNewsListActivity">
+
+    <com.polar.browser.common.ui.CommonTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notifications" />
+
+    <View
+        android:id="@+id/space_view"
+        style="@style/space_SettingActivityItem"
+        android:layout_below="@id/title_bar" />
+
+
+    <LinearLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/common_bottom_btn_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.polar.browser.common.ui.CommonCheckBox1
+                android:id="@+id/common_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-10dp"
+                android:layout_marginRight="-12dp"
+                android:src="@drawable/common_checkbox1_unchecked" />
+
+            <TextView
+                android:id="@+id/tv_check_all"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/check_all"
+                android:textColor="@color/bottom_menu_font_color_selector"
+                android:textSize="@dimen/common_font_size_d" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iv_vertical_line" />
+
+        <TextView
+            android:id="@+id/btn_delete"
+            style="@style/History_bottom_tv"
+            android:text="@string/delete" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iv_vertical_line" />
+
+        <TextView
+            android:id="@+id/mark_as_read"
+            style="@style/History_bottom_tv"
+            android:text="@string/complete" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/list_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/empty_system_news" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_bar"
+        android:layout_below="@id/space_view" />
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/common_bottom_btn_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_read"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:text="@string/mark_as_read"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/common_padding_15"
+            android:textColor="@color/bottom_menu_font_color_selector"
+            android:textSize="@dimen/common_font_size_d" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iv_vertical_line" />
+
+        <TextView
+            android:id="@+id/btn_edit"
+            android:layout_width="90dp"
+            android:layout_height="47dp"
+            android:text="@string/edit"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:textColor="@color/bottom_menu_font_color_selector"
+            android:textSize="@dimen/common_font_size_d" />
+    </LinearLayout>
+
+</RelativeLayout>

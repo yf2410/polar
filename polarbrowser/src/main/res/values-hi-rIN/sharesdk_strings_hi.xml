@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook">फेसबुक</string>
+    <string name="twitter">ट्विटर</string>
+    <string name="whatsapp">वॉट्सऐप</string>
+    <string name="email">ईमेल</string>
+    <string name="shortmessage">मैसेंजर</string>
+    <!-- share -->
+    <string name="share">साझा करें</string>
+    <string name="share_download_url">लिंक शेयर करे</string>
+    <string name="share_fail">विफल रहा</string>
+    <string name="share_success">सफल</string>
+    <string name="share_cancel">रद्द करें</string>
+    <string name="copy_link">लिंक कॉपी करें</string>
+    <string name="copy_success">सफल</string>
+    <string name="share_from">वपोलर ब्राउज़र से</string>
+    <string name="share_title">किसी छोटे और दिलचस्प ब्राउज़र के बारे में बताएं</string>
+    <string name="share_title_url">http://vcapp.me</string>
+    <string name="share_content">#पोलर ब्राउज़र# छोटा तथा तेज, उत्कृष्ट अनुभव। अनुशंसित!</string>
+    <string name="share_introduction_url">http://www.vcapp.cn/introduction.html</string>
+    <string name="share_img">छवि साझा करें:</string>
+    <string name="share_link">लिंक साझा करें:</string>
+    <string name="share_system">अधिक</string>
+    <string name="share_video_prefix">आयें और इस वीडियो को देखे</string>
+</resources>

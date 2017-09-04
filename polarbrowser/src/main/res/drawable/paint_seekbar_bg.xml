@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- shape如果不声明形状则默认为正方形 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="1dp"/>
+    <solid android:color="#3d3d3d"/>
+    <stroke
+        android:width="1px"
+        android:color="#2a2a2a"/>
+</shape>

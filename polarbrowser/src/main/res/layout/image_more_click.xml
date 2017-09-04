@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/menu_bg"
+              android:background="@drawable/circle_shadow"
+              android:layout_width="184dp"
+              android:layout_height="160dp"
+              android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/item_set_wallpaper"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:background="@drawable/menu_toolbar_top_more_selector"
+        android:gravity="center"
+        android:text="@string/menu_more_set_wallpaper"
+        android:textColor="@color/menu_tool_bar_top_text"
+        android:textSize="17sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:id="@+id/first_line"
+        android:background="#dfdfe1"/>
+
+
+    <TextView
+        android:id="@+id/item_rename"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:background="@drawable/menu_toolbar_top_more_selector"
+        android:gravity="center"
+        android:text="@string/download_rename"
+        android:textColor="@color/menu_tool_bar_top_text"
+        android:textSize="17sp"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:id="@+id/second_line"
+        android:background="#dfdfe1"/>
+    <TextView
+        android:id="@+id/item_move"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:background="@drawable/menu_toolbar_top_more_selector"
+        android:gravity="center"
+        android:text="@string/download_change_storage_location"
+        android:textColor="@color/menu_tool_bar_top_text"
+        android:textSize="17sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:id="@+id/third_line"
+        android:background="#dfdfe1"/>
+    <TextView
+        android:id="@+id/item_file_detail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:background="@drawable/menu_toolbar_top_more_selector"
+        android:gravity="center"
+        android:text="@string/download_file_property"
+        android:textColor="@color/menu_tool_bar_top_text"
+        android:textSize="17sp"/>
+
+</LinearLayout>

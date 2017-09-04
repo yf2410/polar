@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Polar Browser</string>
+    <string name="search_input_hint">Search or Enter URL</string>
+
+    <string name="copy">Copy</string>
+    <string name="album">Album</string>
+    <string name="home_page">Home</string>
+    <string name="already_on_home_page">Already on Homepage</string>
+    <string name="title">Title</string>
+    <string name="toast_tab_limited">No room for new tab</string>
+    <string name="network_connect_error">Connection Error. You are not connected to the Internet</string>
+    <string name="choose_file">Choose a file</string>
+    <string name="play_video_error">Sorry, this video could not be played</string>
+    <string name="file_open_ing">Opening...</string>
+    <string name="goback">Back</string>
+
+    <!-- history/favorite -->
+    <string name="history">History</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="earlier">Earlier</string>
+    <string name="favorite">Bookmarks</string>
+    <string name="add_bookmark_tips">Added to Bookmarks</string>
+    <string name="already_add_bookmark_tips">Already exists</string>
+    <string name="delete_bookmark_tips">Bookmark Removed</string>
+    <string name="history_search_record">Searching Records</string>
+    <string name="no_history_search_record">No Searching records</string>
+    <string name="no_history_visit_record">No Browsing records</string>
+
+
+    <!-- search -->
+    <string name="go">Go</string>
+    <string name="search">Search</string>
+    <string name="history_visit">Browsing records</string>
+    <string name="history_search">Searching records</string>
+    <string name="edittext_empty_tip">Search or Enter URL</string>
+
+    <!-- download -->
+    <string name="download">Download</string>
+    <string name="downloading">Downloading</string>
+    <string name="download_finish">Finished</string>
+    <string name="download_waite">Waiting to Download</string>
+    <string name="download_error">Download Failed</string>
+    <string name="download_pause">Pause Downloading</string>
+    <string name="download_start">Start downloading</string>
+    <string name="download_manager">Downloads</string>
+    <string name="disk_free_size">/%1$s Available</string>
+    <string name="disk_used_size">%1$s Used</string>
+    <string name="download_task_already_exists">Task already exists. Sure to re-download?</string>
+    <string name="download_no_available_space">Insufficient Storage Available</string>
+    <string name="net_changed_when_downloading">You are not connected to Wi-Fi, still want to dowload?</string>
+    <string name="file_can_not_open">The file can\'t be opened by any application available</string>
+    <string name="name">Name:</string>
+    <string name="size">Size:</string>
+    <string name="size_unknown">Unknown Size</string>
+    <string name="empty_file_name">The filename is empty</string>
+    <string name="download_file_name_exists">The filename already exists</string>
+    <string name="click_to_see">Click to open</string>
+    <string name="net_no_connect">You are not connected to the Internet</string>
+    <string name="download_status_downloading">Downloading</string>
+    <string name="download_status_waiting">Waiting to download</string>
+    <string name="download_status_start">Start downloading</string>
+    <string name="download_status_start_nonetwork">No internet connection，downloading paused！</string>
+    <string name="download_status_pause">Downloading Paused</string>
+    <string name="download_status_pauseing">Pause</string>
+    <string name="download_status_failure">Download Failed</string>
+    <string name="download_edit_name_hint">Name</string>
+    <string name="download_set_path_default">Path unusable. The file has been downloaded to default storage path</string>
+    <string name="extract_view_now">Check now</string>
+    <!-- common -->
+    <string name="edit">Edit</string>
+    <string name="popup_edit">Edit</string>
+    <string name="complete">Done</string>
+    <string name="delete">Delete</string>
+    <string name="delete_with_count">Delete (%1$d)</string>
+    <string name="check_all">All</string>
+    <string name="check_all_cancel">Cancel</string>
+    <string name="delete_checked_task">Delete (%1$d)task(s) that you selected?</string>
+    <string name="delete_not_select">Please select items that you want to delete</string>
+    <string name="never_remind">No more reminding</string>
+    <string name="loading">Loading...</string>
+
+    <!-- dialog -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="tips">Notice</string>
+    <string name="tips_alert">Notice</string>
+    <string name="update_tips">Introduction</string>
+    <string name="update_ok">Update Now</string>
+    <string name="update_cancel">Cancel</string>
+    <string name="go_download">Download</string>
+    <string name="manually_update_ok">OK</string>
+    <string name="manually_update_cancel">Cancel</string>
+    <string name="history_clean_content">Do you want to delete all selected items?</string>
+    <string name="history_clean_visited">Do you want to clear all your browsing history?</string>
+    <string name="history_clean_searched">Do you want to clear all your searching record?</string>
+    <string name="bookmark_delete_content">Do you want to delete all selected items?</string>
+    <string name="delete_with_files">Delete source file too</string>
+
+    <!-- play -->
+    <string name="play_cancel">Cancel</string>
+    <string name="play_continue">Play</string>
+    <string name="play_network_gprs_tip">No WiFi, use GPRS to play?</string>
+
+    <!-- menu -->
+    <string name="menu_add_favorite">Add Bookmark</string>
+    <string name="menu_history">History</string>
+    <string name="menu_favorite">Bookmarks</string>
+    <string name="menu_download">Downloads</string>
+    <string name="menu_nightmode">Night</string>
+    <string name="menu_setting">Settings</string>
+    <string name="menu_no_imgmode">No Image</string>
+    <string name="menu_web_mode">PC Mode</string>
+    <string name="menu_exit">Quit</string>
+
+    <!-- add & edit favorite -->
+    <string name="menu_add_shortcut">Home Screen</string>
+    <string name="menu_add_logo">Speed Dial</string>
+    <string name="add_to">Add to</string>
+    <string name="edit_url">Edit URL</string>
+    <string name="add_shortcut_successful">Succeed</string>
+    <string name="already_add_shortcut_successful">Shortcut already exists</string>
+    <string name="add_shortcut_failed">Your device does not support this feature</string>
+    <string name="add_logo_empty_tip">Name or URL is empty</string>
+    <string name="add_logo_checke_empty_tip">Please select where to add the wabpage</string>
+
+    <!-- setting -->
+    <string name="setting">Settings</string>
+    <string name="setting_saved_account">Save passwords</string>
+    <string name="setting_search_engine">Search Engine</string>
+    <string name="version">Version</string>
+    <string name="setting_font_size">Font Size</string>
+    <string name="setting_font_size_min">Small</string>
+    <string name="setting_font_size_mid">Medium</string>
+    <string name="setting_sliding_type">Sliding Preferences</string>
+    <string name="setting_sliding_type_close">No Sliding</string>
+    <string name="setting_sliding_type_border">Edge Sliding</string>
+    <string name="setting_sliding_type_fullscreen">Full Screen Sliding</string>
+    <string name="setting_sliding_type_tip">You can set sliding preference in settings!</string>
+    <string name="setting_editlogo_type_tip">No room for more icons in home page. Tap and hold to edit.</string>
+    <string name="setting_videodownload_type_tip">Do you want to install an add-on to download videos from websites?</string>
+    <string name="setting_editlogo_type_ok">OK</string>
+    <string name="setting_plug_center">Add-ons</string>
+    <string name="setting_save_tab">Save Tabs on Exit</string>
+    <string name="setting_screen_lock">Portrait Orientation Lock</string>
+    <string name="setting_ad_block">Block Ads</string>
+    <string name="setting_full_screen">Full Screen</string>
+    <string name="setting_quick_search">Quick Search</string>
+    <string name="setting_clear_data">Clear Data</string>
+    <string name="setting_set_default_browser">Set Polar Browser as default</string>
+    <string name="setting_download_path">Default Path</string>
+    <string name="setting_custom_ua">User Agent</string>
+    <string name="setting_recover_setting">Back to Default Settings</string>
+    <string name="file_opening">Opening...</string>
+    <string name="recover_setting_content">Are you sure you want to back to default settings?</string>
+    <string name="setting_clear_data_exit">Clear Browsing History on Exit</string>
+    <string name="setting_clear_default_success">Successfully Cleared</string>
+    <string name="setting_clear_default_failed">Clearing Failed</string>
+    <string name="setting_default_failed">Setting failed</string>
+    <string name="setting_default_self_tip">Do you wish to stop using Polar Browser as default?</string>
+    <string name="setting_remember_username_and_password_tip">Do you want to save your password for \"%1$s\"?</string>
+    <string name="saved_account">Save passwords</string>
+    <string name="file_child_count">%1$d items</string>
+    <string name="current_download_folder">Stored in: %1$s</string>
+    <string name="download_folder_space">%1$s left, %2$s in total</string>
+    <string name="download_folder_alert_19">For systems beyond Android 4.4 (included), files need to be stored in certain directories when using SD card. The files downloaded will be deleted if the browser is uninstalled. Continue to store in SD card?</string>
+    <string name="download_folder_phone">Internal Storage</string>
+    <string name="download_folder_sd">SD Card</string>
+    <string name="download_folder_sd_removed">SD Card has been removed</string>
+    <string name="download_folder_selected_sd">You\'ve selected SD card</string>
+
+    <!-- 模块管理 -->
+    <string name="module_manager">Module Manager</string>
+    <string name="module_logos">Navigating Icons</string>
+    <string name="module_news">News</string>
+    <string name="module_navigate">Frequently Visited Sites</string>
+    <string name="module_tools">Tools</string>
+
+    <!-- set default browser -->
+    <string name="start_to_set">Start</string>
+    <string name="clear_default">Clear</string>
+    <string name="clear_default_self">Clear Default Setting</string>
+
+    <string name="clear_default_tip1">Step1:Slide to default launching item</string>
+    <string name="clear_default_tip2">Step2:Choose "Clear Default Setting"</string>
+    <string name="clear_default_tip3">Step3:Back to the next step</string>
+
+    <string name="clear_default_tip_self1">Default browser is Polar</string>
+
+    <string name="set_default_step1">Step1:Check "Default Settings"</string>
+    <string name="set_default_step2">Step 2: Select Polar Browser</string>
+
+    <string name="set_default_2_step1">Step1:Check "Default Settings"</string>
+    <string name="set_default_2_step2">Step 2: Select Polar Browser</string>
+
+    <!-- clear data -->
+    <string name="clear_cookie">Clear Cookie</string>
+    <string name="clear_cache">Clear Cache</string>
+    <string name="clear_history">Clear History</string>
+    <string name="clear_download">Clear Downloading Data</string>
+    <string name="clear_all">Clear All?</string>
+    <string name="clear_all_2">Clear All</string>
+    <string name="clear_to_confirm">Yes%1$s?</string>
+    <string name="clear_browser_record">Clear Browsing History</string>
+
+    <!-- about feedback -->
+    <string name="feedback">Feedback</string>
+    <string name="feedback_hi">Type your suggestions here</string>
+    <string name="feedback_contact">Contact Information:</string>
+    <string name="feedback_contact_hint">Phone number or Email:</string>
+    <string name="feedback_cont_null">Please fulfill your feedback</string>
+    <string name="feedback_ok">Successfully sent, thank you</string>
+    <string name="feedback_check_network">Failed to send, please check your network.</string>
+    <string name="feedback_copy_ok">Copied to clipboard.</string>
+    <string name="feedback_send">Send</string>
+
+    <!-- exit dialog -->
+    <string name="exit_dialog_title">Want to exit?</string>
+    <string name="exit_press_back_again">Click again to exit</string>
+
+    <!-- context menu -->
+    <string name="menu_item_view_img">View</string>
+    <string name="menu_item_download_img">Save Image</string>
+    <string name="menu_item_share_img">Share Image</string>
+    <string name="menu_item_open_background">Open in Background</string>
+    <string name="menu_item_open_new">Open in New Tab</string>
+    <string name="menu_item_add_to_bookmark">Bookmarks</string>
+    <string name="menu_item_copy_link_text">Copy Text</string>
+    <string name="toast_opened_background">Opened in Background</string>
+    <string name="menu_item_savepage">Save Webpage</string>
+    <string name="menu_item_share">Share</string>
+    <string name="menu_item_edit">Screenshot Graffiti</string>
+    <string name="menu_item_add_bookmark">Add Bookmark</string>
+    <string name="menu_item_cancel_bookmark">Remove Bookmark</string>
+    <string name="edit_logo_title">Edit Thumbnails</string>
+
+    <!-- crash -->
+    <string name="app_crash_upload_tip">Sorry, the app was closed due to some problems. Report crash?</string>
+    <string name="app_crash_uploading">Uploading...</string>
+
+    <!-- context menu -->
+    <string name="toast_copy_link_text">Text Copied</string>
+
+    <!-- http auth -->
+    <string name="auth_request_username">Username</string>
+    <string name="auth_request_password">Password</string>
+    <string name="auth_request_login">Login:</string>
+
+    <!-- custom ua -->
+    <string name="custom_ua_input_hint">Type Custom User Agent here</string>
+    <string name="custom_ua_title">Custom User Agent</string>
+    <string name="custom_ua_default">Android</string>
+    <string name="custom_ua_pc">Desktop</string>
+    <string name="custom_ua_ios">iPhone</string>
+    <string name="custom_ua_custom">Custom</string>
+
+    <!-- add url -->
+    <string name="url_add">Add More</string>
+    <string name="url_recommendation">Recommended</string>
+    <string name="url_classify">Category</string>
+    <string name="url_custom">Custom</string>
+    <string name="website">URL</string>
+    <string name="edit_logo_max_tip">No room for new site. Please delete some and try again.</string>
+    <string name="edit_logo_to_add">Add</string>
+    <string name="edit_logo_custom_edit">Custom</string>
+    <string name="edit_logo_custom_from_history">Add From History</string>
+    <string name="edit_logo_custom_from_favorite">Add From Bookmarks</string>
+    <string name="edit_logo_add_ok">Successfully Added</string>
+    <string name="already_edit_logo_add_ok">Speed dial already exists</string>
+    <string name="preview">Preview</string>
+    <string name="no_network_tip1">...The network could not be reached...</string>
+    <string name="no_network_tip2">Unable to connect to the Internet</string>
+
+    <!-- import & export bookmark -->
+    <string name="import_bookmarks">Import Bookmarks</string>
+    <string name="export_bookmarks">Export Bookmarks</string>
+    <string name="backup_bookmarks">Import/Export Bookmarks</string>
+    <string name="export_bookmarks_success">Successfully Exported</string>
+    <string name="export_bookmarks_failed">Exporting Failed</string>
+    <string name="import_bookmarks_success">Successfully Imported</string>
+    <string name="import_bookmarks_failed">Importing Failed</string>
+    <string name="bookmark_file">Files</string>
+    <string name="import_bookmarks_tips">Import %1$s?</string>
+    <string name="bookmark_title">History/Bookmarks</string>
+    <string name="add_bookmark_from_chrome">From Chrome browser</string>
+    <string name="add_bookmark_from_system">From Android browser</string>
+    <string name="add_bookmark_from_file">From Backup</string>
+    <string name="add_bookmark_no_find_chrome">Chrome Browser is Not Fond </string>
+    <string name="add_bookmark_chrom_empty">No Bookmarks in Chrome Browser</string>
+    <string name="add_bookmark_system_empty">No Bookmarks in Android Browser</string>
+
+    <!-- crop and edit -->
+    <string name="save_or_share">Share/Save</string>
+    <string name="share_screen_shot_to">Share screenshot to:</string>
+    <string name="save_into_album">Save to album</string>
+    <string name="saved">Saved</string>
+    <string name="save">Save</string>
+    <string name="exit">Quit</string>
+    <string name="save_success">Successfully Saved</string>
+    <string name="title_exit_edit_crop">Quit Editing?</string>
+    <string name="tip_exit_edit_crop">The picture won\'t be saved if you quit.</string>
+
+    <!-- 无痕模式 -->
+    <string name="tip_privacy_on">You\'ve entered private browsing</string>
+    <string name="tip_privacy_off">Private browsing is closed</string>
+
+    <!-- 保存网页 -->
+    <string name="offline_web">Offline Websites(%1$s)</string>
+    <string name="offline_web_title">Offline Website</string>
+    <string name="offline_web_delete_content">Delete checked offline websites?</string>
+    <string name="offline_web_saved">Saved to: Downloads-Files-Offline Websites</string>
+    <string name="offline_web_start_save">Saving…</string>
+    <string name="offline_web_empty">No Offline Website</string>
+    <string name="cache_files_size">Cache:20MB</string>
+    <!-- 打开文件 -->
+    <string name="openfile_error">Unable to open, the file has been moved or deleted!</string>
+    <string name="openfile_no_exist">The File Does Not Exist</string>
+    <string name="openfile_image_error">The image has been damaged</string>
+    <string name="openfile_decompress_error">Decompressing failed</string>
+
+    <!-- 常用网址 -->
+    <string name="navigate_title_video">Video</string>
+    <string name="navigate_title_news">News</string>
+    <string name="navigate_title_social">Social</string>
+    <string name="navigate_title_games">Games</string>
+    <string name="navigate_title_sports">Sports</string>
+    <string name="navigate_title_music">Music</string>
+    <string name="navigate_title_shop">Shopping</string>
+    <string name="navigate_title_life">Lifestyle</string>
+
+    <!-- 菜单 -->
+    <string name="image_mode_off_toast">No Image mode is closed</string>
+    <string name="image_mode_on_toast">No Image mode enabled</string>
+    <string name="web_mode_off_toast">You\'ve closed PC Mode</string>
+    <string name="web_mode_on_toast">PC Mode enabled</string>
+    <string name="file_path">Stored in:</string>
+
+    <!-- 视频下载 -->
+    <string name="toolbar_download_video_tip">Click here to download the video!</string>
+    <string name="dialog_video_download_tag">Video</string>
+    <string name="dialog_video_download_tag_audio">Audio</string>
+    <string name="dialog_video_download_resolution">Quality：</string>
+    <string name="dialog_video_download_format">Format：</string>
+    <string name="dialog_video_download_parsing">Analyzing, please wait...</string>
+    <string name="dialog_video_download_parseerror">Analyzing failed!</string>
+    <string name="dialog_video_download_add_task">Task has been added to the Download List!</string>
+    <string name="dialog_video_download_no_network">Could not connect to the network - analyzing failed. Please try again!</string>
+    <string name="play_download_video_error">ERROR: Unable to open!</string>
+
+    <!-- 插件中心 -->
+    <string name="plug_video_download">Video download</string>
+
+    <string name="dialog_ssl_title">Security warning</string>
+    <string name="dialog_ssl_content">The site\'s certificate is not issued by a trusted authority!</string>
+    <string name="dialog_ssl_continue_tips">Certificate info ></string>
+    <string name="dialog_ssl_continue">Continue</string>
+
+    <string name="text_issued_to">Issued to</string>
+    <string name="text_issued_by">Issuer</string>
+    <string name="btn_ssl_close">Close</string>
+    <string name="ssl_common_name">Common Name:</string>
+    <string name="ssl_organization">Organization Name:</string>
+    <string name="ssl_organization_unit">Organizational Unit Name:</string>
+    <string name="ssl_invalid">Invalid security certificate</string>
+    <string name="ssl_expired">The certificate has expired</string>
+    <string name="ssl_idmismatch">Hostname mismatch</string>
+    <string name="ssl_date_invalid">The certificate date is invalid</string>
+    <string name="text_valid">Validity period</string>
+    <string name="certificate_time">Valid from:</string>
+    <string name="valid_until">Valid till:</string>
+    <string name="notification">Notification</string>
+    <string name="notifications">Notifications</string>
+    <string name="mark_as_read">Mark as read</string>
+    <string name="menu_item_copy_link">Copy Link</string>
+    <string name="toast_copy_link">Link Copied</string>
+    <string name="update_tip">Update</string>
+    <string name="update_download_tip">Updating</string>
+    <string name="choose_upload" msgid="3649366287575002063">"Select the document you would like to upload"</string>
+    <string name="popup_setting">Settings</string>
+    <string name="setting_download_manager">Download Settings</string>
+    <string name="setting_download_only_with_wifi">Download from Wi-Fi network only</string>
+    <string name="setting_check_update">Check for update</string>
+    <string name="check_update_tip">Only after installing Google Play can you download the APP.</string>
+    <string name="plug_install_tip">Installation completed, please open the APP.</string>
+    <string name="permission_dialog_title">To use the APP, you need to give permission to:</string>
+    <string name="permission_storage">storage</string>
+    <string name="permission_location">location</string>
+    <string name="permission_dialog_description">Please click \"Settings\" below and enable \"Permission\"</string>
+
+    <!-- 页内查找-->
+    <string name="menu_item_search">Find in page</string>
+    <string name="search_page_tip">Find in page</string>
+    <string name="setting_card_modle_manage">Manage Homepage Cards</string>
+    <string name="setting_card_modle_news">News</string>
+    <string name="card_modle_tip">You can re-enable the cards in \"Settings\"</string>
+    <string name="manage_cards_modle">Manage Cards</string>
+
+    <string name="card_news_more">More</string>
+    <string name="card_news_next">Next</string>
+    <string name="dialog_lanchanged_tip">The language has been changed to English.Please re-open the app to process.</string>
+    <string name="dialog_lanchanged_restart">Re-open</string>
+    <string name="add_home_logo">%1$s added to homepage!</string>
+    <string name="feed_back_failed">Sending failed!</string>
+    <string name="feed_back_commit">Sending…</string>
+    <string name="launcher_affiliate_name">Fast Surfing</string>
+    <string name="setting_product_about">Help</string>
+    <string name="ssl_security_tip">Security certificate not trusted, do you want to continue?</string>
+    <string name="feedback_whatsapp_text">Contact our cumsomer support, get instant reply！</string>
+    <string name="setting_about">About</string>
+    <string name="setting_about_website">Official Website</string>
+    <string name="setting_about_user_group">Join Key Users Group</string>
+    <string name="setting_about_good_evaluation">Rate for us</string>
+    <string name="setting_about_agreement">User Agreement</string>
+    <string name="plug_suggestion">Searching Suggestions</string>
+    <string name="setting_about_terms">Privacy Policy</string>
+    <string name="setting_price_comparison">Price Comparison</string>
+
+
+    <!-- 文件分类-->
+    <string name="file_classify_image">Picture</string>
+    <string name="file_classify_document">Documents</string>
+    <!--<string name="file_classify_zip_file">Compressed files</string>-->
+    <!--<string name="file_classify_apk">Installation Package</string>-->
+    <string name="file_classify_other">Others</string>
+
+    <string name="download_apk_installed">Installed</string>
+    <string name="download_apk_not_installed">Uninstalled</string>
+
+    <string name="file_image_count">%1$d pics</string>
+    <string name="file_delete_hint">Delete selected files?</string>
+    <string name="menu_more_set_wallpaper">Set as wallpaper</string>
+    <string name="menu_set_successful">Successful!</string>
+    <string name="menu_set_failed">Failed!</string>
+    <string name="download_change_storage_location">Move to</string>
+    <string name="download_file_path">Save address</string>
+    <string name="download_file_property">File attribute</string>
+    <string name="download_file_size">File size</string>
+    <string name="download_file_url">Download address</string>
+    <string name="download_rename">Rename</string>
+    <string name="download_redownload">Download again</string>
+    <string name="download_support_point">Resume interrupted download</string>
+    <string name="support">Supported</string>
+    <string name="not_support">Unsupported</string>
+    <string name="download_share_from">From Polar Browser</string>
+    <string name="download_detail">Details</string>
+    <string name="file_date_added">Time</string>
+    <string name="download_with_godownloader_tip"><u>300% faster</u></string>
+    <string name="extract">Extract</string>
+    <string name="submenu_file_others_decompression">Extracted</string>
+    <string name="camera">Camera</string>
+    <string name="download_url_error">This link is not functional anymore.</string>
+    <string name="video_screen_locked">Screen locked</string>
+    <string name="video_screen_unlocked">Screen unlocked</string>
+    <string name="start_full_figure">Enable</string>
+    <string name="start_full_figure_mode">Image-Only Mode</string>
+    <string name="unusable_full_figure_mode">Image-on Mode is not available</string>
+    <string name="share_edit_image">Edit &amp; Graffiti</string>
+
+    <string name="picture_saved">Picture saved!</string>
+    <string name="setting_ad_block_tips">Remind ads blocked</string>
+    <!-- 广告拦截设置-->
+    <string name="setting_ad_block_count">%1$d ads have been blocked</string>
+    <string name="ad_block_save_traffic">Data saved:&lt;font&gt;&lt;big&gt;%1$s&lt;/big&gt;&lt;/font&gt;</string>
+    <string name="ad_block_count_format">Ads blocked: &lt;font&gt;&lt;big&gt;%1$d&lt;/big&gt;&lt;/font&gt;</string>
+    <string name="ad_block_save_time">Speed up:&lt;font&gt;&lt;big&gt;%1$s&lt;/big&gt;&lt;/font&gt;s</string>
+    <string name="ad_block_num_100">More than 100 ads have been blocked</string>
+    <string name="ad_block_share_content">Polar Browser has blocked %1$d ads for me</string>
+    <string name="vc_domain">http://www.vcbrowser.com/</string>
+
+    <string name="activity_notify_news">News notification</string>
+    <string name="activity_notify_system">System notification</string>
+
+    <string name="fb_notify_msg_tip">You have new messages.</string>
+    <string name="new_function_tip">New feature</string>
+    <string name="next_time">Later</string>
+    <string name="fb_notify_notice_tip">You have new notifications.</string>
+    <string name="fb_notify_push_tip">Enable messages reminder and login to Facebook with Polar Browser for receiving instant notifications.</string>
+    <string name="fb_notify_request_tip">You have new friend requests.</string>
+    <string name="str_fb_notify_mag">You have 1 message</string>
+    <string name="account_edit_avatar">Edit avatar</string>
+    <string name="account_login">Log in</string>
+    <string name="account_login_phone_num">Phone Number</string>
+    <string name="account_login_success">Login successful</string>
+    <string name="account_logout">Log out</string>
+    <string name="account_save_avatar">Save avatar</string>
+    <string name="account_welcome_to_polar">Welcome to Polar Browser</string>
+    <string name="account_login_sync_bookmarks">Synchronizing bookmarks...</string>
+    <string name="account_login_fail">Login failed</string>
+    <string name="sync_bookmark_last_time">Last sync time %1$s</string>
+    <string name="sync_bookmark">Cloud sync</string>
+    <string name="sync_bookmark_success">Sync successful</string>
+    <string name="sync_bookmark_failed">Sync failed, please try again.</string>
+    <string name="account_save_avatar_success">Saved successfully</string>
+    <string name="account_login_user_center">User Center</string>
+    <string name="download_page_save">Picture saved!</string>
+    <string name="incognito_mode">Incognito Mode</string>
+    <string name="home_logo_more">Guide</string>
+    <string name="setting_font_size_big">Large</string>
+    <string name="account_logging_tip">Logging in...</string>
+    <string name="account_save_avatar_fail">Save failed</string>
+    <string name="setting_font_size_large">Extra large</string>
+    <string name="no_weather">No weather information</string>
+    <string name="no_locate">Failed to locate</string>
+    <string name="location">Location</string>
+    <string name="current_location">Current location</string>
+    <string name="search_location">Type and select your location</string>
+    <string name="allow_polar_location">Allow Polar to access your location</string>
+    <string name="unavailable">Unavailable</string>
+    <string name="searching">Searching…</string>
+    <string name="no_result">No results found.</string>
+    <string name="tornado">tornado</string>
+    <string name="tropical_storm">tropical storm</string>
+    <string name="hurricane">hurricane</string>
+    <string name="severe_thunderstorms">severe thunderstorms</string>
+    <string name="thunderstorms">thunderstorms</string>
+    <string name="rain_snow">mixed rain and snow</string>
+    <string name="rain_sleet">mixed rain and sleet</string>
+    <string name="snow_sleet">mixed snow and sleet</string>
+    <string name="freezing_drizzle">freezing drizzle</string>
+    <string name="drizzle">drizzle</string>
+    <string name="freezing_rain">freezing rain</string>
+    <string name="showers">showers</string>
+    <string name="snow_flurries">snow flurries</string>
+    <string name="small_snow_flurries">lighlight snow showerst snow showers</string>
+    <string name="blowing_snow">blowing snow</string>
+    <string name="snow">snow</string>
+    <string name="hail">hail</string>
+    <string name="sleet">sleet</string>
+    <string name="dust">dust</string>
+    <string name="foggy">foggy</string>
+    <string name="haze">haze</string>
+    <string name="smoky">smoky</string>
+    <string name="blustery">blustery</string>
+    <string name="windy">windy</string>
+    <string name="cold">cold</string>
+    <string name="cloudy">cloudy</string>
+    <string name="mostly_cloudy_night">mostly cloudy (night)</string>
+    <string name="mostly_cloudy_day">mostly cloudy (day)</string>
+    <string name="partly_cloudy_night">partly cloudy (night)</string>
+    <string name="partly_cloudy_day">partly cloudy (day)</string>
+    <string name="clear_night">clear (night)</string>
+    <string name="sunny">sunny</string>
+    <string name="fair_night">fair (night)</string>
+    <string name="fair_day">fair (day)</string>
+    <string name="rain_hail">mixed rain and hail</string>
+    <string name="hot">hot</string>
+    <string name="isolated_thunderstorms">isolated thunderstorms</string>
+    <string name="scattered_thunderstorms">scattered thunderstorms</string>
+    <string name="scattered_showers">scattered showers</string>
+    <string name="heavy_snow">heavy snow</string>
+    <string name="not_available">not available</string>
+    <string name="isolated_thundershowers">isolated thundershowers</string>
+    <string name="snow_showers">snow showers</string>
+    <string name="thundershowers">thundershowers</string>
+    <string name="partly_cloudy">partly cloudy</string>
+    <string name="scattered_snow_showers">scattered snow showers</string>
+    <string name="qrcode_processing">Processing…</string>
+    <string name="qrcode_scan">Scan QR Code</string>
+    <string name="qrcode_return">Back</string>
+    <string name="qrcode_not_find">QR Code not found</string>
+    <string name="qrcode_result">Result</string>
+    <string name="qrcode_album">Album</string>
+    <string name="qrcode_dispose">Processing…</string>
+    <string name="qrcode_failure">Scanning failed</string>
+    <string name="qrcode_type_text">Text</string>
+    <string name="qrcode_search">Search</string>
+    <string name="qrcode_copy">Copy</string>
+    <string name="qrcode_choose_pic">Select QR picture</string>
+    <string name="website_qrcode">QR Code</string>
+    <string name="from_vc_browser">From Polar Browser</string>
+    <string name="qrcode_frame">Align QR code within the frame to scan</string>
+    <string name="qrcode_describe">Align QR code within the frame to scan</string>
+    <string name="no_flash_found">No flashlight found</string>
+    <string name="webpage_not_available">Webpage not available</string>
+    <string name="refresh">Refresh</string>
+    <string name="no_internet_connection">No Internet connection</string>
+    <string name="logo_on_homepage">Logo on homepage</string>
+    <string name="browser_settings">Browser settings</string>
+    <string name="tag">Tag</string>
+    <string name="sync_only_in_wifi">Sync only in Wi-Fi</string>
+    <string name="account_management">Account management</string>
+    <string name="avatar">Avatar</string>
+    <string name="nickname">Nickname</string>
+    <string name="change_nickname">Change nickname</string>
+    <string name="letters_limit">4-20 letters</string>
+    <string name="input_again">Error, please input again</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="secret">Secret</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="please_chosse">Select</string>
+</resources>

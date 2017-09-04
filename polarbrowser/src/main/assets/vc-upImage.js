@@ -1,0 +1,1 @@
+(function(){function c(e){for(var f=0;f<e.length;f++){e[f].style.zIndex=1000000}}function d(h){var g=document.querySelectorAll("img");var f=g.length;if(f>a){a=f;c(g)}}var b=document.querySelectorAll("img");var a=b.length;c(b);document.addEventListener("touchmove",d,false)})();

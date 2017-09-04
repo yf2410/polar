@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/fb_welcome_pic"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"/>
+        <LinearLayout
+            android:id="@+id/adChoicesView_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="right"
+            android:background="#e0ffffff"/>
+        <TextView
+            android:id="@+id/fb_welcome_skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/fb_welcome_skip_bg"
+            android:text="Skip"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_native_ad_iv"/>
+    </FrameLayout>
+
+
+    <ImageView
+        android:id="@+id/fb_welcome_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/frame_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/fb_welcome_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fb_welcome_icon"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:ellipsize="end"
+        android:lines="1"
+        android:textColor="@color/black"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        tools:text="titlegggggggggggggdddddgggddddddddddgggg"/>
+
+    <TextView
+        android:id="@+id/fb_welcome_dec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fb_welcome_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:ellipsize="end"
+        android:lines="1"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15sp"
+        tools:text="fubaiotissssssssssssssssssssssssssssssssssssssssssssss"/>
+
+    <LinearLayout
+        android:id="@+id/fb_welcome_ad_call_to_action"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:background="@drawable/fb_welcome_btn_bg">
+        <TextView
+            android:id="@+id/fb_welcome_action"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            tools:text="install"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

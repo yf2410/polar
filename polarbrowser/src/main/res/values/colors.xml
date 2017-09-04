@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="base_txt">#0d7ef6</color>
+    <color name="edit_txt">#11d3aa</color>
+    <color name="dialogtoast_activity">#00ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="hint_foreground_dark">#727272</color>
+    <color name="white">#ffffff</color>
+    <color name="whitebg">#fafafa</color>
+    <color name="gray">#9a9a9a</color>
+    <color name="keyboard_press">#b2b2b2</color>
+    <color name="news_item_click_bg">#1a000000</color>
+
+    <color name="empty_view_background_color">#E9EAEE</color>
+
+    <color name="quick_input_view_background_color">#f2f2f2</color>
+
+    <color name="session_line_bg">#eeeeef</color>
+
+    <color name="set_default_text">#785e40</color>
+
+    <color name="menu_tool_bar_top_text">#212121</color>
+
+    <color name="menu_tool_bar_top_text_pressed">#e0e0e0</color>
+
+    <!-- 白天模式 -->
+    <color name="day_mode_bg">#f7f7f7</color>
+    <color name="day_setting_session_line_bg">#ebebeb</color>
+    <color name="day_sb_on_color">#0d7ef6</color>
+    <color name="day_sb_off_color">#E3E3E3</color>
+    <color name="day_sb_thumb_color">#FFFFFF</color>
+    <color name="day_viewpager_bg">#2e2e32</color>
+
+    <color name="day_navigate_life_color">#0d7ef6</color>
+
+    <color name="black87">#de333333</color>
+    <color name="black92">#e7000000</color>
+    <color name="black75">#c0333333</color>
+    <color name="black54">#8a333333</color>
+    <color name="black50">#80333333</color>
+    <color name="black26">#43333333</color>
+    <color name="black12">#1f333333</color>
+    <color name="black">#000000</color>
+    <color name="sys_news">#414141</color>
+    <color name="web_page_error_msg">#141414</color>
+    <color name="web_page_error_msg_detail">#9a9a9a</color>
+
+    <color name="white87">#deffffff</color>
+    <color name="white80">#ccffffff</color>
+    <color name="white75">#c0ffffff</color>
+    <color name="white54">#8affffff</color>
+    <color name="white26">#43ffffff</color>
+    <color name="white12">#1fffffff</color>
+
+    <!-- color box -->
+    <color name="color_box_item_1">#ffffff</color>
+    <color name="color_box_item_2">#ffd4c5</color>
+    <color name="color_box_item_3">#ffe243</color>
+    <color name="color_box_item_4">#ff9523</color>
+    <color name="color_box_item_5">#f13434</color>
+    <color name="color_box_item_6">#d157eb</color>
+    <color name="color_box_item_7">#4ca6ff</color>
+    <color name="color_box_item_8">#23ebc9</color>
+    <color name="color_box_item_9">#57b827</color>
+    <color name="color_box_item_10">#0e0e0c</color>
+    <color name="color_box_item_rect">#cccccc</color>
+    <color name="color_box_item_press_rect">#66cccccc</color>
+
+    <color name="canvas_mask">#66000000</color>
+    <color name="privacy_on_mask">#2b272f</color>
+    <color name="privacy_off_mask">#1e1e1e</color>
+
+    <color name="downloading_text">#3aa33a</color>
+    <color name="failure_text">#e9401f</color>
+
+    <color name="navigation_bar_bg">#cccccc</color>
+    <color name="navigation_title_text">#727272</color>
+    <color name="navigation_title_bg">#3aa33a</color>
+
+    <color name="feedback_hint_text">#c7c7c7</color>
+
+    <color name="home_page_bg">#f7f7f7</color>
+    <color name="navigate_page_bg">#e0e0e0</color>
+    <color name="menu_item_bg">#f2f2f2</color>
+
+    <color name="theme_green">#3caa3c</color>
+
+    <color name="multi_view_btn_normal">#8000</color>
+    <color name="multi_view_btn_pressed">#8666</color>
+
+    <color name="setting_second_name">#999999</color>
+
+    <!-- dialog video download -->
+    <color name="dialog_video_text">#393b42</color>
+    <color name="dialog_video_text_bg">#fbfbfb</color>
+    <color name="dialog_video_text_no">#97af98</color>
+    <color name="dialog_video_text_selected">#ffffff</color>
+    <color name="dialog_video_ok">#686868</color>
+    <color name="dialog_video_ok_bg">#f0f0f0</color>
+    <color name="dialog_video_line">#cacaca</color>
+    <color name="dialog_video_texts">#b1b1b1</color>
+
+    <color name="sliding_menu_transparent">#99000000</color>
+    <color name="dialog_ssl_text_font_color">#333333</color>
+    <color name="dialog_ssl_title_bg">#ff5831</color>
+    <color name="dialog_ssl_show_certificate_text_color">#3aa33a</color>
+    <color name="dialog_ssl_description_text_color">#41434a</color>
+    <color name="search_no_result_color">#d43d3e</color>
+    <color name="dialog_ssl_continue_color">#fd5b3c</color>
+    <color name="whatsapp_text_color">#c2c2c2</color>
+
+    <color name="file_list_text_name_color">#333333</color>
+    <color name="file_list_text_detail_color">#999999</color>
+    <color name="file_list_text_isInstall_color">#666666</color>
+
+    <color name="dialog_loading_bg">#99000000</color>
+    <color name="set_about">#0d7ef6</color>
+
+    <color name="btn_bg_webpage_error_nomal">#d7d7d7</color>
+    <color name="btn_bg_webpage_error_pressed">#b0b0b0</color>
+    <!-- 设置手势悬浮窗口文本字体颜色-->
+    <color name="view_bottom_tip_cancel">#414141</color>
+    <color name="view_bottom_tip_settings">#ffffff</color>
+
+    <!-- DownLoadDialog 按钮-->
+    <color name="download_dialog_btn_nor">#fafafa</color>
+    <color name="download_dialog_btn_pre">#e3e3e3</color>
+    <!-- 默认选中色-->
+    <color name="download_dialog_btn_ok">#0d7ef6</color>
+    <!-- 默认未选中色-->
+    <color name="download_dialog_btn_cancel">#414141</color>
+
+    <color name="login_default_color">#0d7ef6</color>
+    <color name="login_btn_press_color">#0c74e2</color>
+    <color name="login_btn_default_color">#0c74e2</color>
+
+    <color name="reverb_dark_1">#0d7ef6</color>
+    <color name="reverb_text_1">#0d7ef6</color>
+
+    <color name="reverb_dark">#262261</color>
+    <color name="reverb_light">#e9e8ef</color>
+    <color name="reverb_text">#1d2129</color>
+
+    <color name="weather_text">#dafff7</color>
+
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_frame">#0090ff</color>
+    <color name="viewfinder_laser">#0090ff</color>
+    <color name="possible_result_points">#0090ff</color>
+</resources>

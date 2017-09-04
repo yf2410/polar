@@ -1,0 +1,58 @@
+[
+    {
+        "siteAddr": "https://google.com",
+        "sitePic": "file:///android_asset/google.png",
+        "siteId": "ea8275fedbb04ae092cdff29ab1cd9c8",
+        "siteName": "Google",
+        "order": 0
+    },
+    {
+        "siteAddr": "http://vcmobi.ampxdirect.com/facebook-pbrowser",
+        "sitePic": "file:///android_asset/facebook.png",
+        "siteId": "526de7f39c3c41bf9f444fca983f3ca7",
+        "siteName": "Facebook",
+        "order": 1
+    },
+    {
+        "siteAddr": "https://www.youtube.com",
+        "sitePic": "file:///android_asset/youtube.png",
+        "siteId": "667b84f82c014213845db11976321033",
+        "siteName": "Youtube",
+        "order": 2
+    },
+    {
+        "siteAddr": "https://www.instagram.com",
+        "sitePic": "file:///android_asset/instagram.png",
+        "siteId": "7196bd86c2c64c42b8dd1c48d54aae17",
+        "siteName": "Instagram",
+        "order": 3
+    },
+    {
+        "siteAddr": "https://www.wikipedia.org",
+        "sitePic": "file:///android_asset/wikipedia.png",
+        "siteId": "efb6ae9066d34000a64a1d8102cee34f",
+        "siteName": "Wiki",
+        "order": 4
+    },
+    {
+        "siteAddr": "https://www.yahoo.com",
+        "sitePic": "file:///android_asset/yahoo.png",
+        "siteId": "c9c298aff07349f6825491d053994b86",
+        "siteName": "Yahoo",
+        "order": 5
+    },
+    {
+        "siteAddr": "http://www.ask.com",
+        "sitePic": "file:///android_asset/ask.png",
+        "siteId": "80e73a8a81a543d289fd23862ddc25b1",
+        "siteName": "Ask",
+        "order": 6
+    },
+    {
+        "siteAddr": "###History",
+        "sitePic": "file:///android_asset/history.png",
+        "siteId": "",
+        "siteName": "History",
+        "order": 7
+    }
+]

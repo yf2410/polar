@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/root"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#eeeeef">
+
+    <com.polar.browser.common.ui.CommonTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_set_default_browser"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_bar">
+
+        <RelativeLayout
+            android:id="@+id/rl_set_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingBottom="24dp"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:id="@+id/rl_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/step1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/set_default_step1"
+                    android:textColor="@color/black54"
+                    android:textSize="@dimen/common_font_size_d"/>
+
+                <TextView
+                    android:id="@+id/step2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/step1"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/set_default_step2"
+                    android:textColor="@color/black54"
+                    android:textSize="@dimen/common_font_size_d"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_btn_set"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@id/rl_1"
+                android:layout_marginTop="56dp">
+
+                <TextView
+                    android:id="@+id/btn_set"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/green_btn_selector"
+                    android:gravity="center"
+                    android:minWidth="140dp"
+                    android:paddingLeft="24dp"
+                    android:paddingRight="24dp"
+                    android:text="@string/start_to_set"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/common_font_size_d"
+                    android:textStyle="bold"/>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_clear_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingBottom="24dp"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:id="@+id/rl_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/clear_tip1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="Passo1:"
+                    android:textColor="@color/black54"
+                    android:textSize="@dimen/common_font_size_d"/>
+
+                <TextView
+                    android:id="@+id/clear_tip12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/clear_tip1"
+                    android:gravity="center_horizontal"
+                    android:text="@string/clear_default_tip1"
+                    android:textColor="@color/black54"
+                    android:textSize="@dimen/common_font_size_d"/>
+
+                <TextView
+                    android:id="@+id/clear_tip2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/clear_tip12"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center_horizontal"
+                    android:text="Passo2:"
+                    android:textColor="@color/black54"
+                    android:textSize="@dimen/common_font_size_d"/>
+
+                <TextView
+                    android:id="@+id/clear_tip22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/clear_tip2"
+                    android:gravity="center_horizontal"
+                    android:text="@string/clear_default_tip2"
+                    android:textColor="@color/black54"
+                    android:textSize="@dimen/common_font_size_d"/>
+
+                <TextView
+                    android:id="@+id/clear_tip3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/clear_tip22"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center_horizontal"
+                    android:text="Passo3:"
+                    android:textColor="@color/black54"
+                    android:textSize="@dimen/common_font_size_d"/>
+
+                <TextView
+                    android:id="@+id/clear_tip32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/clear_tip3"
+                    android:gravity="center_horizontal"
+                    android:text="@string/clear_default_tip3"
+                    android:textColor="@color/black54"
+                    android:textSize="@dimen/common_font_size_d"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_btn_clear"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/setting_line_height"
+                android:layout_below="@id/rl_2"
+                android:layout_marginTop="56dp">
+
+                <TextView
+                    android:id="@+id/btn_clear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/green_btn_selector"
+                    android:gravity="center"
+                    android:minWidth="140dp"
+                    android:paddingLeft="24dp"
+                    android:paddingRight="24dp"
+                    android:text="@string/clear_default"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/common_font_size_d"
+                    android:textStyle="bold"/>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_clear_default_self"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingBottom="24dp"
+            android:visibility="visible">
+
+            <RelativeLayout
+                android:id="@+id/rl_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/clear_tip_self1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/clear_default_tip_self1"
+                    android:textColor="@color/black54"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_btn_clear_self"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/setting_line_height"
+                android:layout_below="@id/rl_3"
+                android:layout_marginTop="56dp">
+
+                <TextView
+                    android:id="@+id/btn_clear_self"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/green_btn_selector"
+                    android:gravity="center"
+                    android:minWidth="140dp"
+                    android:paddingLeft="24dp"
+                    android:paddingRight="24dp"
+                    android:text="@string/clear_default_self"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/common_font_size_d"
+                    android:textStyle="bold"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

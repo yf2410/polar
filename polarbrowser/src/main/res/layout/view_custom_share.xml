@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+    <LinearLayout
+        android:id="@+id/share_ll_edit_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:background="@drawable/edit_bg_skin"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/share_edit_Graffiti"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:background="@drawable/share_edit_btn_bg"
+            android:text="@string/share_edit_image"
+            android:textColor="@color/white"
+            android:textSize="@dimen/common_font_size_h"
+            />
+    </LinearLayout>
+    <include
+        layout="@layout/common_share_model"
+        />
+</LinearLayout>

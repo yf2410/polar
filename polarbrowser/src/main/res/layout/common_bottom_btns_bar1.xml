@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/common_ll_root"
+              android:layout_width="fill_parent"
+              android:layout_height="@dimen/common_btn_bar_height"
+              android:background="@drawable/common_bottom_btn_bg"
+              android:gravity="center_vertical"
+              android:orientation="horizontal"
+              android:paddingBottom="10dp"
+              android:paddingLeft="12dp"
+              android:paddingRight="12dp"
+              android:paddingTop="10dp">
+
+    <LinearLayout
+        android:id="@+id/common_ll_btns"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.polar.browser.common.ui.CommonBtnD
+            android:id="@+id/common_btn_left"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="@string/cancel"/>
+
+        <com.polar.browser.common.ui.CommonBtnB
+            android:id="@+id/common_btn_middle"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="@string/ok"/>
+
+        <com.polar.browser.common.ui.CommonBtnE
+            android:id="@+id/common_btn_right"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <com.polar.browser.common.ui.CommonCheckBox1
+        android:id="@+id/common_check"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="16dp"
+        android:visibility="gone"/>
+
+</LinearLayout>

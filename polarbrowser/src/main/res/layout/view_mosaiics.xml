@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <org.sprite2d.apps.pp.MosaicsCanvas
+        android:id="@+id/mosaics_canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/mosaics_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="4dp"
+        android:padding="8dp"
+        android:src="@drawable/icon_crop_cancel"/>
+
+    <ImageView
+        android:id="@+id/mosaics_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="58dp"
+        android:layout_marginTop="4dp"
+        android:padding="8dp"
+        android:src="@drawable/icon_crop_ok"/>
+
+    <View
+        android:id="@+id/v_mosaics_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"/>
+
+    <LinearLayout
+        android:id="@+id/mosaics_tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/v_mosaics_bottom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/color_box_bg_4dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.polar.browser.cropedit.MosaicsBrushPoint
+            android:id="@+id/btn_mosaics_width"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"/>
+
+        <ImageView
+            android:id="@+id/btn_mosaics_revert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:src="@drawable/btn_revert_selector"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/mosaics_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@color/canvas_mask"
+        android:visibility="gone"/>
+
+    <View
+        android:id="@+id/mosaics_toolbar_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/mosaics_ok"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/mosaics_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/mosaics_tools"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="55dp"
+        android:src="@drawable/icon_paint_arrow"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_mosaics_width"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/mosaics_tools"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/color_box_bg_4dp"
+        android:padding="11dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/ll_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="6dp">
+
+            <ImageView
+                android:id="@+id/size_min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_mosaics_un_select"
+                android:padding="1dp"
+                android:src="@drawable/icon_mosaics_min"/>
+
+            <ImageView
+                android:id="@+id/size_mid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/icon_mosaics_selected"
+                android:padding="1dp"
+                android:src="@drawable/icon_mosaics_mid"/>
+
+            <ImageView
+                android:id="@+id/size_max"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/icon_mosaics_un_select"
+                android:padding="1dp"
+                android:src="@drawable/icon_mosaics_max"/>
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/seekbar_mosaics_width"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_size"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:maxHeight="4dp"
+            android:minHeight="4dp"
+            android:progress="30"
+            android:progressDrawable="@drawable/paint_seek_bar"
+            android:thumb="@drawable/paint_seekbar_thumb"
+            android:thumbOffset="6dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ad_unit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:id="@+id/ad_head_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/native_ad_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            tools:src="@drawable/add_fav"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:id="@+id/native_ad_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/native_ad_icon"
+            android:layout_toLeftOf="@+id/native_ad_call_to_action"
+            android:layout_alignTop="@id/native_ad_icon"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            tools:text="native_ad_title"/>
+
+        <TextView
+            android:id="@+id/native_ad_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/native_ad_title"
+            android:layout_toRightOf="@id/native_ad_icon"
+            android:layout_toLeftOf="@+id/native_ad_call_to_action"
+            android:layout_alignBottom="@id/native_ad_icon"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:ellipsize="end"
+            android:lines="2"
+            android:textColor="@color/black75"
+            android:textSize="10sp"
+            android:gravity="bottom"
+            tools:text="nativedynative_ad_bodynativenativedynative_ad_bodynative_ad_bodynativedynative_ad_bodynative_"/>
+
+        <Button
+            android:id="@+id/native_ad_call_to_action"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:background="#fe881c"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            tools:text="annniu"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+        <ImageView
+            android:id="@+id/ad_pic"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            tools:src="@drawable/add_fav"
+            android:scaleType="fitXY"/>
+        <LinearLayout
+            android:id="@+id/adChoicesView_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="right"
+            android:background="#e0ffffff"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_native_ad_iv"/>
+
+    </FrameLayout>
+
+</LinearLayout>

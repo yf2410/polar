@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@color/white"
+       android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btn_add_bookmark"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/menu_item_selector"
+            android:drawableTop="@drawable/addbookmarks"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="15dp"
+            android:text="@string/menu_item_add_bookmark"
+            android:textColor="@color/black87"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/btn_favorite_history"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/menu_item_selector"
+            android:drawableTop="@drawable/menu_history"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="15dp"
+            android:text="@string/bookmark_title"
+            android:textColor="@color/black87"
+            android:textSize="12sp"/>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_download"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/menu_item_selector">
+
+            <TextView
+                android:id="@+id/btn_download"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="15dp"
+                android:paddingBottom="10dp"
+                android:layout_centerInParent="true"
+                android:drawableTop="@drawable/menu_download"
+                android:gravity="center"
+                android:text="@string/menu_download"
+                android:textColor="@color/black87"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/dot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/btn_download"
+                android:layout_alignTop="@+id/btn_download"
+                android:background="@drawable/dot"
+                android:layout_margin="12dp"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/btn_save_web"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/menu_item_selector"
+            android:drawableTop="@drawable/menu_web"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="15dp"
+            android:text="@string/menu_item_savepage"
+            android:textColor="@color/black87"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btn_pcmode"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/menu_item_selector"
+            android:drawableTop="@drawable/web"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:text="@string/menu_web_mode"
+            android:textColor="@color/black87"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/btn_no_img"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/menu_item_selector"
+            android:drawableTop="@drawable/menu_noimage_off"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:text="@string/menu_no_imgmode"
+            android:textColor="@color/black87"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/btn_setting"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/menu_item_selector"
+            android:drawableTop="@drawable/menu_setting"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:text="@string/menu_setting"
+            android:textColor="@color/black87"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/btn_quit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/menu_item_selector"
+            android:drawableTop="@drawable/exit"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:text="@string/menu_exit"
+            android:textColor="@color/black87"
+            android:textSize="12sp"/>
+    </LinearLayout>
+</merge>

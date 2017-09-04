@@ -1,0 +1,58 @@
+[
+    {
+        "siteAddr": "Google.cl",
+        "sitePic": "file:///android_asset/google.png",
+        "siteId": "a03c6d0329144891a62c92ed6238a093",
+        "siteName": "Google",
+        "order": 0
+    },
+    {
+        "siteAddr": "http://vcmobi.ampxdirect.com/facebook-pbrowser",
+        "sitePic": "file:///android_asset/facebook.png",
+        "siteId": "9b22ffac232a4bc9888b9e661df0792d",
+        "siteName": "Facebook",
+        "order": 1
+    },
+    {
+        "siteAddr": "Youtube.com",
+        "sitePic": "file:///android_asset/youtube.png",
+        "siteId": "373a8d1d32de42d19c8853a42d343ef0",
+        "siteName": "Youtube",
+        "order": 2
+    },
+    {
+        "siteAddr": "Instagram.com",
+        "sitePic": "file:///android_asset/instagram.png",
+        "siteId": "dd7d1507db7e44959716a5d00a4ebe18",
+        "siteName": "Instagram",
+        "order": 3
+    },
+    {
+        "siteAddr": "Biobiochile.cl",
+        "sitePic": "file:///android_asset/fbiobio.png",
+        "siteId": "d29660707d35449c99d4543804f158ef",
+        "siteName": "BioBioChile",
+        "order": 4
+    },
+    {
+        "siteAddr": "Wikipedia.org",
+        "sitePic": "file:///android_asset/wikipedia.png",
+        "siteId": "d40702ef5e5647838bf1e41818bcbac0",
+        "siteName": "Wiki",
+        "order": 5
+    },
+    {
+        "siteAddr": "Yahoo.com",
+        "sitePic": "file:///android_asset/yahoo.png",
+        "siteId": "e05794db7db0403091a66e9e10f3a4da",
+        "siteName": "Yahoo",
+        "order": 6
+    },
+    {
+        "siteAddr": "###History",
+        "sitePic": "file:///android_asset/history.png",
+        "siteId": "",
+        "siteName": "History",
+        "order": 7
+    }
+]

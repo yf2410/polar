@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/activity_image_folder_details"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical"
+              tools:context=".download.ImageFolderDetailsActivity">
+
+    <com.polar.browser.common.ui.CommonTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="6dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:layout_weight="1"
+        android:columnWidth="90dp"
+        android:paddingBottom="6dp"
+        android:gravity="center"
+        android:horizontalSpacing="6dp"
+        android:numColumns="4"
+        android:verticalSpacing="6dp"/>
+
+
+    <View
+        style="@style/TitleLineView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/bottom_operate_bar"
+        android:gravity="center_vertical"
+        android:visibility="visible"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+            <com.polar.browser.common.ui.CommonCheckBox1
+                android:id="@+id/cb_check_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-10dp"
+                android:layout_marginRight="-12dp" />
+
+            <TextView
+                android:id="@+id/bm_allselect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:gravity="center"
+                android:text="@string/check_all"
+                android:textColor="@color/bottom_menu_font_color_selector"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0.5dp"
+            android:background="#C3C3C9"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/bm_delete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:text="@string/delete"
+            android:textColor="@color/bottom_menu_font_color_selector"/>
+        <View
+            android:layout_width="0.5dp"
+            android:background="#C3C3C9"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/bm_more"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:text="@string/card_news_more"
+            android:textColor="@color/bottom_menu_font_color_selector"/>
+        <View
+            android:layout_width="0.5dp"
+            android:background="#C3C3C9"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/bm_complete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:text="@string/complete"
+            android:gravity="center"
+            android:textColor="@color/bottom_menu_font_color_selector"/>
+    </LinearLayout>
+    <include layout="@layout/common_bottom_edit"
+        android:id="@+id/bottom_edit_layout" android:visibility="visible"/>
+</LinearLayout>
+
+

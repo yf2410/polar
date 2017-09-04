@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/default_shortcut" />
+
+    <RelativeLayout
+        android:id="@+id/rl_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="8dp"
+        android:paddingRight="16dp">
+
+        <com.polar.browser.view.MaterialImageView
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/btn_add"
+            android:textSize="14sp" />
+        <!-- android:background="@drawable/yellow_btn_selector" -->
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="13dp"
+        android:layout_toLeftOf="@id/rl_btn"
+        android:layout_toRightOf="@id/iv_icon"
+        android:ellipsize="middle"
+        android:paddingTop="2dp"
+        android:singleLine="true"
+        android:text="Google"
+        android:textColor="@color/black87"
+        android:textSize="15sp" />
+
+    <!--     <TextView
+            android:id="@+id/tv_describe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_below="@id/tv_title"
+            android:layout_toLeftOf="@id/rl_btn"
+            android:layout_toRightOf="@id/iv_icon"
+            android:ellipsize="middle"
+            android:paddingBottom="2dp"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/black54"
+            android:textSize="12sp" /> -->
+
+</merge>

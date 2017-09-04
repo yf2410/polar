@@ -1,0 +1,266 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <!--<style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+    <!--</style>-->
+    <!-- crashhandle dlg bg -->
+    <style name="Transparent">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+
+    <!-- dialog activity style -->
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- dialog activityvideo style -->
+    <style name="dialogvideo" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
+    <style name="ytbdialogvideo" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <style name="SwitchButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="CustomTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="CustomThemeActionBarOverlay" parent="Theme.AppCompat.Light">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionModeOverlay">false</item>
+    </style>
+    <style name="Theme.Translucent" parent="android:style/Theme.Translucent">
+        <item name="android:windowBackground">@color/sliding_menu_transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorForeground">#fff</item>
+    </style>
+    <style name="NotificationText" parent="android:TextAppearance.StatusBar.EventContent" />
+
+    <style name="NotificationTitle" parent="android:TextAppearance.StatusBar.EventContent.Title" />
+
+    <style name="pop">
+        <item name="android:windowEnterAnimation">@anim/head_in</item>
+        <item name="android:windowExitAnimation">@anim/head_out</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="custom_toast_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item> <!--边框-->
+        <item name="android:windowIsFloating">true</item> <!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:background">@android:color/transparent</item><!--背景透明-->
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">false</item> <!--蒙版- 模糊 -->
+        <item name="android:windowCloseOnTouchOutside">false</item> <!-- 触摸外部是否关闭 -->
+    </style>
+
+    <style name="WelcomeTheme" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <!--<item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>-->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <!-- SettingActivity 条目样式-->
+    <style name="Tv_SettingActivityItem">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_centerVertical">true</item>
+    <item name="android:layout_marginLeft">12dp</item>
+    <item name="android:textColor">#414141</item>
+    <item name="android:textSize">16sp</item>
+</style>
+
+    <style name="tv_SettingActivityItem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:textColor">#9a9a9a</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Iv_SettingActivityItem">
+        <item name="android:layout_width">7dp</item>
+        <item name="android:layout_height">12dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:src">@drawable/list_forward</item>
+    </style>
+
+    <!--10dp的空白view -->
+    <style name="space_SettingActivityItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:background">@color/common_dlg_bar_divider</item>
+    </style>
+
+    <!--屏幕中间用于分割条目的线 -->
+    <style name="line_SettingActivityItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/common_dlg_bar_divider</item>
+    </style>
+
+    <!--屏幕上边、下边用于分割的线 -->
+    <style name="TitleLineView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/title_line_view_bg</item>
+    </style>
+
+    <!--整个条目的背景色 -->
+    <style name="SettingActivityItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/common_list_row1</item>
+    </style>
+
+    <!-- 界面title-->
+    <style name="tv_ActivityTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:textSize">@dimen/common_font_size_e</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:background">@color/day_setting_session_line_bg</item>
+    </style>
+
+    <!--DownLoadDialog title样式-->
+    <style name="DownLoadDialog_tv_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/common_font_color_13</item>
+        <item name="android:textSize">@dimen/common_font_size_c</item>
+    </style>
+
+    <!--DownLoadDialog按钮样式-->
+    <style name="DownLoadDialog_OK_btn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/download_btn_selector</item>
+        <item name="android:textColor">@drawable/download_dialog_btn_selector</item>
+        <item name="android:textSize">@dimen/suspension_window_textsize</item>
+    </style>
+
+    <style name="DownLoadDialog_cancel_btn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/download_btn_selector</item>
+        <item name="android:textColor">@color/download_dialog_btn_cancel</item>
+        <item name="android:textSize">@dimen/suspension_window_textsize</item>
+    </style>
+
+    <style name="DownLoadDialog_vertical_Ivline">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/title_line_view_bg</item>
+    </style>
+
+    <!--历史记录最下边文本样式 -->
+    <style name="History_bottom_tv">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/bottom_menu_font_color_selector</item>
+        <item name="android:textSize">@dimen/common_font_size_d</item>
+    </style>
+
+    <!--facebook account-kit login -->
+    <style name="FbLoginTheme" parent="Theme.AccountKit"/>
+
+    <style name="CustomFbLoginTheme" parent="FbLoginTheme">
+        <item name="com_accountkit_primary_color">@color/login_default_color</item>
+        <item name="com_accountkit_primary_text_color">@color/login_default_color</item>
+        <item name="com_accountkit_secondary_color">@color/reverb_light</item>
+        <item name="com_accountkit_secondary_text_color">@color/black</item>
+        <item name="com_accountkit_status_bar_color">@color/login_default_color</item>
+        <item name="com_accountkit_button_background_color">@color/login_default_color</item>
+        <item name="com_accountkit_button_border_color">@color/login_default_color</item>
+        <item name="com_accountkit_button_text_color">@android:color/white</item>
+        <item name="com_accountkit_button_pressed_background_color">@color/login_btn_press_color</item>
+        <item name="com_accountkit_button_pressed_border_color">@color/login_btn_press_color</item>
+        <item name="com_accountkit_button_pressed_text_color">@android:color/white</item>
+
+        <item name="com_accountkit_content_body_layout_weight">1</item>
+        <item name="com_accountkit_content_bottom_layout_weight">1</item>
+        <item name="com_accountkit_content_footer_layout_weight">0</item>
+        <item name="com_accountkit_content_header_layout_weight">1</item>
+        <item name="com_accountkit_content_text_layout_weight">1</item>
+        <item name="com_accountkit_content_top_layout_weight">1</item>
+        <item name="com_accountkit_content_margin_end">@dimen/reverb_content_margin_end</item>
+        <item name="com_accountkit_content_margin_start">@dimen/reverb_content_margin_start</item>
+        <item name="com_accountkit_content_max_width">@dimen/reverb_content_max_width</item>
+        <item name="com_accountkit_content_min_height">@dimen/reverb_content_min_height</item>
+        <item name="com_accountkit_icon_color">?attr/com_accountkit_status_bar_color</item>
+
+        <item name="reverb_app_icon_visibility">visible</item>
+        <item name="reverb_content_margin_top">@dimen/reverb_content_margin_top_large</item>
+        <item name="reverb_text_all_caps">true</item>
+
+    </style>
+
+    <!--账号管理界面用户信息 文本样式-->
+    <style name="account_management_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">@color/web_page_error_msg_detail</item>
+        <item name="android:textSize">@dimen/file_list_textsize_16</item>
+        <item name="android:layout_marginRight">@dimen/common_padding_12</item>
+    </style>
+
+    <!-- 个人中心选择头像时的dialog条目样式-->
+    <style name="dialog_select_photo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/reverb_action_bar_height</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/common_font_color_selector_2</item>
+        <item name="android:textSize">@dimen/common_font_size_d</item>
+    </style>
+
+    <!-- 个人中心条目布局样式-->
+    <style name="logout_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/reverb_action_bar_height</item>
+        <item name="android:background">@drawable/logout_item_selector</item>
+    </style>
+</resources>

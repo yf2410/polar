@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Polar Browser</string>
+    <string name="search_input_hint">Buscar o Escribir la Página Web</string>
+
+    <string name="copy">Copiar</string>
+    <string name="album">Álbum</string>
+    <string name="home_page">Página Inicial</string>
+    <string name="already_on_home_page">Já na Página Inicial</string>
+    <string name="title">Título</string>
+    <string name="toast_tab_limited">Número máximo de fichas alcanzado</string>
+    <string name="network_connect_error">Conexion falló, consulte el sitio web</string>
+    <string name="choose_file">Elija el archivo</string>
+    <string name="play_video_error">No fue posible reproducir el video</string>
+    <string name="file_open_ing">Abriendo，espere...</string>
+    <string name="goback">Atrás</string>
+
+    <!-- history/favorite -->
+    <string name="history">Historial</string>
+    <string name="today">Hoy</string>
+    <string name="yesterday">Ayer</string>
+    <string name="earlier">más temprano</string>
+    <string name="favorite">Marcadores</string>
+    <string name="add_bookmark_tips">Añadir a marcadores</string>
+    <string name="already_add_bookmark_tips">Marcador añadido</string>
+    <string name="delete_bookmark_tips">Eliminar marcadore</string>
+    <string name="history_search_record">Búsqueda en el Historial</string>
+    <string name="no_history_search_record">No hay registro en historial</string>
+    <string name="no_history_visit_record">No hay registro de acceso en historial</string>
+
+    <!-- search -->
+    <string name="go">Ir</string>
+    <string name="search">Búsqueda</string>
+    <string name="history_visit">Visita al Historial</string>
+    <string name="history_search">Búsqueda en Historial</string>
+    <string name="edittext_empty_tip">Editar texto de búsqueda o dirección</string>
+
+    <!-- download -->
+    <string name="download">Descargar</string>
+    <string name="downloading">Descargando</string>
+    <string name="download_finish">Descargado</string>
+    <string name="download_waite">Descarga en espera</string>
+    <string name="download_error">Error de descarga</string>
+    <string name="download_pause">Parar descarga</string>
+    <string name="download_start">Empezar descarga</string>
+    <string name="download_manager">Gestor de descargas</string>
+    <string name="disk_free_size">/puede utilizar %1$s</string>
+    <string name="disk_used_size">utilizado %1$s</string>
+    <string name="download_task_already_exists">¿Descarga ya existente，descargar otra vez？</string>
+    <string name="download_no_available_space">No hay espacio suficiente para descarga</string>
+    <string name="net_changed_when_downloading">¿Sin red wifi ahora, desea mantener la descarga？</string>
+    <string name="file_can_not_open">No se puede abrir, por favor, trate de instalar el software correspondiente!</string>
+    <string name="name">Nombre:</string>
+    <string name="size">Tamaño:</string>
+    <string name="size_unknown">Tamaño desconocido</string>
+    <string name="empty_file_name">Archivo sin nombre</string>
+    <string name="download_file_name_exists">El archivo ya existe</string>
+    <string name="click_to_see">Clic para ver</string>
+    <string name="net_no_connect">La red no está conectada</string>
+    <string name="download_status_downloading">Descargando</string>
+    <string name="download_status_waiting">Descarga en espera</string>
+    <string name="download_status_start">Empezar descarga</string>
+    <string name="download_status_start_nonetwork">¡Sin conexión a internet,Parar descarga</string>
+    <string name="download_status_pause">Parar descarga</string>
+    <string name="download_status_pauseing">Detenido</string>
+    <string name="download_status_failure">Descarga falló</string>
+    <string name="download_edit_name_hint">Nombre del archivo</string>
+    <string name="download_set_path_default">Directorio no encontrado, se ha guardado en el directorio predefinido</string>
+    <string name="extract_view_now">verifique ahora.</string>
+    <!-- common -->
+    <string name="edit">Editar</string>
+    <string name="popup_edit">Editar</string>
+    <string name="complete">Completar</string>
+    <string name="delete">Borrar</string>
+    <string name="delete_with_count">Borrar(%1$dArchivo)</string>
+    <string name="check_all">Todos</string>
+    <string name="check_all_cancel">Cancelar todo</string>
+    <string name="delete_checked_task">¿Borrar (%1$dArchivo) archivos seleccionados？</string>
+    <string name="delete_not_select">Por favor, seleccione los elementos que desea eliminar</string>
+    <string name="never_remind">Nunca recordar</string>
+    <string name="loading">Cargando...</string>
+
+    <!-- dialog -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="tips">Consejos</string>
+    <string name="tips_alert">Alerta</string>
+    <string name="update_tips">Nuevos consejos</string>
+    <string name="update_ok">Actualizar</string>
+    <string name="update_cancel">Más tarde</string>
+    <string name="go_download">Ir a descargas</string>
+    <string name="manually_update_ok">Actualización manual</string>
+    <string name="manually_update_cancel">Cancelar</string>
+    <string name="history_clean_content">¿Seguro que deseas borrar el registro del historial seleccionado？</string>
+    <string name="history_clean_visited">¿Seguro que deseas borrar el historial de visita seleccionado？</string>
+    <string name="history_clean_searched">¿Seguro que deseas borrar el historial de búsqueda seleccionado？</string>
+    <string name="bookmark_delete_content">¿Seguro que deseas borrar todos marcadores seleccionados？</string>
+    <string name="delete_with_files">Eliminar archivos simultáneamente</string>
+
+    <string name="play_cancel">Cancelar reproducción</string>
+    <string name="play_continue">Seguir reproducción</string>
+    <string name="play_network_gprs_tip">No hay red wifi disponible, ¿desea utilizar los datos del dispositivo y seguir reproducción？</string>
+
+    <!-- menu -->
+    <string name="menu_add_favorite">Adicionar marcadores</string>
+    <string name="menu_favorite">Marcadores</string>
+    <string name="menu_history">Historial</string>
+    <string name="menu_download">Descargas</string>
+    <string name="menu_nightmode">Nocturno</string>
+    <string name="menu_setting">Configuración</string>
+    <string name="menu_no_imgmode">Sin Imagen</string>
+    <string name="menu_web_mode">Escritorio</string>
+    <string name="menu_exit">Salir</string>
+
+    <!-- add & edit favorite -->
+    <string name="menu_add_shortcut">Añandir Atajo</string>
+    <string name="menu_add_logo">Atajos</string>
+    <string name="add_to">Añadir en</string>
+    <string name="edit_url">Editar página web</string>
+    <string name="add_shortcut_successful">Atajo creado con éxito en el escritorio</string>
+    <string name="already_add_shortcut_successful">Añadido a tela principal</string>
+    <string name="add_shortcut_failed">Lamentamos, no logró crear atajo</string>
+    <string name="add_logo_empty_tip">Logo o dirección vacía</string>
+    <string name="add_logo_checke_empty_tip">Elija un lugar para añadir</string>
+
+    <!-- setting -->
+    <string name="setting">Configuración</string>
+    <string name="setting_saved_account">Guardar contraseñas</string>
+    <string name="setting_search_engine">Motor de Búsqueda</string>
+    <string name="version">Versión</string>
+    <string name="setting_font_size">Tamaño de Fuente</string>
+    <string name="setting_font_size_min">Pequeña</string>
+    <string name="setting_font_size_mid">Médiana</string>
+    <string name="setting_sliding_type">Tipo Deslizante</string>
+    <string name="setting_sliding_type_close">Cerrar</string>
+    <string name="setting_sliding_type_border">Deslize márgenes</string>
+    <string name="setting_sliding_type_fullscreen">Deslizante pantalla completa</string>
+    <string name="setting_sliding_type_tip">Puedes elegir diversas maneras de moverse hacia adelante y hacia atrás!</string>
+    <string name="setting_editlogo_type_tip">El icono de comenzar ha sido añadido, mantenga pulsado para editar</string>
+    <string name="setting_videodownload_type_tip">¿Desea instalar un complemento para descargar videos de sitios web?</string>
+    <string name="setting_editlogo_type_ok">OK</string>
+    <string name="setting_plug_center">Complementos</string>
+    <string name="setting_save_tab">Guardar pestañas al salir</string>
+    <string name="setting_screen_lock">Bloqueo de Pantalla Vertical</string>
+    <string name="setting_ad_block">Bloqueo del Anuncio</string>
+    <string name="setting_full_screen">Modo Pantalla Completa</string>
+    <string name="setting_quick_search">Búsqueda Rápida</string>
+    <string name="setting_clear_data">Limpiar Datos Privados</string>
+    <string name="setting_set_default_browser">Establecer Polar Browser como buscador predeterminado</string>
+    <string name="setting_download_path">Ruta de acceso predeterminada</string>
+    <string name="setting_custom_ua">Identificación del Navegador (UA)</string>
+    <string name="setting_recover_setting">Recuperar la Configuración Predeterminada</string>
+    <string name="file_opening">Apertura de archivos</string>
+    <string name="recover_setting_content">¿Deseas recuperar la configuración predeterminada？</string>
+    <string name="setting_clear_data_exit">Borrar Historial Navegador Al Salir</string>
+    <string name="setting_clear_default_success">Borrado con éxito</string>
+    <string name="setting_clear_default_failed">Falló borrar</string>
+    <string name="setting_default_failed">Falló configuración predeterminada</string>
+    <string name="setting_default_self_tip">¿Desea dejar de usar Polar Browser como buscador predeterminado?</string>
+    <string name="setting_remember_username_and_password_tip">Deseas guardar tu contraseña para \"%1$s\" ?</string>
+    <string name="saved_account">Guardar contraseñas</string>
+    <string name="file_child_count">Total de %1$d </string>
+    <string name="current_download_folder">Carpeta de descarga actual:%1$s</string>
+    <string name="download_folder_space">Excedente:%1$s,Total:%2$s</string>
+    <string name="download_folder_alert_19">Para sistemas superiores a Android 4.4 (incluido), los archivos deben almacenarse en determinados directorios cuando se utiliza la tarjeta SD. Los archivos descargados se borrarán si se desinstala el navegador. ¿Desea seguir almacenando en la tarjeta SD?</string>
+    <string name="download_folder_phone">Capacidad del teléfono</string>
+    <string name="download_folder_sd">Tarjeta SD</string>
+    <string name="download_folder_sd_removed">Tarjeta SD ha sido eliminada</string>
+    <string name="download_folder_selected_sd">Tarjeta SD ya elegida</string>
+
+    <!-- 模块管理 -->
+    <string name="module_manager">Gestión del módulo</string>
+    <string name="module_logos">Icono de navegación</string>
+    <string name="module_news">Noticias diarias</string>
+    <string name="module_navigate">Sitios web usados</string>
+    <string name="module_tools">Módulo de Herramientas</string>
+
+
+    <!-- set default browser -->
+    <string name="start_to_set">Iniciar configuración</string>
+    <string name="clear_default">Borrar</string>
+    <string name="clear_default_self">Borrar configuración predeterminada </string>
+
+    <string name="clear_default_tip1">Paso1:Slide para encontrar la barra de inicio</string>
+    <string name="clear_default_tip2">Paso2:Pulse en "Borrar Configuración Predeterminada"</string>
+    <string name="clear_default_tip3">Paso3:Devuelve a la siguiente etapa</string>
+
+    <string name="clear_default_tip_self1">Navegador Polar está configurado </string>
+
+    <string name="set_default_step1">Paso1:Elija "opción por defecto"</string>
+    <string name="set_default_step2">Paso 2: Seleccione Polar Browser</string>
+
+    <string name="set_default_2_step1">Paso1:Elija "opción por defecto"</string>
+    <string name="set_default_2_step2">Paso 2: Seleccione Polar Browser</string>
+
+    <!-- clear data -->
+    <string name="clear_cookie">Borrar Cookies</string>
+    <string name="clear_cache">Borrar Cache</string>
+    <string name="clear_history">Borrar Historial</string>
+    <string name="clear_download">Borrar Registro de Descarga</string>
+    <string name="clear_all">Borrar Todo？</string>
+    <string name="clear_all_2">Borrar Todo</string>
+    <string name="clear_to_confirm">Confirmar %1$s?</string>
+    <string name="clear_browser_record">Borrar Historial del Navegador</string>
+
+    <!-- about feedback -->
+    <string name="feedback">Feedback</string>
+    <string name="feedback_hi">Escriba sus comentarios</string>
+    <string name="feedback_contact">Contáctenos:</string>
+    <string name="feedback_contact_hint">Móbil/E-mail:</string>
+    <string name="feedback_cont_null">Por favor, introduzca sus comentarios</string>
+    <string name="feedback_ok">Comentado con éxito</string>
+    <string name="feedback_check_network">Error al comentar, verifique su red</string>
+    <string name="feedback_copy_ok">Ya copiado al portapapeles</string>
+    <string name="feedback_send">Enviar</string>
+
+    <!-- exit dialog -->
+    <string name="exit_dialog_title">Salir del Navegador Polar?</string>
+    <string name="exit_press_back_again">Pulse otra para salir</string>
+
+    <!-- context menu -->
+    <string name="menu_item_view_img">Ver imagen</string>
+    <string name="menu_item_download_img">Guardar imagen</string>
+    <string name="menu_item_share_img">Compartir imagen</string>
+    <string name="menu_item_open_background">Abrir en el fondo</string>
+    <string name="menu_item_open_new">Abrir en una nueva pestaña</string>
+    <string name="menu_item_add_to_bookmark">Marcadores</string>
+    <string name="menu_item_copy_link_text">Copiar texto</string>
+    <string name="toast_opened_background">Ya abierto en el fondo</string>
+    <string name="menu_item_savepage">Guardar página</string>
+    <string name="menu_item_share">Compartir página</string>
+    <string name="menu_item_edit">Imprimir pantalla</string>
+    <string name="menu_item_add_bookmark">Favoritors</string>
+    <string name="menu_item_cancel_bookmark">Cancelar marcadore</string>
+    <string name="edit_logo_title">Editar Dirección de Página de Inicio</string>
+
+    <!-- crash -->
+    <string name="app_crash_upload_tip">¿Disculpe, el sistema tuvo problemas y necesita ser cerrado, desea cargar la información del error?</string>
+    <string name="app_crash_uploading">Cargando...</string>
+
+    <!-- context menu -->
+    <string name="toast_copy_link_text">Copiado</string>
+
+    <!-- http auth -->
+    <string name="auth_request_username">Nombre de usuario</string>
+    <string name="auth_request_password">Contraseña</string>
+    <string name="auth_request_login">Entrar：</string>
+
+    <!-- custom ua -->
+    <string name="custom_ua_input_hint">Por favor, introduzca personalización (UA)</string>
+    <string name="custom_ua_title">ID personalizado (UA)</string>
+    <string name="custom_ua_default">Androide</string>
+    <string name="custom_ua_pc">PC</string>
+    <string name="custom_ua_ios">iPhone</string>
+    <string name="custom_ua_custom">Personalizar</string>
+
+    <string name="url_add">Añadir</string>
+    <string name="url_recommendation">Recomendar</string>
+    <string name="url_classify">Clasificar</string>
+    <string name="url_custom">Personalizar</string>
+    <string name="website">Dirección</string>
+    <string name="edit_logo_max_tip">Número máximo alcanzado, eliminar uno de ellos para agregar otro.</string>
+    <string name="edit_logo_to_add">Añadir</string>
+    <string name="edit_logo_custom_edit">Página personalizada</string>
+    <string name="edit_logo_custom_from_history">Añadir del historial</string>
+    <string name="edit_logo_custom_from_favorite">Añadir de marcadores</string>
+    <string name="edit_logo_add_ok">Añadido con éxito</string>
+    <string name="already_edit_logo_add_ok">Atajo creado</string>
+    <string name="preview">Previsualizar</string>
+    <string name="no_network_tip1">...red no encontrada...</string>
+    <string name="no_network_tip2">Sin posibilidad de conectarse con el mundo</string>
+
+    <!-- import & export bookmark -->
+    <string name="import_bookmarks">Importar Marcadores</string>
+    <string name="export_bookmarks">Exportar Marcadores</string>
+    <string name="backup_bookmarks">Imp/Exp Marcadores</string>
+    <string name="export_bookmarks_success">Marcadores exitosamente exportados</string>
+    <string name="export_bookmarks_failed">Error para exportar</string>
+    <string name="import_bookmarks_success">Marcadores exitosamente importados</string>
+    <string name="import_bookmarks_failed">Error para importar</string>
+    <string name="bookmark_file">Archivo</string>
+    <string name="import_bookmarks_tips">Deseas importar %1$s?</string>
+    <string name="bookmark_title">Historial/Marcadores</string>
+    <string name="add_bookmark_from_chrome">Desde el navegador Chrome</string>
+    <string name="add_bookmark_from_system">Desde el navegador de Android</string>
+    <string name="add_bookmark_from_file">Desde copia de seguridad</string>
+    <string name="add_bookmark_no_find_chrome">No se encuentra el navegador Chrome</string>
+    <string name="add_bookmark_chrom_empty">No hay marcadores en el navegador Chrome</string>
+    <string name="add_bookmark_system_empty">No hay marcadores en el navegador Android</string>
+
+    <!-- crop and edit -->
+    <string name="save_or_share">Compartir/Guardar</string>
+    <string name="share_screen_shot_to">Guardar imagén de la pantalla:</string>
+    <string name="save_into_album">Añadir a álbum de fotos</string>
+    <string name="saved">Guardado</string>
+    <string name="save">Guardar</string>
+    <string name="exit">Salir</string>
+    <string name="save_success">Guardado con éxito</string>
+    <string name="title_exit_edit_crop">Salir de edición</string>
+    <string name="tip_exit_edit_crop">Salir sin guardar cambios</string>
+
+    <!-- 无痕模式 -->
+    <string name="tip_privacy_on">Modo incógnito habilitado</string>
+    <string name="tip_privacy_off">Modo incógnito deshabilitado</string>
+
+    <!-- 保存网页 -->
+    <string name="offline_web">Sitios web offline(%1$s)</string>
+    <string name="offline_web_title">Sitio web offline</string>
+    <string name="offline_web_delete_content">¿Quieres eliminar el sitio offline seleccionado?</string>
+    <string name="offline_web_saved">Ya guardado en: Descargas-Archivo-Sitios web offline</string>
+    <string name="offline_web_start_save">Empezando a salvar, espere por favor…</string>
+    <string name="offline_web_empty">Archivo no encontrada </string>
+    <string name="cache_files_size">Tamaño cache:20MB</string>
+    <!-- 打开文件 -->
+    <string name="openfile_error">¡No se puede abrir, el archivo fue movido o eliminado!</string>
+    <string name="openfile_no_exist">Archivo inexistente！</string>
+    <string name="openfile_image_error">Imagén dañada！</string>
+    <string name="openfile_decompress_error">Error para descomprimir!</string>
+    <!-- 常用网址 -->
+    <string name="navigate_title_video">Vídeo</string>
+    <string name="navigate_title_news">Noticias</string>
+    <string name="navigate_title_social">Social</string>
+    <string name="navigate_title_games">Juego</string>
+    <string name="navigate_title_sports">Deporte</string>
+    <string name="navigate_title_music">Música</string>
+    <string name="navigate_title_shop">Compras</string>
+    <string name="navigate_title_life">Estilo de vida</string>
+    <!-- 菜单 -->
+    <string name="image_mode_off_toast">Modo Sin Imagen OFF</string>
+    <string name="image_mode_on_toast">Modo Sin Imagen ON</string>
+    <string name="web_mode_off_toast">Modo Escritorio OFF</string>
+    <string name="web_mode_on_toast">Modo Escritorio ON</string>
+    <string name="file_path">Ruta de archivo:</string>
+
+    <!-- 视频下载 -->
+    <string name="toolbar_download_video_tip">¡Haz clic aquí para descargar el video!</string>
+    <string name="dialog_video_download_tag">Video</string>
+    <string name="dialog_video_download_tag_audio">Audio</string>
+    <string name="dialog_video_download_resolution">Calidad：</string>
+    <string name="dialog_video_download_format">Formato：</string>
+    <string name="dialog_video_download_parsing">Analizando, por favor espera...</string>
+    <string name="dialog_video_download_parseerror">¡Los archivos de video se han eliminado!</string>
+    <string name="dialog_video_download_add_task">¡La Tarea se ha añadido a la lista de descarga!</string>
+    <string name="dialog_video_download_no_network">No se pudo conectar a la red - el análisis falló. ¡Inténtelo de nuevo!</string>
+    <string name="play_download_video_error">ERROR: ¡No se puede abrir!</string>
+
+    <!-- 插件中心 -->
+    <string name="plug_video_download">Descarga de vídeo</string>
+
+    <string name="dialog_ssl_title">Advertencia de seguridad</string>
+    <string name="dialog_ssl_content">¡El certificado de este sitio no fue emitido por una autoridad de confianza!</string>
+    <string name="dialog_ssl_continue_tips">Información del certificado ></string>
+    <string name="dialog_ssl_continue">Continuar</string>
+
+    <string name="text_issued_to">Emitido a nombre de</string>
+    <string name="text_issued_by">Emisor</string>
+    <string name="btn_ssl_close">cerrar</string>
+    <string name="ssl_common_name">Nombre Común:</string>
+    <string name="ssl_organization">Nombre de la organización:</string>
+    <string name="ssl_organization_unit">Nombre de la unidad organizativa:</string>
+    <string name="ssl_invalid">Certificado de seguridad inválido</string>
+    <string name="ssl_expired">El certificado ha expirado</string>
+    <string name="ssl_idmismatch">El nombre del host no coincide</string>
+    <string name="ssl_date_invalid">La fecha del certificado es inválida</string>
+    <string name="text_valid">Período de validez</string>
+    <string name="certificate_time">Válido desde:</string>
+    <string name="valid_until">Válido hasta:</string>
+    <string name="notification">Notificación</string>
+    <string name="mark_as_read">Marcar como leido</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="menu_item_copy_link">Copiar vínculo</string>
+    <string name="toast_copy_link">Copiado</string>
+    <string name="update_tip">Actualizando</string>
+    <string name="update_download_tip">Actualizando</string>
+    <string name="choose_upload" msgid="3649366287575002063">"Seleccione el documento que desea subir"</string>
+    <string name="popup_setting">Configuración</string>
+    <string name="setting_download_manager">Configuración de descargas</string>
+    <string name="setting_download_only_with_wifi">Descargar únicamente desde una red wifi</string>
+    <string name="setting_check_update">Buscar actualizaciones</string>
+    <string name="check_update_tip">Solo podrás descargar la APP después de instalar Google Play.</string>
+    <string name="plug_install_tip">Instalación completa, abre la APP.</string>
+    <string name="permission_dialog_title">Para usar la aplicación, necesita permitir el acceso a:</string>
+    <string name="permission_storage">almacenamiento</string>
+    <string name="permission_location">Ubicación</string>
+    <string name="permission_dialog_description">Por favor, haga clic en \"Configuración\" más abajo y active \"Permisos\".</string>
+    <!-- 页内查找-->
+    <string name="menu_item_search">Buscar en la página</string>
+    <string name="search_page_tip">Buscar en la página</string>
+    <string name="setting_card_modle_news">Noticias</string>
+    <string name="setting_card_modle_manage">Administrar tarjetas de página de inicio</string>
+    <string name="card_modle_tip">Puedes volver a habilitar las tarjetas en “Configuración”</string>
+    <string name="manage_cards_modle">Administrar tarjetas</string>
+
+    <string name="card_news_more">Más</string>
+    <string name="card_news_next">Siguiente</string>
+    <string name="dialog_lanchanged_tip">El idioma fue cambiado a Español. Por favor vuelva a abrir la aplicación para procesar.</string>
+    <string name="dialog_lanchanged_restart">Volver a abrir</string>
+    <string name="add_home_logo">¡%1$s añadido a la página de inicio!</string>
+    <string name="feed_back_commit">Enviando…</string>
+    <string name="feed_back_failed">Envío fallido!</string>
+    <string name="launcher_affiliate_name">Navegación rápida</string>
+    <string name="setting_product_about">Ayuda</string>
+    <string name="plug_suggestion">Buscando sugerencias</string>
+    <string name="ssl_security_tip">Certificado de seguridad no confiable, ¿continuar?</string>
+    <string name="feedback_whatsapp_text">"¡Contacta a nuestra línea de atención a clientes, recibe respuesta inmediata! "</string>
+    <string name="setting_about">Acerca</string>
+    <string name="setting_about_website">Sitio web</string>
+    <string name="setting_about_user_group">Únete al grupo de usuarios principales</string>
+    <string name="setting_about_good_evaluation">Califica para nosotros</string>
+    <string name="setting_about_agreement">Acuerdo de usuario</string>
+    <string name="setting_about_terms">Política de privacidad</string>
+    <string name="setting_price_comparison">Comparación de precios</string>
+
+
+    <!-- 文件分类-->
+    <string name="file_classify_image">Foto</string>
+    <string name="file_classify_document">Documentos</string>
+    <!--<string name="file_classify_zip_file">Archivos comprimidos.</string>-->
+    <!--<string name="file_classify_apk"> Paquete de instalación</string>-->
+    <string name="file_classify_other"> Otros</string>
+
+    <string name="download_apk_installed">Instalado</string>
+    <string name="download_apk_not_installed">Desinstalado</string>
+    <string name="file_delete_hint"> Borrar elementos seleccionados</string>
+    <string name="menu_more_set_wallpaper">Configurar como fondo de pantalla.</string>
+    <string name="menu_set_successful">Exitosamente</string>
+    <string name="menu_set_failed">Error</string>
+     
+    <string name="download_change_storage_location">Mover a</string>
+    <string name="download_file_path">Guardar dirección</string>
+    <string name="download_file_property">Atributo de archivo</string>
+    <string name="download_file_size">Tamaño de archivo</string>
+    <string name="download_file_url">Dirección de descarga</string>
+    <string name="download_rename">Cambiar nombre</string>
+    <string name="download_redownload">Descargar de nuevo </string>
+    <string name="download_support_point">Reanudar descarga interrumpida</string>
+
+    <string name="support">Compatible</string>
+    <string name="not_support">No compatible </string>
+
+    <string name="download_share_from">Desde Polar Browser</string>
+    <string name="download_detail">Detalles</string>
+    <string name="file_date_added">Hora</string>
+
+    <string name="download_with_godownloader_tip"><u>300 % más rápido</u></string>
+    <string name="extract">Extraer.</string>
+    <string name="submenu_file_others_decompression">Extraído</string>
+    <string name="download_url_error">Este enlace ya no funciona.</string>
+    <string name="video_screen_locked">Pantalla bloqueada</string>
+    <string name="video_screen_unlocked">Pantalla desbloqueada</string>
+    <string name="start_full_figure">Habilitar</string>
+    <string name="start_full_figure_mode">Vas a salir del modo sólo imagen?</string>
+    <string name="unusable_full_figure_mode">Modo de sólo imagen no disponible</string>
+
+    <string name="share_edit_image">Editar &amp; Graffitear</string>
+    <string name="picture_saved">Imagen guardada!</string>
+    <!-- 广告拦截设置-->
+    <string name="ad_block_save_traffic">Datos ahorrados:&lt;font&gt;&lt;big&gt;&lt;big&gt;%1$s&lt;/big&gt;&lt;/big&gt;&lt;/font&gt;</string>
+    <string name="setting_ad_block_tips">Engellenen reklamları hatırlat</string>
+    <string name="setting_ad_block_count">Anuncios bloqueados:%1$d</string>
+    <string name="ad_block_count_format">Anuncios bloqueados: &lt;font&gt;&lt;big&gt;&lt;big&gt;%1$d&lt;/big&gt;&lt;/big&gt;&lt;/font&gt;</string>
+    <string name="ad_block_save_time">Acelerar:&lt;font&gt;&lt;big&gt;&lt;big&gt;%1$s&lt;/big&gt;&lt;/big&gt;&lt;/font&gt;s</string>
+    <string name="ad_block_num_100">Más de 100 anuncios han sido bloqueados</string>
+    <string name="activity_notify_news">Notificación de noticias</string>
+    <string name="activity_notify_system">Notificación del sistema</string>
+    <string name="ad_block_share_content">Polar Browse ha bloqueado %1$d anuncios para mí</string>
+    <string name="vc_domain">http://www.vcbrowser.com/</string>
+
+    <string name="fb_notify_msg_tip">Tienes mensajes nuevos.</string>
+    <string name="new_function_tip">Recordatorio de nueva función.</string>
+    <string name="next_time">Más adelante</string>
+    <string name="fb_notify_notice_tip">Tienes nuevas notificaciones.</string>
+    <string name="fb_notify_push_tip">Activar notificaciones Push, inicie sesión de Facebook en Polar Browser, y podrá recibir mensajes instantáneos.</string>
+    <string name="fb_notify_request_tip">Tienes nuevas solicitudes de amistad.</string>
+    <string name="str_fb_notify_mag">Tienes 1 nuevo mensaje</string>
+    <string name="account_edit_avatar">Editar avatar</string>
+    <string name="account_login">Iniciar sesión</string>
+    <string name="account_login_phone_num">Número de teléfono</string>
+    <string name="account_login_success">Inicio de sesión exitoso</string>
+    <string name="account_logout">Cerrar sesión</string>
+    <string name="account_save_avatar">Guía</string>
+    <string name="account_welcome_to_polar">Bienvenido a Polar Browser</string>
+    <string name="account_login_sync_bookmarks">Sincronizando marcadores...</string>
+    <string name="account_login_fail">Inicio de sesión fallido</string>
+    <string name="sync_bookmark_last_time">Última sincronización %1$s</string>
+    <string name="sync_bookmark">Sincronizar nube</string>
+    <string name="sync_bookmark_success">Sincronización exitosa</string>
+    <string name="sync_bookmark_failed">Sincronización fallida, por favor inténte de nuevo .</string>
+    <string name="account_save_avatar_success">Guardado exitosamente</string>
+    <string name="account_login_user_center">Centro del usuario</string>
+    <string name="download_page_save">Imagen guardada!</string>
+    <string name="incognito_mode">Modo incógnito</string>
+    <string name="home_logo_more">Guía</string>
+    <string name="account_logging_tip">Iniciando sesión...</string>
+    <string name="account_save_avatar_fail">Error al guardar</string>
+    <string name="setting_font_size_big">Larga</string>
+    <string name="setting_font_size_large">Extra grande</string>
+    <string name="facebook_notification">Notificación de Facebook</string>
+    <string name="no_weather">No hay información de clima</string>
+    <string name="no_locate">No fue posible localizar</string>
+    <string name="location">Ubicación</string>
+    <string name="current_location">Ubicación actual</string>
+    <string name="search_location">Escriba y seleccione su ubicación</string>
+    <string name="allow_polar_location">Permitirle a Polar acceder a su ubicación</string>
+    <string name="unavailable">No disponible</string>
+    <string name="searching">Buscando...</string>
+    <string name="no_result">No se encontraron resultados.</string>
+    <string name="tornado">tornado</string>
+    <string name="tropical_storm">tormenta tropical</string>
+    <string name="hurricane">huracán</string>
+    <string name="severe_thunderstorms">tormentas eléctricas severas</string>
+    <string name="thunderstorms">tormentas eléctricas</string>
+    <string name="rain_snow">mezcla de lluvia y nieve</string>
+    <string name="rain_sleet">mezcla de lluvia y aguanieve</string>
+    <string name="snow_sleet">mezcla de nieve y aguanieve</string>
+    <string name="freezing_drizzle">llovizna congelante</string>
+    <string name="drizzle">llovizna</string>
+    <string name="freezing_rain">lluvia congelante</string>
+    <string name="showers">aguaceros</string>
+    <string name="snow_flurries">ráfagas de nieve</string>
+    <string name="small_snow_flurries">ráfagas de nieve suaves</string>
+    <string name="blowing_snow">ventiscas de nieve</string>
+    <string name="snow">nieve</string>
+    <string name="hail">granizo</string>
+    <string name="sleet">aguanieve</string>
+    <string name="dust">polvo</string>
+    <string name="foggy">neblinoso</string>
+    <string name="haze">niebla</string>
+    <string name="smoky">ahumado</string>
+    <string name="blustery">tempestuoso</string>
+    <string name="windy">ventoso</string>
+    <string name="cold">frío</string>
+    <string name="cloudy">nublado</string>
+    <string name="mostly_cloudy_night">nublado en gran parte (noche)</string>
+    <string name="mostly_cloudy_day">nublado en gran parte (día)</string>
+    <string name="partly_cloudy_night">parcialmente nublado (noche)</string>
+    <string name="partly_cloudy_day">parcialmente nublado (día)</string>
+    <string name="clear_night">despejado (noche)</string>
+    <string name="sunny">soleado</string>
+    <string name="fair_night">claro (noche)</string>
+    <string name="fair_day">claro (día)</string>
+    <string name="rain_hail">mezcla de lluvia y granizo</string>
+    <string name="hot">calor</string>
+    <string name="isolated_thunderstorms">tormentas eléctricas aisladas</string>
+    <string name="scattered_thunderstorms">tormentas eléctricas dispersas</string>
+    <string name="scattered_showers">aguaceros dispersos</string>
+    <string name="heavy_snow">nieve intensa</string>
+    <string name="not_available">no disponible</string>
+    <string name="isolated_thundershowers">tormentas eléctricas aisladas</string>
+    <string name="snow_showers">lluvias de nieve</string>
+    <string name="thundershowers">tormentas eléctricas</string>
+    <string name="partly_cloudy">parcialmente nublado</string>
+    <string name="scattered_snow_showers">lluvias de nieve dispersas</string>
+    <string name="qrcode_processing">Procesando..</string>
+    <string name="qrcode_scan">Escanear código QR</string>
+    <string name="qrcode_return">Volver</string>
+    <string name="qrcode_not_find">No se pudo encontrar el código QR</string>
+    <string name="qrcode_result">Resultado</string>
+    <string name="qrcode_album">Álbum</string>
+    <string name="qrcode_dispose">Procesando...</string>
+    <string name="qrcode_failure">El escaneo falló</string>
+    <string name="qrcode_type_text">Texto</string>
+    <string name="qrcode_search">Buscar</string>
+    <string name="qrcode_copy">Copiar</string>
+    <string name="qrcode_choose_pic">Seleccionar imagen QR</string>
+    <string name="website_qrcode">Código QR</string>
+    <string name="from_vc_browser">De Polar Browser</string>
+    <string name="qrcode_frame">Alinear el código QR con el marco para escanear</string>
+    <string name="qrcode_describe">Alinear el código QR con el marco para escanear</string>
+    <string name="no_flash_found">No se encontró ninguna linterna</string>
+    <string name="webpage_not_available">Página web no disponible</string>
+    <string name="refresh">Actualizar</string>
+    <string name="no_internet_connection">No hay conexión a internet</string>
+    <string name="visited_add_home">Agregar a marcado rápido</string>
+    <string name="visited_all_clear">¿Quieres borrar los registros?</string>
+    <string name="visited_already_clear_tip">Se han borrado los registros de más visitados.</string>
+    <string name="visited_clear">Borrar registros</string>
+    <string name="visited_close">Desactivar</string>
+    <string name="visited_setting_tip">La opción \"Más visitados\" está desactivada. Puedes activarla en Configuración.</string>
+    <string name="visited_card_title">Más visitados</string>
+    <string name="logo_on_homepage">Logotipo en la página de inicio</string>
+    <string name="browser_settings">Configuración del navegador</string>
+    <string name="tag">Etiqueta</string>
+    <string name="sync_only_in_wifi">Sincronización solo en wifi</string>
+    <string name="account_management">Administración de la cuenta</string>
+    <string name="avatar">Avatar</string>
+    <string name="nickname">Apodo</string>
+    <string name="change_nickname">Cambiar apodo</string>
+    <string name="letters_limit">De 4 a 20 letras</string>
+    <string name="input_again">Error. Por favor, vuelva a ingresar</string>
+    <string name="gender">Género</string>
+    <string name="male">Masculino</string>
+    <string name="female">Femenino</string>
+    <string name="secret">Secreto</string>
+    <string name="date_of_birth">Fecha de nacimiento</string>
+    <string name="please_chosse">Seleccionar</string>
+
+</resources>

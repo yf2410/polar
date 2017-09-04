@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_set_wallpaper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".download.SetWallpaperActivity">
+
+    <uk.co.senab.photoview.PhotoView
+        android:id="@+id/wallpaper_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:visibility="visible"
+        />
+    <RelativeLayout
+        android:id="@+id/wallpaper_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_titlebar_content_height"
+        android:background="#88323232">
+
+        <ImageView
+            android:id="@+id/wallpaper_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:paddingBottom="6dp"
+            android:paddingEnd="10dp"
+            android:paddingLeft="6dp"
+            android:paddingRight="10dp"
+            android:paddingStart="6dp"
+            android:paddingTop="6dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/common_title_left"/>
+
+        <TextView
+            android:id="@+id/image_gallery_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/wallpaper_set"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#88323232"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:textColor="@color/white"
+        android:text="@string/menu_more_set_wallpaper"/>
+
+</FrameLayout>

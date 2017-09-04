@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cropper_lib/cropper_lib.iml" filepath="$PROJECT_DIR$/cropper_lib/cropper_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drag_listview/drag_listview.iml" filepath="$PROJECT_DIR$/drag_listview/drag_listview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/photoView/photoView.iml" filepath="$PROJECT_DIR$/photoView/photoView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pickerview/pickerview.iml" filepath="$PROJECT_DIR$/pickerview/pickerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/polar.iml" filepath="$PROJECT_DIR$/polar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/polarbrowser/polarbrowser.iml" filepath="$PROJECT_DIR$/polarbrowser/polarbrowser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vclibrary/vclibrary.iml" filepath="$PROJECT_DIR$/vclibrary/vclibrary.iml" />
+    </modules>
+  </component>
+</project>

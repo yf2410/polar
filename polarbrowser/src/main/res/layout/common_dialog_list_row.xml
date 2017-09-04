@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 文本列表对话框的一行 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/common_padding_20"
+        android:paddingBottom="12dp"
+        android:paddingTop="12dp"
+        android:singleLine="true"
+        android:textColor="@color/common_font_color_selector_2"
+        android:textSize="@dimen/common_font_size_d"/>
+
+    <ImageView
+        android:id="@+id/iv_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/common_padding_20"
+        android:src="@drawable/list_check"/>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_divider_width"
+        android:layout_alignParentBottom="true"
+        android:background="@color/common_grey_color1"/>
+
+</RelativeLayout>
